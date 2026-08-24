@@ -23,6 +23,7 @@ export function LessonReader({ lesson, neighbors }: LessonReaderProps) {
   const moduleCompleted = currentModule?.lessons.filter((candidate) => progress.completedLessonIds.includes(candidate.id)).length ?? 0;
   const moduleTotal = currentModule?.lessons.length ?? 0;
   const modulePercent = moduleTotal ? Math.round((moduleCompleted / moduleTotal) * 100) : 0;
+  const displayTitle = lesson.sourceHeading ?? lesson.title;
 
   useEffect(() => {
     void updateProgress({ lastRoute: lesson.route });
@@ -44,9 +45,9 @@ export function LessonReader({ lesson, neighbors }: LessonReaderProps) {
           </p>
           <div className={styles.titleRow}>
             <span className={styles.lessonSymbol} aria-hidden="true">{lesson.symbol}</span>
-            <h1>{lesson.title}</h1>
+            <h1>{displayTitle}</h1>
           </div>
-          <p className={styles.summary}>{lesson.summary}</p>
+          {lesson.summary ? <p className={styles.summary}>{lesson.summary}</p> : null}
         </div>
         <button
           className={`${styles.completeButton} ${completed ? styles.completeButtonDone : ''}`}
@@ -62,49 +63,46 @@ export function LessonReader({ lesson, neighbors }: LessonReaderProps) {
       <div className={styles.layout}>
         <div className={styles.content}>
           {lesson.youtubeEmbedUrl ? (
-            <section className={styles.panel} aria-label={`${lesson.title} video`}>
+            <section className={styles.panel} aria-label={`${displayTitle} video`}>
               <div className={styles.videoFrame}>
                 <iframe
                   src={lesson.youtubeEmbedUrl}
-                  title={`Video: ${lesson.title}`}
+                  title={`Video: ${displayTitle}`}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
                 />
               </div>
               <div className={styles.mediaFooter}>
-                <span>Public video · {lesson.duration}</span>
+                <span>Public video</span>
                 <a
                   href={youtubeWatchUrl(lesson.youtubeEmbedUrl)}
                   target="_blank"
                   rel="noreferrer noopener"
-                  aria-label={`Open ${lesson.title} on YouTube`}
+                  aria-label={`Open ${displayTitle} on YouTube`}
                 >
                   Open on YouTube <ArrowRight size={13} aria-hidden="true" />
                 </a>
               </div>
             </section>
           ) : (
-            <section className={`${styles.panel} ${styles.readingBanner}`} aria-label="Reading lesson">
+            <section className={`${styles.panel} ${styles.readingBanner}`} aria-label="Pro topic">
               <span className={styles.readingIcon}><BookOpen size={23} aria-hidden="true" /></span>
               <div>
-                <h2>Open reading lesson</h2>
-                <p>This lesson is presented as concise original notes with a verification-oriented practice checkpoint.</p>
-                <a className={styles.searchVideoLink} href={lesson.youtubeSearchUrl} target="_blank" rel="noreferrer noopener">
-                  Find a matching video on YouTube <ArrowRight size={13} aria-hidden="true" />
-                </a>
+                <h2>Pro topic</h2>
+                <p>Fanout does not expose a public lesson page, video, or notes for this topic.</p>
               </div>
             </section>
           )}
 
-          <article className={`${styles.panel} ${styles.notes}`}>
-            {lesson.notes.map((note) => (
-              <section className={styles.note} key={note.heading}>
-                <h2>{note.heading}</h2>
+          {lesson.notes.length ? <article className={`${styles.panel} ${styles.notes}`} aria-label="Working notes">
+            {lesson.notes.map((note, index) => (
+              <section className={styles.note} key={`${index}-${note.body}`}>
+                {note.heading ? <h2>{note.heading}</h2> : null}
                 <p>{note.body}</p>
               </section>
             ))}
-          </article>
+          </article> : null}
 
           <nav className={styles.lessonNavigation} aria-label="Lesson navigation">
             {neighbors.previous ? (

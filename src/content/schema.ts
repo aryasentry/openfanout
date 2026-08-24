@@ -25,7 +25,7 @@ export interface CatalogRecord {
 }
 
 export interface LessonNote {
-  heading: string;
+  heading?: string;
   body: string;
 }
 
@@ -34,7 +34,6 @@ export interface LessonRecord extends CatalogRecord {
   moduleId: string;
   order: number;
   youtubeEmbedUrl?: string;
-  youtubeSearchUrl?: string;
   notes: LessonNote[];
 }
 

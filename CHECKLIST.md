@@ -76,9 +76,10 @@ Directory evidence (2026-08-24): the live public Markdown mirrors yielded 430 di
 - [x] All 108 lesson titles represented in module order
 - [x] Previous/next navigation across module boundaries
 - [x] Completion, resume, and module progress persistence
-- [x] Every AI topic has original notes; the 16 source videos remain exact embeds and the other 92 topics expose a topic-specific YouTube search fallback
+- [x] The 16 publicly exposed lessons preserve their exact Fanout headings, summaries, working notes, source routes, and video IDs
+- [x] The other 92 overview topics are marked Pro with exact source anchors and contain no generated notes, descriptions, durations, or YouTube searches
 
-AI curriculum evidence (2026-08-24): registry tests lock module counts, all 108 ordered titles, unique routes, adjacency, all 16 public video IDs, a non-empty technical symbol, original notes, and a YouTube search fallback for every topic. The Next.js build prerendered all 108 lesson routes; the overview/sidebar tests found all 108 links; Playwright proved completion survives reload. The composed source inventory now has 134 matched records (26 pages + 108 lessons) with AI counts no longer deferred. Chrome inspection of the live overview confirmed that Fanout exposes 16 public embeds and locks the remaining topics; openFanout keeps the notes local and makes the fallback explicit.
+AI curriculum evidence (2026-08-24): Chrome inspected the live overview, captured all 108 exact topic element ids, and opened every one of Fanout's 16 publicly linked lesson pages. The checked-in public snapshot preserves each visible lesson heading, summary, working-note line, exact source path, and exact YouTube ID. Registry and reader tests enforce 16 public-content records, 92 empty Pro records, zero generated YouTube searches, and zero generated study notes. The 12 module descriptions now match the live overview exactly.
 
 ## AI public YouTube lessons
 
@@ -232,7 +233,7 @@ Daily evidence (2026-08-24): source snapshot tests lock the latest 30 chronologi
 - [x] Desktop visual review completed
 - [x] Tablet visual review completed
 - [x] 320px mobile visual review completed
-- [x] All public YouTube embeds load or expose a working fallback link
+- [x] All 16 public YouTube embeds expose their exact direct YouTube link
 - [x] No forbidden pricing/account/dark-mode surface exists
 
-Final verification evidence (2026-08-24): the production build generated 222 static pages. Vitest passed 60/60 tests across 26 files; TypeScript and ESLint passed with zero errors or warnings; the coverage command reported all 651 inventory records and 456 exact external URL strings; and Playwright passed all nine browser scenarios, including a crawl of every unique local route. Chrome compared the live Fanout resource page with openFanout and confirmed that source page copy, resource metadata, full descriptions, complete absolute URLs, query strings, intentional repeated placements, and the recovered PDF render locally. Chrome also inspected a no-video topic and verified its notes plus topic-specific YouTube search fallback. Desktop, 768px tablet, and 320px mobile captures were visually inspected. Every one of the 16 public video records renders a local embed card with its direct YouTube fallback link.
+Final verification evidence (2026-08-24): the corrected production build generated 222 static pages. Vitest passed 61/61 tests across 26 files; TypeScript and ESLint passed with zero errors or warnings; the coverage command reported all 651 inventory records and 456 exact external URL strings; and Playwright passed all nine browser scenarios, including every local catalog route. Chrome opened all 16 live public Fanout lesson pages, then verified the local Functions page contains its exact source summary, working notes, and video while a Pro-only topic contains no generated text or YouTube search.

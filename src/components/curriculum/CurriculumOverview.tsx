@@ -26,8 +26,8 @@ export function CurriculumOverview() {
       <section className={styles.intro}>
         <div className={styles.introCopy}>
           <h1>AI Research archive</h1>
-          <p>A structured path from math foundations to advanced AI research, with code, theory, and practice at every step.</p>
-          <span className={styles.archiveMeta}>12 modules · 108 lessons, always available</span>
+          <p>A structured path from math fundamentals to building LLMs from scratch. 12 modules, 108 lessons, covering everything from derivatives to transformers to reinforcement learning.</p>
+          <span className={styles.archiveMeta}>16 free lessons</span>
           <Link className={styles.studyButton} href={resumeLesson.route}>
             Study progress <ArrowRight size={13} aria-hidden="true" />
           </Link>
@@ -108,13 +108,13 @@ export function CurriculumOverview() {
                     </span>
                     <span className={styles.lessonCopy}>
                       <strong>{lesson.title}</strong>
-                      <small>{lesson.youtubeEmbedUrl ? 'Video · ' : 'YouTube search · '}Notes · {lesson.summary}</small>
+                      <small>{lesson.publicContent ? 'Video · Notes' : 'Pro'}</small>
                     </span>
                     <span className={styles.lessonStatus}>
                       {completed ? <CheckCircle2 size={13} aria-hidden="true" /> : <Circle size={13} aria-hidden="true" />}
                       {completed ? 'Done' : 'Open'}
                     </span>
-                    <span className={styles.lessonDuration}>{lesson.duration}</span>
+                    <span className={styles.lessonDuration} />
                     <ChevronRight size={15} aria-hidden="true" />
                   </Link>
                 );

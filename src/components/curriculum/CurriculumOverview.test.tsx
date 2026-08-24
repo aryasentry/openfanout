@@ -29,10 +29,12 @@ describe('CurriculumOverview', () => {
     expect(screen.getAllByTestId('module-link')).toHaveLength(12);
     expect(screen.getAllByText('Math Fundamentals').length).toBeGreaterThan(0);
     expect(screen.getAllByText('Machine Learning Operations (MLOps)').length).toBeGreaterThan(0);
-    expect(screen.getByText(/108 lessons, always available/)).toBeInTheDocument();
+    expect(screen.getByText('16 free lessons')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Resume' })).toHaveAttribute('href', '/ai/lessons/math-fundamentals-functions');
     expect(screen.getAllByTestId('module-section')).toHaveLength(12);
     expect(screen.getAllByTestId('lesson-link')).toHaveLength(108);
+    expect(screen.getAllByText('Video · Notes')).toHaveLength(16);
+    expect(screen.getAllByText('Pro')).toHaveLength(92);
   });
 
   it('derives resume state and progress from persisted completion', () => {

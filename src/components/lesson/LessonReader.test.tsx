@@ -31,14 +31,15 @@ function renderLesson(slug: string, completedLessonIds: string[] = []) {
 }
 
 describe('LessonReader', () => {
-  it('renders a public video, safe fallback, notes, and adjacent lesson link', () => {
+  it('renders the exact public video and working notes', () => {
     renderLesson('math-fundamentals-functions');
 
     expect(screen.getByRole('heading', { name: 'Functions' })).toBeInTheDocument();
     expect(screen.getByText('ƒ(x)')).toBeInTheDocument();
     expect(screen.getByTitle('Video: Functions')).toHaveAttribute('src', 'https://www.youtube-nocookie.com/embed/kvGsIo1TmsM');
     expect(screen.getByRole('link', { name: 'Open Functions on YouTube' })).toHaveAttribute('href', 'https://www.youtube.com/watch?v=kvGsIo1TmsM');
-    expect(screen.getByRole('heading', { name: 'Concept map' })).toBeInTheDocument();
+    expect(screen.getByText('Functions are the foundation of neural networks. A function is a mathematical relationship that maps inputs to outputs.')).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'Concept map' })).not.toBeInTheDocument();
     expect(screen.getByRole('link', { name: /Next: Derivatives/ })).toHaveAttribute('href', '/ai/lessons/math-fundamentals-derivatives');
     expect(screen.queryByRole('link', { name: /Previous:/ })).not.toBeInTheDocument();
   });
@@ -64,13 +65,12 @@ describe('LessonReader', () => {
     expect(updateProgress).toHaveBeenCalledWith({ completedLessonIds: [], lastRoute: lesson.route });
   });
 
-  it('offers a YouTube topic search when Fanout has no public embed', () => {
+  it('shows only the source-visible Pro status when Fanout exposes no public lesson', () => {
     renderLesson('core-ai-intuitions-similarity-with-dot-product');
 
-    expect(screen.getByRole('link', { name: 'Find a matching video on YouTube' })).toHaveAttribute(
-      'href',
-      'https://www.youtube.com/results?search_query=Similarity%20With%20Dot%20Product%20Core%20AI%20Intuitions',
-    );
-    expect(screen.getByRole('heading', { name: 'Concept map' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Pro topic' })).toBeInTheDocument();
+    expect(screen.getByText('Fanout does not expose a public lesson page, video, or notes for this topic.')).toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: /YouTube/i })).not.toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'Concept map' })).not.toBeInTheDocument();
   });
 });

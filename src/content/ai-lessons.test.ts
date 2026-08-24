@@ -40,6 +40,7 @@ describe('AI curriculum registry', () => {
     expect(new Set(aiLessons.map((lesson) => lesson.id)).size).toBe(108);
     expect(new Set(aiLessons.map((lesson) => lesson.slug)).size).toBe(108);
     expect(new Set(aiLessons.map((lesson) => lesson.route)).size).toBe(108);
+    expect(new Set(aiLessons.map((lesson) => lesson.sourceUrl)).size).toBe(108);
     expect(aiLessons.every((lesson) => lesson.route === `/ai/lessons/${lesson.slug}`)).toBe(true);
   });
 
@@ -52,10 +53,27 @@ describe('AI curriculum registry', () => {
   it('contains exactly the 16 mapped public YouTube lessons', () => {
     expect(publicAiYoutubeIds).toEqual(expectedYoutubeIds);
     expect(aiLessons.filter((lesson) => lesson.youtubeEmbedUrl)).toHaveLength(16);
-    expect(aiLessons.every((lesson) => lesson.youtubeSearchUrl.startsWith('https://www.youtube.com/results?search_query='))).toBe(true);
-    expect(aiLessons.filter((lesson) => !lesson.youtubeEmbedUrl)).toHaveLength(92);
-    expect(aiLessonBySlug.get('core-ai-intuitions-similarity-with-dot-product')?.youtubeSearchUrl)
-      .toBe('https://www.youtube.com/results?search_query=Similarity%20With%20Dot%20Product%20Core%20AI%20Intuitions');
+    expect(aiLessons.filter((lesson) => lesson.publicContent)).toHaveLength(16);
+    expect(aiLessons.filter((lesson) => !lesson.publicContent)).toHaveLength(92);
+    expect(aiLessons.every((lesson) => !('youtubeSearchUrl' in lesson))).toBe(true);
+    expect(aiLessons.filter((lesson) => lesson.publicContent).every((lesson) => lesson.summary && lesson.notes.length > 0)).toBe(true);
+    expect(aiLessons.filter((lesson) => !lesson.publicContent).every((lesson) => !lesson.summary && lesson.notes.length === 0 && !lesson.youtubeEmbedUrl)).toBe(true);
+  });
+
+  it('stores exact public lesson content and no generated content for Pro topics', () => {
+    const functions = aiLessonBySlug.get('math-fundamentals-functions');
+    expect(functions?.summary).toBe('A complete free lesson on Functions, with practical notes and a guided video from the Fanout AI research curriculum.');
+    expect(functions?.notes.at(0)?.body).toBe('Functions are the foundation of neural networks. A function is a mathematical relationship that maps inputs to outputs.');
+    expect(functions?.sourceUrl).toBe('https://fanout.sh/ai/lessons/math-fundamentals-functions');
+
+    const ppo = aiLessonBySlug.get('reinforcement-learning-ppo-llm-reasoning-importance-ratio-advantage');
+    expect(ppo?.sourceUrl).toBe('https://fanout.sh/ai/lessons/reinforcement-learning-ppo-llm-reasoning');
+
+    const locked = aiLessonBySlug.get('core-ai-intuitions-similarity-with-dot-product');
+    expect(locked?.summary).toBeUndefined();
+    expect(locked?.notes).toEqual([]);
+    expect(locked?.youtubeEmbedUrl).toBeUndefined();
+    expect(locked?.sourceUrl).toBe('https://fanout.sh/ai/overview#core-ai-intuitions-similarity-dot-product');
   });
 
   it('derives previous and next lessons across module boundaries', () => {

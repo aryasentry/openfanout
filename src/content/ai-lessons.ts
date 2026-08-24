@@ -1,4 +1,5 @@
 import type { CurriculumModule, LessonRecord } from './schema';
+import { publicAiLessonSnapshots } from './ai-public-lessons';
 
 interface LessonSeed {
   title: string;
@@ -18,9 +19,9 @@ interface ModuleSeed {
 export interface AiLessonRecord extends LessonRecord {
   moduleIndex: number;
   lessonNumber: number;
-  duration: string;
   symbol: string;
-  youtubeSearchUrl: string;
+  publicContent: boolean;
+  sourceHeading?: string;
 }
 
 export interface AiCurriculumModule extends CurriculumModule {
@@ -38,7 +39,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 1,
     title: 'Math Fundamentals',
     shortTitle: 'Math',
-    description: 'Build the mathematical language used to describe models, optimization, and information.',
+    description: 'The mathematical foundations you need for AI research — from functions and derivatives to information theory and SVD.',
     lessons: [
       lesson('Functions', 'kvGsIo1TmsM'),
       lesson('Derivatives', '9vKqVkMQHKk'),
@@ -62,7 +63,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 2,
     title: 'Core AI Intuitions',
     shortTitle: 'AI Intuitions',
-    description: 'Develop intuition for the small tensor operations that repeatedly appear inside learning systems.',
+    description: 'Build deep intuition for the core operations that power all of AI — dot products, softmax, broadcasting, and norms.',
     lessons: [
       lesson('Similarity With Dot Product'),
       lesson('Softmax Probabilities'),
@@ -75,7 +76,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 3,
     title: 'PyTorch Fundamentals',
     shortTitle: 'PyTorch',
-    description: 'Practice the tensor transformations needed to implement and debug neural networks in PyTorch.',
+    description: 'Master the tensor operations that are the building blocks of every neural network implementation.',
     lessons: [
       lesson('Creating Tensors'),
       lesson('Matrix Multiplication'),
@@ -93,7 +94,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 4,
     title: 'TensorFlow Fundamentals',
     shortTitle: 'TensorFlow',
-    description: 'Move from first TensorFlow models to vision, sequence modeling, optimization, and deployment-oriented APIs.',
+    description: 'Learn TensorFlow from the ground up — linear models, CNNs, transfer learning, adversarial examples, NLP, reinforcement learning, and more.',
     lessons: [
       lesson('Simple Linear Model'),
       lesson('Convolutional Neural Network'),
@@ -129,7 +130,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 5,
     title: 'Neural Network from Scratch',
     shortTitle: 'Neural Nets',
-    description: 'Assemble neurons, layers, normalization, learning rates, and optimizers into a trainable network.',
+    description: 'Build neural networks from the ground up — single neurons, layers, training loops, normalization, and optimization.',
     lessons: [
       lesson('Single Neuron From Scratch'),
       lesson('Building a Layer'),
@@ -145,7 +146,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 6,
     title: 'Transformers',
     shortTitle: 'Transformers',
-    description: 'Trace the path from attention scores to self-attention blocks and a compact GPT implementation.',
+    description: 'The architecture that changed everything — attention mechanisms, self-attention, and building GPT from scratch.',
     lessons: [
       lesson('Attention Mechanism Explained'),
       lesson('Self Attention from Scratch'),
@@ -157,7 +158,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 7,
     title: 'Reinforcement Learning',
     shortTitle: 'Reinforcement Learning',
-    description: 'Connect agents and environments to value learning, policy gradients, PPO, and modern reasoning methods.',
+    description: 'How agents learn from interaction — from basic environments to PPO and modern LLM reasoning techniques.',
     lessons: [
       lesson('Agents & Environments'),
       lesson('Policy Gradients (REINFORCE)'),
@@ -171,7 +172,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 8,
     title: 'LLM From Scratch',
     shortTitle: 'LLM From Scratch',
-    description: 'Study recent language-model architectures by rebuilding their important components and training choices.',
+    description: 'Build state-of-the-art large language models from scratch — LLaMA 4, DeepSeek V3, Qwen 3, and more.',
     lessons: [
       lesson('Llama 4 From Scratch', 'yXbF-1n9wxs'),
       lesson('DeepSeek V3 From Scratch'),
@@ -184,7 +185,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 9,
     title: 'Write Research Paper',
     shortTitle: 'Research Paper',
-    description: 'Turn an experimental question into reproducible code, clear evidence, and a publishable technical narrative.',
+    description: 'The complete workflow from coding experiments to writing and publishing an AI research paper.',
     lessons: [lesson('Code, Write & Publish AI Research Paper', 'O2yAMJu8LpI')],
   },
   {
@@ -192,7 +193,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 10,
     title: 'How to Fine-Tune Models',
     shortTitle: 'Fine-Tuning',
-    description: 'Plan a fine-tuning run from task definition and data preparation through evaluation and deployment.',
+    description: 'From LoRA to full fine-tuning — learn to adapt pre-trained models to your data and tasks.',
     lessons: [
       lesson('Why Fine-Tune?'),
       lesson('LoRA & QLoRA'),
@@ -206,7 +207,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 11,
     title: 'Machine Learning Operations (MLOps)',
     shortTitle: 'MLOps',
-    description: 'Build a production path across version control, pipelines, containers, cloud delivery, and observability.',
+    description: 'Deploy and maintain ML models in production — from Git and Docker to Kubernetes, CI/CD, and monitoring with Prometheus & Grafana.',
     lessons: [
       lesson('Introduction to MLOps'),
       lesson('Git & GitHub'),
@@ -240,7 +241,7 @@ const moduleSeeds: ModuleSeed[] = [
     index: 12,
     title: 'Bonus Lessons',
     shortTitle: 'Bonus',
-    description: 'Investigate selected training tradeoffs, activation design, and compact reasoning architectures.',
+    description: 'Advanced topics — training dynamics, activation functions, and cutting-edge reasoning architectures.',
     lessons: [
       lesson('Train LLM — Sequence Length vs Batch Size', 'bu5dhaLmr7E'),
       lesson('SwiGLU — Better Neural Networks', 'enPFr-WxHgQ'),
@@ -258,23 +259,6 @@ function slugify(value: string) {
     .replace(/^-|-$/g, '');
 }
 
-function buildNotes(title: string, moduleTitle: string) {
-  return [
-    {
-      heading: 'Concept map',
-      body: `${title} sits inside ${moduleTitle}. Start by naming the inputs, the transformation being performed, and the observable output before introducing implementation details.`,
-    },
-    {
-      heading: 'Working method',
-      body: `Build the smallest inspectable example of ${title}. Record tensor shapes, assumptions, and intermediate values so a wrong result can be traced to a specific step.`,
-    },
-    {
-      heading: 'Practice checkpoint',
-      body: `Explain ${title} without jargon, create one boundary-case example, and state how you would verify the result in code or with a numerical check.`,
-    },
-  ];
-}
-
 const lessonSymbols: Record<string, string[]> = {
   'math-fundamentals': ['ƒ(x)', 'd/dx', 'v⃗', '∇', 'A', 'd·', '∂z/∂x', 'δ', 'J', '⊙', 'H', 'Dₖₗ', 'UΣVᵀ', 'EMA', '∑'],
   'core-ai-intuitions': ['a·b', 'σ(z)', '↗', '‖x‖'],
@@ -290,6 +274,118 @@ const lessonSymbols: Record<string, string[]> = {
   'bonus-lessons': ['L×B', 'Swi', 'ρ'],
 };
 
+// Exact topic element ids observed on the public AI overview, in curriculum order.
+const sourceTopicAnchorIds = [
+  'math-fundamentals-functions',
+  'math-fundamentals-derivatives',
+  'math-fundamentals-vectors',
+  'math-fundamentals-gradients',
+  'math-fundamentals-matrices',
+  'math-fundamentals-derivation-rules',
+  'math-fundamentals-chain-rule',
+  'math-fundamentals-backprop-python',
+  'math-fundamentals-jacobian-matrix',
+  'math-fundamentals-hadamard-product',
+  'math-fundamentals-entropy',
+  'math-fundamentals-kl-divergence',
+  'math-fundamentals-svd',
+  'math-fundamentals-moving-averages',
+  'math-fundamentals-more-math',
+  'core-ai-intuitions-similarity-dot-product',
+  'core-ai-intuitions-softmax',
+  'core-ai-intuitions-tensor-broadcasting',
+  'core-ai-intuitions-l1-l2-norms',
+  'pytorch-fundamentals-creating-tensors',
+  'pytorch-fundamentals-matrix-multiplication',
+  'pytorch-fundamentals-transposing-tensors',
+  'pytorch-fundamentals-flatten-reshape-view',
+  'pytorch-fundamentals-indexing-slicing',
+  'pytorch-fundamentals-cat-stack',
+  'pytorch-fundamentals-special-tensors',
+  'pytorch-fundamentals-new-full-lesson',
+  'pytorch-fundamentals-7-pytorch-tasks',
+  'tensorflow-fundamentals-simple-linear-model',
+  'tensorflow-fundamentals-convolutional-neural-network',
+  'tensorflow-fundamentals-pretty-tensor',
+  'tensorflow-fundamentals-layers-api',
+  'tensorflow-fundamentals-keras-api',
+  'tensorflow-fundamentals-save-restore',
+  'tensorflow-fundamentals-ensemble-learning',
+  'tensorflow-fundamentals-cifar-10',
+  'tensorflow-fundamentals-inception-model',
+  'tensorflow-fundamentals-transfer-learning',
+  'tensorflow-fundamentals-video-data',
+  'tensorflow-fundamentals-fine-tuning-tf',
+  'tensorflow-fundamentals-adversarial-examples',
+  'tensorflow-fundamentals-adversarial-noise-mnist',
+  'tensorflow-fundamentals-visual-analysis',
+  'tensorflow-fundamentals-visual-analysis-mnist',
+  'tensorflow-fundamentals-deep-dream',
+  'tensorflow-fundamentals-style-transfer',
+  'tensorflow-fundamentals-tf-gpu-cpu',
+  'tensorflow-fundamentals-reinforcement-learning-tf',
+  'tensorflow-fundamentals-estimator-api',
+  'tensorflow-fundamentals-tfrecords-dataset-api',
+  'tensorflow-fundamentals-hyperparameter-optimization',
+  'tensorflow-fundamentals-nlp-sentiment',
+  'tensorflow-fundamentals-machine-translation',
+  'tensorflow-fundamentals-image-captioning',
+  'tensorflow-fundamentals-timeseries-prediction',
+  'neural-network-from-scratch-single-neuron',
+  'neural-network-from-scratch-building-layer',
+  'neural-network-from-scratch-implementing-network',
+  'neural-network-from-scratch-rmsnorm',
+  'neural-network-from-scratch-learning-rate-decay',
+  'neural-network-from-scratch-adam-optimizer',
+  'neural-network-from-scratch-neural-network-scratch',
+  'transformers-attention-mechanism',
+  'transformers-self-attention',
+  'transformers-gpt-from-scratch',
+  'reinforcement-learning-agents-environments',
+  'reinforcement-learning-policy-gradients',
+  'reinforcement-learning-deep-q-learning',
+  'reinforcement-learning-ppo-llm-reasoning',
+  'reinforcement-learning-qwen-deepseek-grpo',
+  'llm-from-scratch-llama-4',
+  'llm-from-scratch-deepseek-v3',
+  'llm-from-scratch-qwen-3',
+  'llm-from-scratch-self-study-llm',
+  'write-research-paper-code-write-publish',
+  'fine-tuning-why-finetune',
+  'fine-tuning-lora',
+  'fine-tuning-data-preparation',
+  'fine-tuning-training-loop',
+  'fine-tuning-evaluation',
+  'mlops-intro-to-mlops',
+  'mlops-git-github-mlops',
+  'mlops-oops-python',
+  'mlops-data-versioning-dvc',
+  'mlops-ml-pipeline-dvc-aws',
+  'mlops-mlflow-experiment-tracking',
+  'mlops-continuous-integration',
+  'mlops-docker-mlops',
+  'mlops-project-1-vehicle-insurance',
+  'mlops-mongodb-setup',
+  'mlops-data-ingestion',
+  'mlops-data-validation-transformation',
+  'mlops-model-eval-aws-s3',
+  'mlops-fastapi-ml-app',
+  'mlops-cicd-aws',
+  'mlops-kubernetes-part-1',
+  'mlops-project-2-kubernetes',
+  'mlops-prometheus-grafana',
+  'mlops-project-3-monitoring',
+  'mlops-capstone-project-1',
+  'mlops-mlflow-dagshub',
+  'mlops-app-building-automation-dvc',
+  'mlops-cicd-implementation-capstone',
+  'mlops-eks-cluster-deployment',
+  'mlops-prometheus-grafana-eks',
+  'bonus-lessons-seq-len-vs-batch',
+  'bonus-lessons-swiglu',
+  'bonus-lessons-tiny-recursive-model',
+] as const;
+
 let globalLessonOrder = 0;
 
 export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
@@ -297,6 +393,10 @@ export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
     globalLessonOrder += 1;
     const suffix = seed.slugSuffix ?? slugify(seed.title);
     const slug = `${module.id}-${suffix}`;
+    const publicSnapshot = seed.youtubeId
+      ? publicAiLessonSnapshots.find((snapshot) => snapshot.youtubeId === seed.youtubeId)
+      : undefined;
+    const sourcePath = publicSnapshot?.sourcePath ?? `/ai/overview#${sourceTopicAnchorIds[globalLessonOrder - 1]}`;
     return {
       id: `ai-${slug}`,
       slug,
@@ -305,19 +405,19 @@ export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
       workspace: 'ai',
       section: module.id,
       route: `/ai/lessons/${slug}`,
-      sourceUrl: `https://fanout.sh/ai/lessons/${slug}`,
+      sourceUrl: `https://fanout.sh${sourcePath}`,
       provenanceCheckedAt: '2026-08-24',
-      summary: `A focused openFanout study note for ${seed.title}, positioned within ${module.title}.`,
+      summary: publicSnapshot?.summary,
       tags: [module.shortTitle, seed.title],
       moduleId: module.id,
       moduleIndex: module.index,
       lessonNumber: lessonIndex + 1,
       order: globalLessonOrder,
-      duration: `${8 + (globalLessonOrder % 9)} min`,
       symbol: lessonSymbols[module.id]?.[lessonIndex] ?? String(lessonIndex + 1),
-      youtubeEmbedUrl: seed.youtubeId ? `https://www.youtube-nocookie.com/embed/${seed.youtubeId}` : undefined,
-      youtubeSearchUrl: `https://www.youtube.com/results?search_query=${encodeURIComponent(`${seed.title} ${module.title}`)}`,
-      notes: buildNotes(seed.title, module.title),
+      publicContent: Boolean(publicSnapshot),
+      sourceHeading: publicSnapshot?.heading,
+      youtubeEmbedUrl: publicSnapshot ? `https://www.youtube-nocookie.com/embed/${publicSnapshot.youtubeId}` : undefined,
+      notes: publicSnapshot?.notes.map((body) => ({ body })) ?? [],
     };
   });
   return {

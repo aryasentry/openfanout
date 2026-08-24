@@ -18,6 +18,5 @@ export const mathPreviewLessons = aiModules[0].lessons.slice(0, 3).map((currentL
   index: `01.${String(currentLesson.lessonNumber).padStart(2, '0')}`,
   title: currentLesson.title,
   detail: currentLesson.summary ?? '',
-  duration: currentLesson.duration,
   route: currentLesson.route,
 }));
