@@ -4,16 +4,18 @@ This file is the human-readable completion ledger. Do not mark an item complete 
 
 ## Foundation
 
-- [ ] Next.js TypeScript project and light-only design tokens
-- [ ] openFanout branding and original branching-node mark
-- [ ] Reference-like top bar, 244px desktop sidebar, breadcrumbs, and content canvas
+- [x] Next.js TypeScript project and light-only design tokens
+- [x] openFanout branding and original branching-node mark
+- [x] Reference-like top bar, 244px desktop sidebar, breadcrumbs, and content canvas
 - [ ] Responsive sidebar drawer and mobile layouts down to 320px
 - [ ] Typed catalog registry and source inventory
 - [ ] Cross-catalog search and command palette
 - [ ] IndexedDB persistence with localStorage fallback
 - [ ] Progress JSON export/import
 - [ ] Coverage verifier and local-route crawler
-- [ ] No pricing, login, account, paywall, upgrade, subscription, or dark-mode UI
+- [x] No pricing, login, account, paywall, upgrade, subscription, or dark-mode UI
+
+Foundation evidence (2026-08-24): schema and shell component tests passed; TypeScript, ESLint, and the Next.js production build passed; Chrome Computer Use comparison against `fanout.sh/ai/overview` confirmed desktop shell proportions and content hierarchy. Responsive and persistence claims remain unchecked until browser acceptance tests exist.
 
 ## AI workspace pages
 
