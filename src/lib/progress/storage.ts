@@ -106,13 +106,22 @@ async function writeSnapshot(databaseName: string, snapshot: ProgressSnapshot): 
 }
 
 export function createProgressStore(databaseName = 'openfanout-progress'): ProgressStore {
+  let cachedSnapshot = readFallback(databaseName);
+  let revision = 0;
+
   return {
-    load() {
-      return readSnapshot(databaseName);
+    async load() {
+      const revisionAtStart = revision;
+      const loaded = await readSnapshot(databaseName);
+      if (revision === revisionAtStart) {
+        cachedSnapshot = loaded;
+        writeFallback(databaseName, loaded);
+      }
+      return cachedSnapshot;
     },
 
-    async update(patch: ProgressPatch) {
-      const current = await readSnapshot(databaseName);
+    update(patch: ProgressPatch) {
+      const current = cachedSnapshot;
       const next: ProgressSnapshot = {
         ...current,
         ...patch,
@@ -123,6 +132,8 @@ export function createProgressStore(databaseName = 'openfanout-progress'): Progr
         labState: patch.labState ? { ...patch.labState } : current.labState,
         updatedAt: new Date().toISOString(),
       };
+      cachedSnapshot = next;
+      revision += 1;
       return writeSnapshot(databaseName, next);
     },
 
@@ -137,10 +148,15 @@ export function createProgressStore(databaseName = 'openfanout-progress'): Progr
       } catch {
         throw new Error('Progress import is not valid JSON');
       }
-      return writeSnapshot(databaseName, validateSnapshot(parsed));
+      const snapshot = validateSnapshot(parsed);
+      cachedSnapshot = snapshot;
+      revision += 1;
+      return writeSnapshot(databaseName, snapshot);
     },
 
     async clear() {
+      cachedSnapshot = createEmptyProgress();
+      revision += 1;
       if (typeof localStorage !== 'undefined') {
         localStorage.removeItem(fallbackKey(databaseName));
       }

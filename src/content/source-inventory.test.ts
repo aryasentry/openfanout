@@ -24,7 +24,7 @@ describe('composed source inventory', () => {
 
   it('closes AI lesson partitions while leaving later slices explicit', () => {
     expect(coverageRequirements.aiLessons).toBe(108);
-    expect(coverageRequirements.aiYoutubeLessons).toBe(16);
+    expect(coverageRequirements.aiYoutubeLessons).toBe(83);
     expect(deferredCoveragePartitions).not.toContain('aiLessons');
     expect(deferredCoveragePartitions).not.toContain('aiYoutubeLessons');
     expect(coverageRequirements.pages).toBe(31);

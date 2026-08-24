@@ -33,8 +33,10 @@ describe('CurriculumOverview', () => {
     expect(screen.getByRole('link', { name: 'Resume' })).toHaveAttribute('href', '/ai/lessons/math-fundamentals-functions');
     expect(screen.getAllByTestId('module-section')).toHaveLength(12);
     expect(screen.getAllByTestId('lesson-link')).toHaveLength(108);
-    expect(screen.getAllByText('Video · Notes')).toHaveLength(16);
-    expect(screen.getAllByText('Pro')).toHaveLength(92);
+    expect(screen.getAllByText('Video · Notes')).toHaveLength(81);
+    expect(screen.getAllByText('Video')).toHaveLength(2);
+    expect(screen.getAllByText('Notes')).toHaveLength(1);
+    expect(screen.getAllByText('Pro')).toHaveLength(24);
   });
 
   it('derives resume state and progress from persisted completion', () => {

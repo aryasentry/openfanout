@@ -1,5 +1,6 @@
 import type { CurriculumModule, LessonRecord } from './schema';
 import { publicAiLessonSnapshots } from './ai-public-lessons';
+import providedProLessonSnapshots from './ai-pro-lessons.json' with { type: 'json' };
 
 interface LessonSeed {
   title: string;
@@ -21,6 +22,7 @@ export interface AiLessonRecord extends LessonRecord {
   lessonNumber: number;
   symbol: string;
   publicContent: boolean;
+  contentOrigin: 'fanout-public' | 'user-provided' | 'fanout-overview';
   sourceHeading?: string;
 }
 
@@ -386,6 +388,10 @@ const sourceTopicAnchorIds = [
   'bonus-lessons-tiny-recursive-model',
 ] as const;
 
+const providedProLessonByAnchorId = new Map(
+  providedProLessonSnapshots.map((snapshot) => [snapshot.topicAnchorId, snapshot]),
+);
+
 let globalLessonOrder = 0;
 
 export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
@@ -396,7 +402,9 @@ export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
     const publicSnapshot = seed.youtubeId
       ? publicAiLessonSnapshots.find((snapshot) => snapshot.youtubeId === seed.youtubeId)
       : undefined;
-    const sourcePath = publicSnapshot?.sourcePath ?? `/ai/overview#${sourceTopicAnchorIds[globalLessonOrder - 1]}`;
+    const sourceTopicAnchorId = sourceTopicAnchorIds[globalLessonOrder - 1];
+    const providedSnapshot = publicSnapshot ? undefined : providedProLessonByAnchorId.get(sourceTopicAnchorId);
+    const sourcePath = publicSnapshot?.sourcePath ?? `/ai/overview#${sourceTopicAnchorId}`;
     return {
       id: `ai-${slug}`,
       slug,
@@ -415,9 +423,14 @@ export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
       order: globalLessonOrder,
       symbol: lessonSymbols[module.id]?.[lessonIndex] ?? String(lessonIndex + 1),
       publicContent: Boolean(publicSnapshot),
+      contentOrigin: publicSnapshot ? 'fanout-public' : providedSnapshot ? 'user-provided' : 'fanout-overview',
       sourceHeading: publicSnapshot?.heading,
-      youtubeEmbedUrl: publicSnapshot ? `https://www.youtube-nocookie.com/embed/${publicSnapshot.youtubeId}` : undefined,
-      notes: publicSnapshot?.notes.map((body) => ({ body })) ?? [],
+      youtubeEmbedUrl: publicSnapshot
+        ? `https://www.youtube-nocookie.com/embed/${publicSnapshot.youtubeId}`
+        : providedSnapshot?.youtubeId
+          ? `https://www.youtube-nocookie.com/embed/${providedSnapshot.youtubeId}`
+          : undefined,
+      notes: (publicSnapshot?.notes ?? providedSnapshot?.notes ?? []).map((body) => ({ body })),
     };
   });
   return {
@@ -436,6 +449,7 @@ export const aiLessons = aiModules.flatMap((module) => module.lessons);
 export const aiLessonBySlug = new Map(aiLessons.map((currentLesson) => [currentLesson.slug, currentLesson]));
 
 export const publicAiYoutubeIds = aiLessons
+  .filter((currentLesson) => currentLesson.publicContent)
   .map((currentLesson) => currentLesson.youtubeEmbedUrl?.split('/').at(-1))
   .filter((videoId): videoId is string => Boolean(videoId));
 

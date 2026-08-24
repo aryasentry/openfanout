@@ -37,6 +37,24 @@ describe('ProgressStore', () => {
     });
   });
 
+  it('mirrors an update before its asynchronous database round trip finishes', async () => {
+    const name = storeName('immediate-reload');
+    const first = createProgressStore(name);
+    const pendingWrite = first.update({
+      completedLessonIds: ['ai-functions'],
+      lastRoute: '/ai/lessons/math-fundamentals-functions',
+    });
+
+    const mirrored = localStorage.getItem(`${name}:fallback`);
+    await pendingWrite;
+
+    expect(mirrored).not.toBeNull();
+    expect(JSON.parse(mirrored ?? '{}')).toMatchObject({
+      completedLessonIds: ['ai-functions'],
+      lastRoute: '/ai/lessons/math-fundamentals-functions',
+    });
+  });
+
   it('round-trips every supported local progress field through export and import', async () => {
     const source = createProgressStore(storeName('export'));
     await source.update({

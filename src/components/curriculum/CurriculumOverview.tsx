@@ -108,7 +108,15 @@ export function CurriculumOverview() {
                     </span>
                     <span className={styles.lessonCopy}>
                       <strong>{lesson.title}</strong>
-                      <small>{lesson.publicContent ? 'Video · Notes' : 'Pro'}</small>
+                      <small>
+                        {lesson.youtubeEmbedUrl && lesson.notes.length
+                          ? 'Video · Notes'
+                          : lesson.youtubeEmbedUrl
+                            ? 'Video'
+                            : lesson.notes.length
+                              ? 'Notes'
+                              : 'Pro'}
+                      </small>
                     </span>
                     <span className={styles.lessonStatus}>
                       {completed ? <CheckCircle2 size={13} aria-hidden="true" /> : <Circle size={13} aria-hidden="true" />}

@@ -16,6 +16,17 @@ function youtubeWatchUrl(embedUrl: string) {
   return `https://www.youtube.com/watch?v=${embedUrl.split('/').at(-1)}`;
 }
 
+const inlineYoutubeUrl = /((?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)[A-Za-z0-9_-]+(?:[^\s]*)?)/gi;
+const completeYoutubeUrl = /^(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)[A-Za-z0-9_-]+(?:[^\s]*)?$/i;
+
+function renderNoteBody(body: string) {
+  return body.split(inlineYoutubeUrl).map((part, index) => {
+    if (!completeYoutubeUrl.test(part)) return part;
+    const href = /^https?:\/\//i.test(part) ? part : `https://${part}`;
+    return <a href={href} target="_blank" rel="noreferrer noopener" key={`${part}-${index}`}>{part}</a>;
+  });
+}
+
 export function LessonReader({ lesson, neighbors }: LessonReaderProps) {
   const { progress, updateProgress } = useProgress();
   const completed = progress.completedLessonIds.includes(lesson.id);
@@ -74,7 +85,7 @@ export function LessonReader({ lesson, neighbors }: LessonReaderProps) {
                 />
               </div>
               <div className={styles.mediaFooter}>
-                <span>Public video</span>
+                <span>{lesson.contentOrigin === 'fanout-public' ? 'Public video' : 'Provided video'}</span>
                 <a
                   href={youtubeWatchUrl(lesson.youtubeEmbedUrl)}
                   target="_blank"
@@ -83,6 +94,14 @@ export function LessonReader({ lesson, neighbors }: LessonReaderProps) {
                 >
                   Open on YouTube <ArrowRight size={13} aria-hidden="true" />
                 </a>
+              </div>
+            </section>
+          ) : lesson.notes.length ? (
+            <section className={`${styles.panel} ${styles.readingBanner}`} aria-label="Provided notes">
+              <span className={styles.readingIcon}><BookOpen size={23} aria-hidden="true" /></span>
+              <div>
+                <h2>Provided notes</h2>
+                <p>This topic has the notes you supplied, without an attached video.</p>
               </div>
             </section>
           ) : (
@@ -99,7 +118,7 @@ export function LessonReader({ lesson, neighbors }: LessonReaderProps) {
             {lesson.notes.map((note, index) => (
               <section className={styles.note} key={`${index}-${note.body}`}>
                 {note.heading ? <h2>{note.heading}</h2> : null}
-                <p>{note.body}</p>
+                <p>{renderNoteBody(note.body)}</p>
               </section>
             ))}
           </article> : null}

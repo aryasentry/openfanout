@@ -1,0 +1,857 @@
+[
+  {
+    "topicAnchorId": "math-fundamentals-derivation-rules",
+    "youtubeId": "S0_qX4VJhMQ",
+    "notes": [
+      "A derivative is \"The Nudge\" — how much the output changes when you nudge the input.",
+      "Basic Rules:",
+      "Power Rule: d/dx[xⁿ] = nxⁿ⁻¹",
+      "Constant Multiple Rule: d/dx[c·f(x)] = c·f'(x)",
+      "Addition Rule: d/dx[f + g] = f' + g'",
+      "Product Rule: (fg)' = f'g + fg'"
+    ]
+  },
+  {
+    "topicAnchorId": "math-fundamentals-chain-rule",
+    "youtubeId": "YG15m2VwSjA",
+    "notes": [
+      "This is the most important rule in all of AI. It is exactly how Backpropagation works.",
+      "The Core Idea: If y = f(g(x)), then dy/dx = f'(g(x)) · g'(x). Decompose complex derivatives into simpler ones.",
+      "The Gear Intuition: If gear A turns gear B, and gear B turns gear C — to know how fast C turns relative to A, multiply the two gear ratios. Each layer in a neural network is like a gear."
+    ]
+  },
+  {
+    "topicAnchorId": "math-fundamentals-backprop-python",
+    "youtubeId": "76o6sM4aqXU",
+    "notes": [
+      "Implementing backpropagation from scratch.",
+      "The Goal: Compute dL/dw for every weight w — how much each weight contributed to the loss.",
+      "Forward Pass: Input → multiply by weights → add bias → activation → output → loss",
+      "Backward Pass (Chain Rule): dL/dL → dL/dy → dL/dw2 → dL/db2 → dL/dh → dL/dw1 → dL/db1",
+      "The Universal Pattern: For each operation, propagate the gradient backward by multiplying by the local gradient."
+    ]
+  },
+  {
+    "topicAnchorId": "math-fundamentals-jacobian-matrix",
+    "youtubeId": "Rw3cImDy20s",
+    "notes": [
+      "When you move to higher dimensions — the derivative of a vector function produces a matrix called the Jacobian Matrix.",
+      "It contains all partial derivatives of a vector-valued function. Essential for understanding backpropagation through layers with multiple inputs and outputs."
+    ]
+  },
+  {
+    "topicAnchorId": "math-fundamentals-entropy",
+    "youtubeId": "YtebGVx-Fxw",
+    "notes": [
+      "Claude Shannon's \"atom of intelligence.\"",
+      "Surprisal: How surprising is an event? -log₂(p). Rare events = high surprisal.",
+      "Entropy: Average surprise across all events. H = -Σ p(x) log₂ p(x)",
+      "Low Entropy: Predictable (biased coin)",
+      "High Entropy: Uncertain (fair coin)",
+      "Why this matters for AI: Cross-Entropy Loss is the standard loss function for classification and language models."
+    ]
+  },
+  {
+    "topicAnchorId": "math-fundamentals-kl-divergence",
+    "youtubeId": "SxGYPqCgJWM",
+    "notes": [
+      "KL Divergence measures how different two probability distributions are.",
+      "The Formula: D_KL(P || Q) = Σ P(x) log(P(x)/Q(x))",
+      "Key Properties:",
+      "Not symmetric: D_KL(P||Q) ≠ D_KL(Q||P)",
+      "Always ≥ 0",
+      "= 0 only when P = Q",
+      "\"Zero-Forcing\" for Q: KL divergence penalizes Q heavily for assigning zero probability where P is non-zero. Summary: KL Divergence = \"average extra surprise.\""
+    ]
+  },
+  {
+    "topicAnchorId": "math-fundamentals-svd",
+    "youtubeId": "mBcLRGuAFUk",
+    "notes": [
+      "\"The King of Linear Algebra.\"",
+      "SVD decomposes any matrix A = UΣVᵀ where U and V are orthogonal and Σ is diagonal.",
+      "Foundation of:",
+      "Compression (JPEG, MP3)",
+      "Dimensionality Reduction (PCA)",
+      "Recommender Systems (Netflix Prize)",
+      "LoRA (Low-Rank Adaptation for LLMs) — the technique that makes fine-tuning large language models practical."
+    ]
+  },
+  {
+    "topicAnchorId": "math-fundamentals-more-math",
+    "youtubeId": "xDXyepdjfMs",
+    "notes": []
+  },
+  {
+    "topicAnchorId": "core-ai-intuitions-similarity-dot-product",
+    "youtubeId": "B2ZSC9228ak",
+    "notes": [
+      "The dot product is the engine of AI — it measures similarity between vectors.",
+      "The Calculation: a·b = Σ aᵢbᵢ",
+      "Real-World Example: Movie recommendations — compute dot product between user preference vector and movie feature vector. Higher = better match.",
+      "Geometric Intuition: a·b = ||a||·||b||·cos(θ). When vectors point the same way, dot product is large and positive. Perpendicular = 0. Opposite = negative.",
+      "This is the fundamental operation in attention mechanisms, embeddings, and similarity search."
+    ]
+  },
+  {
+    "topicAnchorId": "core-ai-intuitions-softmax",
+    "youtubeId": "KpKog-L9veg",
+    "notes": [
+      "Softmax converts raw scores into clean probabilities that sum to 1.",
+      "The \"Winner Takes All\" Effect: Exponential amplification makes the largest value dominate.",
+      "Diverse Examples:",
+      "\"I'm Sure\" — one score dominates",
+      "\"I Don't Know\" — scores are similar, probabilities spread evenly",
+      "Handles negatives gracefully",
+      "Advanced: Temperature (T):",
+      "T < 1: More confident (sharper distribution)",
+      "T > 1: More uncertain (flatter distribution)",
+      "Used in LLM generation to control creativity vs. accuracy."
+    ]
+  },
+  {
+    "topicAnchorId": "core-ai-intuitions-tensor-broadcasting",
+    "youtubeId": "QscEWm0QTRY",
+    "notes": [
+      "Broadcasting lets you operate on tensors of different shapes without copying data.",
+      "The Strategy: Automatically expand smaller tensors to match larger ones.",
+      "Examples:",
+      "Scalar + Vector: adds scalar to every element",
+      "Matrix + Vector: adds vector to every row (used for bias in neural networks)",
+      "The Rules: 1. Align shapes from the right 2. Dimensions are compatible if equal OR one of them is 1 3. Missing dimensions are treated as 1"
+    ]
+  },
+  {
+    "topicAnchorId": "core-ai-intuitions-l1-l2-norms",
+    "youtubeId": "It2g7sDxdqI",
+    "notes": [
+      "Two ways to measure distance/size of vectors.",
+      "L1 Norm (Manhattan Distance): ||x||₁ = Σ|xᵢ| — walk along grid lines. Promotes sparsity (Lasso Regression pushes weights to exactly 0).",
+      "L2 Norm (Euclidean Distance): ||x||₂ = √(Σxᵢ²) — straight line. Promotes smoothness (Weight Decay / Ridge Regression keeps all weights small).",
+      "Key Differences:",
+      "L1 spreads penalty evenly, L2 penalizes outliers more",
+      "L1 creates zeros (feature selection), L2 shrinks toward zero",
+      "L1 gradient is constant (±1), L2 gradient depends on value"
+    ]
+  },
+  {
+    "topicAnchorId": "pytorch-fundamentals-creating-tensors",
+    "youtubeId": "AglLTlms7HU",
+    "notes": [
+      "ensors are the fundamental data structure in PyTorch.",
+      "Dimensions:",
+      "0D: Scalar (single number)",
+      "1D: Vector [1, 2, 3]",
+      "2D: Matrix [[1,2],[3,4]]",
+      "3D+: Batches, images, sequences",
+      "The Bracket Rule: Count opening brackets to determine dimensions.",
+      "Creating Tensors:",
+      "From Python lists: torch.tensor([1, 2, 3])",
+      "From NumPy: torch.from_numpy(arr) (shares memory!)",
+      "Data types: int32, int64, float32, float64, bool",
+      "Why Tensors: GPU acceleration, automatic differentiation, and optimized mathematical operations."
+    ]
+  },
+  {
+    "topicAnchorId": "pytorch-fundamentals-matrix-multiplication",
+    "youtubeId": "yMScmAOD8IE",
+    "notes": [
+      "The most important operation in neural networks.",
+      "The Dot Product (1D): a·b = Σ aᵢbᵢ",
+      "Matrix @ Matrix: Each element of result = dot product of a row from A with a column from B.",
+      "The Shape Rule: (m×n) @ (n×p) = (m×p). Inner dimensions must match!",
+      "Neural Network Layer: output = input @ weights + bias. This is literally what nn.Linear does.",
+      "In PyTorch: Use @ operator or torch.matmul(). Never use * for matrix multiplication (that's element-wise)."
+    ]
+  },
+  {
+    "topicAnchorId": "pytorch-fundamentals-transposing-tensors",
+    "youtubeId": "cCQgZiljON4",
+    "notes": [
+      "Transpose flips rows and columns.",
+      "Why Transpose: Making shapes compatible for matrix multiplication.",
+      "In PyTorch:",
+      ".T for 2D tensors",
+      ".transpose(dim0, dim1) for specific dimensions",
+      ".permute(dims) for arbitrary reordering",
+      "Common Use Cases:",
+      "Computing dot products: A @ B.T",
+      "Batch matrix transpose: .transpose(1, 2)",
+      "Reshaping weight matrices for different layer orientations"
+    ]
+  },
+  {
+    "topicAnchorId": "pytorch-fundamentals-flatten-reshape-view",
+    "youtubeId": "fCVuiW9AFzY",
+    "notes": [
+      "Reshaping tensors without changing data.",
+      "The Golden Rule: Total elements must stay the same. (2×3) can reshape to (3×2) or (6,) or (1×6).",
+      "Key Operations:",
+      "reshape/view: Change shape arbitrarily",
+      "flatten: Collapse to 1D",
+      "squeeze: Remove dimensions of size 1",
+      "unsqueeze: Add a dimension of size 1",
+      "-1: Let PyTorch figure out that dimension",
+      "reshape vs view: view requires contiguous memory, reshape works always (may copy data)."
+    ]
+  },
+  {
+    "topicAnchorId": "pytorch-fundamentals-indexing-slicing",
+    "youtubeId": "2t9iboeKJ2c",
+    "notes": [
+      "Accessing specific elements or sub-tensors.",
+      "Basics: Indexing starts at 0. Negative indexing: -1 = last element.",
+      "Slicing: tensor[start:end] — end is exclusive.",
+      "Matrix Indexing: tensor[row, col] or tensor[row_slice, col_slice]",
+      "Step Slicing: tensor[::2] — every other element.",
+      "Advanced: Boolean masking, fancy indexing with lists of indices."
+    ]
+  },
+  {
+    "topicAnchorId": "pytorch-fundamentals-cat-stack",
+    "youtubeId": "kF2AlpykJGY",
+    "notes": [
+      "Combining tensors.",
+      "torch.cat: Join along existing dimension. Like gluing side-by-side or end-to-end.",
+      "dim=0: Stack rows (more rows, same columns)",
+      "dim=1: Stack columns (same rows, more columns)",
+      "Rule: All other dimensions must match!",
+      "torch.stack: Creates a NEW dimension. Like putting papers in a folder.",
+      "All tensors must have identical shape",
+      "Useful for creating batches",
+      "Practical Uses: Combining train/test data, building batches, concatenating features."
+    ]
+  },
+  {
+    "topicAnchorId": "pytorch-fundamentals-special-tensors",
+    "youtubeId": "_ZeNgwkrD1U",
+    "notes": [
+      "Special tensor constructors for common patterns.",
+      "torch.zeros / torch.ones: Initialize tensors. Common for accumulators and masks.",
+      "torch.eye: Identity matrix — diagonal of 1s. Used in loss functions and linear algebra.",
+      "Random Tensors:",
+      "torch.rand — Uniform [0, 1)",
+      "torch.randn — Normal (mean=0, std=1)",
+      "torch.randint — Random integers",
+      "Why randomness? Symmetry breaking — without it, all neurons learn the same thing.",
+      "Range Tensors:",
+      "torch.arange(start, end, step) — like Python range",
+      "torch.linspace(start, end, steps) — evenly spaced points"
+    ]
+  },
+  {
+    "topicAnchorId": "pytorch-fundamentals-new-full-lesson",
+    "youtubeId": "n_Kib2Gj39w",
+    "notes": [
+      "A comprehensive lesson covering all PyTorch fundamentals together. Watch alongside previous lessons to strengthen your knowledge."
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-simple-linear-model",
+    "youtubeId": "wuo4JdG3SvU",
+    "notes": [
+      "Build a Simple Linear Model in TensorFlow to recognize handwritten digits (MNIST).",
+      "Model Structure:",
+      "Placeholders: Input image data (X) and true labels (Y-true) into the computational graph",
+      "Variables: Weights and biases optimized during training",
+      "Linear Operation: Images multiplied by weights + biases to generate logits",
+      "Cost: Cross-entropy as a continuous performance measure",
+      "Optimizer: Gradient descent to update variables and improve accuracy",
+      "Key Takeaways:",
+      "TensorFlow builds a computational graph for efficient execution and automatic differentiation",
+      "Mini-batch processing (100 images at a time) handles large datasets efficiently",
+      "Model weights can be visualized as filters — reaches ~91% accuracy after 1,000 iterations",
+      "Track performance via classification accuracy and confusion matrix"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-convolutional-neural-network",
+    "youtubeId": "HMcx-zY8JSg",
+    "notes": [
+      "Build a CNN in TensorFlow to classify MNIST digits with ~99% accuracy.",
+      "Architecture:",
+      "Input: 28x28 grayscale images",
+      "Conv Layer 1: 16 filters (5x5) → 14x14, ReLU + 2x2 Max Pooling",
+      "Conv Layer 2: 36 filters (5x5) → 7x7, ReLU + 2x2 Max Pooling",
+      "Flatten: 4D tensor → 2D vector",
+      "Dense: 128 features → 10-class output with Softmax",
+      "Key Concepts:",
+      "Computational graph: placeholders, variables, Cross Entropy loss, Adam optimizer",
+      "Weights initialized randomly, optimized to minimize error",
+      "Stride & \"Same\" padding maintains output dimensions",
+      "CNNs use hierarchical feature extraction to learn spatial patterns"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-pretty-tensor",
+    "youtubeId": "GCUfJQ_dec8",
+    "notes": [
+      "Pretty Tensor simplifies CNN creation by abstracting low-level TensorFlow details.",
+      "Core Concept: Wraps TensorFlow tensors to allow chained method calls — syntax mirrors the network flowchart.",
+      "Advantages:",
+      "Drastically reduces boilerplate for weight/bias allocation and layer creation",
+      "Code structure follows data flow, easier to debug",
+      "Fewer manual coding errors in complex graphs",
+      "Drawbacks:",
+      "Retrieving internal weights or intermediate outputs is cumbersome",
+      "Limited and sometimes confusing documentation",
+      "Note: The author recommends using the Keras API instead for modern projects."
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-layers-api",
+    "youtubeId": "iYQNU2O8k3g",
+    "notes": [
+      "The Layers API is a high-level \"Builder API\" in TensorFlow for constructing neural networks with pre-built helper functions.",
+      "Key Features:",
+      "Modular layer-by-layer construction — maintain a \"net\" reference for easier debugging and branching",
+      "Standard operations: conv layers, max pooling, dense (fully connected) layers",
+      "Automatic variable allocation and parameter management",
+      "Workflow: 1. Define input placeholders and reshape data 2. Sequentially build layers (conv, pool, dense) with ReLU activations 3. Flatten multi-dimensional output for dense layers 4. Optimize with cross-entropy loss and an optimizer",
+      "More verbose than Pretty Tensor but offers better flexibility for complex architectures."
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-keras-api",
+    "youtubeId": "pAhPiF3yiXI",
+    "notes": [
+      "Keras is the recommended high-level API for TensorFlow — prioritizes clarity and ease of use.",
+      "Modeling Approaches:",
+      "Sequential Model: Stack layers in a linear sequence — simplest approach",
+      "Functional Model: Complex architectures with branching and multiple inputs/outputs",
+      "Workflow:",
+      "Compile: Define optimizer (Adam), loss function, and metrics",
+      "Train: model.fit() — mirrors scikit-learn conventions",
+      "Evaluate: model.evaluate() on test data",
+      "Save/Load: Single function calls for model persistence",
+      "Inspection: View network structure, layer shapes, parameter counts, and learned weights.",
+      "Keras is the standard choice for most deep learning projects — best balance of power and usability."
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-save-restore",
+    "youtubeId": "HxtBIwfy0kM",
+    "notes": [
+      "Saving, restoring, and implementing early stopping for a CNN in TensorFlow.",
+      "Saver Object: Uses tf.train.Saver to save variables (filter weights, biases) of the computational graph to disk for later retrieval.",
+      "Early Stopping: Monitors validation accuracy throughout training — if it fails to improve for a set number of iterations (e.g., 1,000), training is aborted to prevent overfitting.",
+      "Key Takeaways:",
+      "Binary checkpoints are saved in a non-human-readable format only TensorFlow can process",
+      "Enables resuming training after crashes or reusing a trained model without retraining",
+      "Combining checkpoint saving and early stopping efficiently manages long training sessions"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-ensemble-learning",
+    "youtubeId": "AVKZrPCW91A",
+    "notes": [
+      "Combining multiple neural networks to improve classification performance.",
+      "The Process:",
+      "Build a single CNN graph, re-initialize and train it multiple times with different random subsets",
+      "Save weights/biases for each network as separate checkpoint files",
+      "Reload each network to make predictions on the test set",
+      "Key Properties:",
+      "Aggregation: Averaging predicted probability vectors (Softmax outputs) outperforms simple voting",
+      "Performance: Ensemble typically achieves higher accuracy than any single network (~99.2% vs ~98.8-99.0%)",
+      "Cost: Training is significantly more expensive — requires training multiple models from scratch",
+      "Ensemble Learning = \"reducing error through averaging predictions.\""
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-cifar-10",
+    "youtubeId": "7HPwo4wnJeA",
+    "notes": [
+      "Training a CNN to recognize 10 classes of low-resolution images (32x32 pixels).",
+      "Key Techniques:",
+      "Data Augmentation: RandomCrop(Flip(AdjustColor(Original))) increases training diversity",
+      "Batch Normalization: Normalizes convolutional layer output to keep values stable, speeding up training",
+      "Variable Sharing: Single \"network\" scope so training/testing graphs share exact same weights",
+      "Checkpointing: Periodically saves model state to disk for resuming interrupted training",
+      "Higher-level convolutional layers produce feature maps that are unintelligible to humans — abstract grayscale patterns rather than recognizable objects."
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-inception-model",
+    "youtubeId": "KfV8CJh7hE0",
+    "notes": [
+      "Using the pre-trained Inception v3 model for high-accuracy image classification.",
+      "The Process: Input Image → Pre-trained Inception Graph → Softmax Layer → Top-K Predicted Classes",
+      "Key Properties:",
+      "Requires images to be exactly 299x299 pixels — auto-resizes but can cause pixelation",
+      "White-space padding maintains accuracy better than stretching non-square images",
+      "Model stored as Protocol Buffer (.pb) file — cross-platform binary format from Google",
+      "Occasional class bias: prioritizes accessories (\"sunglasses\") over people due to training data",
+      "Inception Model = \"High-performance image recognition via pre-trained deep learning.\"",
+      "Also recommended: \"Inception Network Motivation\" by Andrew Ng (DeepLearningAI) — youtu.be/C86ZXvgpejM"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-transfer-learning",
+    "youtubeId": "FQM13HkEfBk",
+    "notes": [
+      "Reusing a pre-trained model on a new task by replacing only the final classification layer.",
+      "Transfer Values: Outputs from the \"Transfer Layer\" (layer before final softmax) of a pre-trained model like Inception v3.",
+      "Key Properties:",
+      "Efficiency: Drastically reduces training time and computational cost",
+      "Accuracy: Often achieves higher accuracy on small datasets — base model already understands edges, shapes, etc.",
+      "Caching: Transfer values only need to be calculated once and saved to disk",
+      "Visualization: PCA or t-SNE can show how the model separates different image classes",
+      "Transfer Learning = \"Standing on the shoulders of giants.\"",
+      "Also recommended: \"Transfer Learning\" by Andrew Ng (DeepLearningAI) — youtu.be/FQM13HkEfBk"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-video-data",
+    "youtubeId": "DjQFwJGnRDY",
+    "notes": [
+      "Using transfer learning with Inception to classify video frames from a custom \"Knify-Spoony\" dataset.",
+      "Workflow: Video → Frames (5fps, 200x200) → Inception Transfer Values → Cache → New Classifier",
+      "Challenges:",
+      "The \"Fork\" Problem: Poor performance on forks because ImageNet had only 16 fork images vs thousands of spoons/knives",
+      "Background Bias: Accuracy varies based on whether test background matches training set",
+      "Next Step: If transfer learning fails, try fine-tuning the Inception model itself",
+      "Transfer values allow training a new classifier in seconds rather than weeks."
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-fine-tuning-tf",
+    "youtubeId": "dGuY1ytu1zs",
+    "notes": [
+      "Adapting a pre-trained neural network to a new dataset by further training some of its layers.",
+      "Workflow: 1. Load pre-trained model (e.g., VGG16) without original classification layers 2. Add new classifier (Dense + Softmax) for your dataset 3. Freeze pre-trained layers, train only new classifier 4. Unfreeze some layers, continue training with very low learning rate",
+      "Key Properties:",
+      "Lower learning rate is crucial to avoid destroying pre-learned features",
+      "Deeper layers (closer to output) are fine-tuned; earlier layers (general features) stay frozen",
+      "Input preprocessing must match original training exactly",
+      "Effective even with smaller datasets",
+      "Fine-Tuning = \"Specializing pre-trained knowledge for a specific task.\""
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-adversarial-examples",
+    "youtubeId": "4rFOkpI0Lcg",
+    "notes": [
+      "Specialized inputs created by adding imperceptible noise to trick neural networks into misclassifying.",
+      "Mechanism: Keep model fixed, update input image pixels via gradient descent to minimize loss for a target (incorrect) class.",
+      "Key Properties:",
+      "Imperceptibility: Added noise is ~±1.2% of pixel range — human eye cannot distinguish it",
+      "High Confidence: Inception v3 can classify a \"parrot\" as a \"bookcase\" with >99% confidence",
+      "Transferability: Noise generated for one model often tricks other models — a fundamental vulnerability",
+      "Adversarial Examples = \"mathematically crafted optical illusions for AI.\"",
+      "Also recommended: \"How Neural Networks Learn — Part II: Adversarial Examples\" by Arxiv Insights — youtu.be/4rFOkpI0Lcg"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-adversarial-noise-mnist",
+    "youtubeId": "ogP5Ehh_4Rk",
+    "notes": [
+      "Finding a single universal noise pattern that forces a CNN to misclassify any MNIST digit into a target class.",
+      "Optimization: Network weights locked (trainable=False), optimize only noise variable:",
+      "Cross-Entropy Loss using adversarial target class",
+      "L2 Loss to keep noise subtle",
+      "Combined: L_total = L_adversarial + λ · L2_noise",
+      "Defense & Limitations:",
+      "Fine-tuning for immunity: Retrain with corrupted images to teach network to ignore the pattern",
+      "Cat and Mouse: Immune to one pattern but vulnerable to new ones",
+      "Cannot easily make a network immune to all adversarial targets simultaneously",
+      "Adversarial Noise = \"Calculated distortion to exploit model blindspots.\""
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-visual-analysis",
+    "youtubeId": "McgxRxi2Jqo",
+    "notes": [
+      "Understanding what convolutional filters recognize by \"dreaming\" up images that maximize their activity.",
+      "Process: Start with random noise → pass through pre-trained Inception v3 → calculate gradient of specific neuron w.r.t. input → update image to increase activation",
+      "Key Properties:",
+      "Layer Hierarchy: Early layers = simple colors/lines; deeper layers = complex textures",
+      "Human Interpretability Gap: Maximizing a class neuron (e.g., \"Fox\") produces abstract noise, not a recognizable image",
+      "Adversarial Sensitivity: Networks react to infinitely many images, but only a tiny fraction are recognizable to humans",
+      "Feature Visualization = \"Finding the input pattern a neuron likes best.\""
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-visual-analysis-mnist",
+    "youtubeId": "elPTCt45ZGo",
+    "notes": [
+      "isualizing the internal workings of a CNN trained on MNIST by finding input images that maximize specific neuron responses.",
+      "Process: Instead of updating weights (training), use gradients to update the input image — start with random/blank image and iteratively change pixels to increase activation of a chosen feature.",
+      "Key Components:",
+      "Conv Layer 1 learns basic shapes and edges",
+      "Conv Layer 2 learns complex patterns",
+      "Dense layers combine features to classify digits",
+      "Optimized images reveal \"templates\" the network uses for decisions",
+      "Turns the \"black box\" into a more interpretable model."
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-deep-dream",
+    "youtubeId": "BsSmBPmPeYQ",
+    "notes": [
+      "Amplifying patterns a neural network \"sees\" by adjusting the image to maximize specific layer activations.",
+      "Core Idea: Gradient ascent on the input image — calculate gradient of a layer's activation w.r.t. input, add it back.",
+      "Key Techniques:",
+      "Recursive Scaling (Octaves): Downscale/upscale to create patterns at multiple scales",
+      "Gradient Blurring: Gaussian blur maintains original colors and smoothness",
+      "Tile-Based Processing: Random offset tiles prevent memory issues and visible seams",
+      "DeepDream = \"algorithmic hallucination via feature amplification.\"",
+      "Also recommended: \"Deep Dream (Google)\" by Computerphile — youtu.be/BsSmBPmPeYQ"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-style-transfer",
+    "youtubeId": "bFeltWvzZpQ",
+    "notes": [
+      "Mixing the contour lines of a Content Image with the textures/colors of a Style Image using VGG-16.",
+      "Key Components:",
+      "Content Loss: MSE between feature activations of content and mixed images at higher layers",
+      "Style Loss: Gram Matrix (dot products) matches simultaneous feature activation patterns",
+      "Denoising Loss: Total variation loss reduces noise and ensures smoothness",
+      "Implementation: VGG-16 chosen over Inception for better visual results. Gram matrix captures style textures. Weight normalization keeps losses relative regardless of layers.",
+      "Style Transfer = \"Content Contours + Style Textures.\"",
+      "Also recommended: \"Neural Style Transfer with TensorFlow in 10 Minutes\" by Nicholas Renotte — youtu.be/bFeltWvzZpQ"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-tf-gpu-cpu",
+    "youtubeId": "e2VfNscJJUM",
+    "notes": [
+      "Demonstrating massive performance gains from GPU vs CPU for deep learning.",
+      "The Speedup: GPU is roughly 15x to 25x faster than high-end quad-core CPU.",
+      "Key Properties:",
+      "Parallel Processing: GPUs excel at simultaneous matrix operations; CPUs process more linearly",
+      "Environment: Requires specific Anaconda environments for CUDA/cuDNN support",
+      "Memory: TensorFlow allocates all available GPU VRAM by default to prevent fragmentation",
+      "Productivity: 45-minute CPU task → under 2 minutes on GPU",
+      "GPU utilization up to 95%+ ensures computation is the bottleneck, not data transfer."
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-reinforcement-learning-tf",
+    "youtubeId": "Vz5l886eptw",
+    "notes": [
+      "Q-Learning to determine action values in specific states for maximizing cumulative rewards.",
+      "The Formula: Q(s, a) = r + γ · max Q(s', a')",
+      "Key Components:",
+      "Experience Replay: Stores thousands of past states to break correlation and stabilize training",
+      "Epsilon-Greedy: Mostly choose best action, occasionally random for exploration",
+      "Deep CNN: Approximates Q-values when state space (screen images) is too large for tables",
+      "Motion Tracing: Gives AI a sense of direction/speed for moving objects",
+      "Q-Learning = \"Learning the value of actions through trial, error, and memory.\"",
+      "Also recommended: \"Q-Learning Intro/Table — Reinforcement Learning p.1\" by sentdex — youtu.be/yMk_XtIEzH8"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-estimator-api",
+    "youtubeId": "BhQW2OLzx_c",
+    "notes": [
+      "High-level TensorFlow interface for simplified model building, training, and evaluation.",
+      "Key Components:",
+      "Input Functions: Stream data — loading, shuffling, batching",
+      "Canned Estimators: Pre-defined models (DNNClassifier) for common tasks",
+      "Custom Estimators: User-defined via model_fn for specialized architectures",
+      "EstimatorSpec: Defines behavior for Train, Evaluate, and Predict modes",
+      "Criticisms: Requires \"feature columns\" inconsistently, reloads model from disk every predict() call, and can be unintuitive with long error messages.",
+      "Estimator API = \"High-level automation at the cost of some flexibility.\""
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-tfrecords-dataset-api",
+    "youtubeId": "oxrcZ9uUblI",
+    "notes": [
+      "Binary file format for efficient data storage, solving feed_dict performance bottlenecks.",
+      "Workflow: Convert raw data → TFRecords binary → Parse with tf.data.Dataset → Shuffle, repeat, batch",
+      "Key Properties:",
+      "High Efficiency: Parallel data loading keeps GPU busy instead of waiting for CPU",
+      "Serialization: Data wrapped in tf.train.Example and tf.train.Features",
+      "Large Datasets: Handles data too big for memory by reading from disk in buffers",
+      "The feed_dict method often leaves GPUs at 30-50% utilization because Python is too slow. TFRecords enables multi-threaded input pipelines."
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-hyperparameter-optimization",
+    "youtubeId": "M-NTkxfd7-8",
+    "notes": [
+      "Automating the search for best configurations using Bayesian Optimization with Scikit-Optimize.",
+      "Strategy: Gaussian Process models the fitness function, estimating performance across search space with uncertainty tracking.",
+      "Key Properties:",
+      "Exploitation vs Exploration: Balances known good results with unexplored high-uncertainty areas",
+      "Dimensions: Supports Real (learning rate), Integer (nodes), Categorical (activation functions)",
+      "Session Management: Must clear Keras/TF session after each run to prevent memory leaks",
+      "Analysis: Convergence plots and partial dependence plots show parameter impact",
+      "Bayesian Optimization = \"smart searching by modeling uncertainty.\"",
+      "Also recommended: \"Bayesian Optimization: Easy Explanation\" by paretos — youtu.be/M-NTkxfd7-8"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-nlp-sentiment",
+    "youtubeId": "DDByc9LyMV8",
+    "notes": [
+      "Sentiment analysis — determining if text expresses positive or negative opinion.",
+      "Pipeline: Raw Text → Tokenization → Embedding Layer → RNN (GRU) → Dense + Sigmoid → Score (0.0-1.0)",
+      "Key Components:",
+      "Embedding Layer: Maps integer tokens to real-valued vectors where similar words cluster",
+      "GRU: Handles long sequences efficiently using gates to manage memory",
+      "Padding/Truncating: Fixed-length inputs required per batch",
+      "Challenge: Vanishing/exploding gradients on sequences of 500+ words",
+      "NLP models map human language into mathematical sentiment scores through embeddings and recurrent units."
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-machine-translation",
+    "youtubeId": "L8HKweZIOmg",
+    "notes": [
+      "Sequence-to-sequence translation using an Encoder-Decoder architecture with RNNs.",
+      "Architecture:",
+      "Encoder: Processes source language → compresses into fixed-length \"thought vector\"",
+      "Decoder: Takes thought vector → generates target language one word at a time",
+      "Key Techniques:",
+      "GRU over LSTM: Single internal state makes thought vector transfer simpler",
+      "Sequence Reversal: Reversing source sequences often improves quality",
+      "Teacher Forcing: Feed actual correct words during training",
+      "Inference Loop: Start with \"start\" marker, predict until \"end\" marker",
+      "Machine Translation = \"Mapping one sequence to another via a high-dimensional thought vector.\"",
+      "Also recommended: \"Seq2Seq Encoder-Decoder Neural Networks, Clearly Explained!!!\" by StatQuest — youtu.be/L8HKweZIOmg"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-image-captioning",
+    "youtubeId": "uCSTpOLMC48",
+    "notes": [
+      "Combining Computer Vision and NLP — \"translating\" an image into text.",
+      "Architecture:",
+      "Encoder (VGG16): Pre-trained CNN extracts 4096-element transfer values",
+      "Mapping Layer: Dense + tanh maps 4096 → RNN state size (512)",
+      "Decoder (GRU): Takes image features as initial state, generates word sequence",
+      "Key Properties:",
+      "Uses Transfer Learning from VGG16 trained on ImageNet",
+      "Teacher forcing during training; autoregressive loop during inference",
+      "RMSprop preferred over Adam for RNN stability",
+      "Custom generator for multiple captions per image (COCO dataset)",
+      "Image Captioning = CNN (Image Features) + RNN (Sequence Generation).",
+      "Also recommended: \"Image Caption Generator using Flickr Dataset\" by Hackers Realm — youtu.be/fUSTbGrL1tc"
+    ]
+  },
+  {
+    "topicAnchorId": "tensorflow-fundamentals-timeseries-prediction",
+    "youtubeId": "94PlBzgeq90",
+    "notes": [
+      "Predicting future values of multiple time-series using GRU networks.",
+      "Architecture: 20 weather signals from 5 cities → GRU (state size 512) → Dense → 3 target values 24 hours ahead",
+      "Key Techniques:",
+      "Warm-up Period: ~50 steps where predictions are ignored to let RNN state stabilize",
+      "Data Scaling: Normalize to 0-1 range with MinMaxScaler",
+      "Shifted Targets: Shift time-series backward so model maps current → future",
+      "Custom Loss: MSE excluding warm-up period",
+      "Error Handling: Linear interpolation fills gaps; outlier spikes left in hoping model generalizes around noise."
+    ]
+  },
+  {
+    "topicAnchorId": "neural-network-from-scratch-single-neuron",
+    "youtubeId": "G2kER-3wmKQ",
+    "notes": [
+      "The foundation of intelligence — a single artificial neuron.",
+      "Five Parts of a Neuron: 1. Inputs (x₁, x₂, ...) 2. Weights (w₁, w₂, ...) — learned importance 3. Multiply — xᵢ × wᵢ for each input 4. Sum — Σ(xᵢwᵢ) + bias 5. Activation Function — non-linearity (ReLU, sigmoid)",
+      "Complete Formula: y = f(Σ wᵢxᵢ + b)",
+      "A single neuron can learn: AND gate, OR gate, NOT gate. But not XOR — that requires multiple neurons. Universal Approximation Theorem: enough neurons can approximate any function."
+    ]
+  },
+  {
+    "topicAnchorId": "neural-network-from-scratch-building-layer",
+    "youtubeId": "amdpmuR4hrU",
+    "notes": [
+      "From single neuron to a layer of neurons.",
+      "A Layer: Multiple neurons operating in parallel on the same inputs but with different weights. Mathematically: Y = f(XW + b)",
+      "Adding Activation Functions: Each layer applies a non-linearity after the linear transformation.",
+      "Custom Layers: Can include BatchNorm, Dropout, and other regularization techniques."
+    ]
+  },
+  {
+    "topicAnchorId": "neural-network-from-scratch-implementing-network",
+    "youtubeId": "w8yWXqWQYmU",
+    "notes": [
+      "Putting layers together into a full network.",
+      "The Complete Training Pipeline: 1. Model — Define architecture (layers, activations) 2. Loss Function — How wrong is the model? (MSE, CrossEntropy) 3. Optimizer — How to update weights? (SGD, Adam) 4. Training Loop — Forward → Loss → Backward → Update → Repeat",
+      "Going Deeper: More layers = more capacity. Add Dropout for regularization.",
+      "Real-World Example: MNIST digit classification — 28×28 images → network → 10 digit probabilities."
+    ]
+  },
+  {
+    "topicAnchorId": "neural-network-from-scratch-rmsnorm",
+    "youtubeId": "57kd8l6Wp-4",
+    "notes": [
+      "Root Mean Square Normalization — a simpler, faster alternative to LayerNorm used in modern LLMs like LLaMA and GPT."
+    ]
+  },
+  {
+    "topicAnchorId": "neural-network-from-scratch-learning-rate-decay",
+    "youtubeId": "QzulmoOg2JE",
+    "notes": [
+      "The learning rate controls how big each weight update step is. Learning rate decay reduces it over time — start with big steps, finish with fine-tuning."
+    ]
+  },
+  {
+    "topicAnchorId": "neural-network-from-scratch-adam-optimizer",
+    "youtubeId": "JXQT_vxqwIs",
+    "notes": [
+      "Adam = Adaptive Moment Estimation. Combines momentum (EMA of gradients) with RMSProp (EMA of squared gradients) for per-parameter adaptive learning rates."
+    ]
+  },
+  {
+    "topicAnchorId": "neural-network-from-scratch-neural-network-scratch",
+    "youtubeId": "tWcH9LQKIPY",
+    "notes": [
+      "Complete implementation of a neural network from scratch — bringing together all concepts from this module."
+    ]
+  },
+  {
+    "topicAnchorId": "transformers-attention-mechanism",
+    "youtubeId": "PSs6nxngL6k",
+    "notes": [
+      "The Revolutionary Idea: Attention = Weighted average based on relevance.",
+      "The Formula: Attention(Q, K, V) = softmax(QKᵀ/√d)V",
+      "Query-Key-Value Mechanism:",
+      "Query (Q): \"What am I looking for?\"",
+      "Key (K): \"What do I contain?\"",
+      "Value (V): \"What information do I provide?\"",
+      "Compute similarity between Q and K (dot product), normalize with softmax, use as weights to combine V.",
+      "Why Attention is Revolutionary: RNNs process sequentially (slow, forgetting). Attention processes everything in parallel and can look at any position directly."
+    ]
+  },
+  {
+    "topicAnchorId": "transformers-self-attention",
+    "youtubeId": "LWMzyfvuehA",
+    "notes": [
+      "\"Self\" means the queries, keys, and values all come from the same input sequence.",
+      "Building Self-Attention: 1. Project input X into Q, K, V using learned weight matrices 2. Compute attention scores: QKᵀ/√d 3. Apply softmax to get attention weights 4. Multiply by V to get output",
+      "Each word in a sentence can attend to every other word, learning which relationships matter."
+    ]
+  },
+  {
+    "topicAnchorId": "transformers-gpt-from-scratch",
+    "youtubeId": "kCc8FmEb1nY",
+    "notes": [
+      "Building a decoder-only transformer from scratch — the architecture behind GPT.",
+      "The Ultimate Autocomplete: Given previous tokens, predict the next one.",
+      "Key Components: 1. Rotary Positional Embedding (RoPE) — encodes position using rotation matrices 2. Causal Self-Attention — mask future tokens so the model can't cheat 3. TransformerBlock — Attention + FeedForward + RMSNorm (with residual connections) 4. Full GPT Model — Embedding → N × TransformerBlock → Output head",
+      "The Causal Mask: Ensures position i can only attend to positions ≤ i. This is what makes it \"autoregressive.\""
+    ]
+  },
+  {
+    "topicAnchorId": "reinforcement-learning-agents-environments",
+    "youtubeId": "bf0Nge-qdfo",
+    "notes": [
+      "The Concept: An agent interacts with an environment, receives feedback, and learns to maximize reward.",
+      "The Loop: State → Action → New State → Reward → Repeat",
+      "Real-World Examples:",
+      "Games (AlphaGo)",
+      "Robotics",
+      "Recommendation Systems",
+      "LLM Alignment (RLHF)",
+      "Two Great Challenges: 1. Credit Assignment: Which action caused this reward? 2. Exploration vs Exploitation: Try new things or use what works?",
+      "The Goal: Maximize total future reward: G = Σ γᵗ rₜ (with discount factor γ)."
+    ]
+  },
+  {
+    "topicAnchorId": "reinforcement-learning-policy-gradients",
+    "youtubeId": "KHZVXao4qXs",
+    "notes": [
+      "Direct Learning: Instead of learning values, directly learn the policy (action probabilities).",
+      "How It Works: 1. Play an episode using current policy 2. Score the episode (total reward) 3. Update: increase probability of actions that led to good outcomes 4. Repeat",
+      "The Log-Derivative Trick: Makes the gradient computable.",
+      "The Fatal Flaw: High variance — the credit assignment problem makes learning noisy."
+    ]
+  },
+  {
+    "topicAnchorId": "reinforcement-learning-deep-q-learning",
+    "youtubeId": "cVzvNZOBaJ4",
+    "notes": [
+      "Value-Based Thinking: Instead of learning actions directly, learn how good each state-action pair is.",
+      "From Tables to Neural Networks: Use a neural network as a function approximator for Q-values. This allows generalization to unseen states.",
+      "Bellman Equation: Q(s,a) = r + γ·max Q(s',a') — the value of an action = immediate reward + discounted future value."
+    ]
+  },
+  {
+    "topicAnchorId": "llm-from-scratch-deepseek-v3",
+    "youtubeId": "TfEG0TwueTs",
+    "notes": [
+      "Implementing DeepSeek V3's architecture — exploring the Mixture of Experts approach and efficiency innovations."
+    ]
+  },
+  {
+    "topicAnchorId": "llm-from-scratch-qwen-3",
+    "youtubeId": "wM-KP_wNAeY",
+    "notes": []
+  },
+  {
+    "topicAnchorId": "llm-from-scratch-self-study-llm",
+    "youtubeId": "Fg8urTOImpY",
+    "notes": [
+      "Complete implementation of a Mixture-of-Experts LLM that you can run in Google Colab.",
+      "Includes:",
+      "MoE Model Configuration",
+      "Newton-Schulz orthogonalization",
+      "Muon optimizer",
+      "Data loading and caching",
+      "Rotary Positional Embeddings",
+      "Multi-Head Attention",
+      "Expert and TopK Router classes",
+      "Full training pipeline",
+      "Uses HuggingFace SmolLM-135M tokenizer and cosmopedia-v2 dataset."
+    ]
+  },
+  {
+    "topicAnchorId": "fine-tuning-why-finetune",
+    "youtubeId": "00Q0G84kq3M",
+    "notes": [
+      "Pre-trained models are general. Fine-tuning makes them specific to your task — classification, summarization, code generation, domain adaptation. Transfer learning lets you leverage billions of parameters trained on massive data."
+    ]
+  },
+  {
+    "topicAnchorId": "fine-tuning-lora",
+    "youtubeId": "t1caDsMzWBk",
+    "notes": [
+      "Low-Rank Adaptation — instead of updating all weights, inject small trainable matrices. QLoRA adds 4-bit quantization. Train a 7B model on a single GPU.",
+      "Key concepts:",
+      "Rank (r): controls capacity vs efficiency",
+      "Alpha: scaling factor",
+      "Target modules: which layers to adapt (attention, MLP)"
+    ]
+  },
+  {
+    "topicAnchorId": "fine-tuning-data-preparation",
+    "youtubeId": "epsaFNREHos",
+    "notes": [
+      "The most important step. Your model is only as good as your data.",
+      "Formats:",
+      "Instruction tuning: {instruction, input, output}",
+      "Chat format: {role, content} messages",
+      "Preference data: (chosen, rejected) pairs for RLHF/DPO",
+      "Quality > Quantity: 1000 high-quality examples often beats 100k noisy ones."
+    ]
+  },
+  {
+    "topicAnchorId": "fine-tuning-training-loop",
+    "youtubeId": "u--UVvH-LIQ",
+    "notes": [
+      "Key hyperparameters:",
+      "Learning rate: 1e-5 to 5e-5 for full, 1e-4 to 3e-4 for LoRA",
+      "Epochs: 1-3 (more risks overfitting)",
+      "Batch size: as large as memory allows",
+      "Warmup: 5-10% of total steps",
+      "Weight decay: 0.01-0.1",
+      "Use cosine learning rate schedule. Monitor eval loss — stop when it starts increasing."
+    ]
+  },
+  {
+    "topicAnchorId": "fine-tuning-evaluation",
+    "notes": [
+      "Evaluation methods:",
+      "Perplexity on held-out set",
+      "Task-specific metrics (BLEU, ROUGE, accuracy)",
+      "Human evaluation for open-ended tasks",
+      "LLM-as-judge (GPT-4/Claude evaluating outputs)",
+      "Deployment: Merge LoRA weights, quantize with GGUF/GPTQ, serve with vLLM or Ollama."
+    ]
+  }
+]

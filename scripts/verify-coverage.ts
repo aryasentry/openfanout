@@ -103,7 +103,8 @@ export function verifyCoverage(input: CoverageInput): CoverageResult {
 
   if (input.expectedAiYoutubeIds) {
     const actualIds = input.catalog
-      .filter((record): record is LessonRecord => record.kind === 'lesson' && record.workspace === 'ai')
+      .filter((record): record is LessonRecord => record.kind === 'lesson')
+      .filter((record) => record.workspace === 'ai' && record.contentOrigin === 'fanout-public')
       .map((record) => record.youtubeEmbedUrl?.split('/').at(-1))
       .filter((videoId): videoId is string => Boolean(videoId));
     if (actualIds.join(',') !== input.expectedAiYoutubeIds.join(',')) {

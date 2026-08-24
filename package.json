@@ -12,6 +12,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
+    "build:ai-pro-content": "node scripts/build-ai-pro-lessons.mjs",
     "verify:coverage": "tsx scripts/verify-coverage.ts"
   },
   "dependencies": {

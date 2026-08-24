@@ -77,9 +77,11 @@ Directory evidence (2026-08-24): the live public Markdown mirrors yielded 430 di
 - [x] Previous/next navigation across module boundaries
 - [x] Completion, resume, and module progress persistence
 - [x] The 16 publicly exposed lessons preserve their exact Fanout headings, summaries, working notes, source routes, and video IDs
-- [x] The other 92 overview topics are marked Pro with exact source anchors and contain no generated notes, descriptions, durations, or YouTube searches
+- [x] 68 Pro topics use the manually supplied topic-wise content: 67 primary YouTube videos, 66 note sets, and one notes-only lesson
+- [x] Recommended YouTube URLs inside the supplied notes remain complete and clickable
+- [x] The 24 Pro topics not present in the supplied file remain empty, with no generated notes, descriptions, durations, or YouTube searches
 
-AI curriculum evidence (2026-08-24): Chrome inspected the live overview, captured all 108 exact topic element ids, and opened every one of Fanout's 16 publicly linked lesson pages. The checked-in public snapshot preserves each visible lesson heading, summary, working-note line, exact source path, and exact YouTube ID. Registry and reader tests enforce 16 public-content records, 92 empty Pro records, zero generated YouTube searches, and zero generated study notes. The 12 module descriptions now match the live overview exactly.
+AI curriculum evidence (2026-08-24): Chrome inspected the live overview, captured all 108 exact topic element ids, and opened every one of Fanout's 16 publicly linked lesson pages. The checked-in public snapshot preserves each visible lesson heading, summary, working-note line, exact source path, and exact YouTube ID. The manually supplied Pro source is preserved verbatim and deterministically compiled into 68 topic records. Registry and reader tests enforce 16 Fanout-public lessons, 68 user-provided Pro lessons, 24 overview-only Pro topics, and zero generated YouTube searches or study notes. The 12 module descriptions match the live overview exactly.
 
 ## AI public YouTube lessons
 
@@ -233,7 +235,7 @@ Daily evidence (2026-08-24): source snapshot tests lock the latest 30 chronologi
 - [x] Desktop visual review completed
 - [x] Tablet visual review completed
 - [x] 320px mobile visual review completed
-- [x] All 16 public YouTube embeds expose their exact direct YouTube link
+- [x] All 16 public and 67 supplied Pro YouTube embeds expose their exact direct YouTube link
 - [x] No forbidden pricing/account/dark-mode surface exists
 
-Final verification evidence (2026-08-24): the corrected production build generated 222 static pages. Vitest passed 61/61 tests across 26 files; TypeScript and ESLint passed with zero errors or warnings; the coverage command reported all 651 inventory records and 456 exact external URL strings; and Playwright passed all nine browser scenarios, including every local catalog route. Chrome opened all 16 live public Fanout lesson pages, then verified the local Functions page contains its exact source summary, working notes, and video while a Pro-only topic contains no generated text or YouTube search.
+Final verification evidence (2026-08-24): the production build generated 222 static pages. Vitest passed 65/65 tests across 26 files; TypeScript and ESLint passed with zero errors or warnings; the coverage command reported all 651 inventory records, 456 exact external URL strings, and 83 AI YouTube embeds (16 public plus 67 supplied Pro videos); and Playwright passed all nine browser scenarios, including every local catalog route and immediate progress persistence after reload. Browser review verified a supplied Pro page contains its supplied video, notes, topic symbol, and controls; 68 supplied Pro topics are represented in total, while the 24 MLOps Pro topics not present in the supplied file remain intentionally empty.

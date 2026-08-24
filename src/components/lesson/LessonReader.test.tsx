@@ -55,18 +55,37 @@ describe('LessonReader', () => {
   });
 
   it('can mark a completed reading lesson incomplete', () => {
-    const slug = 'math-fundamentals-derivation-rules-and-examples';
+    const slug = 'fine-tuning-evaluation-and-deployment';
     const lesson = aiLessonBySlug.get(slug);
-    if (!lesson) throw new Error('Missing derivation lesson');
+    if (!lesson) throw new Error('Missing evaluation lesson');
     const { updateProgress } = renderLesson(slug, [lesson.id]);
 
     expect(screen.queryByTitle(/Video:/)).not.toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Provided notes' })).toBeInTheDocument();
+    expect(screen.getByText('Evaluation methods:')).toBeInTheDocument();
     fireEvent.click(screen.getByRole('button', { name: 'Mark incomplete' }));
     expect(updateProgress).toHaveBeenCalledWith({ completedLessonIds: [], lastRoute: lesson.route });
   });
 
-  it('shows only the source-visible Pro status when Fanout exposes no public lesson', () => {
+  it('renders the supplied video and notes for a Pro topic', () => {
     renderLesson('core-ai-intuitions-similarity-with-dot-product');
+
+    expect(screen.getByTitle('Video: Similarity With Dot Product')).toHaveAttribute('src', 'https://www.youtube-nocookie.com/embed/B2ZSC9228ak');
+    expect(screen.getByText(/The dot product is the engine of AI/)).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'Pro topic' })).not.toBeInTheDocument();
+  });
+
+  it('keeps recommended YouTube URLs in supplied notes clickable', () => {
+    renderLesson('tensorflow-fundamentals-inception-model');
+
+    expect(screen.getByRole('link', { name: 'youtu.be/C86ZXvgpejM' })).toHaveAttribute(
+      'href',
+      'https://youtu.be/C86ZXvgpejM',
+    );
+  });
+
+  it('shows only the Pro status when no content was supplied', () => {
+    renderLesson('mlops-introduction-to-mlops');
 
     expect(screen.getByRole('heading', { name: 'Pro topic' })).toBeInTheDocument();
     expect(screen.getByText('Fanout does not expose a public lesson page, video, or notes for this topic.')).toBeInTheDocument();

@@ -50,17 +50,18 @@ describe('AI curriculum registry', () => {
     expect(aiLessonBySlug.get('math-fundamentals-gradients')?.symbol).toBe('∇');
   });
 
-  it('contains exactly the 16 mapped public YouTube lessons', () => {
+  it('keeps the 16 mapped public YouTube lessons and adds the supplied Pro videos', () => {
     expect(publicAiYoutubeIds).toEqual(expectedYoutubeIds);
-    expect(aiLessons.filter((lesson) => lesson.youtubeEmbedUrl)).toHaveLength(16);
+    expect(aiLessons.filter((lesson) => lesson.youtubeEmbedUrl)).toHaveLength(83);
     expect(aiLessons.filter((lesson) => lesson.publicContent)).toHaveLength(16);
     expect(aiLessons.filter((lesson) => !lesson.publicContent)).toHaveLength(92);
     expect(aiLessons.every((lesson) => !('youtubeSearchUrl' in lesson))).toBe(true);
     expect(aiLessons.filter((lesson) => lesson.publicContent).every((lesson) => lesson.summary && lesson.notes.length > 0)).toBe(true);
-    expect(aiLessons.filter((lesson) => !lesson.publicContent).every((lesson) => !lesson.summary && lesson.notes.length === 0 && !lesson.youtubeEmbedUrl)).toBe(true);
+    expect(aiLessons.filter((lesson) => 'contentOrigin' in lesson && lesson.contentOrigin === 'user-provided')).toHaveLength(68);
+    expect(aiLessons.filter((lesson) => 'contentOrigin' in lesson && lesson.contentOrigin === 'fanout-overview')).toHaveLength(24);
   });
 
-  it('stores exact public lesson content and no generated content for Pro topics', () => {
+  it('stores exact public lesson content and no generated content for unsupplied Pro topics', () => {
     const functions = aiLessonBySlug.get('math-fundamentals-functions');
     expect(functions?.summary).toBe('A complete free lesson on Functions, with practical notes and a guided video from the Fanout AI research curriculum.');
     expect(functions?.notes.at(0)?.body).toBe('Functions are the foundation of neural networks. A function is a mathematical relationship that maps inputs to outputs.');
@@ -69,11 +70,29 @@ describe('AI curriculum registry', () => {
     const ppo = aiLessonBySlug.get('reinforcement-learning-ppo-llm-reasoning-importance-ratio-advantage');
     expect(ppo?.sourceUrl).toBe('https://fanout.sh/ai/lessons/reinforcement-learning-ppo-llm-reasoning');
 
-    const locked = aiLessonBySlug.get('core-ai-intuitions-similarity-with-dot-product');
+    const locked = aiLessonBySlug.get('mlops-introduction-to-mlops');
     expect(locked?.summary).toBeUndefined();
     expect(locked?.notes).toEqual([]);
     expect(locked?.youtubeEmbedUrl).toBeUndefined();
-    expect(locked?.sourceUrl).toBe('https://fanout.sh/ai/overview#core-ai-intuitions-similarity-dot-product');
+    expect(locked?.sourceUrl).toBe('https://fanout.sh/ai/overview#mlops-intro-to-mlops');
+  });
+
+  it('uses the supplied topic-wise Pro content without generating replacements', () => {
+    const derivation = aiLessonBySlug.get('math-fundamentals-derivation-rules-and-examples');
+    expect(derivation?.youtubeEmbedUrl).toBe('https://www.youtube-nocookie.com/embed/S0_qX4VJhMQ');
+    expect(derivation?.notes.some((note) => note.body.includes('A derivative is "The Nudge"'))).toBe(true);
+
+    const broadcasting = aiLessonBySlug.get('core-ai-intuitions-tensor-broadcasting');
+    expect(broadcasting?.youtubeEmbedUrl).toBe('https://www.youtube-nocookie.com/embed/QscEWm0QTRY');
+    expect(broadcasting?.notes.some((note) => note.body.includes('operate on tensors of different shapes'))).toBe(true);
+
+    const evaluation = aiLessonBySlug.get('fine-tuning-evaluation-and-deployment');
+    expect(evaluation?.youtubeEmbedUrl).toBeUndefined();
+    expect(evaluation?.notes.some((note) => note.body.includes('Evaluation methods:'))).toBe(true);
+
+    const unsupplied = aiLessonBySlug.get('mlops-introduction-to-mlops');
+    expect(unsupplied?.notes).toEqual([]);
+    expect(unsupplied?.youtubeEmbedUrl).toBeUndefined();
   });
 
   it('derives previous and next lessons across module boundaries', () => {
