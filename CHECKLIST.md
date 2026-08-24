@@ -10,12 +10,14 @@ This file is the human-readable completion ledger. Do not mark an item complete 
 - [ ] Responsive sidebar drawer and mobile layouts down to 320px
 - [ ] Typed catalog registry and source inventory
 - [ ] Cross-catalog search and command palette
-- [ ] IndexedDB persistence with localStorage fallback
-- [ ] Progress JSON export/import
+- [x] IndexedDB persistence with localStorage fallback
+- [x] Progress JSON export/import
 - [ ] Coverage verifier and local-route crawler
 - [x] No pricing, login, account, paywall, upgrade, subscription, or dark-mode UI
 
-Foundation evidence (2026-08-24): schema and shell component tests passed; TypeScript, ESLint, and the Next.js production build passed; Chrome Computer Use comparison against `fanout.sh/ai/overview` confirmed desktop shell proportions and content hierarchy. Responsive and persistence claims remain unchecked until browser acceptance tests exist.
+Foundation evidence (2026-08-24): schema and shell component tests passed; TypeScript, ESLint, and the Next.js production build passed; Chrome Computer Use comparison against `fanout.sh/ai/overview` confirmed desktop shell proportions and content hierarchy. Responsive and real-browser persistence claims remain unchecked until browser acceptance tests exist.
+
+Persistence evidence (2026-08-24): four storage tests prove cross-instance IndexedDB reload, complete JSON export/import, non-destructive schema rejection, and localStorage fallback. A real-browser reload remains a separate final-verification item.
 
 ## AI workspace pages
 
