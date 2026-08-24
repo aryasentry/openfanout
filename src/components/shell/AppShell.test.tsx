@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 import { AppShell } from './AppShell';
 
@@ -14,5 +14,17 @@ describe('AppShell', () => {
     expect(screen.getByRole('navigation', { name: 'Course navigation' })).toBeInTheDocument();
     expect(screen.queryByText(/pricing|upgrade|account/i)).not.toBeInTheDocument();
     expect(screen.queryByRole('button', { name: /dark mode/i })).not.toBeInTheDocument();
+  });
+
+  it('opens catalog search with the command shortcut', () => {
+    render(
+      <AppShell workspace="AI" title="Overview" navigation={[]}>
+        <main>Body</main>
+      </AppShell>,
+    );
+
+    fireEvent.keyDown(window, { key: 'k', metaKey: true });
+    expect(screen.getByRole('dialog', { name: 'Search openFanout' })).toBeInTheDocument();
+    expect(screen.getByRole('searchbox')).toHaveFocus();
   });
 });

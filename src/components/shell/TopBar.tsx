@@ -6,9 +6,10 @@ interface TopBarProps {
   workspace: string;
   title: string;
   onOpenMenu: () => void;
+  onOpenSearch: () => void;
 }
 
-export function TopBar({ workspace, title, onOpenMenu }: TopBarProps) {
+export function TopBar({ workspace, title, onOpenMenu, onOpenSearch }: TopBarProps) {
   return (
     <header className={styles.topBar}>
       <button className={styles.mobileMenu} type="button" onClick={onOpenMenu} aria-label="Open navigation">
@@ -22,7 +23,7 @@ export function TopBar({ workspace, title, onOpenMenu }: TopBarProps) {
       </button>
       <span className={styles.breadcrumbDivider} aria-hidden="true">/</span>
       <span className={styles.breadcrumb}>{title}</span>
-      <button className={styles.searchButton} type="button" aria-label="Search openFanout">
+      <button className={styles.searchButton} type="button" aria-label="Search openFanout" onClick={onOpenSearch}>
         <Search size={15} aria-hidden="true" />
         <span>Search</span>
         <kbd>⌘K</kbd>

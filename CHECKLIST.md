@@ -9,7 +9,7 @@ This file is the human-readable completion ledger. Do not mark an item complete 
 - [x] Reference-like top bar, 244px desktop sidebar, breadcrumbs, and content canvas
 - [ ] Responsive sidebar drawer and mobile layouts down to 320px
 - [ ] Typed catalog registry and source inventory
-- [ ] Cross-catalog search and command palette
+- [x] Cross-catalog search and command palette
 - [x] IndexedDB persistence with localStorage fallback
 - [x] Progress JSON export/import
 - [ ] Coverage verifier and local-route crawler
@@ -18,6 +18,8 @@ This file is the human-readable completion ledger. Do not mark an item complete 
 Foundation evidence (2026-08-24): schema and shell component tests passed; TypeScript, ESLint, and the Next.js production build passed; Chrome Computer Use comparison against `fanout.sh/ai/overview` confirmed desktop shell proportions and content hierarchy. Responsive and real-browser persistence claims remain unchecked until browser acceptance tests exist.
 
 Persistence evidence (2026-08-24): four storage tests prove cross-instance IndexedDB reload, complete JSON export/import, non-destructive schema rejection, and localStorage fallback. A real-browser reload remains a separate final-verification item.
+
+Search evidence (2026-08-24): deterministic ranking, local-link, dialog, Escape, and command-shortcut tests passed. Chrome Computer Use opened the palette from the real top-bar control and resolved `cuda` directly to the local `/ai/gpu` route.
 
 ## AI workspace pages
 
