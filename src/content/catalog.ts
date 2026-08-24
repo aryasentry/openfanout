@@ -1,4 +1,5 @@
 import type { CatalogRecord } from './schema';
+import { aiLessons } from './ai-lessons';
 import { aiNavigation } from './navigation';
 
 const summaries: Record<string, { summary: string; tags?: string[] }> = {
@@ -30,4 +31,4 @@ export const pageCatalog: CatalogRecord[] = aiNavigation.flatMap((group) => grou
   };
 }));
 
-export const catalog: CatalogRecord[] = [...pageCatalog];
+export const catalog: CatalogRecord[] = [...pageCatalog, ...aiLessons];

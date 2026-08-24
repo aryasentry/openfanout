@@ -109,7 +109,7 @@ export function CurriculumOverview() {
         </header>
         <div>
           {mathPreviewLessons.map((lesson) => (
-            <Link className={styles.lessonRow} href="/ai/lessons/math-fundamentals-functions" key={lesson.index}>
+            <Link className={styles.lessonRow} href={lesson.route} key={lesson.index}>
               <span className={styles.lessonIndex}>{lesson.index}</span>
               <span className={styles.lessonCopy}><strong>{lesson.title}</strong><small>{lesson.detail}</small></span>
               <span className={styles.lessonStatus}>0%</span>
