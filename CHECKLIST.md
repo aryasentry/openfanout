@@ -7,7 +7,7 @@ This file is the human-readable completion ledger. Do not mark an item complete 
 - [x] Next.js TypeScript project and light-only design tokens
 - [x] openFanout branding and original branching-node mark
 - [x] Reference-like top bar, 244px desktop sidebar, breadcrumbs, and content canvas
-- [ ] Responsive sidebar drawer and mobile layouts down to 320px
+- [x] Responsive sidebar drawer and mobile layouts down to 320px
 - [x] Typed catalog registry and source inventory
 - [x] Cross-catalog search and command palette
 - [x] IndexedDB persistence with localStorage fallback
@@ -22,6 +22,8 @@ Persistence evidence (2026-08-24): four storage tests prove cross-instance Index
 Search evidence (2026-08-24): deterministic ranking, local-link, dialog, Escape, and command-shortcut tests passed. Chrome Computer Use opened the palette from the real top-bar control and resolved `cuda` directly to the local `/ai/gpu` route.
 
 Coverage evidence (2026-08-24): the verifier matched all 26 foundation page records to their source inventory, rejected duplicate URLs and forbidden routes in tests, and reported every unbuilt content partition as an explicit deferred count. Deferred partitions are not completion claims and remain unchecked below.
+
+Browser evidence (2026-08-24): Playwright passed desktop shell/search and 320px drawer/no-overflow checks. Desktop and mobile screenshots were inspected against the generated design concept and saved under `design/screenshots/`. The lesson-reload acceptance test remains an explicit expected failure owned by the AI curriculum slice.
 
 ## AI workspace pages
 
