@@ -40,3 +40,15 @@ export const aiNavigation: NavigationGroup[] = [
     ],
   },
 ];
+
+export const mathNavigation: NavigationGroup[] = [
+  {
+    id: 'math-workspace',
+    label: 'Workspace',
+    items: [
+      { label: 'Course overview', href: '/ml-math/overview', icon: 'House' },
+      { label: 'Math Decoder', href: '/ml-math/decoder', icon: 'FunctionSquare' },
+      { label: 'Resources', href: '/ml-math/resources', icon: 'Library' },
+    ],
+  },
+];

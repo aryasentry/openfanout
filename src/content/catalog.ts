@@ -1,6 +1,7 @@
 import type { CatalogRecord } from './schema';
 import { aiLessons } from './ai-lessons';
-import { aiNavigation } from './navigation';
+import { mathLessons } from './math-lessons';
+import { aiNavigation, mathNavigation } from './navigation';
 
 const summaries: Record<string, { summary: string; tags?: string[] }> = {
   '/ai/overview': { summary: 'A guided path through the complete AI curriculum.', tags: ['curriculum', 'lessons'] },
@@ -10,9 +11,14 @@ const summaries: Record<string, { summary: string; tags?: string[] }> = {
   '/ai/papers': { summary: 'Research-paper collections spanning modern machine learning.', tags: ['research'] },
   '/ai/gpu': { summary: 'GPU architecture, CUDA, kernels, and performance references.', tags: ['hardware', 'cuda'] },
   '/ai/reinforcement-learning': { summary: 'Agents, policies, environments, and optimization resources.', tags: ['agents', 'policy'] },
+  '/ml-math/overview': { summary: 'A 12-topic map of mathematics for machine learning.', tags: ['mathematics', 'curriculum'] },
+  '/ml-math/decoder': { summary: 'Decode mathematical symbols and expressions into plain language.', tags: ['mathematics', 'interactive'] },
+  '/ml-math/resources': { summary: 'Open books, notes, and practice references for machine-learning mathematics.', tags: ['mathematics', 'library'] },
 };
 
-export const pageCatalog: CatalogRecord[] = aiNavigation.flatMap((group) => group.items.map((item) => {
+const pageNavigation = [...aiNavigation, ...mathNavigation];
+
+export const pageCatalog: CatalogRecord[] = pageNavigation.flatMap((group) => group.items.map((item) => {
   const slug = item.href.split('/').filter(Boolean).at(-1) ?? 'overview';
   const metadata = summaries[item.href] ?? {
     summary: `Open learning references for ${item.label.toLocaleLowerCase()}.`,
@@ -22,7 +28,7 @@ export const pageCatalog: CatalogRecord[] = aiNavigation.flatMap((group) => grou
     slug,
     title: item.label,
     kind: 'page' as const,
-    workspace: item.href.startsWith('/ai/') ? 'ai' as const : 'global' as const,
+    workspace: item.href.startsWith('/ai/') ? 'ai' as const : item.href.startsWith('/ml-math/') ? 'ml-math' as const : 'global' as const,
     section: group.id,
     route: item.href,
     sourceUrl: `https://fanout.sh${item.href}`,
@@ -31,4 +37,4 @@ export const pageCatalog: CatalogRecord[] = aiNavigation.flatMap((group) => grou
   };
 }));
 
-export const catalog: CatalogRecord[] = [...pageCatalog, ...aiLessons];
+export const catalog: CatalogRecord[] = [...pageCatalog, ...aiLessons, ...mathLessons];

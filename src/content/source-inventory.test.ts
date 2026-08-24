@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { aiLessons } from './ai-lessons';
+import { mathLessons } from './math-lessons';
 import {
   coverageRequirements,
   deferredCoveragePartitions,
@@ -8,10 +9,11 @@ import {
 } from './source-inventory';
 
 describe('composed source inventory', () => {
-  it('maps every AI lesson record in addition to the 26 foundation pages', () => {
-    expect(sourceInventory).toHaveLength(134);
+  it('maps every AI and mathematics lesson plus all observed workspace pages', () => {
+    expect(sourceInventory).toHaveLength(171);
     const inventoryIds = new Set(sourceInventory.map((record) => record.localId));
     expect(aiLessons.every((lesson) => inventoryIds.has(lesson.id))).toBe(true);
+    expect(mathLessons.every((lesson) => inventoryIds.has(lesson.id))).toBe(true);
   });
 
   it('closes AI lesson partitions while leaving later slices explicit', () => {
@@ -19,12 +21,10 @@ describe('composed source inventory', () => {
     expect(coverageRequirements.aiYoutubeLessons).toBe(16);
     expect(deferredCoveragePartitions).not.toContain('aiLessons');
     expect(deferredCoveragePartitions).not.toContain('aiYoutubeLessons');
-    expect(deferredCoveragePartitions).toEqual([
-      'externalResources',
-      'mathLessons',
-      'labs',
-      'dailyIssues',
-    ]);
+    expect(coverageRequirements.pages).toBe(29);
+    expect(coverageRequirements.mathLessons).toBe(34);
+    expect(deferredCoveragePartitions).not.toContain('mathLessons');
+    expect(deferredCoveragePartitions).toEqual(['externalResources', 'labs', 'dailyIssues']);
   });
 
   it('locks the exact public video IDs independently of the lesson registry', () => {

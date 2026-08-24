@@ -13,6 +13,7 @@ import {
   Files,
   GraduationCap,
   House,
+  FunctionSquare,
   Library,
   Mail,
   Map,
@@ -30,6 +31,7 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 import { aiModules } from '../../content/ai-lessons';
+import { mathModules } from '../../content/math-lessons';
 import type { NavigationGroup } from '../../content/schema';
 import styles from './AppShell.module.css';
 
@@ -46,6 +48,7 @@ const icons: Record<string, LucideIcon> = {
   Files,
   GraduationCap,
   House,
+  FunctionSquare,
   Library,
   Mail,
   Map,
@@ -69,6 +72,7 @@ interface WorkspaceSidebarProps {
 }
 
 export function WorkspaceSidebar({ groups, activePath, open, onClose }: WorkspaceSidebarProps) {
+  const curriculumModules = activePath.startsWith('/ml-math/') ? mathModules : aiModules;
   return (
     <>
       <button
@@ -113,12 +117,12 @@ export function WorkspaceSidebar({ groups, activePath, open, onClose }: Workspac
           <section className={styles.navGroup} aria-labelledby="nav-curriculum">
             <h2 id="nav-curriculum">Curriculum</h2>
             <div className={styles.curriculumList}>
-              {aiModules.map((module) => {
+              {curriculumModules.map((module) => {
                 const containsActiveLesson = module.lessons.some((lesson) => lesson.route === activePath);
                 return (
                   <details
                     className={styles.moduleDisclosure}
-                    open={containsActiveLesson || (activePath === '/ai/overview' && module.index === 1)}
+                    open={containsActiveLesson || ((activePath === '/ai/overview' || activePath === '/ml-math/overview') && module.index === 1)}
                     data-testid="sidebar-module"
                     key={module.id}
                   >

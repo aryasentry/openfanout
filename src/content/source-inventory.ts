@@ -1,5 +1,7 @@
 import foundationInventory from './source-inventory.json';
 import { aiLessons } from './ai-lessons';
+import { mathLessons } from './math-lessons';
+import { pageCatalog } from './catalog';
 import type { SourceInventoryRecord } from './schema';
 
 export type CoveragePartition =
@@ -12,7 +14,7 @@ export type CoveragePartition =
   | 'dailyIssues';
 
 export const coverageRequirements: Record<CoveragePartition, number> = {
-  pages: 26,
+  pages: 29,
   externalResources: 455,
   aiLessons: 108,
   aiYoutubeLessons: 16,
@@ -23,7 +25,6 @@ export const coverageRequirements: Record<CoveragePartition, number> = {
 
 export const deferredCoveragePartitions: CoveragePartition[] = [
   'externalResources',
-  'mathLessons',
   'labs',
   'dailyIssues',
 ];
@@ -54,7 +55,29 @@ const aiLessonInventory: SourceInventoryRecord[] = aiLessons.map((lesson) => ({
   checkedAt: lesson.provenanceCheckedAt,
 }));
 
+const existingFoundationUrls = new Set(
+  (foundationInventory.records as SourceInventoryRecord[]).map((record) => record.sourceUrl),
+);
+
+const observedWorkspacePageInventory: SourceInventoryRecord[] = pageCatalog
+  .filter((page) => !existingFoundationUrls.has(page.sourceUrl))
+  .map((page) => ({
+    sourceUrl: page.sourceUrl,
+    localId: page.id,
+    kind: page.kind,
+    checkedAt: page.provenanceCheckedAt,
+  }));
+
+const mathLessonInventory: SourceInventoryRecord[] = mathLessons.map((lesson) => ({
+  sourceUrl: lesson.sourceUrl,
+  localId: lesson.id,
+  kind: lesson.kind,
+  checkedAt: lesson.provenanceCheckedAt,
+}));
+
 export const sourceInventory: SourceInventoryRecord[] = [
   ...(foundationInventory.records as SourceInventoryRecord[]),
+  ...observedWorkspacePageInventory,
   ...aiLessonInventory,
+  ...mathLessonInventory,
 ];

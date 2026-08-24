@@ -1,7 +1,7 @@
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import { catalog } from '../src/content/catalog';
-import { aiNavigation } from '../src/content/navigation';
+import { aiNavigation, mathNavigation } from '../src/content/navigation';
 import type {
   CatalogRecord,
   LessonRecord,
@@ -139,7 +139,7 @@ function runCli() {
   const result = verifyCoverage({
     catalog,
     inventory: sourceInventory,
-    navigation: aiNavigation,
+    navigation: [...aiNavigation, ...mathNavigation],
     requirements: coverageRequirements as Record<CountRequirement, number>,
     deferredPartitions: deferredCoveragePartitions as CoveragePartition[],
     expectedAiYoutubeIds: requiredAiYoutubeIds,

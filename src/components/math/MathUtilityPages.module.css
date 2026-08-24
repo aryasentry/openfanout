@@ -1,0 +1,55 @@
+.main { width: min(100%, 980px); margin: 0 auto; padding: 64px 34px 94px; }
+.hero { max-width: 690px; margin-bottom: 30px; }
+.eyebrow { margin: 0 0 10px; color: var(--accent); font: 650 10px/1.2 var(--font-display); letter-spacing: .12em; text-transform: uppercase; }
+.hero h1 { margin: 0; font: 520 clamp(34px, 4vw, 50px)/1.06 var(--font-display); letter-spacing: -.05em; }
+.hero > p:last-child { margin: 14px 0 0; color: var(--muted); font-size: 14px; line-height: 1.7; }
+
+.decoderLayout { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 14px; align-items: stretch; }
+.inputPanel,
+.resultPanel,
+.resourceGroup { border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); box-shadow: var(--shadow-sm); }
+.inputPanel { padding: 20px; }
+.inputPanel label { display: block; margin-bottom: 9px; font: 600 11px/1.3 var(--font-display); }
+.inputShell { display: flex; gap: 9px; align-items: center; min-height: 46px; border: 1px solid #cfd3da; border-radius: 7px; padding: 0 12px; color: var(--accent); }
+.inputShell:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.inputShell input { width: 100%; border: 0; outline: 0; background: transparent; color: var(--text); font: 560 14px/1 var(--font-display); }
+.inputPanel > p { margin: 9px 0 15px; color: var(--muted); font-size: 10px; }
+.examples { display: flex; flex-wrap: wrap; gap: 6px; }
+.examples button { min-height: 28px; border: 1px solid var(--border); border-radius: 999px; background: #fafafa; color: #525964; padding: 0 9px; font-size: 9px; }
+.examples button:hover { border-color: #bcc8fa; color: var(--accent); }
+
+.resultPanel { display: grid; grid-template-columns: 160px minmax(0, 1fr); min-height: 330px; overflow: hidden; }
+.resultSymbol { display: grid; place-items: center; background: linear-gradient(145deg, #e9edff, #f6f8ff); color: var(--accent); font: 650 21px/1 var(--font-display); }
+.resultCopy { padding: 30px; }
+.resultCopy h2 { margin: 0; font: 610 22px/1.2 var(--font-display); letter-spacing: -.035em; }
+.resultCopy > p:not(.eyebrow) { margin: 12px 0 0; color: #4f5660; font-size: 13px; line-height: 1.7; }
+.resultCopy dl { margin: 22px 0 0; }
+.resultCopy dl div { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; padding: 12px 0; border-top: 1px solid var(--border); }
+.resultCopy dt { color: var(--muted); font: 600 9px/1.5 var(--font-display); text-transform: uppercase; }
+.resultCopy dd { margin: 0; font-size: 12px; line-height: 1.55; }
+.resultCopy a { display: inline-flex; gap: 7px; align-items: center; margin-top: 18px; color: var(--accent); text-decoration: none; font-size: 11px; font-weight: 600; }
+
+.resourceGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.resourceGroup { overflow: hidden; }
+.resourceGroup > header { display: flex; gap: 13px; align-items: flex-start; padding: 18px; }
+.resourceGroup > header > span { display: grid; place-items: center; flex: 0 0 38px; width: 38px; height: 38px; border-radius: 7px; background: var(--accent-soft); color: var(--accent); }
+.resourceGroup h2 { margin: 1px 0 0; font: 610 14px/1.3 var(--font-display); }
+.resourceGroup header p { margin: 5px 0 0; color: var(--muted); font-size: 10px; line-height: 1.5; }
+.resourceGroup > div > a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: center; min-height: 72px; border-top: 1px solid var(--border); color: var(--text); padding: 12px 17px; text-decoration: none; }
+.resourceGroup > div > a:hover { background: #fafbff; color: var(--accent); }
+.resourceGroup a > span { display: grid; gap: 5px; }
+.resourceGroup a strong { font: 590 11px/1.3 var(--font-display); }
+.resourceGroup a small { color: var(--muted); font-size: 9px; line-height: 1.45; }
+
+@media (max-width: 800px) {
+  .decoderLayout,
+  .resourceGrid { grid-template-columns: 1fr; }
+  .resultPanel { min-height: 300px; }
+}
+
+@media (max-width: 719px) {
+  .main { padding: 34px 14px 72px; }
+  .resultPanel { grid-template-columns: 1fr; }
+  .resultSymbol { min-height: 120px; }
+  .resultCopy { padding: 22px; }
+}

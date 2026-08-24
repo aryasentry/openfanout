@@ -15,15 +15,15 @@ This file is the human-readable completion ledger. Do not mark an item complete 
 - [ ] Coverage verifier and local-route crawler
 - [x] No pricing, login, account, paywall, upgrade, subscription, or dark-mode UI
 
-Foundation evidence (2026-08-24): schema and shell component tests passed; TypeScript, ESLint, and the Next.js production build passed; Chrome Computer Use comparison against `fanout.sh/ai/overview` confirmed desktop shell proportions and content hierarchy. Responsive and real-browser persistence claims remain unchecked until browser acceptance tests exist.
+Foundation evidence (2026-08-24): schema and shell component tests passed; TypeScript, ESLint, and the Next.js production build passed; Chrome Computer Use comparison against `fanout.sh/ai/overview` confirmed desktop shell proportions and content hierarchy. Playwright now covers desktop, 320px navigation, search, and reload persistence.
 
 Persistence evidence (2026-08-24): four storage tests prove cross-instance IndexedDB reload, complete JSON export/import, non-destructive schema rejection, and localStorage fallback. A real-browser reload remains a separate final-verification item.
 
 Search evidence (2026-08-24): deterministic ranking, local-link, dialog, Escape, and command-shortcut tests passed. Chrome Computer Use opened the palette from the real top-bar control and resolved `cuda` directly to the local `/ai/gpu` route.
 
-Coverage evidence (2026-08-24): the verifier matched all 26 foundation page records to their source inventory, rejected duplicate URLs and forbidden routes in tests, and reported every unbuilt content partition as an explicit deferred count. Deferred partitions are not completion claims and remain unchecked below.
+Coverage evidence (2026-08-24): the verifier matched 29 observed workspace pages, 108 AI lessons, and 34 mathematics lessons to source inventory; rejected duplicate URLs and forbidden routes in tests; and reported the remaining external-resource, lab, and daily-paper partitions as explicit deferred counts. Deferred partitions are not completion claims and remain unchecked below.
 
-Browser evidence (2026-08-24): Playwright passed desktop shell/search and 320px drawer/no-overflow checks. Desktop and mobile screenshots were inspected against the generated design concept and saved under `design/screenshots/`. The lesson-reload acceptance test remains an explicit expected failure owned by the AI curriculum slice.
+Browser evidence (2026-08-24): Playwright passed desktop shell/search, 320px drawer/no-overflow, AI reload persistence, mathematics overview, decoder, mathematics reload persistence, and mathematics 320px no-overflow checks. Desktop and mobile screenshots were inspected and saved under `design/screenshots/`.
 
 ## AI workspace pages
 
@@ -98,61 +98,63 @@ AI curriculum evidence (2026-08-24): registry tests lock module counts, all 108 
 
 ## Advanced mathematics workspace
 
-- [ ] `/ml-math/overview`
-- [ ] `/ml-math/decoder`
-- [ ] `/ml-math/resources`
-- [ ] 01 Set Language for Machine Learning — 14 lessons
-- [ ] 02 Logic for Precise Reasoning — 5 lessons
-- [ ] 03 Linear Systems and Geometric Maps — 1 lesson
-- [ ] 04 Vector Spaces, Bases, and Rank — 2 lessons
-- [ ] 05 Spectral Thinking and Diagonalization module represented with original open notes
-- [ ] 06 Orthogonality and Projections — 1 lesson
-- [ ] 07 Low-Rank Structure and Quadratic Geometry — 4 lessons
-- [ ] 08 Linear Algebra in Models — 2 lessons
-- [ ] 09 Multivariable Calculus for Learning — 1 lesson
-- [ ] 10 Reasoning Under Uncertainty — 2 lessons
-- [ ] 11 Joint Distributions and Covariance — 2 lessons
-- [ ] 12 Statistical Estimation from Samples module represented with original open notes
-- [ ] All 34 public lesson routes represented
-- [ ] Original explanations, examples, citations, and previous/next navigation
-- [ ] Completion, resume, and module progress persistence
+- [x] `/ml-math/overview`
+- [x] `/ml-math/decoder`
+- [x] `/ml-math/resources`
+- [x] 01 Set Language for Machine Learning — 14 lessons
+- [x] 02 Logic for Precise Reasoning — 5 lessons
+- [x] 03 Linear Systems and Geometric Maps — 1 lesson
+- [x] 04 Vector Spaces, Bases, and Rank — 2 lessons
+- [x] 05 Spectral Thinking and Diagonalization module represented with original open notes
+- [x] 06 Orthogonality and Projections — 1 lesson
+- [x] 07 Low-Rank Structure and Quadratic Geometry — 4 lessons
+- [x] 08 Linear Algebra in Models — 2 lessons
+- [x] 09 Multivariable Calculus for Learning — 1 lesson
+- [x] 10 Reasoning Under Uncertainty — 2 lessons
+- [x] 11 Joint Distributions and Covariance — 2 lessons
+- [x] 12 Statistical Estimation from Samples module represented with original open notes
+- [x] All 34 public lesson routes represented
+- [x] Original explanations, examples, citations, and previous/next navigation
+- [x] Completion, resume, and module progress persistence
+
+Mathematics evidence (2026-08-24): registry tests lock the 12-module sequence, observed group structure, exact 34 titles and public source slugs, unique local routes, topic symbols, substantive original notes, and cross-module neighbors. Component tests cover the full overview, open-note modules, lesson equations/references, completion, decoder, and resources. Coverage reports 34 mathematics lessons with no deferral; the production build prerendered all 34 routes; Playwright passed three mathematics acceptance tests. Desktop and 320px screenshots were visually inspected against the live course hierarchy.
 
 ## Mathematics public lesson routes
 
-- [ ] Special Sets and the Number-System Ladder
-- [ ] Equivalent Sets
-- [ ] Building Sets by Listing Members
-- [ ] Building Sets with Membership Conditions
-- [ ] Set-Builder Notation
-- [ ] Planar Regions in Set-Builder Form
-- [ ] Indicator Functions
-- [ ] Indicator Functions for Predicates
-- [ ] The Cartesian Product
-- [ ] Cartesian Products as Regions
-- [ ] Interior and Boundary Points
-- [ ] Supremum and Infimum
-- [ ] Argmax and Argmin Notation
-- [ ] Reading Argmax and Argmin from Data
-- [ ] Truth Tables
-- [ ] De Morgan's Laws for Logic
-- [ ] Truth Sets of Predicates
-- [ ] Boolean Functions
-- [ ] Boolean Functions and Logical Operations
-- [ ] The Image of an Affine Transformation
-- [ ] Change-of-Coordinates Matrices
-- [ ] Converting Between Bases
-- [ ] Distance-Preserving Linear Maps
-- [ ] Singular Values as Matrix Stretch
-- [ ] Computing Matrix Singular Values
-- [ ] SVD for 2x2 Matrices
-- [ ] SVD with Zero or Repeated Eigenvalues
-- [ ] Introduction to Principal Component Analysis
-- [ ] How PCA Connects to SVD
-- [ ] Gradients over Selected Variables
-- [ ] Many-to-One Transforms of Discrete Variables
-- [ ] CDF Methods for Many-to-One Transforms
-- [ ] Conditional Variance for Continuous Variables
-- [ ] Transforming Expectations for Two Variables
+- [x] Special Sets and the Number-System Ladder
+- [x] Equivalent Sets
+- [x] Building Sets by Listing Members
+- [x] Building Sets with Membership Conditions
+- [x] Set-Builder Notation
+- [x] Planar Regions in Set-Builder Form
+- [x] Indicator Functions
+- [x] Indicator Functions for Predicates
+- [x] The Cartesian Product
+- [x] Cartesian Products as Regions
+- [x] Interior and Boundary Points
+- [x] Supremum and Infimum
+- [x] Argmax and Argmin Notation
+- [x] Reading Argmax and Argmin from Data
+- [x] Truth Tables
+- [x] De Morgan's Laws for Logic
+- [x] Truth Sets of Predicates
+- [x] Boolean Functions
+- [x] Boolean Functions and Logical Operations
+- [x] The Image of an Affine Transformation
+- [x] Change-of-Coordinates Matrices
+- [x] Converting Between Bases
+- [x] Distance-Preserving Linear Maps
+- [x] Singular Values as Matrix Stretch
+- [x] Computing Matrix Singular Values
+- [x] SVD for 2x2 Matrices
+- [x] SVD with Zero or Repeated Eigenvalues
+- [x] Introduction to Principal Component Analysis
+- [x] How PCA Connects to SVD
+- [x] Gradients over Selected Variables
+- [x] Many-to-One Transforms of Discrete Variables
+- [x] CDF Methods for Many-to-One Transforms
+- [x] Conditional Variance for Continuous Variables
+- [x] Transforming Expectations for Two Variables
 
 ## Labs
 
