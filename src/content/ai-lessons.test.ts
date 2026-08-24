@@ -52,6 +52,10 @@ describe('AI curriculum registry', () => {
   it('contains exactly the 16 mapped public YouTube lessons', () => {
     expect(publicAiYoutubeIds).toEqual(expectedYoutubeIds);
     expect(aiLessons.filter((lesson) => lesson.youtubeEmbedUrl)).toHaveLength(16);
+    expect(aiLessons.every((lesson) => lesson.youtubeSearchUrl.startsWith('https://www.youtube.com/results?search_query='))).toBe(true);
+    expect(aiLessons.filter((lesson) => !lesson.youtubeEmbedUrl)).toHaveLength(92);
+    expect(aiLessonBySlug.get('core-ai-intuitions-similarity-with-dot-product')?.youtubeSearchUrl)
+      .toBe('https://www.youtube.com/results?search_query=Similarity%20With%20Dot%20Product%20Core%20AI%20Intuitions');
   });
 
   it('derives previous and next lessons across module boundaries', () => {

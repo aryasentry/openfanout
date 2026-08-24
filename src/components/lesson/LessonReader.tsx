@@ -90,6 +90,9 @@ export function LessonReader({ lesson, neighbors }: LessonReaderProps) {
               <div>
                 <h2>Open reading lesson</h2>
                 <p>This lesson is presented as concise original notes with a verification-oriented practice checkpoint.</p>
+                <a className={styles.searchVideoLink} href={lesson.youtubeSearchUrl} target="_blank" rel="noreferrer noopener">
+                  Find a matching video on YouTube <ArrowRight size={13} aria-hidden="true" />
+                </a>
               </div>
             </section>
           )}

@@ -63,4 +63,14 @@ describe('LessonReader', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Mark incomplete' }));
     expect(updateProgress).toHaveBeenCalledWith({ completedLessonIds: [], lastRoute: lesson.route });
   });
+
+  it('offers a YouTube topic search when Fanout has no public embed', () => {
+    renderLesson('core-ai-intuitions-similarity-with-dot-product');
+
+    expect(screen.getByRole('link', { name: 'Find a matching video on YouTube' })).toHaveAttribute(
+      'href',
+      'https://www.youtube.com/results?search_query=Similarity%20With%20Dot%20Product%20Core%20AI%20Intuitions',
+    );
+    expect(screen.getByRole('heading', { name: 'Concept map' })).toBeInTheDocument();
+  });
 });

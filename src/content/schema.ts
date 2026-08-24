@@ -34,6 +34,7 @@ export interface LessonRecord extends CatalogRecord {
   moduleId: string;
   order: number;
   youtubeEmbedUrl?: string;
+  youtubeSearchUrl?: string;
   notes: LessonNote[];
 }
 

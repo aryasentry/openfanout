@@ -20,6 +20,7 @@ export interface AiLessonRecord extends LessonRecord {
   lessonNumber: number;
   duration: string;
   symbol: string;
+  youtubeSearchUrl: string;
 }
 
 export interface AiCurriculumModule extends CurriculumModule {
@@ -315,6 +316,7 @@ export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
       duration: `${8 + (globalLessonOrder % 9)} min`,
       symbol: lessonSymbols[module.id]?.[lessonIndex] ?? String(lessonIndex + 1),
       youtubeEmbedUrl: seed.youtubeId ? `https://www.youtube-nocookie.com/embed/${seed.youtubeId}` : undefined,
+      youtubeSearchUrl: `https://www.youtube.com/results?search_query=${encodeURIComponent(`${seed.title} ${module.title}`)}`,
       notes: buildNotes(seed.title, module.title),
     };
   });

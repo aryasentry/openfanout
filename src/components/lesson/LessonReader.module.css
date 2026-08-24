@@ -145,6 +145,7 @@
 
 .readingBanner h2 { margin: 0; font: 600 15px/1.3 var(--font-display); }
 .readingBanner p { margin: 7px 0 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.searchVideoLink { display: inline-flex; align-items: center; gap: 5px; margin-top: 10px; color: var(--accent); font-size: 12px; font-weight: 650; text-decoration: none; }
 
 .notes { padding: 6px 24px; }
 
