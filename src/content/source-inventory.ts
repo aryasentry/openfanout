@@ -18,7 +18,7 @@ export type CoveragePartition =
 
 export const coverageRequirements: Record<CoveragePartition, number> = {
   pages: 31,
-  externalResources: 455,
+  externalResources: 456,
   aiLessons: 108,
   aiYoutubeLessons: 16,
   mathLessons: 34,

@@ -11,7 +11,7 @@ export function DirectoryPage({ page }: { page: DirectoryPageRecord }) {
   const sections = useMemo(() => page.sections
     .map((section) => ({
       ...section,
-      records: section.records.filter((record) => !normalized || [record.title, record.section, ...(record.tags ?? [])]
+      records: section.records.filter((record) => !normalized || [record.title, record.section, record.summary, record.externalUrl, ...Object.values(record.metadata ?? {}), ...(record.details ?? []), ...(record.tags ?? [])]
         .join(' ')
         .toLocaleLowerCase()
         .includes(normalized)),
@@ -42,7 +42,14 @@ export function DirectoryPage({ page }: { page: DirectoryPageRecord }) {
             {section.records.map((record) => (
               <a id={record.slug} data-testid="directory-resource" href={record.externalUrl} target="_blank" rel="noreferrer noopener" key={record.id}>
                 <span className={styles.monogram} aria-hidden="true">{record.title.slice(0, 2).toLocaleUpperCase()}</span>
-                <span className={styles.copy}><strong>{record.title}</strong><small>{record.summary}</small></span>
+                <span className={styles.copy}>
+                  <strong>{record.title}</strong>
+                  {Object.keys(record.metadata ?? {}).length > 0 || (record.details?.length ?? 0) > 0 ? (
+                    <span className={styles.metadata}>{[...Object.values(record.metadata ?? {}), ...(record.details ?? [])].join(' · ')}</span>
+                  ) : null}
+                  {record.summary ? <small>{record.summary}</small> : null}
+                  <code>{record.externalUrl}</code>
+                </span>
                 <ArrowUpRight size={15} aria-hidden="true" />
               </a>
             ))}

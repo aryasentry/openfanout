@@ -6,6 +6,8 @@ export interface ExternalResourceRecord extends CatalogRecord {
   externalUrl: string;
   sourcePage: string;
   pageTitle: string;
+  metadata?: Record<string, string>;
+  details?: string[];
 }
 
 export interface DirectorySection {
@@ -21,26 +23,15 @@ export interface DirectoryPageRecord {
   sections: DirectorySection[];
 }
 
-const pageDescriptions: Record<string, string> = {
-  '/ai/resources': 'Books, courses, playlists, and channels for building durable AI foundations.',
-  '/ai/community': 'Active groups and organizations where serious learners compare notes and build together.',
-  '/study-with-me': 'A focused ambient study companion for quiet working sessions.',
-  '/ai/articles': 'Long-form technical writing selected for clarity, depth, and practical research value.',
-  '/ai/blogs': 'Researcher and lab writing that exposes how modern machine-learning systems are developed.',
-  '/ai/tools': 'A compact working stack for experiments, data, evaluation, and reproducible research.',
-  '/ai/newsletters': 'High-signal digests for research results, engineering practice, and industry movement.',
-  '/ai/guides': 'Hands-on references for common research and model-building workflows.',
-  '/ai/papers': 'A small foundational reading sequence for modern machine learning.',
-  '/ai/jobs': 'Public destinations for current research and machine-learning opportunities.',
-  '/ai/misc': 'Useful talks, tools, archives, and technical rabbit holes that resist a single category.',
-  '/companies': 'Labs and startups shaping models, infrastructure, data, evaluation, and applied AI.',
-  '/ai/deep-learning': 'Courses, books, implementations, and lectures from neural-network basics to current architectures.',
-  '/ai/machine-learning': 'Classical learning theory, practical algorithms, and reliable implementation references.',
-  '/ai/reinforcement-learning': 'Courses and papers covering agents, value functions, policies, and learning from feedback.',
-  '/ai/gpu': 'CUDA, Triton, architecture, profiling, and distributed-compute references for faster models.',
-};
+interface ExternalResourceSnapshot {
+  pages: Array<{ route: string; title: string; description: string; count: number }>;
+  records: ExternalResourceRecord[];
+}
 
-export const externalResources = snapshot.records as ExternalResourceRecord[];
+const publicSnapshot = snapshot as unknown as ExternalResourceSnapshot;
+const sourcePages = new Map(publicSnapshot.pages.map((page) => [page.route, page]));
+
+export const externalResources = publicSnapshot.records;
 
 export const supplementalMathResources: ExternalResourceRecord[] = [
   {
@@ -70,7 +61,7 @@ for (const record of externalResources) {
     page = {
       route: record.sourcePage,
       title: record.pageTitle,
-      description: pageDescriptions[record.sourcePage] ?? `Open public references organized for ${record.pageTitle.toLocaleLowerCase()}.`,
+      description: sourcePages.get(record.sourcePage)?.description ?? '',
       records: [],
       sections: [],
     };

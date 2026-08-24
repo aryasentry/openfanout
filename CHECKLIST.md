@@ -21,7 +21,7 @@ Persistence evidence (2026-08-24): four storage tests prove cross-instance Index
 
 Search evidence (2026-08-24): deterministic ranking, local-link, dialog, Escape, and command-shortcut tests passed. Chrome Computer Use opened the palette from the real top-bar control and resolved `cuda` directly to the local `/ai/gpu` route.
 
-Coverage evidence (2026-08-24): the verifier closed all requested partitions with 643 records: 31 local pages, 455 unique external resources, 108 AI lessons, 34 mathematics lessons, 15 labs, and 30 daily issues. It rejects duplicate URLs, unmatched records, and forbidden routes or labels.
+Coverage evidence (2026-08-24): the verifier closed all requested partitions with 651 records: 31 local pages, 456 exact external URL strings, 108 AI lessons, 34 mathematics lessons, 15 labs, and 30 daily issues. It rejects duplicate provenance records, unmatched records, and forbidden routes or labels.
 
 Browser evidence (2026-08-24): Playwright passed desktop shell/search, 320px drawer/no-overflow, AI reload persistence, mathematics overview, decoder, mathematics reload persistence, and mathematics 320px no-overflow checks. Desktop and mobile screenshots were inspected and saved under `design/screenshots/`.
 
@@ -53,11 +53,11 @@ Browser evidence (2026-08-24): Playwright passed desktop shell/search, 320px dra
 - [x] `/ai/machine-learning`
 - [x] `/ai/reinforcement-learning`
 - [x] `/ai/gpu`
-- [x] Source inventory contains at least the 455 unique external resources already mapped, plus every additional record discovered on the remaining requested pages
+- [x] Source inventory preserves all 430 current Fanout directory placements, 423 exact directory URL strings, three mathematics references, and 30 original-paper URLs
 - [x] Coverage verifier reports zero unmatched records from the final source snapshot
 - [x] Independently written copy for every local catalog group and definition
 
-Directory evidence (2026-08-24): the public Markdown mirrors yielded 422 unique directory links after URL deduplication; three open mathematics references and 30 unique original-paper URLs close the 455-link requirement exactly. Tests lock representative titles, destinations, per-page counts, 192 glossary terms, and local filters. The real-browser crawl opened every unique local catalog route successfully.
+Directory evidence (2026-08-24): the live public Markdown mirrors yielded 430 directory placements, including nine intentional repeated destinations and one relative PDF previously omitted. The snapshot retains all 423 exact directory URL strings, 190 source-written descriptions, all 430 metadata blocks, exact page descriptions, and the 240 entries Fanout intentionally leaves without prose. Three mathematics references and 30 original-paper URLs bring coverage to 456 exact external URL strings. Tests reject generic replacement summaries, omitted duplicate placements, truncated query strings, and missing source metadata. Chrome verified the full description, metadata, PDF destination, and complete playlist URL in the rendered resource cards.
 
 ## AI curriculum modules
 
@@ -234,4 +234,4 @@ Daily evidence (2026-08-24): source snapshot tests lock the latest 30 chronologi
 - [x] All public YouTube embeds load or expose a working fallback link
 - [x] No forbidden pricing/account/dark-mode surface exists
 
-Final verification evidence (2026-08-24): a fresh `npm ci` reported zero vulnerabilities and the following production build generated 222 static pages. Vitest passed 58/58 tests across 26 files; TypeScript and ESLint passed with zero errors or warnings; the coverage command reported all 643 records; and Playwright passed all nine browser scenarios, including a crawl of every unique local route. A 48-sample external audit covered every catalog section, daily track, and mathematics resource category. Desktop, 768px tablet, and 320px mobile captures were visually inspected. Every one of the 16 public video records renders a local embed card with its direct YouTube fallback link.
+Final verification evidence (2026-08-24): the production build generated 222 static pages. Vitest passed 59/59 tests across 26 files; TypeScript and ESLint passed with zero errors or warnings; the coverage command reported all 651 inventory records and 456 exact external URL strings; and Playwright passed all nine browser scenarios, including a crawl of every unique local route. Chrome compared the live Fanout resource page with openFanout and confirmed that source page copy, resource metadata, full descriptions, complete absolute URLs, query strings, intentional repeated placements, and the recovered PDF render locally. Desktop, 768px tablet, and 320px mobile captures were visually inspected. Every one of the 16 public video records renders a local embed card with its direct YouTube fallback link.

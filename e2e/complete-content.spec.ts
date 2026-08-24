@@ -29,7 +29,7 @@ test('every local catalog route responds successfully', async ({ request }) => {
 
 test('opens directories, glossary, labs, and daily archive with complete counts', async ({ page }) => {
   await page.goto('/ai/resources');
-  await expect(page.getByTestId('directory-resource')).toHaveCount(39);
+  await expect(page.getByTestId('directory-resource')).toHaveCount(40);
 
   await page.goto('/ai/glossary');
   await expect(page.getByTestId('glossary-term')).toHaveCount(192);
