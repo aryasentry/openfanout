@@ -6,6 +6,7 @@ import {
   BriefcaseBusiness,
   Building2,
   ChartNoAxesCombined,
+  ChevronDown,
   Code2,
   Cpu,
   FileText,
@@ -28,7 +29,8 @@ import {
   X,
   type LucideIcon,
 } from 'lucide-react';
-import type { NavigationGroup } from '@/content/schema';
+import { aiModules } from '../../content/ai-lessons';
+import type { NavigationGroup } from '../../content/schema';
 import styles from './AppShell.module.css';
 
 const icons: Record<string, LucideIcon> = {
@@ -110,11 +112,45 @@ export function WorkspaceSidebar({ groups, activePath, open, onClose }: Workspac
           ))}
           <section className={styles.navGroup} aria-labelledby="nav-curriculum">
             <h2 id="nav-curriculum">Curriculum</h2>
-            <ul>
-              <li><Link href="/ai/overview#math-fundamentals" className={styles.moduleNavItem}><span>01.</span> Math Fundamentals</Link></li>
-              <li><Link href="/ai/overview#core-ai-intuitions" className={styles.moduleNavItem}><span>02.</span> Core AI Intuitions</Link></li>
-              <li><Link href="/ai/overview#pytorch-fundamentals" className={styles.moduleNavItem}><span>03.</span> PyTorch Fundamentals</Link></li>
-            </ul>
+            <div className={styles.curriculumList}>
+              {aiModules.map((module) => {
+                const containsActiveLesson = module.lessons.some((lesson) => lesson.route === activePath);
+                return (
+                  <details
+                    className={styles.moduleDisclosure}
+                    open={containsActiveLesson || (activePath === '/ai/overview' && module.index === 1)}
+                    data-testid="sidebar-module"
+                    key={module.id}
+                  >
+                    <summary className={styles.moduleNavItem}>
+                      <span>{String(module.index).padStart(2, '0')}</span>
+                      <strong>{module.shortTitle}</strong>
+                      <small>{module.lessons.length}</small>
+                      <ChevronDown size={13} aria-hidden="true" />
+                    </summary>
+                    <ul className={styles.lessonNavList}>
+                      {module.lessons.map((lesson) => {
+                        const selected = lesson.route === activePath;
+                        return (
+                          <li key={lesson.id}>
+                            <Link
+                              href={lesson.route}
+                              className={`${styles.lessonNavItem} ${selected ? styles.lessonNavItemSelected : ''}`}
+                              aria-current={selected ? 'page' : undefined}
+                              data-testid="sidebar-lesson-link"
+                              onClick={onClose}
+                            >
+                              <span className={styles.sidebarTopicSymbol}>{lesson.symbol}</span>
+                              <span>{lesson.title}</span>
+                            </Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </details>
+                );
+              })}
+            </div>
           </section>
         </nav>
       </aside>

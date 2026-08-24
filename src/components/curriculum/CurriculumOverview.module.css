@@ -1,21 +1,20 @@
 .main {
-  width: min(100%, 1160px);
+  width: min(100%, 940px);
   margin: 0 auto;
-  padding: 48px 34px 88px;
+  padding: 64px 34px 88px;
 }
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(360px, 0.95fr);
-  gap: 48px;
+  grid-template-columns: minmax(0, 1fr) 190px;
+  gap: 54px;
   align-items: center;
-  min-height: 248px;
-  margin-bottom: 18px;
+  min-height: 190px;
+  margin: 0 22px 28px;
 }
 
 .introCopy {
-  position: relative;
-  padding: 0 0 0 10px;
+  padding: 0;
 }
 
 .intro h1 {
@@ -25,45 +24,45 @@
 }
 
 .introCopy > p {
-  max-width: 610px;
+  max-width: 630px;
   margin: 12px 0 0;
   color: var(--muted);
   font-size: 14px;
   line-height: 1.65;
 }
 
+.archiveMeta {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .illustration {
   display: block;
-  width: min(460px, 90%);
+  width: 180px;
   height: auto;
-  margin: 14px 0 -22px;
+  justify-self: end;
   object-fit: contain;
 }
 
-.openCallout {
-  display: flex;
-  gap: 18px;
-  align-items: flex-start;
-  min-height: 170px;
+.studyButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+  margin-top: 17px;
   border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
+  border-radius: 6px;
   background: var(--surface);
-  padding: 30px 32px;
+  color: var(--text);
+  padding: 0 11px;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 600;
   box-shadow: var(--shadow-sm);
 }
 
-.calloutIcon {
-  display: grid;
-  place-items: center;
-  flex: 0 0 68px;
-  width: 68px;
-  height: 68px;
-  border-radius: 50%;
-  background: var(--mint);
-  color: var(--mint-strong);
-}
-
-.openCallout h2,
 .panel > h2,
 .resumeStrip h2 {
   margin: 0;
@@ -71,13 +70,6 @@
   letter-spacing: -0.02em;
 }
 
-.openCallout p {
-  margin: 9px 0 17px;
-  color: var(--muted);
-  font-size: 13px;
-}
-
-.primaryButton,
 .resumeButton {
   display: inline-flex;
   align-items: center;
@@ -89,11 +81,6 @@
   text-decoration: none;
   font-size: 13px;
   font-weight: 650;
-}
-
-.primaryButton {
-  background: var(--accent);
-  padding: 0 17px;
 }
 
 .panel {
@@ -117,13 +104,14 @@
 
 .moduleLink {
   display: grid;
-  grid-template-columns: 32px auto minmax(0, 1fr) auto;
-  gap: 9px;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  gap: 7px;
   align-items: center;
-  min-height: 48px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 6px 10px 6px 7px;
+  min-height: 58px;
+  border: 0;
+  border-radius: 5px;
+  background: #fafafa;
+  padding: 9px 11px;
   color: var(--text);
   text-decoration: none;
   font-size: 12px;
@@ -135,19 +123,22 @@
   color: var(--accent);
 }
 
-.moduleIcon {
-  display: grid;
-  place-items: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 6px;
-  background: var(--accent-soft);
-  color: var(--accent);
-}
-
 .moduleNumber {
   color: var(--muted);
   font: 500 11px/1 var(--font-display);
+}
+
+.moduleCopy {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.moduleCopy small {
+  color: var(--muted);
+  font: 500 9px/1 var(--font-display);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .moduleTitle {
@@ -169,6 +160,25 @@
   align-items: center;
 }
 
+.fullCurriculum {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 18px 0 5px;
+  color: #969ca4;
+  font: 500 9px/1 var(--font-display);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.fullCurriculum::before,
+.fullCurriculum::after {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+  content: '';
+}
+
 .resumeStrip h2 {
   margin-bottom: 12px;
 }
@@ -188,7 +198,7 @@
   border-radius: 6px;
   background: var(--accent-soft);
   color: var(--accent);
-  font: italic 14px/1 Georgia, serif;
+  font: 600 11px/1 var(--font-display);
 }
 
 .progressGroup {
@@ -248,9 +258,18 @@
   font-size: 11px;
 }
 
+.moduleCompletion {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--muted);
+  font: 500 10px/1 var(--font-display);
+  text-transform: uppercase;
+}
+
 .lessonRow {
   display: grid;
-  grid-template-columns: 54px minmax(0, 1fr) 40px 58px 16px;
+  grid-template-columns: 38px 54px minmax(0, 1fr) 56px 50px 16px;
   gap: 12px;
   align-items: center;
   min-height: 58px;
@@ -258,6 +277,19 @@
   padding: 8px 18px;
   color: var(--text);
   text-decoration: none;
+}
+
+.topicSymbol {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  border-radius: 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font: 600 9px/1 var(--font-display);
+  text-align: center;
 }
 
 .lessonRow:hover {
@@ -269,6 +301,12 @@
 .lessonDuration {
   color: var(--muted);
   font: 500 10px/1 var(--font-display);
+}
+
+.lessonStatus {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .lessonCopy {
@@ -287,23 +325,20 @@
 
 @media (max-width: 1180px) {
   .main { padding-inline: 24px; }
-  .intro { grid-template-columns: 1fr; gap: 18px; }
-  .openCallout { max-width: 620px; }
   .moduleGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 719px) {
   .main { padding: 28px 14px 70px; }
-  .introCopy { padding-left: 0; }
+  .intro { grid-template-columns: 1fr; gap: 10px; margin-inline: 0; }
   .intro h1 { font-size: 27px; }
-  .illustration { width: 100%; margin-bottom: -10px; }
-  .openCallout { min-height: 0; padding: 20px; }
-  .calloutIcon { flex-basis: 52px; width: 52px; height: 52px; }
+  .illustration { width: 145px; justify-self: center; }
   .moduleGrid { grid-template-columns: 1fr; }
   .resumeStrip { grid-template-columns: 1fr; gap: 16px; }
   .progressGroup { grid-template-columns: auto 1fr; }
   .resumeButton { width: 100%; }
-  .lessonRow { grid-template-columns: 42px minmax(0, 1fr) 16px; }
+  .lessonRow { grid-template-columns: 36px 44px minmax(0, 1fr) 16px; padding-inline: 12px; }
   .lessonStatus,
   .lessonDuration { display: none; }
+  .lessonCopy small { display: none; }
 }

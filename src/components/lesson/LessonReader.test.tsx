@@ -35,6 +35,7 @@ describe('LessonReader', () => {
     renderLesson('math-fundamentals-functions');
 
     expect(screen.getByRole('heading', { name: 'Functions' })).toBeInTheDocument();
+    expect(screen.getByText('ƒ(x)')).toBeInTheDocument();
     expect(screen.getByTitle('Video: Functions')).toHaveAttribute('src', 'https://www.youtube-nocookie.com/embed/kvGsIo1TmsM');
     expect(screen.getByRole('link', { name: 'Open Functions on YouTube' })).toHaveAttribute('href', 'https://www.youtube.com/watch?v=kvGsIo1TmsM');
     expect(screen.getByRole('heading', { name: 'Concept map' })).toBeInTheDocument();

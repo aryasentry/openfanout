@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
+  aiLessonBySlug,
   aiLessons,
   aiModules,
   getAiLessonNeighbors,
@@ -40,6 +41,12 @@ describe('AI curriculum registry', () => {
     expect(new Set(aiLessons.map((lesson) => lesson.slug)).size).toBe(108);
     expect(new Set(aiLessons.map((lesson) => lesson.route)).size).toBe(108);
     expect(aiLessons.every((lesson) => lesson.route === `/ai/lessons/${lesson.slug}`)).toBe(true);
+  });
+
+  it('assigns a meaningful visual symbol to every topic', () => {
+    expect(aiLessons.every((lesson) => lesson.symbol.trim().length > 0)).toBe(true);
+    expect(aiLessonBySlug.get('math-fundamentals-functions')?.symbol).toBe('ƒ(x)');
+    expect(aiLessonBySlug.get('math-fundamentals-gradients')?.symbol).toBe('∇');
   });
 
   it('contains exactly the 16 mapped public YouTube lessons', () => {

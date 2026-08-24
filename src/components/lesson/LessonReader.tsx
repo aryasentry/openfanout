@@ -42,7 +42,10 @@ export function LessonReader({ lesson, neighbors }: LessonReaderProps) {
           <p className={styles.eyebrow}>
             {String(lesson.moduleIndex).padStart(2, '0')}.{String(lesson.lessonNumber).padStart(2, '0')} · {currentModule?.title}
           </p>
-          <h1>{lesson.title}</h1>
+          <div className={styles.titleRow}>
+            <span className={styles.lessonSymbol} aria-hidden="true">{lesson.symbol}</span>
+            <h1>{lesson.title}</h1>
+          </div>
           <p className={styles.summary}>{lesson.summary}</p>
         </div>
         <button

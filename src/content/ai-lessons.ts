@@ -19,6 +19,7 @@ export interface AiLessonRecord extends LessonRecord {
   moduleIndex: number;
   lessonNumber: number;
   duration: string;
+  symbol: string;
 }
 
 export interface AiCurriculumModule extends CurriculumModule {
@@ -273,6 +274,21 @@ function buildNotes(title: string, moduleTitle: string) {
   ];
 }
 
+const lessonSymbols: Record<string, string[]> = {
+  'math-fundamentals': ['ƒ(x)', 'd/dx', 'v⃗', '∇', 'A', 'd·', '∂z/∂x', 'δ', 'J', '⊙', 'H', 'Dₖₗ', 'UΣVᵀ', 'EMA', '∑'],
+  'core-ai-intuitions': ['a·b', 'σ(z)', '↗', '‖x‖'],
+  'pytorch-fundamentals': ['T', '@', 'Tᵀ', '↔', '[i:j]', '⊕', 'Iₙ', 'T*', '7×'],
+  'tensorflow-fundamentals': ['ŷ', 'Conv', 'PT', 'L', 'K', '↺', 'Σ', '10', 'Inc', 'TL', '▶', 'FT', 'δ', 'ε', 'Viz', 'MNIST', 'Dream', 'Style', 'GPU', 'RL', 'Est', 'TFRec', 'λ', 'NLP', 'MT', 'Cap', 't'],
+  'neural-network-from-scratch': ['∑wx+b', 'L', 'NN', 'RMS', 'η', 'Adam', 'fθ'],
+  transformers: ['QKᵀ', 'SA', 'GPT'],
+  'reinforcement-learning': ['(s,a)', '∇J', 'Q', 'πθ', 'G'],
+  'llm-from-scratch': ['L4', 'V3', 'Q3', 'Σ'],
+  'write-research-paper': ['✎'],
+  'fine-tuning': ['Δθ', 'BA', 'D', 'η', '✓'],
+  mlops: ['∞', 'git', 'class', 'DVC', 'S3', 'MLf', 'CI', '◫', 'VI', 'DB', '↓', '✓→', 'Eval', 'API', 'CD', 'K8s', '⎈', 'P/G', '📈', 'E2E', 'DAG', 'DVC+', 'CI/CD', 'EKS', 'P/G+'],
+  'bonus-lessons': ['L×B', 'Swi', 'ρ'],
+};
+
 let globalLessonOrder = 0;
 
 export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
@@ -297,6 +313,7 @@ export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
       lessonNumber: lessonIndex + 1,
       order: globalLessonOrder,
       duration: `${8 + (globalLessonOrder % 9)} min`,
+      symbol: lessonSymbols[module.id]?.[lessonIndex] ?? String(lessonIndex + 1),
       youtubeEmbedUrl: seed.youtubeId ? `https://www.youtube-nocookie.com/embed/${seed.youtubeId}` : undefined,
       notes: buildNotes(seed.title, module.title),
     };
