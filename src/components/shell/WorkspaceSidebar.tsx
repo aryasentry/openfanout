@@ -72,7 +72,7 @@ interface WorkspaceSidebarProps {
 }
 
 export function WorkspaceSidebar({ groups, activePath, open, onClose }: WorkspaceSidebarProps) {
-  const curriculumModules = activePath.startsWith('/ml-math/') ? mathModules : aiModules;
+  const curriculumModules = activePath.startsWith('/daily') || activePath.startsWith('/labs') ? [] : activePath.startsWith('/ml-math/') ? mathModules : aiModules;
   return (
     <>
       <button
@@ -114,7 +114,7 @@ export function WorkspaceSidebar({ groups, activePath, open, onClose }: Workspac
               </ul>
             </section>
           ))}
-          <section className={styles.navGroup} aria-labelledby="nav-curriculum">
+          {curriculumModules.length ? <section className={styles.navGroup} aria-labelledby="nav-curriculum">
             <h2 id="nav-curriculum">Curriculum</h2>
             <div className={styles.curriculumList}>
               {curriculumModules.map((module) => {
@@ -155,7 +155,7 @@ export function WorkspaceSidebar({ groups, activePath, open, onClose }: Workspac
                 );
               })}
             </div>
-          </section>
+          </section> : null}
         </nav>
       </aside>
     </>

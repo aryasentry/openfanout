@@ -52,3 +52,28 @@ export const mathNavigation: NavigationGroup[] = [
     ],
   },
 ];
+
+export const dailyNavigation: NavigationGroup[] = [
+  {
+    id: 'daily-workspace',
+    label: 'Workspace',
+    items: [
+      { label: 'Daily archive', href: '/daily', icon: 'Newspaper' },
+      { label: 'AI curriculum', href: '/ai/overview', icon: 'Brain' },
+      { label: 'Mathematics', href: '/ml-math/overview', icon: 'FunctionSquare' },
+    ],
+  },
+];
+
+export const labNavigation: NavigationGroup[] = [
+  {
+    id: 'labs-workspace',
+    label: 'Workspace',
+    items: [
+      { label: 'Labs catalog', href: '/labs', icon: 'Wrench' },
+      { label: 'AI curriculum', href: '/ai/overview', icon: 'Brain' },
+      { label: 'Mathematics', href: '/ml-math/overview', icon: 'FunctionSquare' },
+      { label: 'Daily papers', href: '/daily', icon: 'Newspaper' },
+    ],
+  },
+];

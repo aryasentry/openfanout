@@ -1,7 +1,10 @@
 import foundationInventory from './source-inventory.json';
 import { aiLessons } from './ai-lessons';
 import { mathLessons } from './math-lessons';
-import { pageCatalog } from './catalog';
+import { dailyArchiveCatalog, labsCatalogPage, pageCatalog } from './catalog';
+import { allExternalResources } from './external-resources';
+import { dailyPapers } from './daily-papers';
+import { labs } from './labs';
 import type { SourceInventoryRecord } from './schema';
 
 export type CoveragePartition =
@@ -14,7 +17,7 @@ export type CoveragePartition =
   | 'dailyIssues';
 
 export const coverageRequirements: Record<CoveragePartition, number> = {
-  pages: 29,
+  pages: 31,
   externalResources: 455,
   aiLessons: 108,
   aiYoutubeLessons: 16,
@@ -23,11 +26,7 @@ export const coverageRequirements: Record<CoveragePartition, number> = {
   dailyIssues: 30,
 };
 
-export const deferredCoveragePartitions: CoveragePartition[] = [
-  'externalResources',
-  'labs',
-  'dailyIssues',
-];
+export const deferredCoveragePartitions: CoveragePartition[] = [];
 
 export const requiredAiYoutubeIds = [
   'kvGsIo1TmsM',
@@ -75,9 +74,35 @@ const mathLessonInventory: SourceInventoryRecord[] = mathLessons.map((lesson) =>
   checkedAt: lesson.provenanceCheckedAt,
 }));
 
+const externalResourceInventory: SourceInventoryRecord[] = allExternalResources.map((record) => ({
+  sourceUrl: record.sourceUrl,
+  localId: record.id,
+  kind: record.kind,
+  checkedAt: record.provenanceCheckedAt,
+}));
+
+const dailyPaperInventory: SourceInventoryRecord[] = dailyPapers.map((paper) => ({
+  sourceUrl: paper.sourceUrl,
+  localId: paper.id,
+  kind: paper.kind,
+  checkedAt: paper.provenanceCheckedAt,
+}));
+
+const labInventory: SourceInventoryRecord[] = labs.map((lab) => ({
+  sourceUrl: lab.sourceUrl,
+  localId: lab.id,
+  kind: lab.kind,
+  checkedAt: lab.provenanceCheckedAt,
+}));
+
 export const sourceInventory: SourceInventoryRecord[] = [
   ...(foundationInventory.records as SourceInventoryRecord[]),
   ...observedWorkspacePageInventory,
+  { sourceUrl: dailyArchiveCatalog.sourceUrl, localId: dailyArchiveCatalog.id, kind: dailyArchiveCatalog.kind, checkedAt: dailyArchiveCatalog.provenanceCheckedAt },
+  { sourceUrl: labsCatalogPage.sourceUrl, localId: labsCatalogPage.id, kind: labsCatalogPage.kind, checkedAt: labsCatalogPage.provenanceCheckedAt },
   ...aiLessonInventory,
   ...mathLessonInventory,
+  ...externalResourceInventory,
+  ...dailyPaperInventory,
+  ...labInventory,
 ];

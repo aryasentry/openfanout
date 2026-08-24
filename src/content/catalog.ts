@@ -1,6 +1,9 @@
 import type { CatalogRecord } from './schema';
 import { aiLessons } from './ai-lessons';
 import { mathLessons } from './math-lessons';
+import { dailyPapers } from './daily-papers';
+import { allExternalResources } from './external-resources';
+import { labs } from './labs';
 import { aiNavigation, mathNavigation } from './navigation';
 
 const summaries: Record<string, { summary: string; tags?: string[] }> = {
@@ -37,4 +40,33 @@ export const pageCatalog: CatalogRecord[] = pageNavigation.flatMap((group) => gr
   };
 }));
 
-export const catalog: CatalogRecord[] = [...pageCatalog, ...aiLessons, ...mathLessons];
+export const dailyArchiveCatalog: CatalogRecord = {
+  id: 'page-daily',
+  slug: 'daily',
+  title: 'Daily paper archive',
+  kind: 'page',
+  workspace: 'daily',
+  section: 'daily-workspace',
+  route: '/daily',
+  sourceUrl: 'https://fanout.sh/daily',
+  provenanceCheckedAt: '2026-08-24',
+  summary: 'Thirty source-linked daily paper readings across AI and systems.',
+  tags: ['papers', 'archive'],
+};
+
+export const labsCatalogPage: CatalogRecord = {
+  id: 'page-labs', slug: 'labs', title: 'Interactive labs', kind: 'page', workspace: 'labs', section: 'labs-workspace', route: '/labs',
+  sourceUrl: 'https://fanout.sh/labs', provenanceCheckedAt: '2026-08-24',
+  summary: 'Fifteen local technical simulators with editable inputs and deterministic outputs.', tags: ['interactive', 'simulators'],
+};
+
+export const catalog: CatalogRecord[] = [
+  ...pageCatalog,
+  dailyArchiveCatalog,
+  labsCatalogPage,
+  ...aiLessons,
+  ...mathLessons,
+  ...allExternalResources,
+  ...dailyPapers,
+  ...labs,
+];

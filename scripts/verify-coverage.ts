@@ -45,7 +45,7 @@ export interface CoverageResult {
   deferred: string[];
 }
 
-const forbiddenLabelPattern = /pricing|account|login|upgrade|subscription|dark mode/i;
+const forbiddenLabelPattern = /\b(?:pricing|account|login|upgrade|subscription|dark mode)\b/i;
 const forbiddenRoutePattern = /\/(?:pricing|account|login|upgrade|subscription|dark-mode)(?:[/?#]|$)/i;
 
 function countCoverage(records: readonly CatalogRecord[], inventoryCount: number): CoverageCounts {

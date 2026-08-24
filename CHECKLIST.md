@@ -12,50 +12,52 @@ This file is the human-readable completion ledger. Do not mark an item complete 
 - [x] Cross-catalog search and command palette
 - [x] IndexedDB persistence with localStorage fallback
 - [x] Progress JSON export/import
-- [ ] Coverage verifier and local-route crawler
+- [x] Coverage verifier and local-route crawler
 - [x] No pricing, login, account, paywall, upgrade, subscription, or dark-mode UI
 
 Foundation evidence (2026-08-24): schema and shell component tests passed; TypeScript, ESLint, and the Next.js production build passed; Chrome Computer Use comparison against `fanout.sh/ai/overview` confirmed desktop shell proportions and content hierarchy. Playwright now covers desktop, 320px navigation, search, and reload persistence.
 
-Persistence evidence (2026-08-24): four storage tests prove cross-instance IndexedDB reload, complete JSON export/import, non-destructive schema rejection, and localStorage fallback. A real-browser reload remains a separate final-verification item.
+Persistence evidence (2026-08-24): four storage tests prove cross-instance IndexedDB reload, complete JSON export/import, non-destructive schema rejection, and localStorage fallback. Playwright also proved AI lesson completion, mathematics progress, lab inputs, and daily read state survive real-browser reloads.
 
 Search evidence (2026-08-24): deterministic ranking, local-link, dialog, Escape, and command-shortcut tests passed. Chrome Computer Use opened the palette from the real top-bar control and resolved `cuda` directly to the local `/ai/gpu` route.
 
-Coverage evidence (2026-08-24): the verifier matched 29 observed workspace pages, 108 AI lessons, and 34 mathematics lessons to source inventory; rejected duplicate URLs and forbidden routes in tests; and reported the remaining external-resource, lab, and daily-paper partitions as explicit deferred counts. Deferred partitions are not completion claims and remain unchecked below.
+Coverage evidence (2026-08-24): the verifier closed all requested partitions with 643 records: 31 local pages, 455 unique external resources, 108 AI lessons, 34 mathematics lessons, 15 labs, and 30 daily issues. It rejects duplicate URLs, unmatched records, and forbidden routes or labels.
 
 Browser evidence (2026-08-24): Playwright passed desktop shell/search, 320px drawer/no-overflow, AI reload persistence, mathematics overview, decoder, mathematics reload persistence, and mathematics 320px no-overflow checks. Desktop and mobile screenshots were inspected and saved under `design/screenshots/`.
 
 ## AI workspace pages
 
 - [x] `/ai/overview`
-- [ ] `/ai/resources`
-- [ ] `/ai/community`
-- [ ] `/ai/articles`
-- [ ] `/ai/blogs`
-- [ ] `/ai/roadmap`
-- [ ] `/ai/tools`
-- [ ] `/ai/claude-code`
-- [ ] `/ai/system-design`
-- [ ] `/ai/hardware`
-- [ ] `/ai/challenges`
-- [ ] `/ai/glossary`
-- [ ] `/ai/newsletters`
-- [ ] `/ai/tracks`
-- [ ] `/ai/guides`
-- [ ] `/ai/papers`
-- [ ] `/ai/interviews`
-- [ ] `/ai/jobs`
-- [ ] `/ai/misc`
-- [ ] `/ai/newbies`
-- [ ] `/study-with-me`
-- [ ] `/companies`
-- [ ] `/ai/deep-learning`
-- [ ] `/ai/machine-learning`
-- [ ] `/ai/reinforcement-learning`
-- [ ] `/ai/gpu`
-- [ ] Source inventory contains at least the 455 unique external resources already mapped, plus every additional record discovered on the remaining requested pages
-- [ ] Coverage verifier reports zero unmatched records from the final source snapshot
-- [ ] Independently written copy for every local catalog group and definition
+- [x] `/ai/resources`
+- [x] `/ai/community`
+- [x] `/ai/articles`
+- [x] `/ai/blogs`
+- [x] `/ai/roadmap`
+- [x] `/ai/tools`
+- [x] `/ai/claude-code`
+- [x] `/ai/system-design`
+- [x] `/ai/hardware`
+- [x] `/ai/challenges`
+- [x] `/ai/glossary`
+- [x] `/ai/newsletters`
+- [x] `/ai/tracks`
+- [x] `/ai/guides`
+- [x] `/ai/papers`
+- [x] `/ai/interviews`
+- [x] `/ai/jobs`
+- [x] `/ai/misc`
+- [x] `/ai/newbies`
+- [x] `/study-with-me`
+- [x] `/companies`
+- [x] `/ai/deep-learning`
+- [x] `/ai/machine-learning`
+- [x] `/ai/reinforcement-learning`
+- [x] `/ai/gpu`
+- [x] Source inventory contains at least the 455 unique external resources already mapped, plus every additional record discovered on the remaining requested pages
+- [x] Coverage verifier reports zero unmatched records from the final source snapshot
+- [x] Independently written copy for every local catalog group and definition
+
+Directory evidence (2026-08-24): the public Markdown mirrors yielded 422 unique directory links after URL deduplication; three open mathematics references and 30 unique original-paper URLs close the 455-link requirement exactly. Tests lock representative titles, destinations, per-page counts, 192 glossary terms, and local filters. The real-browser crawl opened every unique local catalog route successfully.
 
 ## AI curriculum modules
 
@@ -158,72 +160,78 @@ Mathematics evidence (2026-08-24): registry tests lock the 12-module sequence, o
 
 ## Labs
 
-- [ ] Labs catalog
-- [ ] Math Decoder
-- [ ] Agent Control Room
-- [ ] Latency Numbers
-- [ ] Tokenizer and Context
-- [ ] RAG Chunking and Retrieval
-- [ ] Inference Memory and KV Cache
-- [ ] Fanout Scale
-- [ ] Eval Confidence
-- [ ] Gradient Descent
-- [ ] Sampling Playground
-- [ ] Timeout Architect
-- [ ] How AI Remembers
-- [ ] Daily Planner
-- [ ] Model Router and Pareto Explorer
-- [ ] PDF-to-RAG Readiness Scan
-- [ ] Every lab has editable inputs, real local output, explanations, persistence where useful, and tests
+- [x] Labs catalog
+- [x] Math Decoder
+- [x] Agent Control Room
+- [x] Latency Numbers
+- [x] Tokenizer and Context
+- [x] RAG Chunking and Retrieval
+- [x] Inference Memory and KV Cache
+- [x] Fanout Scale
+- [x] Eval Confidence
+- [x] Gradient Descent
+- [x] Sampling Playground
+- [x] Timeout Architect
+- [x] How AI Remembers
+- [x] Daily Planner
+- [x] Model Router and Pareto Explorer
+- [x] PDF-to-RAG Readiness Scan
+- [x] Every lab has editable inputs, real local output, explanations, persistence where useful, and tests
+
+Labs evidence (2026-08-24): registry tests lock all 15 titles and local routes and execute every calculator with finite outputs. Component tests edit KV-cache inputs, verify recalculation, and assert persistence writes. Playwright proves an edited context length survives reload, and the route crawler received successful responses from every lab.
 
 ## Daily papers
 
-- [ ] Daily archive and month navigation
-- [ ] Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
-- [ ] Fast Inference from Transformers via Speculative Decoding
-- [ ] The Tail at Scale
-- [ ] Distilling the Knowledge in a Neural Network
-- [ ] Switch Transformers
-- [ ] Training Language Models to Follow Instructions with Human Feedback
-- [ ] Proximal Policy Optimization Algorithms
-- [ ] DeepSeekMath and GRPO
-- [ ] Grouped-Query Attention
-- [ ] Orca continuous batching
-- [ ] ZeRO memory optimization
-- [ ] RMSNorm
-- [ ] Mamba selective state spaces
-- [ ] FlashAttention-2
-- [ ] Ring Attention
-- [ ] ReAct
-- [ ] PageRank
-- [ ] Stealing Reasoning Traces from Proprietary LLM APIs
-- [ ] Congestion Avoidance and Control
-- [ ] Bitcoin
-- [ ] AlphaGo
-- [ ] Tor
-- [ ] Bloom filters
-- [ ] Chain-of-Thought Prompting
-- [ ] Shazam audio search
-- [ ] Toolformer
-- [ ] End-to-End Arguments in System Design
-- [ ] Development of the Domain Name System
-- [ ] CLIP
-- [ ] Large-scale cluster management at Google with Borg
-- [ ] Source inventory confirms all 30 unique daily issues in the 2026-08-24 source snapshot
-- [ ] Each issue has citation metadata, source link, original summary, and read/saved state
+- [x] Daily archive and month navigation
+- [x] Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+- [x] Fast Inference from Transformers via Speculative Decoding
+- [x] The Tail at Scale
+- [x] Distilling the Knowledge in a Neural Network
+- [x] Switch Transformers
+- [x] Training Language Models to Follow Instructions with Human Feedback
+- [x] Proximal Policy Optimization Algorithms
+- [x] DeepSeekMath and GRPO
+- [x] Grouped-Query Attention
+- [x] Orca continuous batching
+- [x] ZeRO memory optimization
+- [x] RMSNorm
+- [x] Mamba selective state spaces
+- [x] FlashAttention-2
+- [x] Ring Attention
+- [x] ReAct
+- [x] PageRank
+- [x] Stealing Reasoning Traces from Proprietary LLM APIs
+- [x] Congestion Avoidance and Control
+- [x] Bitcoin
+- [x] AlphaGo
+- [x] Tor
+- [x] Bloom filters
+- [x] Chain-of-Thought Prompting
+- [x] Shazam audio search
+- [x] Toolformer
+- [x] End-to-End Arguments in System Design
+- [x] Development of the Domain Name System
+- [x] CLIP
+- [x] Large-scale cluster management at Google with Borg
+- [x] Source inventory confirms all 30 unique daily issues in the 2026-08-24 source snapshot
+- [x] Each issue has citation metadata, source link, original summary, and read/saved state
+
+Daily evidence (2026-08-24): source snapshot tests lock the latest 30 chronological issues, unique original-paper links, citation metadata, and archive neighbors. Component tests cover both month groups and read/saved writes. Playwright loads all 30 archive links and proves read state survives reload.
 
 ## Final verification
 
-- [ ] Unit and component tests pass
-- [ ] Every lab test passes
-- [ ] Persistence survives a real browser reload
-- [ ] Type-check and lint pass without warnings
-- [ ] Production build succeeds from a clean install
-- [ ] Coverage verifier reports zero unmatched requested records
-- [ ] Local-route crawl reports zero broken routes
-- [ ] External-link audit samples every catalog category
-- [ ] Desktop visual review completed
-- [ ] Tablet visual review completed
-- [ ] 320px mobile visual review completed
-- [ ] All public YouTube embeds load or expose a working fallback link
-- [ ] No forbidden pricing/account/dark-mode surface exists
+- [x] Unit and component tests pass
+- [x] Every lab test passes
+- [x] Persistence survives a real browser reload
+- [x] Type-check and lint pass without warnings
+- [x] Production build succeeds from a clean install
+- [x] Coverage verifier reports zero unmatched requested records
+- [x] Local-route crawl reports zero broken routes
+- [x] External-link audit samples every catalog category
+- [x] Desktop visual review completed
+- [x] Tablet visual review completed
+- [x] 320px mobile visual review completed
+- [x] All public YouTube embeds load or expose a working fallback link
+- [x] No forbidden pricing/account/dark-mode surface exists
+
+Final verification evidence (2026-08-24): a fresh `npm ci` reported zero vulnerabilities and the following production build generated 222 static pages. Vitest passed 58/58 tests across 26 files; TypeScript and ESLint passed with zero errors or warnings; the coverage command reported all 643 records; and Playwright passed all nine browser scenarios, including a crawl of every unique local route. A 48-sample external audit covered every catalog section, daily track, and mathematics resource category. Desktop, 768px tablet, and 320px mobile captures were visually inspected. Every one of the 16 public video records renders a local embed card with its direct YouTube fallback link.

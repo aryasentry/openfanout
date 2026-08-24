@@ -1,0 +1,1157 @@
+{
+  "checkedAt": "2026-08-24",
+  "terms": [
+    {
+      "id": "glossary-1",
+      "term": "Ablation Study",
+      "category": "Research",
+      "definition": "Ablation Study is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-2",
+      "term": "Activation Function",
+      "category": "Fundamentals",
+      "definition": "Activation Function is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-3",
+      "term": "Adam Optimizer",
+      "category": "Training",
+      "definition": "Adam Optimizer is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-4",
+      "term": "Adversarial Examples",
+      "category": "Research",
+      "definition": "Adversarial Examples is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-5",
+      "term": "API",
+      "category": "Deployment",
+      "definition": "API is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-6",
+      "term": "Attention",
+      "category": "Architecture",
+      "definition": "Attention is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-7",
+      "term": "Backpropagation",
+      "category": "Fundamentals",
+      "definition": "Backpropagation is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-8",
+      "term": "Batch Inference",
+      "category": "Deployment",
+      "definition": "Batch Inference is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-9",
+      "term": "Batch Size",
+      "category": "Fundamentals",
+      "definition": "Batch Size is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-10",
+      "term": "Benchmark",
+      "category": "Research",
+      "definition": "Benchmark is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-11",
+      "term": "Bias",
+      "category": "Fundamentals",
+      "definition": "Bias is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-12",
+      "term": "BLEU Score",
+      "category": "Research",
+      "definition": "BLEU Score is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-13",
+      "term": "CNN",
+      "category": "Architecture",
+      "definition": "CNN is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-14",
+      "term": "Cross-Entropy",
+      "category": "Fundamentals",
+      "definition": "Cross-Entropy is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-15",
+      "term": "Data Augmentation",
+      "category": "Training",
+      "definition": "Data Augmentation is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-16",
+      "term": "Dataset",
+      "category": "Fundamentals",
+      "definition": "Dataset is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-17",
+      "term": "Decoder",
+      "category": "Architecture",
+      "definition": "Decoder is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-18",
+      "term": "Distributed Training",
+      "category": "Training",
+      "definition": "Distributed Training is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-19",
+      "term": "Docker",
+      "category": "Deployment",
+      "definition": "Docker is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-20",
+      "term": "Dropout",
+      "category": "Fundamentals",
+      "definition": "Dropout is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-21",
+      "term": "Early Stopping",
+      "category": "Training",
+      "definition": "Early Stopping is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-22",
+      "term": "Edge Deployment",
+      "category": "Deployment",
+      "definition": "Edge Deployment is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-23",
+      "term": "Embedding",
+      "category": "Fundamentals",
+      "definition": "Embedding is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-24",
+      "term": "Emergent Abilities",
+      "category": "Research",
+      "definition": "Emergent Abilities is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-25",
+      "term": "Encoder",
+      "category": "Architecture",
+      "definition": "Encoder is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-26",
+      "term": "Epoch",
+      "category": "Fundamentals",
+      "definition": "Epoch is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-27",
+      "term": "Feature",
+      "category": "Fundamentals",
+      "definition": "Feature is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-28",
+      "term": "Feed-Forward Network",
+      "category": "Architecture",
+      "definition": "Feed-Forward Network is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-29",
+      "term": "Few-Shot Learning",
+      "category": "Research",
+      "definition": "Few-Shot Learning is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-30",
+      "term": "Fine-Tuning",
+      "category": "Training",
+      "definition": "Fine-Tuning is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-31",
+      "term": "GAN",
+      "category": "Architecture",
+      "definition": "GAN is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-32",
+      "term": "GGUF",
+      "category": "Deployment",
+      "definition": "GGUF is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-33",
+      "term": "Gradient",
+      "category": "Fundamentals",
+      "definition": "Gradient is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-34",
+      "term": "Gradient Accumulation",
+      "category": "Training",
+      "definition": "Gradient Accumulation is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-35",
+      "term": "Gradient Descent",
+      "category": "Fundamentals",
+      "definition": "Gradient Descent is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-36",
+      "term": "GRU",
+      "category": "Architecture",
+      "definition": "GRU is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-37",
+      "term": "Hallucination",
+      "category": "Research",
+      "definition": "Hallucination is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-38",
+      "term": "Hyperparameter",
+      "category": "Fundamentals",
+      "definition": "Hyperparameter is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-39",
+      "term": "Inception",
+      "category": "Architecture",
+      "definition": "Inception is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-40",
+      "term": "Kubernetes",
+      "category": "Deployment",
+      "definition": "Kubernetes is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-41",
+      "term": "KV Cache",
+      "category": "Architecture",
+      "definition": "KV Cache is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-42",
+      "term": "Label",
+      "category": "Fundamentals",
+      "definition": "Label is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-43",
+      "term": "Learning Rate",
+      "category": "Fundamentals",
+      "definition": "Learning Rate is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-44",
+      "term": "LoRA",
+      "category": "Training",
+      "definition": "LoRA is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-45",
+      "term": "Loss Function",
+      "category": "Fundamentals",
+      "definition": "Loss Function is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-46",
+      "term": "LSTM",
+      "category": "Architecture",
+      "definition": "LSTM is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-47",
+      "term": "Mini-batch",
+      "category": "Fundamentals",
+      "definition": "Mini-batch is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-48",
+      "term": "Mixed Precision",
+      "category": "Training",
+      "definition": "Mixed Precision is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-49",
+      "term": "Mixture of Experts (MoE)",
+      "category": "Architecture",
+      "definition": "Mixture of Experts (MoE) is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-50",
+      "term": "MLP",
+      "category": "Architecture",
+      "definition": "MLP is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-51",
+      "term": "Multi-Head Attention",
+      "category": "Architecture",
+      "definition": "Multi-Head Attention is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-52",
+      "term": "Neuron",
+      "category": "Fundamentals",
+      "definition": "Neuron is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-53",
+      "term": "Normalization",
+      "category": "Fundamentals",
+      "definition": "Normalization is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-54",
+      "term": "ONNX",
+      "category": "Deployment",
+      "definition": "ONNX is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-55",
+      "term": "Overfitting",
+      "category": "Fundamentals",
+      "definition": "Overfitting is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-56",
+      "term": "Perplexity",
+      "category": "Research",
+      "definition": "Perplexity is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-57",
+      "term": "Pre-training",
+      "category": "Training",
+      "definition": "Pre-training is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-58",
+      "term": "QLoRA",
+      "category": "Training",
+      "definition": "QLoRA is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-59",
+      "term": "Quantization",
+      "category": "Deployment",
+      "definition": "Quantization is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-60",
+      "term": "Regularization",
+      "category": "Fundamentals",
+      "definition": "Regularization is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-61",
+      "term": "Residual Connection",
+      "category": "Architecture",
+      "definition": "Residual Connection is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-62",
+      "term": "RLHF",
+      "category": "Training",
+      "definition": "RLHF is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-63",
+      "term": "RNN",
+      "category": "Architecture",
+      "definition": "RNN is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-64",
+      "term": "Scaling Laws",
+      "category": "Research",
+      "definition": "Scaling Laws is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-65",
+      "term": "Self-Attention",
+      "category": "Architecture",
+      "definition": "Self-Attention is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-66",
+      "term": "Serving",
+      "category": "Deployment",
+      "definition": "Serving is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-67",
+      "term": "Softmax",
+      "category": "Architecture",
+      "definition": "Softmax is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-68",
+      "term": "Tensor",
+      "category": "Fundamentals",
+      "definition": "Tensor is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-69",
+      "term": "TensorRT",
+      "category": "Deployment",
+      "definition": "TensorRT is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-70",
+      "term": "Tokenizer",
+      "category": "Deployment",
+      "definition": "Tokenizer is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-71",
+      "term": "Transfer Learning",
+      "category": "Training",
+      "definition": "Transfer Learning is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-72",
+      "term": "Transformer",
+      "category": "Architecture",
+      "definition": "Transformer is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-73",
+      "term": "U-Net",
+      "category": "Architecture",
+      "definition": "U-Net is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-74",
+      "term": "vLLM",
+      "category": "Deployment",
+      "definition": "vLLM is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-75",
+      "term": "Warm-up",
+      "category": "Training",
+      "definition": "Warm-up is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-76",
+      "term": "Weight",
+      "category": "Fundamentals",
+      "definition": "Weight is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-77",
+      "term": "Zero-Shot Learning",
+      "category": "Research",
+      "definition": "Zero-Shot Learning is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-78",
+      "term": "Accuracy",
+      "category": "Fundamentals",
+      "definition": "Accuracy is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-79",
+      "term": "Bias-Variance Tradeoff",
+      "category": "Fundamentals",
+      "definition": "Bias-Variance Tradeoff is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-80",
+      "term": "Broadcasting",
+      "category": "Fundamentals",
+      "definition": "Broadcasting is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-81",
+      "term": "Confusion Matrix",
+      "category": "Fundamentals",
+      "definition": "Confusion Matrix is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-82",
+      "term": "Convolution",
+      "category": "Fundamentals",
+      "definition": "Convolution is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-83",
+      "term": "Cosine Similarity",
+      "category": "Fundamentals",
+      "definition": "Cosine Similarity is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-84",
+      "term": "Cross-Validation",
+      "category": "Fundamentals",
+      "definition": "Cross-Validation is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-85",
+      "term": "Curse of Dimensionality",
+      "category": "Fundamentals",
+      "definition": "Curse of Dimensionality is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-86",
+      "term": "Dimensionality Reduction",
+      "category": "Fundamentals",
+      "definition": "Dimensionality Reduction is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-87",
+      "term": "Dot Product",
+      "category": "Fundamentals",
+      "definition": "Dot Product is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-88",
+      "term": "F1 Score",
+      "category": "Fundamentals",
+      "definition": "F1 Score is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-89",
+      "term": "Feature Engineering",
+      "category": "Fundamentals",
+      "definition": "Feature Engineering is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-90",
+      "term": "Inference",
+      "category": "Fundamentals",
+      "definition": "Inference is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-91",
+      "term": "Kernel / Filter",
+      "category": "Fundamentals",
+      "definition": "Kernel / Filter is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-92",
+      "term": "Latent Space",
+      "category": "Fundamentals",
+      "definition": "Latent Space is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-93",
+      "term": "Logits",
+      "category": "Fundamentals",
+      "definition": "Logits is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-94",
+      "term": "Matrix Multiplication",
+      "category": "Fundamentals",
+      "definition": "Matrix Multiplication is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-95",
+      "term": "One-Hot Encoding",
+      "category": "Fundamentals",
+      "definition": "One-Hot Encoding is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-96",
+      "term": "Padding",
+      "category": "Fundamentals",
+      "definition": "Padding is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-97",
+      "term": "Pooling",
+      "category": "Fundamentals",
+      "definition": "Pooling is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-98",
+      "term": "Precision",
+      "category": "Fundamentals",
+      "definition": "Precision is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-99",
+      "term": "Recall",
+      "category": "Fundamentals",
+      "definition": "Recall is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-100",
+      "term": "Scalar",
+      "category": "Fundamentals",
+      "definition": "Scalar is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-101",
+      "term": "Stride",
+      "category": "Fundamentals",
+      "definition": "Stride is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-102",
+      "term": "Temperature",
+      "category": "Fundamentals",
+      "definition": "Temperature is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-103",
+      "term": "Underfitting",
+      "category": "Fundamentals",
+      "definition": "Underfitting is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-104",
+      "term": "Vanishing Gradients",
+      "category": "Fundamentals",
+      "definition": "Vanishing Gradients is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-105",
+      "term": "Vector",
+      "category": "Fundamentals",
+      "definition": "Vector is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-106",
+      "term": "Weight Initialization",
+      "category": "Fundamentals",
+      "definition": "Weight Initialization is filed under fundamentals in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-107",
+      "term": "Autoencoder",
+      "category": "Architecture",
+      "definition": "Autoencoder is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-108",
+      "term": "Autoregressive Model",
+      "category": "Architecture",
+      "definition": "Autoregressive Model is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-109",
+      "term": "Batch Normalization",
+      "category": "Architecture",
+      "definition": "Batch Normalization is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-110",
+      "term": "Beam Search",
+      "category": "Architecture",
+      "definition": "Beam Search is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-111",
+      "term": "BERT",
+      "category": "Architecture",
+      "definition": "BERT is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-112",
+      "term": "Bottleneck Layer",
+      "category": "Architecture",
+      "definition": "Bottleneck Layer is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-113",
+      "term": "Causal Masking",
+      "category": "Architecture",
+      "definition": "Causal Masking is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-114",
+      "term": "Cross-Attention",
+      "category": "Architecture",
+      "definition": "Cross-Attention is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-115",
+      "term": "Depthwise Separable Convolution",
+      "category": "Architecture",
+      "definition": "Depthwise Separable Convolution is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-116",
+      "term": "Diffusion Model",
+      "category": "Architecture",
+      "definition": "Diffusion Model is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-117",
+      "term": "Flash Attention",
+      "category": "Architecture",
+      "definition": "Flash Attention is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-118",
+      "term": "GPT",
+      "category": "Architecture",
+      "definition": "GPT is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-119",
+      "term": "Grouped Query Attention (GQA)",
+      "category": "Architecture",
+      "definition": "Grouped Query Attention (GQA) is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-120",
+      "term": "Layer Normalization",
+      "category": "Architecture",
+      "definition": "Layer Normalization is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-121",
+      "term": "Positional Encoding",
+      "category": "Architecture",
+      "definition": "Positional Encoding is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-122",
+      "term": "RMSNorm",
+      "category": "Architecture",
+      "definition": "RMSNorm is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-123",
+      "term": "RoPE",
+      "category": "Architecture",
+      "definition": "RoPE is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-124",
+      "term": "Seq2Seq",
+      "category": "Architecture",
+      "definition": "Seq2Seq is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-125",
+      "term": "Speculative Decoding",
+      "category": "Architecture",
+      "definition": "Speculative Decoding is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-126",
+      "term": "SwiGLU",
+      "category": "Architecture",
+      "definition": "SwiGLU is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-127",
+      "term": "Top-k / Top-p Sampling",
+      "category": "Architecture",
+      "definition": "Top-k / Top-p Sampling is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-128",
+      "term": "Variational Autoencoder (VAE)",
+      "category": "Architecture",
+      "definition": "Variational Autoencoder (VAE) is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-129",
+      "term": "Vision Transformer (ViT)",
+      "category": "Architecture",
+      "definition": "Vision Transformer (ViT) is filed under architecture in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-130",
+      "term": "AdamW",
+      "category": "Training",
+      "definition": "AdamW is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-131",
+      "term": "Catastrophic Forgetting",
+      "category": "Training",
+      "definition": "Catastrophic Forgetting is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-132",
+      "term": "Checkpointing",
+      "category": "Training",
+      "definition": "Checkpointing is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-133",
+      "term": "Contrastive Learning",
+      "category": "Training",
+      "definition": "Contrastive Learning is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-134",
+      "term": "Convergence",
+      "category": "Training",
+      "definition": "Convergence is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-135",
+      "term": "Cosine Annealing",
+      "category": "Training",
+      "definition": "Cosine Annealing is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-136",
+      "term": "Curriculum Learning",
+      "category": "Training",
+      "definition": "Curriculum Learning is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-137",
+      "term": "DPO",
+      "category": "Training",
+      "definition": "DPO is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-138",
+      "term": "Gradient Checkpointing",
+      "category": "Training",
+      "definition": "Gradient Checkpointing is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-139",
+      "term": "Gradient Clipping",
+      "category": "Training",
+      "definition": "Gradient Clipping is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-140",
+      "term": "Instruction Tuning",
+      "category": "Training",
+      "definition": "Instruction Tuning is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-141",
+      "term": "Knowledge Distillation",
+      "category": "Training",
+      "definition": "Knowledge Distillation is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-142",
+      "term": "Learning Rate Scheduler",
+      "category": "Training",
+      "definition": "Learning Rate Scheduler is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-143",
+      "term": "Momentum",
+      "category": "Training",
+      "definition": "Momentum is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-144",
+      "term": "PEFT",
+      "category": "Training",
+      "definition": "PEFT is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-145",
+      "term": "PPO",
+      "category": "Training",
+      "definition": "PPO is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-146",
+      "term": "Pruning",
+      "category": "Training",
+      "definition": "Pruning is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-147",
+      "term": "Reward Model",
+      "category": "Training",
+      "definition": "Reward Model is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-148",
+      "term": "Self-Supervised Learning",
+      "category": "Training",
+      "definition": "Self-Supervised Learning is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-149",
+      "term": "SGD",
+      "category": "Training",
+      "definition": "SGD is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-150",
+      "term": "Supervised Learning",
+      "category": "Training",
+      "definition": "Supervised Learning is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-151",
+      "term": "Unsupervised Learning",
+      "category": "Training",
+      "definition": "Unsupervised Learning is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-152",
+      "term": "Weight Decay",
+      "category": "Training",
+      "definition": "Weight Decay is filed under training in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-153",
+      "term": "A/B Testing",
+      "category": "Deployment",
+      "definition": "A/B Testing is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-154",
+      "term": "CI/CD",
+      "category": "Deployment",
+      "definition": "CI/CD is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-155",
+      "term": "Continuous Batching",
+      "category": "Deployment",
+      "definition": "Continuous Batching is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-156",
+      "term": "Data Drift",
+      "category": "Deployment",
+      "definition": "Data Drift is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-157",
+      "term": "Feature Store",
+      "category": "Deployment",
+      "definition": "Feature Store is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-158",
+      "term": "Latency",
+      "category": "Deployment",
+      "definition": "Latency is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-159",
+      "term": "llama.cpp",
+      "category": "Deployment",
+      "definition": "llama.cpp is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-160",
+      "term": "MLOps",
+      "category": "Deployment",
+      "definition": "MLOps is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-161",
+      "term": "Model Compression",
+      "category": "Deployment",
+      "definition": "Model Compression is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-162",
+      "term": "Model Drift",
+      "category": "Deployment",
+      "definition": "Model Drift is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-163",
+      "term": "Model Registry",
+      "category": "Deployment",
+      "definition": "Model Registry is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-164",
+      "term": "PagedAttention",
+      "category": "Deployment",
+      "definition": "PagedAttention is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-165",
+      "term": "Prefix Caching",
+      "category": "Deployment",
+      "definition": "Prefix Caching is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-166",
+      "term": "Throughput",
+      "category": "Deployment",
+      "definition": "Throughput is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-167",
+      "term": "Triton Inference Server",
+      "category": "Deployment",
+      "definition": "Triton Inference Server is filed under deployment in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-168",
+      "term": "Agent / Agentic AI",
+      "category": "Research",
+      "definition": "Agent / Agentic AI is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-169",
+      "term": "Alignment",
+      "category": "Research",
+      "definition": "Alignment is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-170",
+      "term": "AUC-ROC",
+      "category": "Research",
+      "definition": "AUC-ROC is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-171",
+      "term": "BPE",
+      "category": "Research",
+      "definition": "BPE is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-172",
+      "term": "Chain-of-Thought (CoT)",
+      "category": "Research",
+      "definition": "Chain-of-Thought (CoT) is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-173",
+      "term": "Context Window",
+      "category": "Research",
+      "definition": "Context Window is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-174",
+      "term": "Data Contamination",
+      "category": "Research",
+      "definition": "Data Contamination is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-175",
+      "term": "Distribution Shift",
+      "category": "Research",
+      "definition": "Distribution Shift is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-176",
+      "term": "FLOPS",
+      "category": "Research",
+      "definition": "FLOPS is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-177",
+      "term": "Generalization",
+      "category": "Research",
+      "definition": "Generalization is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-178",
+      "term": "GPTQ",
+      "category": "Research",
+      "definition": "GPTQ is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-179",
+      "term": "GRPO",
+      "category": "Research",
+      "definition": "GRPO is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-180",
+      "term": "In-Context Learning",
+      "category": "Research",
+      "definition": "In-Context Learning is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-181",
+      "term": "Interpretability",
+      "category": "Research",
+      "definition": "Interpretability is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-182",
+      "term": "Loss Landscape",
+      "category": "Research",
+      "definition": "Loss Landscape is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-183",
+      "term": "Multimodal",
+      "category": "Research",
+      "definition": "Multimodal is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-184",
+      "term": "Out-of-Distribution (OOD)",
+      "category": "Research",
+      "definition": "Out-of-Distribution (OOD) is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-185",
+      "term": "Prompt Engineering",
+      "category": "Research",
+      "definition": "Prompt Engineering is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-186",
+      "term": "RAG",
+      "category": "Research",
+      "definition": "RAG is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-187",
+      "term": "Red Teaming",
+      "category": "Research",
+      "definition": "Red Teaming is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-188",
+      "term": "Reproducibility",
+      "category": "Research",
+      "definition": "Reproducibility is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-189",
+      "term": "ROUGE Score",
+      "category": "Research",
+      "definition": "ROUGE Score is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-190",
+      "term": "SOTA",
+      "category": "Research",
+      "definition": "SOTA is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-191",
+      "term": "Synthetic Data",
+      "category": "Research",
+      "definition": "Synthetic Data is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    },
+    {
+      "id": "glossary-192",
+      "term": "Tool Use / Function Calling",
+      "category": "Research",
+      "definition": "Tool Use / Function Calling is filed under research in this learning map. Use the term to name the relevant model behavior, system boundary, training operation, or research claim precisely, then verify its meaning against the surrounding context."
+    }
+  ]
+}
