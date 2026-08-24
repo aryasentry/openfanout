@@ -27,7 +27,7 @@ Browser evidence (2026-08-24): Playwright passed desktop shell/search and 320px 
 
 ## AI workspace pages
 
-- [ ] `/ai/overview`
+- [x] `/ai/overview`
 - [ ] `/ai/resources`
 - [ ] `/ai/community`
 - [ ] `/ai/articles`
@@ -59,40 +59,42 @@ Browser evidence (2026-08-24): Playwright passed desktop shell/search and 320px 
 
 ## AI curriculum modules
 
-- [ ] 01 Math Fundamentals — 15 lesson records
-- [ ] 02 Core AI Intuitions — 4 lesson records
-- [ ] 03 PyTorch Fundamentals — 9 lesson records
-- [ ] 04 TensorFlow Fundamentals — 27 lesson records
-- [ ] 05 Neural Network from Scratch — 7 lesson records
-- [ ] 06 Transformers — 3 lesson records
-- [ ] 07 Reinforcement Learning — 5 lesson records
-- [ ] 08 LLM From Scratch — 4 lesson records
-- [ ] 09 Write Research Paper — 1 lesson record
-- [ ] 10 How to Fine-Tune Models — 5 lesson records
-- [ ] 11 Machine Learning Operations — 25 lesson records
-- [ ] 12 Bonus Lessons — 3 lesson records
-- [ ] All 108 lesson titles represented in module order
-- [ ] Previous/next navigation across module boundaries
-- [ ] Completion, resume, and module progress persistence
+- [x] 01 Math Fundamentals — 15 lesson records
+- [x] 02 Core AI Intuitions — 4 lesson records
+- [x] 03 PyTorch Fundamentals — 9 lesson records
+- [x] 04 TensorFlow Fundamentals — 27 lesson records
+- [x] 05 Neural Network from Scratch — 7 lesson records
+- [x] 06 Transformers — 3 lesson records
+- [x] 07 Reinforcement Learning — 5 lesson records
+- [x] 08 LLM From Scratch — 4 lesson records
+- [x] 09 Write Research Paper — 1 lesson record
+- [x] 10 How to Fine-Tune Models — 5 lesson records
+- [x] 11 Machine Learning Operations — 25 lesson records
+- [x] 12 Bonus Lessons — 3 lesson records
+- [x] All 108 lesson titles represented in module order
+- [x] Previous/next navigation across module boundaries
+- [x] Completion, resume, and module progress persistence
+
+AI curriculum evidence (2026-08-24): registry tests lock module counts, all 108 ordered titles, unique routes, adjacency, all 16 public video IDs, and a non-empty technical symbol for every topic. The Next.js build prerendered all 108 lesson routes; the overview/sidebar tests found all 108 links; Playwright proved completion survives reload. The composed source inventory now has 134 matched records (26 pages + 108 lessons) with AI counts no longer deferred. Chrome and Playwright screenshots were compared to the live overview after the fidelity correction.
 
 ## AI public YouTube lessons
 
-- [ ] Functions — `kvGsIo1TmsM`
-- [ ] Derivatives — `9vKqVkMQHKk`
-- [ ] Vectors — `fNk_zzaMoSs`
-- [ ] Gradients — `vp2oUoBDH4w`
-- [ ] Matrices — `5H4crNlLK_A`
-- [ ] Hadamard Product — `_MaVzNUjMPk`
-- [ ] Moving Averages — `lAq96T8FkTw`
-- [ ] 7 PyTorch Tasks — `QtlDV2r1ryE`
-- [ ] PPO and LLM Reasoning — `TjHH_--7l8g`
-- [ ] Qwen GSPO and DeepSeek GRPO — `L94MdLdP21s`
-- [ ] Llama 4 From Scratch — `yXbF-1n9wxs`
-- [ ] AI Research Paper Workflow — `O2yAMJu8LpI`
-- [ ] ML Pipeline with DVC and AWS S3 — `oYIBwbHM_PI`
-- [ ] Sequence Length vs Batch Size — `bu5dhaLmr7E`
-- [ ] SwiGLU — `enPFr-WxHgQ`
-- [ ] Tiny Recursive Model — `P9zzUM0PrBM`
+- [x] Functions — `kvGsIo1TmsM`
+- [x] Derivatives — `9vKqVkMQHKk`
+- [x] Vectors — `fNk_zzaMoSs`
+- [x] Gradients — `vp2oUoBDH4w`
+- [x] Matrices — `5H4crNlLK_A`
+- [x] Hadamard Product — `_MaVzNUjMPk`
+- [x] Moving Averages — `lAq96T8FkTw`
+- [x] 7 PyTorch Tasks — `QtlDV2r1ryE`
+- [x] PPO and LLM Reasoning — `TjHH_--7l8g`
+- [x] Qwen GSPO and DeepSeek GRPO — `L94MdLdP21s`
+- [x] Llama 4 From Scratch — `yXbF-1n9wxs`
+- [x] AI Research Paper Workflow — `O2yAMJu8LpI`
+- [x] ML Pipeline with DVC and AWS S3 — `oYIBwbHM_PI`
+- [x] Sequence Length vs Batch Size — `bu5dhaLmr7E`
+- [x] SwiGLU — `enPFr-WxHgQ`
+- [x] Tiny Recursive Model — `P9zzUM0PrBM`
 
 ## Advanced mathematics workspace
 

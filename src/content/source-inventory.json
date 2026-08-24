@@ -11,8 +11,6 @@
   },
   "deferredPartitions": [
     "externalResources",
-    "aiLessons",
-    "aiYoutubeLessons",
     "mathLessons",
     "labs",
     "dailyIssues"

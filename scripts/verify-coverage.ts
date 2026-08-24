@@ -8,7 +8,13 @@ import type {
   NavigationGroup,
   SourceInventoryRecord,
 } from '../src/content/schema';
-import inventorySource from '../src/content/source-inventory.json';
+import {
+  coverageRequirements,
+  deferredCoveragePartitions,
+  requiredAiYoutubeIds,
+  sourceInventory,
+  type CoveragePartition,
+} from '../src/content/source-inventory';
 
 export interface CoverageCounts {
   inventory: number;
@@ -29,6 +35,8 @@ interface CoverageInput {
   navigation: readonly NavigationGroup[];
   requirements?: Partial<Record<CountRequirement, number>>;
   deferredPartitions?: readonly CountRequirement[];
+  expectedAiYoutubeIds?: readonly string[];
+  expectedAiModuleCounts?: readonly number[];
 }
 
 export interface CoverageResult {
@@ -92,6 +100,28 @@ export function verifyCoverage(input: CoverageInput): CoverageResult {
   }
 
   const counts = countCoverage(input.catalog, input.inventory.length);
+
+  if (input.expectedAiYoutubeIds) {
+    const actualIds = input.catalog
+      .filter((record): record is LessonRecord => record.kind === 'lesson' && record.workspace === 'ai')
+      .map((record) => record.youtubeEmbedUrl?.split('/').at(-1))
+      .filter((videoId): videoId is string => Boolean(videoId));
+    if (actualIds.join(',') !== input.expectedAiYoutubeIds.join(',')) {
+      errors.push(`AI YouTube ID sequence mismatch: expected ${input.expectedAiYoutubeIds.join(',')}, received ${actualIds.join(',')}`);
+    }
+  }
+
+  if (input.expectedAiModuleCounts) {
+    const countsByModule = new Map<string, number>();
+    input.catalog
+      .filter((record): record is LessonRecord => record.kind === 'lesson' && record.workspace === 'ai')
+      .forEach((record) => countsByModule.set(record.moduleId, (countsByModule.get(record.moduleId) ?? 0) + 1));
+    const actualCounts = [...countsByModule.values()];
+    if (actualCounts.join(',') !== input.expectedAiModuleCounts.join(',')) {
+      errors.push(`AI module count sequence mismatch: expected ${input.expectedAiModuleCounts.join(',')}, received ${actualCounts.join(',')}`);
+    }
+  }
+
   const deferredSet = new Set(input.deferredPartitions ?? []);
   for (const [key, expected] of Object.entries(input.requirements ?? {}) as Array<[CountRequirement, number]>) {
     const actual = counts[key];
@@ -108,10 +138,12 @@ export function verifyCoverage(input: CoverageInput): CoverageResult {
 function runCli() {
   const result = verifyCoverage({
     catalog,
-    inventory: inventorySource.records as SourceInventoryRecord[],
+    inventory: sourceInventory,
     navigation: aiNavigation,
-    requirements: inventorySource.requirements as Record<CountRequirement, number>,
-    deferredPartitions: inventorySource.deferredPartitions as CountRequirement[],
+    requirements: coverageRequirements as Record<CountRequirement, number>,
+    deferredPartitions: deferredCoveragePartitions as CoveragePartition[],
+    expectedAiYoutubeIds: requiredAiYoutubeIds,
+    expectedAiModuleCounts: [15, 4, 9, 27, 7, 3, 5, 4, 1, 5, 25, 3],
   });
 
   console.log(`openFanout coverage: ${JSON.stringify(result.counts)}`);
