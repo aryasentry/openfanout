@@ -8,7 +8,7 @@ This file is the human-readable completion ledger. Do not mark an item complete 
 - [x] openFanout branding and original branching-node mark
 - [x] Reference-like top bar, 244px desktop sidebar, breadcrumbs, and content canvas
 - [ ] Responsive sidebar drawer and mobile layouts down to 320px
-- [ ] Typed catalog registry and source inventory
+- [x] Typed catalog registry and source inventory
 - [x] Cross-catalog search and command palette
 - [x] IndexedDB persistence with localStorage fallback
 - [x] Progress JSON export/import
@@ -20,6 +20,8 @@ Foundation evidence (2026-08-24): schema and shell component tests passed; TypeS
 Persistence evidence (2026-08-24): four storage tests prove cross-instance IndexedDB reload, complete JSON export/import, non-destructive schema rejection, and localStorage fallback. A real-browser reload remains a separate final-verification item.
 
 Search evidence (2026-08-24): deterministic ranking, local-link, dialog, Escape, and command-shortcut tests passed. Chrome Computer Use opened the palette from the real top-bar control and resolved `cuda` directly to the local `/ai/gpu` route.
+
+Coverage evidence (2026-08-24): the verifier matched all 26 foundation page records to their source inventory, rejected duplicate URLs and forbidden routes in tests, and reported every unbuilt content partition as an explicit deferred count. Deferred partitions are not completion claims and remain unchecked below.
 
 ## AI workspace pages
 

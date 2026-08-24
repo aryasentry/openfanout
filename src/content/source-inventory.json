@@ -1,0 +1,48 @@
+{
+  "snapshotDate": "2026-08-24",
+  "requirements": {
+    "pages": 26,
+    "externalResources": 455,
+    "aiLessons": 108,
+    "aiYoutubeLessons": 16,
+    "mathLessons": 34,
+    "labs": 15,
+    "dailyIssues": 30
+  },
+  "deferredPartitions": [
+    "externalResources",
+    "aiLessons",
+    "aiYoutubeLessons",
+    "mathLessons",
+    "labs",
+    "dailyIssues"
+  ],
+  "records": [
+    { "sourceUrl": "https://fanout.sh/ai/overview", "localId": "page-ai-overview", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/resources", "localId": "page-ai-resources", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/community", "localId": "page-ai-community", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/study-with-me", "localId": "page-study-with-me", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/articles", "localId": "page-ai-articles", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/blogs", "localId": "page-ai-blogs", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/roadmap", "localId": "page-ai-roadmap", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/tools", "localId": "page-ai-tools", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/claude-code", "localId": "page-ai-claude-code", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/system-design", "localId": "page-ai-system-design", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/hardware", "localId": "page-ai-hardware", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/challenges", "localId": "page-ai-challenges", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/glossary", "localId": "page-ai-glossary", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/newsletters", "localId": "page-ai-newsletters", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/tracks", "localId": "page-ai-tracks", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/guides", "localId": "page-ai-guides", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/papers", "localId": "page-ai-papers", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/interviews", "localId": "page-ai-interviews", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/jobs", "localId": "page-ai-jobs", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/misc", "localId": "page-ai-misc", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/newbies", "localId": "page-ai-newbies", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/companies", "localId": "page-companies", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/deep-learning", "localId": "page-ai-deep-learning", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/machine-learning", "localId": "page-ai-machine-learning", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/reinforcement-learning", "localId": "page-ai-reinforcement-learning", "kind": "page", "checkedAt": "2026-08-24" },
+    { "sourceUrl": "https://fanout.sh/ai/gpu", "localId": "page-ai-gpu", "kind": "page", "checkedAt": "2026-08-24" }
+  ]
+}
