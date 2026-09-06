@@ -4,6 +4,10 @@ This file is the human-readable completion ledger. Do not mark an item complete 
 
 ## September 6 source refresh
 
+Local navigation correction: AI and ML Math index entries now open canonical openFanout lesson routes. All 301 math topics have local pages; 267 explicitly show content pending. Upcoming roadmap outlines stay inline, without Fanout redirects. System Design source links are excluded from this change as requested. Route availability does not mean lesson content is complete.
+
+Correction verification: Chrome inspected all 409 AI/math topic links and found zero Fanout links in AI, ML Math, or upcoming-track sections. Clicking Relative Complements opened its local page with pending content and local previous/next navigation. The production build generated 491 pages; the route regression test, lint, and nine existing browser scenarios passed. Full lesson-content completion remains unchecked.
+
 - [x] Chrome inspected all three course overviews: 38 modules and 588 topic placements.
 - [x] System Design: 14 modules, 179 fundamentals, and 23 build/case-study entries captured as titles and source links.
 - [x] ML Math: full 301-topic source index captured; the local lesson collection still contains 34 records.
