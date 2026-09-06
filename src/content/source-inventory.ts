@@ -17,7 +17,7 @@ export type CoveragePartition =
   | 'dailyIssues';
 
 export const coverageRequirements: Record<CoveragePartition, number> = {
-  pages: 31,
+  pages: 33,
   externalResources: 456,
   aiLessons: 108,
   aiYoutubeLessons: 83,

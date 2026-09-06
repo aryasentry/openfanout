@@ -1,0 +1,2759 @@
+{
+  "capturedAt": "2026-09-06",
+  "method": "Chrome rendered DOM; titles and links only",
+  "courses": [
+    {
+      "id": "ai",
+      "modules": [
+        {
+          "id": "math-fundamentals",
+          "title": "Math Fundamentals",
+          "topics": [
+            {
+              "title": "Functions",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-functions"
+            },
+            {
+              "title": "Derivatives",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-derivatives"
+            },
+            {
+              "title": "Vectors",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-vectors"
+            },
+            {
+              "title": "Gradients",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-gradients"
+            },
+            {
+              "title": "Matrices",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-matrices"
+            },
+            {
+              "title": "Derivation Rules & Examples",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-derivation-rules"
+            },
+            {
+              "title": "The Chain Rule",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-chain-rule"
+            },
+            {
+              "title": "Backprop in Python",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-backprop-python"
+            },
+            {
+              "title": "The Jacobian Matrix",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-jacobian-matrix"
+            },
+            {
+              "title": "Hadamard Product (Element-wise Op)",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-hadamard-product"
+            },
+            {
+              "title": "Entropy & Information Theory",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-entropy"
+            },
+            {
+              "title": "KL Divergence",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-kl-divergence"
+            },
+            {
+              "title": "Singular Value Decomposition (SVD)",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-svd"
+            },
+            {
+              "title": "Moving Averages (EMA)",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-moving-averages"
+            },
+            {
+              "title": "More Math Lessons",
+              "url": "https://fanout.sh/ai/overview#math-fundamentals-more-math"
+            }
+          ]
+        },
+        {
+          "id": "core-ai-intuitions",
+          "title": "Core AI Intuitions",
+          "topics": [
+            {
+              "title": "Similarity With Dot Product",
+              "url": "https://fanout.sh/ai/overview#core-ai-intuitions-similarity-dot-product"
+            },
+            {
+              "title": "Softmax Probabilities",
+              "url": "https://fanout.sh/ai/overview#core-ai-intuitions-softmax"
+            },
+            {
+              "title": "Tensor Broadcasting",
+              "url": "https://fanout.sh/ai/overview#core-ai-intuitions-tensor-broadcasting"
+            },
+            {
+              "title": "L1 vs L2 Norms",
+              "url": "https://fanout.sh/ai/overview#core-ai-intuitions-l1-l2-norms"
+            }
+          ]
+        },
+        {
+          "id": "pytorch-fundamentals",
+          "title": "PyTorch Fundamentals",
+          "topics": [
+            {
+              "title": "Creating Tensors",
+              "url": "https://fanout.sh/ai/overview#pytorch-fundamentals-creating-tensors"
+            },
+            {
+              "title": "Matrix Multiplication",
+              "url": "https://fanout.sh/ai/overview#pytorch-fundamentals-matrix-multiplication"
+            },
+            {
+              "title": "Transposing Tensors",
+              "url": "https://fanout.sh/ai/overview#pytorch-fundamentals-transposing-tensors"
+            },
+            {
+              "title": "flatten, reshape, view, squeeze, unsqueeze",
+              "url": "https://fanout.sh/ai/overview#pytorch-fundamentals-flatten-reshape-view"
+            },
+            {
+              "title": "Indexing and Slicing",
+              "url": "https://fanout.sh/ai/overview#pytorch-fundamentals-indexing-slicing"
+            },
+            {
+              "title": "cat, stack",
+              "url": "https://fanout.sh/ai/overview#pytorch-fundamentals-cat-stack"
+            },
+            {
+              "title": "Special Tensors (eye, rand, arange, linspace)",
+              "url": "https://fanout.sh/ai/overview#pytorch-fundamentals-special-tensors"
+            },
+            {
+              "title": "New Full Lesson",
+              "url": "https://fanout.sh/ai/overview#pytorch-fundamentals-new-full-lesson"
+            },
+            {
+              "title": "7 PyTorch Tasks (Advanced)",
+              "url": "https://fanout.sh/ai/overview#pytorch-fundamentals-7-pytorch-tasks"
+            }
+          ]
+        },
+        {
+          "id": "tensorflow-fundamentals",
+          "title": "TensorFlow Fundamentals",
+          "topics": [
+            {
+              "title": "Simple Linear Model",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-simple-linear-model"
+            },
+            {
+              "title": "Convolutional Neural Network",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-convolutional-neural-network"
+            },
+            {
+              "title": "Pretty Tensor",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-pretty-tensor"
+            },
+            {
+              "title": "Layers API",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-layers-api"
+            },
+            {
+              "title": "Keras API",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-keras-api"
+            },
+            {
+              "title": "Save & Restore",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-save-restore"
+            },
+            {
+              "title": "Ensemble Learning",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-ensemble-learning"
+            },
+            {
+              "title": "CIFAR-10",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-cifar-10"
+            },
+            {
+              "title": "Inception Model",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-inception-model"
+            },
+            {
+              "title": "Transfer Learning",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-transfer-learning"
+            },
+            {
+              "title": "Video Data",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-video-data"
+            },
+            {
+              "title": "Fine-Tuning",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-fine-tuning-tf"
+            },
+            {
+              "title": "Adversarial Examples",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-adversarial-examples"
+            },
+            {
+              "title": "Adversarial Noise for MNIST",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-adversarial-noise-mnist"
+            },
+            {
+              "title": "Visual Analysis",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-visual-analysis"
+            },
+            {
+              "title": "Visual Analysis for MNIST",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-visual-analysis-mnist"
+            },
+            {
+              "title": "Deep Dream",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-deep-dream"
+            },
+            {
+              "title": "Style Transfer",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-style-transfer"
+            },
+            {
+              "title": "TensorFlow GPU vs CPU",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-tf-gpu-cpu"
+            },
+            {
+              "title": "Reinforcement Learning",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-reinforcement-learning-tf"
+            },
+            {
+              "title": "Estimator API",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-estimator-api"
+            },
+            {
+              "title": "TFRecords & Dataset API",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-tfrecords-dataset-api"
+            },
+            {
+              "title": "Hyper-Parameter Optimization",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-hyperparameter-optimization"
+            },
+            {
+              "title": "Natural Language Processing",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-nlp-sentiment"
+            },
+            {
+              "title": "Machine Translation",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-machine-translation"
+            },
+            {
+              "title": "Image Captioning",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-image-captioning"
+            },
+            {
+              "title": "Time-Series Prediction",
+              "url": "https://fanout.sh/ai/overview#tensorflow-fundamentals-timeseries-prediction"
+            }
+          ]
+        },
+        {
+          "id": "neural-network-from-scratch",
+          "title": "Neural Network from Scratch",
+          "topics": [
+            {
+              "title": "Single Neuron From Scratch",
+              "url": "https://fanout.sh/ai/overview#neural-network-from-scratch-single-neuron"
+            },
+            {
+              "title": "Building a Layer",
+              "url": "https://fanout.sh/ai/overview#neural-network-from-scratch-building-layer"
+            },
+            {
+              "title": "Implementing a Network",
+              "url": "https://fanout.sh/ai/overview#neural-network-from-scratch-implementing-network"
+            },
+            {
+              "title": "RMSNorm",
+              "url": "https://fanout.sh/ai/overview#neural-network-from-scratch-rmsnorm"
+            },
+            {
+              "title": "Learning Rate, Decay",
+              "url": "https://fanout.sh/ai/overview#neural-network-from-scratch-learning-rate-decay"
+            },
+            {
+              "title": "Adam Optimizer",
+              "url": "https://fanout.sh/ai/overview#neural-network-from-scratch-adam-optimizer"
+            },
+            {
+              "title": "Neural Network From Scratch",
+              "url": "https://fanout.sh/ai/overview#neural-network-from-scratch-neural-network-scratch"
+            }
+          ]
+        },
+        {
+          "id": "transformers",
+          "title": "Transformers",
+          "topics": [
+            {
+              "title": "Attention Mechanism Explained",
+              "url": "https://fanout.sh/ai/overview#transformers-attention-mechanism"
+            },
+            {
+              "title": "Self Attention from Scratch",
+              "url": "https://fanout.sh/ai/overview#transformers-self-attention"
+            },
+            {
+              "title": "GPT From Scratch",
+              "url": "https://fanout.sh/ai/overview#transformers-gpt-from-scratch"
+            }
+          ]
+        },
+        {
+          "id": "reinforcement-learning",
+          "title": "Reinforcement Learning",
+          "topics": [
+            {
+              "title": "Agents & Environments",
+              "url": "https://fanout.sh/ai/overview#reinforcement-learning-agents-environments"
+            },
+            {
+              "title": "Policy Gradients (REINFORCE)",
+              "url": "https://fanout.sh/ai/overview#reinforcement-learning-policy-gradients"
+            },
+            {
+              "title": "Deep Q-Learning (DQN)",
+              "url": "https://fanout.sh/ai/overview#reinforcement-learning-deep-q-learning"
+            },
+            {
+              "title": "PPO, LLM Reasoning, Importance Ratio, Advantage",
+              "url": "https://fanout.sh/ai/overview#reinforcement-learning-ppo-llm-reasoning"
+            },
+            {
+              "title": "Qwen 3 GSPO & DeepSeek GRPO — LLM Reasoning",
+              "url": "https://fanout.sh/ai/overview#reinforcement-learning-qwen-deepseek-grpo"
+            }
+          ]
+        },
+        {
+          "id": "llm-from-scratch",
+          "title": "LLM From Scratch",
+          "topics": [
+            {
+              "title": "Llama 4 From Scratch",
+              "url": "https://fanout.sh/ai/overview#llm-from-scratch-llama-4"
+            },
+            {
+              "title": "DeepSeek V3 From Scratch",
+              "url": "https://fanout.sh/ai/overview#llm-from-scratch-deepseek-v3"
+            },
+            {
+              "title": "Qwen 3 From Scratch",
+              "url": "https://fanout.sh/ai/overview#llm-from-scratch-qwen-3"
+            },
+            {
+              "title": "Self-Study LLM",
+              "url": "https://fanout.sh/ai/overview#llm-from-scratch-self-study-llm"
+            }
+          ]
+        },
+        {
+          "id": "write-research-paper",
+          "title": "Write Research Paper",
+          "topics": [
+            {
+              "title": "Code, Write & Publish AI Research Paper",
+              "url": "https://fanout.sh/ai/overview#write-research-paper-code-write-publish"
+            }
+          ]
+        },
+        {
+          "id": "fine-tuning",
+          "title": "How to Fine-Tune Models",
+          "topics": [
+            {
+              "title": "Why Fine-Tune?",
+              "url": "https://fanout.sh/ai/overview#fine-tuning-why-finetune"
+            },
+            {
+              "title": "LoRA & QLoRA",
+              "url": "https://fanout.sh/ai/overview#fine-tuning-lora"
+            },
+            {
+              "title": "Data Preparation",
+              "url": "https://fanout.sh/ai/overview#fine-tuning-data-preparation"
+            },
+            {
+              "title": "Training & Hyperparameters",
+              "url": "https://fanout.sh/ai/overview#fine-tuning-training-loop"
+            },
+            {
+              "title": "Evaluation & Deployment",
+              "url": "https://fanout.sh/ai/overview#fine-tuning-evaluation"
+            }
+          ]
+        },
+        {
+          "id": "mlops",
+          "title": "Machine Learning Operations (MLOps)",
+          "topics": [
+            {
+              "title": "Introduction to MLOps",
+              "url": "https://fanout.sh/ai/overview#mlops-intro-to-mlops"
+            },
+            {
+              "title": "Git & GitHub",
+              "url": "https://fanout.sh/ai/overview#mlops-git-github-mlops"
+            },
+            {
+              "title": "Python OOP for MLOps",
+              "url": "https://fanout.sh/ai/overview#mlops-oops-python"
+            },
+            {
+              "title": "Data Versioning with DVC",
+              "url": "https://fanout.sh/ai/overview#mlops-data-versioning-dvc"
+            },
+            {
+              "title": "ML Pipeline with DVC & AWS S3",
+              "url": "https://fanout.sh/ai/overview#mlops-ml-pipeline-dvc-aws"
+            },
+            {
+              "title": "MLflow | Experiment Tracking",
+              "url": "https://fanout.sh/ai/overview#mlops-mlflow-experiment-tracking"
+            },
+            {
+              "title": "Continuous Integration",
+              "url": "https://fanout.sh/ai/overview#mlops-continuous-integration"
+            },
+            {
+              "title": "Docker",
+              "url": "https://fanout.sh/ai/overview#mlops-docker-mlops"
+            },
+            {
+              "title": "Project: Vehicle Insurance Domain",
+              "url": "https://fanout.sh/ai/overview#mlops-project-1-vehicle-insurance"
+            },
+            {
+              "title": "MongoDB Setup & Notebook Experiment",
+              "url": "https://fanout.sh/ai/overview#mlops-mongodb-setup"
+            },
+            {
+              "title": "Data Ingestion Component",
+              "url": "https://fanout.sh/ai/overview#mlops-data-ingestion"
+            },
+            {
+              "title": "Data Validation & Transformation",
+              "url": "https://fanout.sh/ai/overview#mlops-data-validation-transformation"
+            },
+            {
+              "title": "Model Evaluation & AWS S3",
+              "url": "https://fanout.sh/ai/overview#mlops-model-eval-aws-s3"
+            },
+            {
+              "title": "Building ML App with FastAPI",
+              "url": "https://fanout.sh/ai/overview#mlops-fastapi-ml-app"
+            },
+            {
+              "title": "Complete CI/CD on AWS",
+              "url": "https://fanout.sh/ai/overview#mlops-cicd-aws"
+            },
+            {
+              "title": "Kubernetes Part 1",
+              "url": "https://fanout.sh/ai/overview#mlops-kubernetes-part-1"
+            },
+            {
+              "title": "Project: First Kubernetes Deployment",
+              "url": "https://fanout.sh/ai/overview#mlops-project-2-kubernetes"
+            },
+            {
+              "title": "Prometheus & Grafana",
+              "url": "https://fanout.sh/ai/overview#mlops-prometheus-grafana"
+            },
+            {
+              "title": "Project: Prometheus-Grafana on Kubernetes",
+              "url": "https://fanout.sh/ai/overview#mlops-project-3-monitoring"
+            },
+            {
+              "title": "Capstone Project: End-to-End MLOps",
+              "url": "https://fanout.sh/ai/overview#mlops-capstone-project-1"
+            },
+            {
+              "title": "Experiment Tracking with MLflow & DagsHub",
+              "url": "https://fanout.sh/ai/overview#mlops-mlflow-dagshub"
+            },
+            {
+              "title": "App Building & Automation with DVC",
+              "url": "https://fanout.sh/ai/overview#mlops-app-building-automation-dvc"
+            },
+            {
+              "title": "CI/CD Implementation (Capstone)",
+              "url": "https://fanout.sh/ai/overview#mlops-cicd-implementation-capstone"
+            },
+            {
+              "title": "EKS Cluster Deployment",
+              "url": "https://fanout.sh/ai/overview#mlops-eks-cluster-deployment"
+            },
+            {
+              "title": "Prometheus-Grafana on EKS",
+              "url": "https://fanout.sh/ai/overview#mlops-prometheus-grafana-eks"
+            }
+          ]
+        },
+        {
+          "id": "bonus-lessons",
+          "title": "Bonus Lessons",
+          "topics": [
+            {
+              "title": "Train LLM — Sequence Length vs Batch Size",
+              "url": "https://fanout.sh/ai/overview#bonus-lessons-seq-len-vs-batch"
+            },
+            {
+              "title": "SwiGLU — Better Neural Networks",
+              "url": "https://fanout.sh/ai/overview#bonus-lessons-swiglu"
+            },
+            {
+              "title": "100x AI Reasoning — Tiny Recursive Model",
+              "url": "https://fanout.sh/ai/overview#bonus-lessons-tiny-recursive-model"
+            }
+          ]
+        }
+      ],
+      "title": "AI Research",
+      "url": "https://fanout.sh/ai/overview"
+    },
+    {
+      "id": "system",
+      "modules": [
+        {
+          "id": "learning-foundations",
+          "title": "Foundations",
+          "topics": [
+            {
+              "title": "Requirements Clarification",
+              "url": "https://fanout.sh/system/archive/requirements-clarification"
+            },
+            {
+              "title": "Logical System Design",
+              "url": "https://fanout.sh/system/archive/logical-system-design"
+            },
+            {
+              "title": "Non-Functional Requirements",
+              "url": "https://fanout.sh/system/archive/non-functional-requirements"
+            },
+            {
+              "title": "System Design Tradeoffs",
+              "url": "https://fanout.sh/system/archive/system-design-tradeoffs"
+            },
+            {
+              "title": "Availability Durability Consistency And Cost",
+              "url": "https://fanout.sh/system/archive/availability-durability-consistency-cost"
+            },
+            {
+              "title": "Back-Of-The-Envelope Capacity Planning",
+              "url": "https://fanout.sh/system/archive/back-of-the-envelope-capacity-planning"
+            },
+            {
+              "title": "Concurrency Vs Parallelism",
+              "url": "https://fanout.sh/system/archive/concurrency-vs-parallelism"
+            },
+            {
+              "title": "Horizontal Vs Vertical Scaling",
+              "url": "https://fanout.sh/system/archive/horizontal-vs-vertical-scaling"
+            },
+            {
+              "title": "Monolith Vs Microservices",
+              "url": "https://fanout.sh/system/archive/monolith-vs-microservices"
+            },
+            {
+              "title": "Repository Pattern",
+              "url": "https://fanout.sh/system/archive/repository-pattern"
+            },
+            {
+              "title": "Extensible Data Modeling",
+              "url": "https://fanout.sh/system/archive/extensible-data-modeling"
+            },
+            {
+              "title": "Cost-Aware Architecture",
+              "url": "https://fanout.sh/system/archive/cost-aware-architecture"
+            },
+            {
+              "title": "When Not To Add Infrastructure",
+              "url": "https://fanout.sh/system/archive/when-not-to-add-infrastructure"
+            }
+          ]
+        },
+        {
+          "id": "learning-apis-services",
+          "title": "APIs, Services & Protocols",
+          "topics": [
+            {
+              "title": "API Design Contracts",
+              "url": "https://fanout.sh/system/archive/api-design-contracts"
+            },
+            {
+              "title": "Service-To-Service Communication",
+              "url": "https://fanout.sh/system/archive/service-to-service-communication"
+            },
+            {
+              "title": "HTTP REST And gRPC",
+              "url": "https://fanout.sh/system/archive/http-rest-grpc"
+            },
+            {
+              "title": "TCP Vs UDP",
+              "url": "https://fanout.sh/system/archive/tcp-vs-udp"
+            },
+            {
+              "title": "API Gateway vs Load Balancer",
+              "url": "https://fanout.sh/system/archive/api-gateway-vs-load-balancer"
+            },
+            {
+              "title": "Load Balancers",
+              "url": "https://fanout.sh/system/archive/load-balancers"
+            },
+            {
+              "title": "Consistent Hashing Load Balancing",
+              "url": "https://fanout.sh/system/archive/consistent-hashing-load-balancing"
+            },
+            {
+              "title": "Event Contracts",
+              "url": "https://fanout.sh/system/archive/event-contracts"
+            },
+            {
+              "title": "Retries Timeouts And Idempotency",
+              "url": "https://fanout.sh/system/archive/retries-timeouts-idempotency"
+            },
+            {
+              "title": "Batching",
+              "url": "https://fanout.sh/system/archive/batching"
+            },
+            {
+              "title": "Backpressure",
+              "url": "https://fanout.sh/system/archive/backpressure"
+            },
+            {
+              "title": "Tail Latency",
+              "url": "https://fanout.sh/system/archive/tail-latency"
+            },
+            {
+              "title": "Load Shedding",
+              "url": "https://fanout.sh/system/archive/load-shedding"
+            }
+          ]
+        },
+        {
+          "id": "learning-data-sql",
+          "title": "Data Modeling & SQL",
+          "topics": [
+            {
+              "title": "Relational Database Design",
+              "url": "https://fanout.sh/system/archive/relational-database-design"
+            },
+            {
+              "title": "SQL-Backed Key-Value Store",
+              "url": "https://fanout.sh/system/archive/sql-backed-key-value-store"
+            },
+            {
+              "title": "Database Indexing",
+              "url": "https://fanout.sh/system/archive/database-indexing"
+            },
+            {
+              "title": "B-Tree",
+              "url": "https://fanout.sh/system/archive/b-tree"
+            },
+            {
+              "title": "Query Planning",
+              "url": "https://fanout.sh/system/archive/query-planning"
+            },
+            {
+              "title": "Database Locking And Isolation",
+              "url": "https://fanout.sh/system/archive/database-locking-and-isolation"
+            },
+            {
+              "title": "MVCC",
+              "url": "https://fanout.sh/system/archive/mvcc"
+            },
+            {
+              "title": "Database WAL And Recovery",
+              "url": "https://fanout.sh/system/archive/database-wal-and-recovery"
+            },
+            {
+              "title": "Database Ticket Servers",
+              "url": "https://fanout.sh/system/archive/database-ticket-servers"
+            },
+            {
+              "title": "Relational Database Scaling",
+              "url": "https://fanout.sh/system/archive/relational-database-scaling"
+            },
+            {
+              "title": "Online Indexing",
+              "url": "https://fanout.sh/system/archive/online-indexing"
+            },
+            {
+              "title": "Schema Evolution",
+              "url": "https://fanout.sh/system/archive/schema-evolution"
+            },
+            {
+              "title": "Soft Delete",
+              "url": "https://fanout.sh/system/archive/soft-delete"
+            }
+          ]
+        },
+        {
+          "id": "learning-nosql-partitioning",
+          "title": "NoSQL, Partitioning & IDs",
+          "topics": [
+            {
+              "title": "NoSQL Decision Boundaries",
+              "url": "https://fanout.sh/system/archive/nosql-decision-boundaries"
+            },
+            {
+              "title": "Document Stores vs Key-Value Stores",
+              "url": "https://fanout.sh/system/archive/document-vs-key-value-stores"
+            },
+            {
+              "title": "Columnar Stores vs Wide-Column Stores",
+              "url": "https://fanout.sh/system/archive/columnar-vs-wide-column-stores"
+            },
+            {
+              "title": "Graph Database Decision Boundary",
+              "url": "https://fanout.sh/system/archive/graph-database-decision-boundary"
+            },
+            {
+              "title": "Sharding And Partitioning",
+              "url": "https://fanout.sh/system/archive/sharding-and-partitioning"
+            },
+            {
+              "title": "Hot Partitions",
+              "url": "https://fanout.sh/system/archive/hot-partitions"
+            },
+            {
+              "title": "Consistent Hashing",
+              "url": "https://fanout.sh/system/archive/consistent-hashing"
+            },
+            {
+              "title": "Distributed ID Generation",
+              "url": "https://fanout.sh/system/archive/distributed-id-generation"
+            },
+            {
+              "title": "UUID vs ObjectId vs Snowflake",
+              "url": "https://fanout.sh/system/archive/uuid-objectid-and-snowflake"
+            },
+            {
+              "title": "Snowflake ID Design",
+              "url": "https://fanout.sh/system/archive/snowflake-id-design"
+            },
+            {
+              "title": "Clock Skew And ID Ordering",
+              "url": "https://fanout.sh/system/archive/clock-skew-and-id-ordering"
+            },
+            {
+              "title": "Keyset Pagination",
+              "url": "https://fanout.sh/system/archive/keyset-pagination"
+            },
+            {
+              "title": "Bloom Filters",
+              "url": "https://fanout.sh/system/archive/bloom-filters"
+            },
+            {
+              "title": "Hot And Cold Storage Archival",
+              "url": "https://fanout.sh/system/archive/hot-cold-storage-archival"
+            }
+          ]
+        },
+        {
+          "id": "learning-caching-fast-reads",
+          "title": "Caching & Fast Reads",
+          "topics": [
+            {
+              "title": "Caching Layers",
+              "url": "https://fanout.sh/system/archive/caching-layers"
+            },
+            {
+              "title": "Distributed Cache Design",
+              "url": "https://fanout.sh/system/archive/distributed-cache-design"
+            },
+            {
+              "title": "Cache Eviction Policies",
+              "url": "https://fanout.sh/system/archive/cache-eviction-policies"
+            },
+            {
+              "title": "TTL Expiration And Cache Reapers",
+              "url": "https://fanout.sh/system/archive/ttl-expiration-and-cache-reapers"
+            },
+            {
+              "title": "Cache Concurrency Control",
+              "url": "https://fanout.sh/system/archive/cache-concurrency-control"
+            },
+            {
+              "title": "Cache Availability And Database Fallback",
+              "url": "https://fanout.sh/system/archive/cache-availability-and-database-fallback"
+            },
+            {
+              "title": "MySQL MEMORY Engine Cache",
+              "url": "https://fanout.sh/system/archive/mysql-memory-engine-cache"
+            }
+          ]
+        },
+        {
+          "id": "learning-distributed-coordination",
+          "title": "Distributed Coordination",
+          "topics": [
+            {
+              "title": "Distributed Systems Foundations",
+              "url": "https://fanout.sh/system/archive/distributed-systems-foundations"
+            },
+            {
+              "title": "Consistency Models",
+              "url": "https://fanout.sh/system/archive/consistency-models"
+            },
+            {
+              "title": "Replication",
+              "url": "https://fanout.sh/system/archive/replication"
+            },
+            {
+              "title": "CAP And PACELC",
+              "url": "https://fanout.sh/system/archive/cap-and-pacelc"
+            },
+            {
+              "title": "Clocks And Ordering",
+              "url": "https://fanout.sh/system/archive/clocks-and-ordering"
+            },
+            {
+              "title": "Consensus",
+              "url": "https://fanout.sh/system/archive/consensus"
+            },
+            {
+              "title": "Leader Election",
+              "url": "https://fanout.sh/system/archive/leader-election"
+            },
+            {
+              "title": "Distributed Locks And Leases",
+              "url": "https://fanout.sh/system/archive/distributed-locks-and-leases"
+            },
+            {
+              "title": "Redis Redlock And Fencing Tokens",
+              "url": "https://fanout.sh/system/archive/redis-redlock-and-fencing-tokens"
+            },
+            {
+              "title": "Circuit Breakers And Timeouts",
+              "url": "https://fanout.sh/system/archive/circuit-breakers-and-timeouts"
+            },
+            {
+              "title": "Gossip Protocol",
+              "url": "https://fanout.sh/system/archive/gossip-protocol"
+            },
+            {
+              "title": "Metadata Service And Node Discovery",
+              "url": "https://fanout.sh/system/archive/metadata-service-and-node-discovery"
+            },
+            {
+              "title": "Distributed Hash Tables",
+              "url": "https://fanout.sh/system/archive/distributed-hash-tables"
+            }
+          ]
+        },
+        {
+          "id": "learning-storage-engines",
+          "title": "Storage Engines",
+          "topics": [
+            {
+              "title": "Storage Engine Design Constraints",
+              "url": "https://fanout.sh/system/archive/storage-engine-design-constraints"
+            },
+            {
+              "title": "Storage Engine Tradeoffs",
+              "url": "https://fanout.sh/system/archive/storage-engine-tradeoffs"
+            },
+            {
+              "title": "File-Backed Dictionary Storage Engine",
+              "url": "https://fanout.sh/system/archive/file-backed-dictionary-storage-engine"
+            },
+            {
+              "title": "Custom Binary File Format",
+              "url": "https://fanout.sh/system/archive/custom-binary-file-format"
+            },
+            {
+              "title": "Byte-Range Indexed Object Storage",
+              "url": "https://fanout.sh/system/archive/byte-range-indexed-object-storage"
+            },
+            {
+              "title": "Immutable Versioned Data Files",
+              "url": "https://fanout.sh/system/archive/immutable-versioned-data-files"
+            },
+            {
+              "title": "Log-Structured Storage",
+              "url": "https://fanout.sh/system/archive/log-structured-storage"
+            },
+            {
+              "title": "Bitcask Storage Engine",
+              "url": "https://fanout.sh/system/archive/bitcask-storage-engine"
+            },
+            {
+              "title": "LSM Tree Storage Engine",
+              "url": "https://fanout.sh/system/archive/lsm-tree-storage-engine"
+            },
+            {
+              "title": "Memtable WAL And SSTable",
+              "url": "https://fanout.sh/system/archive/memtable-wal-and-sstable"
+            },
+            {
+              "title": "LSM Read Path Bloom And Sparse Index",
+              "url": "https://fanout.sh/system/archive/lsm-read-path-bloom-and-sparse-index"
+            },
+            {
+              "title": "Compaction And Amplification",
+              "url": "https://fanout.sh/system/archive/compaction-and-amplification"
+            },
+            {
+              "title": "Object Storage Vs Database",
+              "url": "https://fanout.sh/system/archive/object-storage-vs-database"
+            },
+            {
+              "title": "S3-Style Object Storage Architecture",
+              "url": "https://fanout.sh/system/archive/s3-object-storage-architecture"
+            },
+            {
+              "title": "Range Partitioning vs Consistent Hashing for Storage",
+              "url": "https://fanout.sh/system/archive/range-partitioning-vs-consistent-hashing-storage"
+            },
+            {
+              "title": "Partition Manager And Map Table",
+              "url": "https://fanout.sh/system/archive/partition-manager-and-map-table"
+            },
+            {
+              "title": "Metadata DB For Object Storage",
+              "url": "https://fanout.sh/system/archive/metadata-db-for-object-storage"
+            },
+            {
+              "title": "Append-Only Object Storage Stream Layer",
+              "url": "https://fanout.sh/system/archive/append-only-object-storage-stream-layer"
+            },
+            {
+              "title": "Object Storage Durability And Replication",
+              "url": "https://fanout.sh/system/archive/object-storage-durability-and-replication"
+            },
+            {
+              "title": "End-To-End Checksums",
+              "url": "https://fanout.sh/system/archive/end-to-end-checksums"
+            }
+          ]
+        },
+        {
+          "id": "learning-async-streams",
+          "title": "Async Work & Streams",
+          "topics": [
+            {
+              "title": "Delegation And Async Work",
+              "url": "https://fanout.sh/system/archive/delegation-and-async-work"
+            },
+            {
+              "title": "Task Queue Vs Event Stream",
+              "url": "https://fanout.sh/system/archive/task-queue-vs-event-stream"
+            },
+            {
+              "title": "Event Bus For Product Events",
+              "url": "https://fanout.sh/system/archive/event-bus-for-product-events"
+            },
+            {
+              "title": "Queue Lag",
+              "url": "https://fanout.sh/system/archive/queue-lag"
+            },
+            {
+              "title": "Distributed Task Scheduler",
+              "url": "https://fanout.sh/system/archive/distributed-task-scheduler"
+            },
+            {
+              "title": "Postgres SKIP LOCKED Work Queue",
+              "url": "https://fanout.sh/system/archive/postgres-skip-locked-work-queue"
+            },
+            {
+              "title": "DAG Workflow Orchestration",
+              "url": "https://fanout.sh/system/archive/dag-workflow-orchestration"
+            },
+            {
+              "title": "Rule Engine Trigger Framework",
+              "url": "https://fanout.sh/system/archive/rule-engine-trigger-framework"
+            },
+            {
+              "title": "Fanout Patterns",
+              "url": "https://fanout.sh/system/archive/fanout-patterns"
+            },
+            {
+              "title": "Flash Sale Inventory Locking",
+              "url": "https://fanout.sh/system/archive/flash-sale-inventory-locking"
+            }
+          ]
+        },
+        {
+          "id": "learning-search-retrieval",
+          "title": "Search & Retrieval",
+          "topics": [
+            {
+              "title": "Information Retrieval System Design",
+              "url": "https://fanout.sh/system/archive/information-retrieval-system-design"
+            },
+            {
+              "title": "Inverted Index And Posting Lists",
+              "url": "https://fanout.sh/system/archive/inverted-index-and-posting-lists"
+            },
+            {
+              "title": "Boolean Tiered Search",
+              "url": "https://fanout.sh/system/archive/boolean-tiered-search"
+            },
+            {
+              "title": "TF-IDF Relevance Scoring",
+              "url": "https://fanout.sh/system/archive/tf-idf-relevance-scoring"
+            },
+            {
+              "title": "BM25 Production Ranking",
+              "url": "https://fanout.sh/system/archive/bm25-production-ranking"
+            },
+            {
+              "title": "Stop Words And Champion Lists",
+              "url": "https://fanout.sh/system/archive/stop-words-and-champion-lists"
+            },
+            {
+              "title": "Query Understanding Pipeline",
+              "url": "https://fanout.sh/system/archive/query-understanding-pipeline"
+            },
+            {
+              "title": "Search Feedback And Relevance Signals",
+              "url": "https://fanout.sh/system/archive/search-feedback-and-relevance-signals"
+            },
+            {
+              "title": "Search Evaluation Metrics",
+              "url": "https://fanout.sh/system/archive/search-evaluation-metrics"
+            },
+            {
+              "title": "Search Index Synchronization",
+              "url": "https://fanout.sh/system/archive/search-index-synchronization"
+            },
+            {
+              "title": "Search Index Sharding",
+              "url": "https://fanout.sh/system/archive/search-index-sharding"
+            },
+            {
+              "title": "Crawler And Indexing Pipeline",
+              "url": "https://fanout.sh/system/archive/crawler-and-indexing-pipeline"
+            },
+            {
+              "title": "Vector Search And Hybrid Retrieval",
+              "url": "https://fanout.sh/system/archive/vector-search-and-hybrid-retrieval"
+            },
+            {
+              "title": "Autocomplete System Design",
+              "url": "https://fanout.sh/system/archive/autocomplete-system-design"
+            },
+            {
+              "title": "Did You Mean And Spell Correction",
+              "url": "https://fanout.sh/system/archive/did-you-mean-and-spell-correction"
+            },
+            {
+              "title": "Related Searches",
+              "url": "https://fanout.sh/system/archive/related-searches"
+            },
+            {
+              "title": "Recent Searches System Design",
+              "url": "https://fanout.sh/system/archive/recent-searches-system-design"
+            }
+          ]
+        },
+        {
+          "id": "learning-analytics-sketches",
+          "title": "Analytics & Sketches",
+          "topics": [
+            {
+              "title": "Counting At Scale",
+              "url": "https://fanout.sh/system/archive/counting-at-scale"
+            },
+            {
+              "title": "View Counting At Scale",
+              "url": "https://fanout.sh/system/archive/view-counting-at-scale"
+            },
+            {
+              "title": "Impression Counting System Design",
+              "url": "https://fanout.sh/system/archive/impression-counting-system-design"
+            },
+            {
+              "title": "HyperLogLog Cardinality Estimation",
+              "url": "https://fanout.sh/system/archive/hyperloglog-cardinality-estimation"
+            },
+            {
+              "title": "Mergeable Sketches For Analytics",
+              "url": "https://fanout.sh/system/archive/mergeable-sketches-for-analytics"
+            },
+            {
+              "title": "Bucketed Time Window Aggregation",
+              "url": "https://fanout.sh/system/archive/bucketed-time-window-aggregation"
+            },
+            {
+              "title": "Raw Events Vs Derived Analytics",
+              "url": "https://fanout.sh/system/archive/raw-events-vs-derived-analytics"
+            },
+            {
+              "title": "Count-Min Sketch",
+              "url": "https://fanout.sh/system/archive/count-min-sketch"
+            },
+            {
+              "title": "Top-K Heavy Hitters",
+              "url": "https://fanout.sh/system/archive/top-k-heavy-hitters"
+            },
+            {
+              "title": "Reservoir Sampling",
+              "url": "https://fanout.sh/system/archive/reservoir-sampling"
+            },
+            {
+              "title": "TDigest Quantile Sketch",
+              "url": "https://fanout.sh/system/archive/tdigest-quantile-sketch"
+            },
+            {
+              "title": "Streaming Percentile Analytics",
+              "url": "https://fanout.sh/system/archive/streaming-percentile-analytics"
+            },
+            {
+              "title": "Live Reactions High Throughput Design",
+              "url": "https://fanout.sh/system/archive/live-reactions-high-throughput-design"
+            }
+          ]
+        },
+        {
+          "id": "learning-realtime-social",
+          "title": "Realtime, Social & Feeds",
+          "topics": [
+            {
+              "title": "Real-Time Database And WebSocket Scaling",
+              "url": "https://fanout.sh/system/archive/realtime-database-and-websocket-scaling"
+            },
+            {
+              "title": "Short Poll Vs Long Poll Vs WebSocket",
+              "url": "https://fanout.sh/system/archive/short-poll-vs-long-poll-vs-websocket"
+            },
+            {
+              "title": "Long Polling Vs WebSockets",
+              "url": "https://fanout.sh/system/archive/long-polling-vs-websockets"
+            },
+            {
+              "title": "WebSockets Vs SSE Vs Long Polling",
+              "url": "https://fanout.sh/system/archive/websockets-vs-sse-vs-long-polling"
+            },
+            {
+              "title": "Social Network Database Modeling",
+              "url": "https://fanout.sh/system/archive/social-network-database-modeling"
+            },
+            {
+              "title": "Social Graph Follows And FlockDB",
+              "url": "https://fanout.sh/system/archive/social-graph-follows-and-flockdb"
+            },
+            {
+              "title": "Feed Generation Push Pull Hybrid",
+              "url": "https://fanout.sh/system/archive/feed-generation-push-pull-hybrid"
+            },
+            {
+              "title": "Newly-Unread Indicator",
+              "url": "https://fanout.sh/system/archive/newly-unread-indicator"
+            },
+            {
+              "title": "Hashtag Extraction And Tag Store",
+              "url": "https://fanout.sh/system/archive/hashtag-extraction-and-tag-store"
+            },
+            {
+              "title": "Reaction Modeling",
+              "url": "https://fanout.sh/system/archive/reaction-modeling"
+            },
+            {
+              "title": "Photo Tagging Coordinate Model",
+              "url": "https://fanout.sh/system/archive/photo-tagging-coordinate-model"
+            },
+            {
+              "title": "Live Commentary System Design",
+              "url": "https://fanout.sh/system/archive/live-commentary-system-design"
+            }
+          ]
+        },
+        {
+          "id": "learning-geo-matching",
+          "title": "Geo, Matching & Recs",
+          "topics": [
+            {
+              "title": "Nearby Geospatial Search System Design",
+              "url": "https://fanout.sh/system/archive/nearby-geospatial-search-system-design"
+            },
+            {
+              "title": "Geohash Prefix Spatial Index",
+              "url": "https://fanout.sh/system/archive/geohash-prefix-spatial-index"
+            },
+            {
+              "title": "Geospatial Grid Systems H3 S2 Geohash",
+              "url": "https://fanout.sh/system/archive/geospatial-grid-systems-h3-s2-geohash"
+            },
+            {
+              "title": "Redis GEO Spatial Hot Path",
+              "url": "https://fanout.sh/system/archive/redis-geo-spatial-hot-path"
+            },
+            {
+              "title": "Geofencing Point In Polygon",
+              "url": "https://fanout.sh/system/archive/geofencing-point-in-polygon"
+            },
+            {
+              "title": "Ray Casting Point In Polygon",
+              "url": "https://fanout.sh/system/archive/ray-casting-point-in-polygon"
+            },
+            {
+              "title": "Seen Filtering Bloom Vs Exact Sets",
+              "url": "https://fanout.sh/system/archive/seen-filtering-bloom-vs-exact-sets"
+            },
+            {
+              "title": "Matching And Recommendation Algorithms",
+              "url": "https://fanout.sh/system/archive/matching-and-recommendation-algorithms"
+            }
+          ]
+        },
+        {
+          "id": "learning-media-files",
+          "title": "Media, Files & CDN",
+          "topics": [
+            {
+              "title": "Direct To Object Storage Upload",
+              "url": "https://fanout.sh/system/archive/direct-to-object-storage-upload"
+            },
+            {
+              "title": "Image CDN And Resizing",
+              "url": "https://fanout.sh/system/archive/image-cdn-and-resizing"
+            },
+            {
+              "title": "Gravatar-Style Avatar Service",
+              "url": "https://fanout.sh/system/archive/gravatar-style-avatar-service"
+            },
+            {
+              "title": "Video Upload With Signed URLs And Multipart",
+              "url": "https://fanout.sh/system/archive/video-upload-signed-url-multipart"
+            },
+            {
+              "title": "Video Transcoding Pipeline",
+              "url": "https://fanout.sh/system/archive/video-transcoding-pipeline"
+            },
+            {
+              "title": "Adaptive Bitrate And CDN Decider",
+              "url": "https://fanout.sh/system/archive/adaptive-bitrate-and-cdn-decider"
+            },
+            {
+              "title": "Signed URLs DRM And Video Security",
+              "url": "https://fanout.sh/system/archive/signed-urls-drm-and-video-security"
+            },
+            {
+              "title": "Live Streaming WebRTC And Latency",
+              "url": "https://fanout.sh/system/archive/live-streaming-webrtc-and-latency"
+            },
+            {
+              "title": "Remote File Sync Design",
+              "url": "https://fanout.sh/system/archive/remote-file-sync-design"
+            },
+            {
+              "title": "Fixed Block Chunking And Content Addressing",
+              "url": "https://fanout.sh/system/archive/fixed-block-chunking-and-content-addressing"
+            },
+            {
+              "title": "Blocklist Versioned File Metadata",
+              "url": "https://fanout.sh/system/archive/blocklist-versioned-file-metadata"
+            }
+          ]
+        },
+        {
+          "id": "learning-reliability-ops",
+          "title": "Reliability & Operations",
+          "topics": [
+            {
+              "title": "Observability For Distributed Systems",
+              "url": "https://fanout.sh/system/archive/observability-for-distributed-systems"
+            },
+            {
+              "title": "SLOs And Error Budgets",
+              "url": "https://fanout.sh/system/archive/slos-and-error-budgets"
+            },
+            {
+              "title": "Incident Response",
+              "url": "https://fanout.sh/system/archive/incident-response"
+            },
+            {
+              "title": "Deployment And Migration Safety",
+              "url": "https://fanout.sh/system/archive/deployment-and-migration-safety"
+            },
+            {
+              "title": "Database Migration Safety",
+              "url": "https://fanout.sh/system/archive/database-migration-safety"
+            },
+            {
+              "title": "Parallel Monolith Read Drain",
+              "url": "https://fanout.sh/system/archive/parallel-monolith-read-drain"
+            },
+            {
+              "title": "Database Backups And Restore",
+              "url": "https://fanout.sh/system/archive/database-backups-and-restore"
+            },
+            {
+              "title": "Backup And Restore Strategy",
+              "url": "https://fanout.sh/system/archive/backup-and-restore-strategy"
+            },
+            {
+              "title": "Disaster Recovery",
+              "url": "https://fanout.sh/system/archive/disaster-recovery"
+            },
+            {
+              "title": "Data Retention And Deletion",
+              "url": "https://fanout.sh/system/archive/data-retention-and-deletion"
+            },
+            {
+              "title": "Privacy And Data Retention",
+              "url": "https://fanout.sh/system/archive/privacy-and-data-retention"
+            },
+            {
+              "title": "Security And Abuse Prevention",
+              "url": "https://fanout.sh/system/archive/security-and-abuse-prevention"
+            },
+            {
+              "title": "Rate Limiter Placement And Keys",
+              "url": "https://fanout.sh/system/archive/rate-limiter-placement-and-keys"
+            },
+            {
+              "title": "Sliding Window Rate Limiter",
+              "url": "https://fanout.sh/system/archive/sliding-window-rate-limiter"
+            },
+            {
+              "title": "Multi-Tenant Design",
+              "url": "https://fanout.sh/system/archive/multi-tenant-design"
+            }
+          ]
+        }
+      ],
+      "title": "System Design",
+      "url": "https://fanout.sh/system/overview",
+      "systems": [
+        {
+          "title": "Build a rate limiter",
+          "url": "https://fanout.sh/system/archive/sliding-window-rate-limiter"
+        },
+        {
+          "title": "Build a load balancer",
+          "url": "https://fanout.sh/system/archive/load-balancers"
+        },
+        {
+          "title": "Build an LRU cache",
+          "url": "https://fanout.sh/system/archive/cache-eviction-policies"
+        },
+        {
+          "title": "Build a TTL cache reaper",
+          "url": "https://fanout.sh/system/archive/ttl-expiration-and-cache-reapers"
+        },
+        {
+          "title": "Build a consistent hash ring",
+          "url": "https://fanout.sh/system/archive/consistent-hashing"
+        },
+        {
+          "title": "Build a Bloom filter",
+          "url": "https://fanout.sh/system/archive/bloom-filters"
+        },
+        {
+          "title": "Build a distributed ID generator",
+          "url": "https://fanout.sh/system/archive/snowflake-id-design"
+        },
+        {
+          "title": "Build cursor pagination",
+          "url": "https://fanout.sh/system/archive/keyset-pagination"
+        },
+        {
+          "title": "Build a write-ahead log",
+          "url": "https://fanout.sh/system/archive/database-wal-and-recovery"
+        },
+        {
+          "title": "Build lease-based leader election",
+          "url": "https://fanout.sh/system/archive/leader-election"
+        },
+        {
+          "title": "Build a gossip protocol",
+          "url": "https://fanout.sh/system/archive/gossip-protocol"
+        },
+        {
+          "title": "Build a search index",
+          "url": "https://fanout.sh/system/archive/inverted-index-and-posting-lists"
+        },
+        {
+          "title": "Design rate limiting and abuse prevention",
+          "url": "https://fanout.sh/system/archive/rate-limiting-and-abuse-prevention-case-study"
+        },
+        {
+          "title": "Design an e-commerce product listing",
+          "url": "https://fanout.sh/system/archive/ecommerce-product-listing-system-design"
+        },
+        {
+          "title": "Design a notification system",
+          "url": "https://fanout.sh/system/archive/notification-system-design"
+        },
+        {
+          "title": "Migrate a database with zero downtime",
+          "url": "https://fanout.sh/system/archive/zero-downtime-database-migration-case-study"
+        },
+        {
+          "title": "Design a payment system",
+          "url": "https://fanout.sh/system/archive/payment-system-design"
+        },
+        {
+          "title": "Design nearby search",
+          "url": "https://fanout.sh/system/archive/geospatial-nearby-search-case-study"
+        },
+        {
+          "title": "Design a recommendation system",
+          "url": "https://fanout.sh/system/archive/recommendation-system-design"
+        },
+        {
+          "title": "Design a social feed",
+          "url": "https://fanout.sh/system/archive/social-feed-system-design-case-study"
+        },
+        {
+          "title": "Design chat and messaging",
+          "url": "https://fanout.sh/system/archive/chat-and-messaging-system-design"
+        },
+        {
+          "title": "Design a collaborative editor",
+          "url": "https://fanout.sh/system/archive/collaborative-editing-system-design"
+        },
+        {
+          "title": "Design observability and SLOs",
+          "url": "https://fanout.sh/system/archive/observability-slo-case-study"
+        }
+      ]
+    },
+    {
+      "id": "ml-math",
+      "modules": [
+        {
+          "id": "set-language-for-models",
+          "title": "Set Language for Machine Learning",
+          "topics": [
+            {
+              "title": "Special Sets and the Number-System Ladder",
+              "url": "https://fanout.sh/ml-math/lessons/sets-special-sets-and-the-number-system-ladder-t-1ojbjcc"
+            },
+            {
+              "title": "Equivalent Sets",
+              "url": "https://fanout.sh/ml-math/lessons/sets-equivalent-sets-t-1r7vp9a"
+            },
+            {
+              "title": "Building Sets by Listing Members",
+              "url": "https://fanout.sh/ml-math/lessons/sets-building-sets-by-listing-members-t-0z1zgrp"
+            },
+            {
+              "title": "Building Sets with Membership Conditions",
+              "url": "https://fanout.sh/ml-math/lessons/sets-building-sets-with-membership-conditions-t-1o2m92b"
+            },
+            {
+              "title": "Set-Builder Notation",
+              "url": "https://fanout.sh/ml-math/lessons/sets-set-builder-notation-t-1h3pbb0"
+            },
+            {
+              "title": "Planar Regions in Set-Builder Form",
+              "url": "https://fanout.sh/ml-math/lessons/sets-planar-regions-in-set-builder-form-t-020hek0"
+            },
+            {
+              "title": "Indicator Functions",
+              "url": "https://fanout.sh/ml-math/lessons/sets-indicator-functions-t-19sbp2q"
+            },
+            {
+              "title": "Indicator Functions for Predicates",
+              "url": "https://fanout.sh/ml-math/lessons/sets-indicator-functions-for-predicates-t-1289tky"
+            },
+            {
+              "title": "Relative Complements",
+              "url": "https://fanout.sh/ml-math/lessons/sets-relative-complements-t-0x92bp9"
+            },
+            {
+              "title": "Set Complements",
+              "url": "https://fanout.sh/ml-math/lessons/sets-set-complements-t-0jodzbl"
+            },
+            {
+              "title": "The Cartesian Product",
+              "url": "https://fanout.sh/ml-math/lessons/sets-the-cartesian-product-t-0pult90"
+            },
+            {
+              "title": "Cartesian Products as Regions",
+              "url": "https://fanout.sh/ml-math/lessons/sets-cartesian-products-as-regions-t-09634sc"
+            },
+            {
+              "title": "Indexed Sets",
+              "url": "https://fanout.sh/ml-math/lessons/sets-indexed-sets-t-1hxs6m1"
+            },
+            {
+              "title": "Sets and Functions",
+              "url": "https://fanout.sh/ml-math/lessons/sets-sets-and-functions-t-11e0ily"
+            },
+            {
+              "title": "Subsets",
+              "url": "https://fanout.sh/ml-math/lessons/sets-subsets-t-1x7h4w8"
+            },
+            {
+              "title": "Cardinality of Finite Sets",
+              "url": "https://fanout.sh/ml-math/lessons/sets-cardinality-of-finite-sets-t-1rw6ddi"
+            },
+            {
+              "title": "Infinite Sets",
+              "url": "https://fanout.sh/ml-math/lessons/sets-infinite-sets-t-030dv8f"
+            },
+            {
+              "title": "Interior and Boundary Points",
+              "url": "https://fanout.sh/ml-math/lessons/sets-interior-and-boundary-points-t-1qzjuqn"
+            },
+            {
+              "title": "Interiors and Boundaries of Sets",
+              "url": "https://fanout.sh/ml-math/lessons/sets-interiors-and-boundaries-of-sets-t-050wtd3"
+            },
+            {
+              "title": "Open and Closed Sets",
+              "url": "https://fanout.sh/ml-math/lessons/sets-open-and-closed-sets-t-09o0p11"
+            },
+            {
+              "title": "Disjoint Sets",
+              "url": "https://fanout.sh/ml-math/lessons/sets-disjoint-sets-t-0okx483"
+            },
+            {
+              "title": "Maximum and Minimum Elements",
+              "url": "https://fanout.sh/ml-math/lessons/sets-maximum-and-minimum-elements-t-10xuc46"
+            },
+            {
+              "title": "Supremum and Infimum",
+              "url": "https://fanout.sh/ml-math/lessons/sets-supremum-and-infimum-t-07348eh"
+            },
+            {
+              "title": "Argmax and Argmin Notation",
+              "url": "https://fanout.sh/ml-math/lessons/sets-argmax-and-argmin-notation-t-08l0bn3"
+            },
+            {
+              "title": "Reading Argmax and Argmin from Data",
+              "url": "https://fanout.sh/ml-math/lessons/sets-reading-argmax-and-argmin-from-data-t-1kn9xdk"
+            }
+          ]
+        },
+        {
+          "id": "logic-and-boolean-reasoning",
+          "title": "Logic for Precise Reasoning",
+          "topics": [
+            {
+              "title": "Statements and Predicates",
+              "url": "https://fanout.sh/ml-math/lessons/logic-statements-and-predicates-t-1816xbj"
+            },
+            {
+              "title": "The \"And\" and \"Or\" Connectives",
+              "url": "https://fanout.sh/ml-math/lessons/logic-the-and-and-or-connectives-t-0asncw0"
+            },
+            {
+              "title": "The \"Not\" Connective",
+              "url": "https://fanout.sh/ml-math/lessons/logic-the-not-connective-t-1f5oxmb"
+            },
+            {
+              "title": "Truth Tables",
+              "url": "https://fanout.sh/ml-math/lessons/logic-truth-tables-t-0wtmcjb"
+            },
+            {
+              "title": "Logical Equivalence",
+              "url": "https://fanout.sh/ml-math/lessons/logic-logical-equivalence-t-184hd56"
+            },
+            {
+              "title": "Logical Associative and Commutative Laws",
+              "url": "https://fanout.sh/ml-math/lessons/logic-logical-associative-and-commutative-laws-t-0wmxku3"
+            },
+            {
+              "title": "The Distributive Laws",
+              "url": "https://fanout.sh/ml-math/lessons/logic-the-distributive-laws-t-136eha8"
+            },
+            {
+              "title": "The Absorption Laws",
+              "url": "https://fanout.sh/ml-math/lessons/logic-the-absorption-laws-t-0nlg6ww"
+            },
+            {
+              "title": "De Morgan's Laws for Logic",
+              "url": "https://fanout.sh/ml-math/lessons/logic-de-morgan-s-laws-for-logic-t-16g9699"
+            },
+            {
+              "title": "Conditional Statements",
+              "url": "https://fanout.sh/ml-math/lessons/logic-conditional-statements-t-0l27qya"
+            },
+            {
+              "title": "Logical Equivalence with Conditional Statements",
+              "url": "https://fanout.sh/ml-math/lessons/logic-logical-equivalence-with-conditional-statements-t-0277hq5"
+            },
+            {
+              "title": "Biconditional Statements",
+              "url": "https://fanout.sh/ml-math/lessons/logic-biconditional-statements-t-1o0nrk5"
+            },
+            {
+              "title": "Truth Sets of Predicates",
+              "url": "https://fanout.sh/ml-math/lessons/logic-truth-sets-of-predicates-t-0xviok0"
+            },
+            {
+              "title": "The \"And\" and \"Or\" Connectives With Predicates",
+              "url": "https://fanout.sh/ml-math/lessons/logic-the-and-and-or-connectives-with-predicates-t-0q0yc3g"
+            },
+            {
+              "title": "The \"Not\" Connective With Predicates",
+              "url": "https://fanout.sh/ml-math/lessons/logic-the-not-connective-with-predicates-t-1lvrhey"
+            },
+            {
+              "title": "De Morgan's Laws for Predicates",
+              "url": "https://fanout.sh/ml-math/lessons/logic-de-morgan-s-laws-for-predicates-t-1qs0eus"
+            },
+            {
+              "title": "Conditional Statements With Predicates",
+              "url": "https://fanout.sh/ml-math/lessons/logic-conditional-statements-with-predicates-t-0gfsdc7"
+            },
+            {
+              "title": "Boolean Functions",
+              "url": "https://fanout.sh/ml-math/lessons/logic-boolean-functions-t-1ozow7e"
+            },
+            {
+              "title": "Boolean Functions And Logical Operations",
+              "url": "https://fanout.sh/ml-math/lessons/logic-boolean-functions-and-logical-operations-t-0awaw4u"
+            }
+          ]
+        },
+        {
+          "id": "vectors-matrices-and-solvers",
+          "title": "Linear Systems and Geometric Maps",
+          "topics": [
+            {
+              "title": "Lines in Vector Form",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-lines-in-vector-form-t-1ltbwio"
+            },
+            {
+              "title": "Lines in Parametric Form",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-lines-in-parametric-form-t-16wzajh"
+            },
+            {
+              "title": "Lines in Cartesian Form",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-lines-in-cartesian-form-t-0mj4idv"
+            },
+            {
+              "title": "Planes in Vector Form",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-planes-in-vector-form-t-178l891"
+            },
+            {
+              "title": "Planes in Cartesian Form",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-planes-in-cartesian-form-t-0r3dazr"
+            },
+            {
+              "title": "Planes in Parametric Form",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-planes-in-parametric-form-t-06i0gpn"
+            },
+            {
+              "title": "Where Two Planes Meet",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-where-two-planes-meet-t-0vd64qb"
+            },
+            {
+              "title": "Point-to-Plane Distance",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-point-to-plane-distance-t-024y3kp"
+            },
+            {
+              "title": "Where a Line Meets a Plane",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-where-a-line-meets-a-plane-t-19eh4wn"
+            },
+            {
+              "title": "Systems of Equations as Augmented Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-systems-of-equations-as-augmented-matrices-t-0n67kci"
+            },
+            {
+              "title": "Row Echelon Form",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-row-echelon-form-t-0usgpu2"
+            },
+            {
+              "title": "Solving Systems of Equations Using Back Substitution",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-solving-systems-of-equations-using-back-substitution-t-1ccuxjn"
+            },
+            {
+              "title": "Elementary Row Operations",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-elementary-row-operations-t-0r7v2we"
+            },
+            {
+              "title": "Creating Zeros by Elimination",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-creating-zeros-by-elimination-t-0938jp2"
+            },
+            {
+              "title": "Row Reduction for 2x2 Systems",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-row-reduction-for-2x2-systems-t-1tn7451"
+            },
+            {
+              "title": "Row Reduction for Singular 2x2 Systems",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-row-reduction-for-singular-2x2-systems-t-1cfvyuw"
+            },
+            {
+              "title": "Row Reduction for 3x3 Systems",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-row-reduction-for-3x3-systems-t-1rhydr3"
+            },
+            {
+              "title": "Identifying the Pivot Columns of a Matrix",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-identifying-the-pivot-columns-of-a-matrix-t-0bfgp8i"
+            },
+            {
+              "title": "Row Reduction for Singular 3x3 Systems",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-row-reduction-for-singular-3x3-systems-t-1r2bem6"
+            },
+            {
+              "title": "Reduced Row Echelon Form",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-reduced-row-echelon-form-t-0efhaml"
+            },
+            {
+              "title": "Row Reduction for General Linear Systems",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-row-reduction-for-general-linear-systems-t-0levpdp"
+            },
+            {
+              "title": "The Determinant of an NxN Matrix",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-the-determinant-of-an-nxn-matrix-t-16xpudy"
+            },
+            {
+              "title": "Finding Determinants Using Laplace Expansions",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-finding-determinants-using-laplace-expansions-t-0gngzbc"
+            },
+            {
+              "title": "Basic Properties of Determinants",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-basic-properties-of-determinants-t-14kh7g5"
+            },
+            {
+              "title": "Further Properties of Determinants",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-further-properties-of-determinants-t-1jrl1zu"
+            },
+            {
+              "title": "Row and Column Operations on Determinants",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-row-and-column-operations-on-determinants-t-0jh9k7h"
+            },
+            {
+              "title": "Detecting Singular Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-detecting-singular-matrices-t-11cgt7x"
+            },
+            {
+              "title": "Inverting 2x2 Matrices by Row Operations",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-inverting-2x2-matrices-by-row-operations-t-0dprn5g"
+            },
+            {
+              "title": "Inverting 3x3 Matrices by Row Operations",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-inverting-3x3-matrices-by-row-operations-t-1u9savj"
+            },
+            {
+              "title": "Matrices With Easy-to-Find Inverses",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-matrices-with-easy-to-find-inverses-t-05fx6cm"
+            },
+            {
+              "title": "Invertibility through 2x2 Linear Systems",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-invertibility-through-2x2-linear-systems-t-17zgza0"
+            },
+            {
+              "title": "Triangular Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-triangular-matrices-t-0k1slz0"
+            },
+            {
+              "title": "Affine Transformations",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-affine-transformations-t-1y69mx9"
+            },
+            {
+              "title": "The Image of an Affine Transformation",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-the-image-of-an-affine-transformation-t-0gq5n1d"
+            },
+            {
+              "title": "Undoing an Affine Map",
+              "url": "https://fanout.sh/ml-math/lessons/linear-systems-undoing-an-affine-map-t-0qwtdoz"
+            }
+          ]
+        },
+        {
+          "id": "vector-spaces-and-rank",
+          "title": "Vector Spaces, Bases, and Rank",
+          "topics": [
+            {
+              "title": "Vectors in N-Dimensional Euclidean Space",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-vectors-in-n-dimensional-euclidean-space-t-1dbnlfz"
+            },
+            {
+              "title": "Linear Combinations in Higher Dimensions",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-linear-combinations-in-higher-dimensions-t-12yfjpj"
+            },
+            {
+              "title": "Spans in Higher Dimensions",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-spans-in-higher-dimensions-t-1efpsds"
+            },
+            {
+              "title": "Linear Dependence and Independence",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-linear-dependence-and-independence-t-0caozq9"
+            },
+            {
+              "title": "The Hadamard Product",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-the-hadamard-product-t-197w7du"
+            },
+            {
+              "title": "Subspaces of N-Dimensional Space",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-subspaces-of-n-dimensional-space-t-1cyg3m0"
+            },
+            {
+              "title": "A Geometric View of Subspaces",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-a-geometric-view-of-subspaces-t-1tjaujs"
+            },
+            {
+              "title": "The Column Space of a Matrix",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-the-column-space-of-a-matrix-t-019853m"
+            },
+            {
+              "title": "The Null Space of a Matrix",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-the-null-space-of-a-matrix-t-1u72heu"
+            },
+            {
+              "title": "Constructing a Basis for a Span",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-constructing-a-basis-for-a-span-t-01cjr37"
+            },
+            {
+              "title": "Constructing a Column-Space Basis",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-constructing-a-column-space-basis-t-1vt0jfh"
+            },
+            {
+              "title": "Constructing a Null-Space Basis",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-constructing-a-null-space-basis-t-1k8hsnt"
+            },
+            {
+              "title": "Coordinates Relative to a Basis",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-coordinates-relative-to-a-basis-t-012djp6"
+            },
+            {
+              "title": "Representing Vectors in New Bases",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-representing-vectors-in-new-bases-t-0aqq7as"
+            },
+            {
+              "title": "Change-of-Coordinates Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-change-of-coordinates-matrices-t-01rmmob"
+            },
+            {
+              "title": "Converting Between Bases",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-converting-between-bases-t-1kbjxu0"
+            },
+            {
+              "title": "Dimensions of Spans",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-dimensions-of-spans-t-0pb6diw"
+            },
+            {
+              "title": "The Rank of a Matrix",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-the-rank-of-a-matrix-t-1qyl1xm"
+            },
+            {
+              "title": "Null-Space Dimension",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-null-space-dimension-t-1gcij4m"
+            },
+            {
+              "title": "Invertibility through Rank and Nullity",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-invertibility-through-rank-and-nullity-t-14wsc21"
+            },
+            {
+              "title": "The Rank-Nullity Theorem",
+              "url": "https://fanout.sh/ml-math/lessons/spaces-the-rank-nullity-theorem-t-0j9bs9o"
+            }
+          ]
+        },
+        {
+          "id": "eigenstructure-and-diagonalization",
+          "title": "Spectral Thinking and Diagonalization",
+          "topics": [
+            {
+              "title": "Eigenvalues and Eigenvectors for 2x2 Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-eigenvalues-and-eigenvectors-for-2x2-matrices-t-0qf4zop"
+            },
+            {
+              "title": "Characteristic Equations for Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-characteristic-equations-for-matrices-t-0cn657o"
+            },
+            {
+              "title": "Computing Eigenvalues for 2x2 Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-computing-eigenvalues-for-2x2-matrices-t-0e7yqlz"
+            },
+            {
+              "title": "Computing Eigenvectors for 2x2 Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-computing-eigenvectors-for-2x2-matrices-t-0ij6xys"
+            },
+            {
+              "title": "Eigenvectors for 3x3 Matrices with Distinct Eigenvalues",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-eigenvectors-for-3x3-matrices-with-distinct-eigenvalues-t-0f5e5hf"
+            },
+            {
+              "title": "Eigenvectors for General 3x3 Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-eigenvectors-for-general-3x3-matrices-t-0mmni0z"
+            },
+            {
+              "title": "Spectral Coordinates for 2x2 Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-spectral-coordinates-for-2x2-matrices-t-1plwbj7"
+            },
+            {
+              "title": "Properties of Diagonalization",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-properties-of-diagonalization-t-1vh4yhc"
+            },
+            {
+              "title": "Spectral Coordinates for 3x3 Matrices with Distinct Eigenvalues",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-spectral-coordinates-for-3x3-matrices-with-distinct-eigenvalues-t-174fsvo"
+            },
+            {
+              "title": "Spectral Coordinates for General 3x3 Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-spectral-coordinates-for-general-3x3-matrices-t-03nx61k"
+            },
+            {
+              "title": "Symmetric Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-symmetric-matrices-t-1wdkg8m"
+            },
+            {
+              "title": "Diagonalization of 2x2 Symmetric Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-diagonalization-of-2x2-symmetric-matrices-t-0qh5lhk"
+            },
+            {
+              "title": "Diagonalizing Symmetric 3x3 Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/spectral-diagonalizing-symmetric-3x3-matrices-t-1nevyyz"
+            }
+          ]
+        },
+        {
+          "id": "orthogonality-and-projections",
+          "title": "Orthogonality and Projections",
+          "topics": [
+            {
+              "title": "The Dot Product in N-Dimensional Euclidean Space",
+              "url": "https://fanout.sh/ml-math/lessons/projection-the-dot-product-in-n-dimensional-euclidean-space-t-16dctvw"
+            },
+            {
+              "title": "The Norm of a Vector in N-Dimensional Euclidean Space",
+              "url": "https://fanout.sh/ml-math/lessons/projection-the-norm-of-a-vector-in-n-dimensional-euclidean-space-t-16d37vw"
+            },
+            {
+              "title": "Euclidean, Manhattan, and Minkowski Distance",
+              "url": "https://fanout.sh/ml-math/lessons/projection-euclidean-manhattan-and-minkowski-distance-t-1to8r46"
+            },
+            {
+              "title": "Abstract Vector Spaces: Motivation",
+              "url": "https://fanout.sh/ml-math/lessons/projection-abstract-vector-spaces-motivation-t-09x397m"
+            },
+            {
+              "title": "Abstract Vector Spaces: Axioms",
+              "url": "https://fanout.sh/ml-math/lessons/projection-abstract-vector-spaces-axioms-t-1bvw9p5"
+            },
+            {
+              "title": "Inner Product Spaces",
+              "url": "https://fanout.sh/ml-math/lessons/projection-inner-product-spaces-t-0vgpfl1"
+            },
+            {
+              "title": "Orthogonal Vectors in Euclidean Spaces",
+              "url": "https://fanout.sh/ml-math/lessons/projection-orthogonal-vectors-in-euclidean-spaces-t-1aemuf6"
+            },
+            {
+              "title": "Angles from the Cauchy-Schwarz Inequality",
+              "url": "https://fanout.sh/ml-math/lessons/projection-angles-from-the-cauchy-schwarz-inequality-t-11tq9l1"
+            },
+            {
+              "title": "Orthogonal Complements",
+              "url": "https://fanout.sh/ml-math/lessons/projection-orthogonal-complements-t-1h0qrii"
+            },
+            {
+              "title": "Orthogonal Sets",
+              "url": "https://fanout.sh/ml-math/lessons/projection-orthogonal-sets-t-0z22lrm"
+            },
+            {
+              "title": "Orthogonal Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/projection-orthogonal-matrices-t-0t5vmqz"
+            },
+            {
+              "title": "Distance-Preserving Linear Maps",
+              "url": "https://fanout.sh/ml-math/lessons/projection-distance-preserving-linear-maps-t-1bnius0"
+            },
+            {
+              "title": "Projection onto One-Dimensional Subspaces",
+              "url": "https://fanout.sh/ml-math/lessons/projection-projection-onto-one-dimensional-subspaces-t-0creq3i"
+            },
+            {
+              "title": "Coordinates in Orthogonal and Orthonormal Bases",
+              "url": "https://fanout.sh/ml-math/lessons/projection-coordinates-in-orthogonal-and-orthonormal-bases-t-0hclu6y"
+            },
+            {
+              "title": "Projection onto Subspaces with Orthogonal Bases",
+              "url": "https://fanout.sh/ml-math/lessons/projection-projection-onto-subspaces-with-orthogonal-bases-t-1du6kt9"
+            },
+            {
+              "title": "Projection onto Subspaces with Arbitrary Bases",
+              "url": "https://fanout.sh/ml-math/lessons/projection-projection-onto-subspaces-with-arbitrary-bases-t-04c9x0n"
+            },
+            {
+              "title": "Applications of Projection with Arbitrary Bases",
+              "url": "https://fanout.sh/ml-math/lessons/projection-applications-of-projection-with-arbitrary-bases-t-1rb57tg"
+            },
+            {
+              "title": "The Gram-Schmidt Process for Two Vectors",
+              "url": "https://fanout.sh/ml-math/lessons/projection-the-gram-schmidt-process-for-two-vectors-t-041wyid"
+            }
+          ]
+        },
+        {
+          "id": "svd-quadratic-forms-and-compression",
+          "title": "Low-Rank Structure and Quadratic Geometry",
+          "topics": [
+            {
+              "title": "Singular Values as Matrix Stretch",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-singular-values-as-matrix-stretch-t-0hyqio8"
+            },
+            {
+              "title": "Computing Matrix Singular Values",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-computing-matrix-singular-values-t-0c9xyle"
+            },
+            {
+              "title": "SVD for 2x2 Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-svd-for-2x2-matrices-t-1gmgxu9"
+            },
+            {
+              "title": "SVD with Zero or Repeated Eigenvalues",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-svd-with-zero-or-repeated-eigenvalues-t-167c5gm"
+            },
+            {
+              "title": "SVD for Larger Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-svd-for-larger-matrices-t-0mggf8a"
+            },
+            {
+              "title": "Pseudoinverses through SVD",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-pseudoinverses-through-svd-t-1041slj"
+            },
+            {
+              "title": "Bilinear Forms",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-bilinear-forms-t-05fq19b"
+            },
+            {
+              "title": "Quadratic Forms",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-quadratic-forms-t-0ufam1m"
+            },
+            {
+              "title": "Change of Variables in Quadratic Forms",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-change-of-variables-in-quadratic-forms-t-1vydurc"
+            },
+            {
+              "title": "Definiteness and the Sign of Curvature",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-definiteness-and-the-sign-of-curvature-t-1g8dxhc"
+            },
+            {
+              "title": "Constrained Optimization of Quadratic Forms",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-constrained-optimization-of-quadratic-forms-t-0kmv2eu"
+            },
+            {
+              "title": "Where Constrained Quadratic Extrema Occur",
+              "url": "https://fanout.sh/ml-math/lessons/low-rank-where-constrained-quadratic-extrema-occur-t-0z94riv"
+            }
+          ]
+        },
+        {
+          "id": "linear-algebra-in-models",
+          "title": "Linear Algebra in Models",
+          "topics": [
+            {
+              "title": "Least Squares without Collinearity",
+              "url": "https://fanout.sh/ml-math/lessons/applications-least-squares-without-collinearity-t-0pk6yxh"
+            },
+            {
+              "title": "Least Squares with Collinearity",
+              "url": "https://fanout.sh/ml-math/lessons/applications-least-squares-with-collinearity-t-1lu3fv2"
+            },
+            {
+              "title": "Linear Regression With Matrices",
+              "url": "https://fanout.sh/ml-math/lessons/applications-linear-regression-with-matrices-t-1vdwtlk"
+            },
+            {
+              "title": "Polynomial Regression in Matrix Form",
+              "url": "https://fanout.sh/ml-math/lessons/applications-polynomial-regression-in-matrix-form-t-05j2eh4"
+            },
+            {
+              "title": "Multiple Regression in Matrix Form",
+              "url": "https://fanout.sh/ml-math/lessons/applications-multiple-regression-in-matrix-form-t-1w6zhlx"
+            },
+            {
+              "title": "Introduction to Principal Component Analysis",
+              "url": "https://fanout.sh/ml-math/lessons/applications-introduction-to-principal-component-analysis-t-1h3q66k"
+            },
+            {
+              "title": "Computing Principal Directions",
+              "url": "https://fanout.sh/ml-math/lessons/applications-computing-principal-directions-t-0gphx1n"
+            },
+            {
+              "title": "How PCA Connects to SVD",
+              "url": "https://fanout.sh/ml-math/lessons/applications-how-pca-connects-to-svd-t-1hcpchm"
+            },
+            {
+              "title": "Feature Extraction with PCA",
+              "url": "https://fanout.sh/ml-math/lessons/applications-feature-extraction-with-pca-t-0r10y9x"
+            }
+          ]
+        },
+        {
+          "id": "multivariable-calculus-for-learning",
+          "title": "Multivariable Calculus for Learning",
+          "topics": [
+            {
+              "title": "Ellipsoids",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-ellipsoids-t-0b9lppx"
+            },
+            {
+              "title": "Hyperboloids",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-hyperboloids-t-0hnekga"
+            },
+            {
+              "title": "Paraboloids",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-paraboloids-t-1ucua99"
+            },
+            {
+              "title": "Elliptic Cones",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-elliptic-cones-t-03vf5x1"
+            },
+            {
+              "title": "Cylinders",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-cylinders-t-0goii46"
+            },
+            {
+              "title": "Intersecting Surfaces with Lines and Planes",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-intersecting-surfaces-with-lines-and-planes-t-0pyz0ew"
+            },
+            {
+              "title": "Recognizing Quadric Surfaces",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-recognizing-quadric-surfaces-t-0o7sx9g"
+            },
+            {
+              "title": "Valid Inputs for Multivariable Functions",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-valid-inputs-for-multivariable-functions-t-0djdt2t"
+            },
+            {
+              "title": "Level Curves",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-level-curves-t-08kupuu"
+            },
+            {
+              "title": "Level Surfaces",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-level-surfaces-t-1hs7pob"
+            },
+            {
+              "title": "Limits and Continuity in Many Variables",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-limits-and-continuity-in-many-variables-t-1psv5dg"
+            },
+            {
+              "title": "Introduction to Partial Derivatives",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-introduction-to-partial-derivatives-t-1txalv9"
+            },
+            {
+              "title": "Computing Partial Derivatives",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-computing-partial-derivatives-t-10rp80d"
+            },
+            {
+              "title": "The Geometry of Partial Derivatives",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-the-geometry-of-partial-derivatives-t-1genr6m"
+            },
+            {
+              "title": "When Multivariable Functions Are Partially Differentiable",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-when-multivariable-functions-are-partially-differentiable-t-1j5tur5"
+            },
+            {
+              "title": "Higher-Order Partials",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-higher-order-partials-t-0vezhfx"
+            },
+            {
+              "title": "When Mixed Partials Agree",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-when-mixed-partials-agree-t-0zqy73d"
+            },
+            {
+              "title": "Tangent Planes to Surfaces",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-tangent-planes-to-surfaces-t-1sn892d"
+            },
+            {
+              "title": "Local Linear Models for Multivariable Functions",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-local-linear-models-for-multivariable-functions-t-1csxutf"
+            },
+            {
+              "title": "Chain Rules in Many Variables",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-chain-rules-in-many-variables-t-1b4adbp"
+            },
+            {
+              "title": "Valid Inputs for Vector-Valued Functions",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-valid-inputs-for-vector-valued-functions-t-138v66k"
+            },
+            {
+              "title": "Tangent Vectors along Curves",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-tangent-vectors-along-curves-t-138dm1p"
+            },
+            {
+              "title": "The Gradient Vector",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-the-gradient-vector-t-1qglfs3"
+            },
+            {
+              "title": "The Gradient as a Normal Vector",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-the-gradient-as-a-normal-vector-t-0qgrdtn"
+            },
+            {
+              "title": "Directional Derivatives",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-directional-derivatives-t-1ru8n2s"
+            },
+            {
+              "title": "Vector-Form Chain Rules",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-vector-form-chain-rules-t-07xu0af"
+            },
+            {
+              "title": "Gradients over Selected Variables",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-gradients-over-selected-variables-t-02cyl64"
+            },
+            {
+              "title": "The Jacobian",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-the-jacobian-t-1j5xp7d"
+            },
+            {
+              "title": "The Inverse Function Theorem",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-the-inverse-function-theorem-t-18hgejp"
+            },
+            {
+              "title": "Jacobians for Three-Dimensional Maps",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-jacobians-for-three-dimensional-maps-t-1eokco6"
+            },
+            {
+              "title": "The Derivative of a Multivariable Function",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-the-derivative-of-a-multivariable-function-t-0rxugo7"
+            },
+            {
+              "title": "Second Derivatives in Many Variables",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-second-derivatives-in-many-variables-t-07szr3p"
+            },
+            {
+              "title": "Quadratic Taylor Models in Many Variables",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-quadratic-taylor-models-in-many-variables-t-0xesigs"
+            },
+            {
+              "title": "Total and Tensor Derivatives",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-total-and-tensor-derivatives-t-19h81ss"
+            },
+            {
+              "title": "The Chain Rule for Total Derivatives",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-the-chain-rule-for-total-derivatives-t-1ns5ixq"
+            },
+            {
+              "title": "Vector Gradients",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-vector-gradients-t-0wn8zz6"
+            },
+            {
+              "title": "Vector Gradient Patterns",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-vector-gradient-patterns-t-0wouzlk"
+            },
+            {
+              "title": "Matrix Gradients",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-matrix-gradients-t-1aubeb6"
+            },
+            {
+              "title": "Partitions of Intervals",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-partitions-of-intervals-t-0w5yfyg"
+            },
+            {
+              "title": "Double Sums over Partitions",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-double-sums-over-partitions-t-0p7cvm4"
+            },
+            {
+              "title": "Lower-Sum Volume Estimates",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-lower-sum-volume-estimates-t-0pypccu"
+            },
+            {
+              "title": "Upper-Sum Volume Estimates",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-upper-sum-volume-estimates-t-0lqzboq"
+            },
+            {
+              "title": "Lower Sums on General Rectangular Partitions",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-lower-sums-on-general-rectangular-partitions-t-1vnvk66"
+            },
+            {
+              "title": "Upper Sums on General Rectangular Partitions",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-upper-sums-on-general-rectangular-partitions-t-0lqaz3q"
+            },
+            {
+              "title": "Double Integrals from Lower and Upper Sums",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-double-integrals-from-lower-and-upper-sums-t-0wehn3e"
+            },
+            {
+              "title": "Double Integrals Over Rectangular Domains",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-double-integrals-over-rectangular-domains-t-0c67x3k"
+            },
+            {
+              "title": "Integrating over Non-Rectangular Domains",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-integrating-over-non-rectangular-domains-t-0h6mo73"
+            },
+            {
+              "title": "Properties of Double Integrals",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-properties-of-double-integrals-t-03haw6e"
+            },
+            {
+              "title": "Type I and Type II Planar Regions",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-type-i-and-type-ii-planar-regions-t-1pq19rh"
+            },
+            {
+              "title": "Integration over Type I Regions",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-integration-over-type-i-regions-t-1w9ptqq"
+            },
+            {
+              "title": "Integration over Type II Regions",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-integration-over-type-ii-regions-t-0qkmr20"
+            },
+            {
+              "title": "Local and Global Extrema in Many Variables",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-local-and-global-extrema-in-many-variables-t-01y5dvs"
+            },
+            {
+              "title": "Classifying Critical Points with Second Partials",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-classifying-critical-points-with-second-partials-t-0h7327z"
+            },
+            {
+              "title": "Finding Global Extrema in Many Variables",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-finding-global-extrema-in-many-variables-t-05edb8a"
+            },
+            {
+              "title": "Lagrange Multipliers for One Constraint",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-lagrange-multipliers-for-one-constraint-t-121ultx"
+            },
+            {
+              "title": "Lagrange Multipliers for Several Constraints",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-lagrange-multipliers-for-several-constraints-t-1xd3rxd"
+            },
+            {
+              "title": "Constrained Optimization with Lagrange Multipliers",
+              "url": "https://fanout.sh/ml-math/lessons/calculus-constrained-optimization-with-lagrange-multipliers-t-0chf3hb"
+            }
+          ]
+        },
+        {
+          "id": "probability-and-random-variables",
+          "title": "Reasoning Under Uncertainty",
+          "topics": [
+            {
+              "title": "Total Probability across Several Cases",
+              "url": "https://fanout.sh/ml-math/lessons/probability-total-probability-across-several-cases-t-03pqzzx"
+            },
+            {
+              "title": "Bayes' Theorem",
+              "url": "https://fanout.sh/ml-math/lessons/probability-bayes-theorem-t-0oro9z1"
+            },
+            {
+              "title": "Bayesian Updating across Several Cases",
+              "url": "https://fanout.sh/ml-math/lessons/probability-bayesian-updating-across-several-cases-t-0tqr0tb"
+            },
+            {
+              "title": "Densities for Continuous Random Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-densities-for-continuous-random-variables-t-1av9lgs"
+            },
+            {
+              "title": "Probability from Continuous Densities",
+              "url": "https://fanout.sh/ml-math/lessons/probability-probability-from-continuous-densities-t-0yumlhf"
+            },
+            {
+              "title": "Continuous Variables on Infinite Domains",
+              "url": "https://fanout.sh/ml-math/lessons/probability-continuous-variables-on-infinite-domains-t-17bmk1j"
+            },
+            {
+              "title": "CDFs for Continuous Random Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-cdfs-for-continuous-random-variables-t-08o2ypl"
+            },
+            {
+              "title": "Continuous Approximations to Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-continuous-approximations-to-discrete-variables-t-1tot0uw"
+            },
+            {
+              "title": "Simulating Random Observations",
+              "url": "https://fanout.sh/ml-math/lessons/probability-simulating-random-observations-t-0zcbmbe"
+            },
+            {
+              "title": "One-to-One Transforms of Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-one-to-one-transforms-of-discrete-variables-t-192ah89"
+            },
+            {
+              "title": "Many-to-One Transforms of Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-many-to-one-transforms-of-discrete-variables-t-020v3n7"
+            },
+            {
+              "title": "Transforming Distributions with the CDF",
+              "url": "https://fanout.sh/ml-math/lessons/probability-transforming-distributions-with-the-cdf-t-0bj3kkw"
+            },
+            {
+              "title": "Change of Variables for Continuous Distributions",
+              "url": "https://fanout.sh/ml-math/lessons/probability-change-of-variables-for-continuous-distributions-t-1rw67wo"
+            },
+            {
+              "title": "CDF Methods for Many-to-One Transforms",
+              "url": "https://fanout.sh/ml-math/lessons/probability-cdf-methods-for-many-to-one-transforms-t-1ko0j9h"
+            },
+            {
+              "title": "Means of Discrete Random Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-means-of-discrete-random-variables-t-0l74tlf"
+            },
+            {
+              "title": "Linearity of Expectation for Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-linearity-of-expectation-for-discrete-variables-t-1azjjkb"
+            },
+            {
+              "title": "Discrete Moments",
+              "url": "https://fanout.sh/ml-math/lessons/probability-discrete-moments-t-0kqiba9"
+            },
+            {
+              "title": "Variance for Discrete Random Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-variance-for-discrete-random-variables-t-01cap7q"
+            },
+            {
+              "title": "Variance Rules for Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-variance-rules-for-discrete-variables-t-0sf93oz"
+            },
+            {
+              "title": "Means of Continuous Random Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-means-of-continuous-random-variables-t-1gts1fw"
+            },
+            {
+              "title": "Continuous Moments",
+              "url": "https://fanout.sh/ml-math/lessons/probability-continuous-moments-t-0vryyjp"
+            },
+            {
+              "title": "Variance for Continuous Random Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-variance-for-continuous-random-variables-t-1t8cwg2"
+            },
+            {
+              "title": "Expectations of Transformed Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-expectations-of-transformed-variables-t-19hblq0"
+            },
+            {
+              "title": "Total Expectation for Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/probability-total-expectation-for-discrete-variables-t-0vngori"
+            },
+            {
+              "title": "The Bernoulli Distribution",
+              "url": "https://fanout.sh/ml-math/lessons/probability-the-bernoulli-distribution-t-1cr4s5w"
+            },
+            {
+              "title": "Using Binomial Models",
+              "url": "https://fanout.sh/ml-math/lessons/probability-using-binomial-models-t-0k75pv7"
+            },
+            {
+              "title": "Binomial Cumulative Probabilities",
+              "url": "https://fanout.sh/ml-math/lessons/probability-binomial-cumulative-probabilities-t-1gq6mgh"
+            },
+            {
+              "title": "Center and Spread of the Binomial Distribution",
+              "url": "https://fanout.sh/ml-math/lessons/probability-center-and-spread-of-the-binomial-distribution-t-1azgcqs"
+            },
+            {
+              "title": "The Discrete Uniform Distribution",
+              "url": "https://fanout.sh/ml-math/lessons/probability-the-discrete-uniform-distribution-t-0n3xao8"
+            },
+            {
+              "title": "Using Discrete Uniform Models",
+              "url": "https://fanout.sh/ml-math/lessons/probability-using-discrete-uniform-models-t-1cab1rt"
+            },
+            {
+              "title": "Center and Spread of the Discrete Uniform Distribution",
+              "url": "https://fanout.sh/ml-math/lessons/probability-center-and-spread-of-the-discrete-uniform-distribution-t-1wmysvm"
+            },
+            {
+              "title": "The Poisson Distribution",
+              "url": "https://fanout.sh/ml-math/lessons/probability-the-poisson-distribution-t-1nqrazs"
+            },
+            {
+              "title": "Using Poisson Models",
+              "url": "https://fanout.sh/ml-math/lessons/probability-using-poisson-models-t-1mirhw0"
+            },
+            {
+              "title": "Poisson Cumulative Probabilities",
+              "url": "https://fanout.sh/ml-math/lessons/probability-poisson-cumulative-probabilities-t-03ugqrn"
+            },
+            {
+              "title": "The Continuous Uniform Distribution",
+              "url": "https://fanout.sh/ml-math/lessons/probability-the-continuous-uniform-distribution-t-1at36tt"
+            },
+            {
+              "title": "Center and Spread of the Continuous Uniform Distribution",
+              "url": "https://fanout.sh/ml-math/lessons/probability-center-and-spread-of-the-continuous-uniform-distribution-t-0fnfoy4"
+            },
+            {
+              "title": "Using Continuous Uniform Models",
+              "url": "https://fanout.sh/ml-math/lessons/probability-using-continuous-uniform-models-t-00obgib"
+            },
+            {
+              "title": "The Gamma Function",
+              "url": "https://fanout.sh/ml-math/lessons/probability-the-gamma-function-t-03otkln"
+            },
+            {
+              "title": "The Chi-Square Distribution",
+              "url": "https://fanout.sh/ml-math/lessons/probability-the-chi-square-distribution-t-1k0zwh9"
+            },
+            {
+              "title": "The Student's T-Distribution",
+              "url": "https://fanout.sh/ml-math/lessons/probability-the-student-s-t-distribution-t-1f0372i"
+            },
+            {
+              "title": "The Exponential Distribution",
+              "url": "https://fanout.sh/ml-math/lessons/probability-the-exponential-distribution-t-05bzmo8"
+            }
+          ]
+        },
+        {
+          "id": "joint-distributions-and-covariance",
+          "title": "Joint Distributions and Covariance",
+          "topics": [
+            {
+              "title": "Double Summations",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-double-summations-t-1ltvb52"
+            },
+            {
+              "title": "Joint Laws for Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-joint-laws-for-discrete-variables-t-12uczxr"
+            },
+            {
+              "title": "Marginals for Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-marginals-for-discrete-variables-t-11hlrln"
+            },
+            {
+              "title": "Independence for Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-independence-for-discrete-variables-t-1m5l53p"
+            },
+            {
+              "title": "Conditional Laws for Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-conditional-laws-for-discrete-variables-t-0lcm6vi"
+            },
+            {
+              "title": "Joint CDFs for Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-joint-cdfs-for-discrete-variables-t-1m8h35c"
+            },
+            {
+              "title": "Joint Densities for Continuous Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-joint-densities-for-continuous-variables-t-1nmoalv"
+            },
+            {
+              "title": "Marginals for Continuous Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-marginals-for-continuous-variables-t-1oc0myh"
+            },
+            {
+              "title": "Independence for Continuous Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-independence-for-continuous-variables-t-1cru4c1"
+            },
+            {
+              "title": "Conditional Densities for Continuous Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-conditional-densities-for-continuous-variables-t-1ogwd8g"
+            },
+            {
+              "title": "Joint CDFs for Continuous Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-joint-cdfs-for-continuous-variables-t-0aoblz0"
+            },
+            {
+              "title": "Core Properties of Joint CDFs",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-core-properties-of-joint-cdfs-t-13ac9ov"
+            },
+            {
+              "title": "Expectations of Sums and Products",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-expectations-of-sums-and-products-t-19olfix"
+            },
+            {
+              "title": "Variance of Independent Sums",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-variance-of-independent-sums-t-1aytiey"
+            },
+            {
+              "title": "Expectations from Joint Distributions",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-expectations-from-joint-distributions-t-1c04sgk"
+            },
+            {
+              "title": "Conditional Means for Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-conditional-means-for-discrete-variables-t-006io1e"
+            },
+            {
+              "title": "Conditional Variance for Discrete Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-conditional-variance-for-discrete-variables-t-06pi3la"
+            },
+            {
+              "title": "Conditional Means for Continuous Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-conditional-means-for-continuous-variables-t-120ug1w"
+            },
+            {
+              "title": "Conditional Variance for Continuous Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-conditional-variance-for-continuous-variables-t-17qzlzc"
+            },
+            {
+              "title": "Transforming Expectations for Two Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-transforming-expectations-for-two-variables-t-1u4i5eg"
+            },
+            {
+              "title": "Covariance between Two Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-covariance-between-two-variables-t-0wgysxr"
+            },
+            {
+              "title": "Variance Rules for Sums",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-variance-rules-for-sums-t-0dze6k4"
+            },
+            {
+              "title": "Correlation between Two Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-correlation-between-two-variables-t-1s3a5sg"
+            },
+            {
+              "title": "The Covariance Matrix",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-the-covariance-matrix-t-02an5eh"
+            },
+            {
+              "title": "Normal Approximations to Binomial Models",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-normal-approximations-to-binomial-models-t-0rtcl1i"
+            },
+            {
+              "title": "Sums of Two Normal Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-sums-of-two-normal-variables-t-14todcv"
+            },
+            {
+              "title": "Sums of Several Normal Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-sums-of-several-normal-variables-t-0i53kvc"
+            },
+            {
+              "title": "Independent, Identically Distributed Normal Variables",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-independent-identically-distributed-normal-variables-t-1qfgd41"
+            },
+            {
+              "title": "The Bivariate Normal Distribution",
+              "url": "https://fanout.sh/ml-math/lessons/joint-rvs-the-bivariate-normal-distribution-t-19ar3k6"
+            }
+          ]
+        },
+        {
+          "id": "estimation-likelihood-and-intervals",
+          "title": "Statistical Estimation from Samples",
+          "topics": [
+            {
+              "title": "The Sample Mean",
+              "url": "https://fanout.sh/ml-math/lessons/inference-the-sample-mean-t-12ysbi1"
+            },
+            {
+              "title": "Sampling Distributions",
+              "url": "https://fanout.sh/ml-math/lessons/inference-sampling-distributions-t-1ge6uep"
+            },
+            {
+              "title": "Sampling Variability of the Mean",
+              "url": "https://fanout.sh/ml-math/lessons/inference-sampling-variability-of-the-mean-t-1cxh508"
+            },
+            {
+              "title": "The Sample Variance",
+              "url": "https://fanout.sh/ml-math/lessons/inference-the-sample-variance-t-0pbublk"
+            },
+            {
+              "title": "Sample Means from Normal Populations",
+              "url": "https://fanout.sh/ml-math/lessons/inference-sample-means-from-normal-populations-t-11pzamg"
+            },
+            {
+              "title": "The Central Limit Theorem",
+              "url": "https://fanout.sh/ml-math/lessons/inference-the-central-limit-theorem-t-1v9qwya"
+            },
+            {
+              "title": "Sample Proportions from Finite Populations",
+              "url": "https://fanout.sh/ml-math/lessons/inference-sample-proportions-from-finite-populations-t-0uu25fg"
+            },
+            {
+              "title": "Estimating Population Proportions",
+              "url": "https://fanout.sh/ml-math/lessons/inference-estimating-population-proportions-t-0lg480g"
+            },
+            {
+              "title": "The Sample Covariance Matrix",
+              "url": "https://fanout.sh/ml-math/lessons/inference-the-sample-covariance-matrix-t-18h1o2p"
+            },
+            {
+              "title": "Product Notation",
+              "url": "https://fanout.sh/ml-math/lessons/inference-product-notation-t-00dbxem"
+            },
+            {
+              "title": "Differentiation through Logarithms",
+              "url": "https://fanout.sh/ml-math/lessons/inference-differentiation-through-logarithms-t-1sba1k0"
+            },
+            {
+              "title": "Likelihoods for Discrete Models",
+              "url": "https://fanout.sh/ml-math/lessons/inference-likelihoods-for-discrete-models-t-1eaphaw"
+            },
+            {
+              "title": "Log-Likelihoods for Discrete Models",
+              "url": "https://fanout.sh/ml-math/lessons/inference-log-likelihoods-for-discrete-models-t-04f7eym"
+            },
+            {
+              "title": "Likelihoods for Continuous Models",
+              "url": "https://fanout.sh/ml-math/lessons/inference-likelihoods-for-continuous-models-t-0e2tqi2"
+            },
+            {
+              "title": "Log-Likelihoods for Continuous Models",
+              "url": "https://fanout.sh/ml-math/lessons/inference-log-likelihoods-for-continuous-models-t-136a5fo"
+            },
+            {
+              "title": "Fitting Parameters by Maximum Likelihood",
+              "url": "https://fanout.sh/ml-math/lessons/inference-fitting-parameters-by-maximum-likelihood-t-1pux3al"
+            },
+            {
+              "title": "Confidence Intervals for a Mean with Known Variance",
+              "url": "https://fanout.sh/ml-math/lessons/inference-confidence-intervals-for-a-mean-with-known-variance-t-1o6pbn9"
+            },
+            {
+              "title": "Confidence Intervals for a Mean with Unknown Variance",
+              "url": "https://fanout.sh/ml-math/lessons/inference-confidence-intervals-for-a-mean-with-unknown-variance-t-05xu6vd"
+            },
+            {
+              "title": "Confidence Intervals for a Population Proportion",
+              "url": "https://fanout.sh/ml-math/lessons/inference-confidence-intervals-for-a-population-proportion-t-10fqxgy"
+            },
+            {
+              "title": "Confidence Intervals for Two Means with Unequal Variances",
+              "url": "https://fanout.sh/ml-math/lessons/inference-confidence-intervals-for-two-means-with-unequal-variances-t-10zxa22"
+            },
+            {
+              "title": "Confidence Intervals for Regression Slopes",
+              "url": "https://fanout.sh/ml-math/lessons/inference-confidence-intervals-for-regression-slopes-t-0p3r33r"
+            },
+            {
+              "title": "Confidence Intervals for Regression Intercepts",
+              "url": "https://fanout.sh/ml-math/lessons/inference-confidence-intervals-for-regression-intercepts-t-1cc9w0l"
+            }
+          ]
+        }
+      ],
+      "title": "ML Math",
+      "url": "https://fanout.sh/ml-math/overview"
+    }
+  ],
+  "roadmaps": [
+    {
+      "id": "inference-eng",
+      "resources": [
+        {
+          "title": "Calculate KV-cache memory",
+          "url": "https://fanout.sh/labs/kv-cache"
+        },
+        {
+          "title": "Derive the KV-cache formula",
+          "url": "https://fanout.sh/blog/kv-cache-formula-llm-inference-memory"
+        },
+        {
+          "title": "Separate prefill from decode",
+          "url": "https://fanout.sh/blog/prefill-vs-decode-llm-inference"
+        },
+        {
+          "title": "Understand continuous batching",
+          "url": "https://fanout.sh/blog/continuous-batching-llm-inference"
+        }
+      ],
+      "stages": [
+        "Follow one generated token",
+        "Define the workload and SLO",
+        "Account for weights and KV cache",
+        "Improve a single worker",
+        "Choose a serving runtime",
+        "Scale beyond one GPU",
+        "Benchmark and operate"
+      ],
+      "status": "Roadmap; full course being assembled",
+      "title": "Inference Engineering",
+      "url": "https://fanout.sh/inference-eng"
+    },
+    {
+      "id": "open-robotics",
+      "resources": [
+        {
+          "title": "Twin-rotor PID simulation",
+          "url": "https://fanout.sh/tmp/open-robot-demo"
+        }
+      ],
+      "stages": [
+        "Read a robot as a system",
+        "Frames, motion, and robot models",
+        "The ROS 2 graph",
+        "Simulation and control loops",
+        "Perception and state estimation",
+        "Mapping and autonomous navigation",
+        "Manipulation and grasping",
+        "Cross the hardware boundary",
+        "Robot learning, carefully"
+      ],
+      "status": "Planned curriculum; simulation bench being assembled",
+      "title": "Open Robotics",
+      "url": "https://fanout.sh/open-robotics"
+    }
+  ]
+}

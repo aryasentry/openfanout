@@ -1,11 +1,20 @@
 import type { NavigationGroup } from './schema';
 
+export const courseNavigation: NavigationGroup[] = [{ id: 'courses', label: 'Courses', items: [
+  { label: 'All courses & modules', href: '/courses', icon: 'Library' },
+  { label: 'AI Research', href: '/ai/overview', icon: 'Brain' },
+  { label: 'System Design', href: '/system/overview', icon: 'Network' },
+  { label: 'ML Math', href: '/ml-math/overview', icon: 'FunctionSquare' },
+] }];
+
 export const aiNavigation: NavigationGroup[] = [
   {
     id: 'workspace',
     label: 'Workspace',
     items: [
       { label: 'Overview', href: '/ai/overview', icon: 'House' },
+      { label: 'All courses & modules', href: '/courses', icon: 'Library' },
+      { label: 'System Design course', href: '/system/overview', icon: 'Network' },
       { label: 'Resources', href: '/ai/resources', icon: 'Library' },
       { label: 'Community', href: '/ai/community', icon: 'Users' },
       { label: 'Study with me', href: '/study-with-me', icon: 'Video' },
@@ -47,6 +56,7 @@ export const mathNavigation: NavigationGroup[] = [
     label: 'Workspace',
     items: [
       { label: 'Course overview', href: '/ml-math/overview', icon: 'House' },
+      { label: 'Full course index', href: '/courses#ml-math', icon: 'Library' },
       { label: 'Math Decoder', href: '/ml-math/decoder', icon: 'FunctionSquare' },
       { label: 'Resources', href: '/ml-math/resources', icon: 'Library' },
     ],

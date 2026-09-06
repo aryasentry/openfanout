@@ -1,0 +1,22 @@
+.main { width: min(100%, 1040px); margin: auto; padding: 56px 34px 80px; }
+.eyebrow { color: #4b66ff; font: 11px var(--font-display); letter-spacing: .12em; }
+.main h1 { font: 500 clamp(28px, 4vw, 42px)/1.2 var(--font-display); letter-spacing: -.04em; }
+.intro { color: var(--muted); max-width: 660px; line-height: 1.7; }
+.tabs { display: flex; gap: 12px; flex-wrap: wrap; margin: 28px 0 40px; }
+.tabs a { padding: 10px 14px; border: 1px solid #dce0e8; border-radius: 7px; background: white; font-size: 13px; }
+.course { scroll-margin-top: 90px; margin: 38px 0; }
+.course header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 16px; }
+.course h2 { font: 500 24px var(--font-display); }
+.course header span, .count, .module small { color: var(--muted); font-size: 12px; }
+.module { border: 1px solid #dce0e8; border-radius: 8px; background: white; margin: 10px 0; overflow: hidden; }
+.module summary { cursor: pointer; padding: 19px; display: flex; align-items: center; gap: 16px; }
+.module summary::after { content: '+'; color: #4b66ff; }
+.module[open] summary::after { content: '−'; }
+.module strong { flex: 1; font-weight: 550; }
+.number { font: 12px var(--font-display); color: #4b66ff; }
+.module ol, .module ul { padding: 0 20px; margin: 0; list-style: none; }
+.module li { display: flex; justify-content: space-between; gap: 20px; border-top: 1px solid #edf0f4; padding: 15px 0; font-size: 13px; line-height: 1.6; }
+.module li div { display: flex; align-items: center; gap: 18px; flex-shrink: 0; }
+.module a { color: #405dff; }
+.module p { padding: 0 20px; color: var(--muted); font-size: 13px; }
+@media (max-width: 600px) { .main { padding: 30px 16px; } .module summary { padding: 15px 12px; gap: 9px; } .module li { flex-direction: column; gap: 5px; } .count { max-width: 55px; flex-shrink: 0; } }

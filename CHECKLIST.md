@@ -2,6 +2,20 @@
 
 This file is the human-readable completion ledger. Do not mark an item complete without current evidence from source inventory, tests, a successful build, or browser verification.
 
+## September 6 source refresh
+
+- [x] Chrome inspected all three course overviews: 38 modules and 588 topic placements.
+- [x] System Design: 14 modules, 179 fundamentals, and 23 build/case-study entries captured as titles and source links.
+- [x] ML Math: full 301-topic source index captured; the local lesson collection still contains 34 records.
+- [x] AI Research: 12 modules and 108 topics confirmed; the remaining 24 MLOps lesson bodies are still missing locally.
+- [x] Inference Engineering: seven roadmap stages and four available resource links captured.
+- [x] Open Robotics: nine planned modules and the PID simulation link captured.
+- [ ] Full System Design and remaining math lesson content imported.
+
+See [COURSE-CHECKLIST.md](COURSE-CHECKLIST.md) for every captured title and URL. The September source index is separate from the historical 651-record verifier below; that verifier is not evidence of complete coverage of the current Fanout site. `/courses` exposes the index and `/system/overview` exposes System Design source navigation. These are source indexes, not a claim of exact course-page UI parity.
+
+September verification: 66 tests across 27 files passed; nine Playwright scenarios passed; ESLint and the production TypeScript build passed; 224 static pages generated. The page catalog now includes both new routes (653 inventory records, 33 pages); the 588-topic discovery index has a separate integrity check. Chrome verified the course index, expanded all 13 Foundations entries, checked source destinations, and reported no console errors or warnings. The new directory was visually checked at the default desktop size; mobile scenarios cover the existing overview/navigation surfaces.
+
 ## Foundation
 
 - [x] Next.js TypeScript project and light-only design tokens

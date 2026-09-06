@@ -72,7 +72,7 @@ interface WorkspaceSidebarProps {
 }
 
 export function WorkspaceSidebar({ groups, activePath, open, onClose }: WorkspaceSidebarProps) {
-  const curriculumModules = activePath.startsWith('/daily') || activePath.startsWith('/labs') ? [] : activePath.startsWith('/ml-math/') ? mathModules : aiModules;
+  const curriculumModules = activePath.startsWith('/daily') || activePath.startsWith('/labs') || activePath.startsWith('/courses') || activePath.startsWith('/system/') ? [] : activePath.startsWith('/ml-math/') ? mathModules : aiModules;
   return (
     <>
       <button

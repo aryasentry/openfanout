@@ -21,7 +21,8 @@ const summaries: Record<string, { summary: string; tags?: string[] }> = {
 
 const pageNavigation = [...aiNavigation, ...mathNavigation];
 
-export const pageCatalog: CatalogRecord[] = pageNavigation.flatMap((group) => group.items.map((item) => {
+// Anchor navigation targets an existing page, not a separate catalog record.
+export const pageCatalog: CatalogRecord[] = pageNavigation.flatMap((group) => group.items.filter(item => !item.href.includes('#')).map((item) => {
   const slug = item.href.split('/').filter(Boolean).at(-1) ?? 'overview';
   const metadata = summaries[item.href] ?? {
     summary: `Open learning references for ${item.label.toLocaleLowerCase()}.`,
@@ -34,8 +35,8 @@ export const pageCatalog: CatalogRecord[] = pageNavigation.flatMap((group) => gr
     workspace: item.href.startsWith('/ai/') ? 'ai' as const : item.href.startsWith('/ml-math/') ? 'ml-math' as const : 'global' as const,
     section: group.id,
     route: item.href,
-    sourceUrl: `https://fanout.sh${item.href}`,
-    provenanceCheckedAt: '2026-08-24',
+    sourceUrl: item.href === '/courses' ? 'https://fanout.sh/#course-directory' : `https://fanout.sh${item.href}`,
+    provenanceCheckedAt: item.href === '/courses' || item.href === '/system/overview' ? '2026-09-06' : '2026-08-24',
     ...metadata,
   };
 }));

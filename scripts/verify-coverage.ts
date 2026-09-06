@@ -66,7 +66,7 @@ export function verifyCoverage(input: CoverageInput): CoverageResult {
   const errors: string[] = [];
   const deferred: string[] = [];
   const catalogById = new Map(input.catalog.map((record) => [record.id, record]));
-  const catalogRoutes = new Set(input.catalog.map((record) => record.route));
+  const catalogRoutes = new Set<string>(input.catalog.map((record) => record.route));
   const inventoryUrls = new Set<string>();
 
   for (const inventoryRecord of input.inventory) {
@@ -95,7 +95,7 @@ export function verifyCoverage(input: CoverageInput): CoverageResult {
     for (const item of group.items) {
       if (forbiddenLabelPattern.test(item.label)) errors.push(`forbidden navigation label: ${item.label}`);
       if (forbiddenRoutePattern.test(item.href)) errors.push(`forbidden navigation route: ${item.href}`);
-      if (!catalogRoutes.has(item.href)) errors.push(`navigation route missing from catalog: ${item.href}`);
+      if (!catalogRoutes.has(item.href.split('#')[0])) errors.push(`navigation route missing from catalog: ${item.href}`);
     }
   }
 
