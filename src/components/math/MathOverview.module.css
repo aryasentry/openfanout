@@ -163,7 +163,7 @@
 
 .lessonRow {
   display: grid;
-  grid-template-columns: 48px 30px minmax(0, 1fr) 60px 16px;
+  grid-template-columns: 48px 30px minmax(0, 1fr) minmax(60px, 190px) 16px;
   gap: 11px;
   align-items: center;
   min-height: 61px;
@@ -174,6 +174,8 @@
 }
 
 .lessonRow:hover { background: #fafbff; }
+.lessonRowPending { background: #fcfcfd; }
+.lessonRowPending:hover { background: #f6f7fa; }
 
 .topicSymbol {
   display: grid;
@@ -192,7 +194,9 @@
 .lessonCopy { display: grid; gap: 5px; min-width: 0; }
 .lessonCopy strong { overflow: hidden; font: 580 12px/1.3 var(--font-display); text-overflow: ellipsis; white-space: nowrap; }
 .lessonCopy small { overflow: hidden; color: var(--muted); font: 500 10px/1.25 var(--font-display); text-overflow: ellipsis; white-space: nowrap; }
-.lessonStatus { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); font-size: 9px; text-transform: uppercase; }
+.lessonStatus { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); font-size: 9px; line-height: 1.3; text-transform: uppercase; }
+.lessonStatusPending { color: #7b6a38; font-weight: 650; }
+.lessonStatusVideo { color: var(--accent); }
 
 .openNote {
   display: grid;
@@ -215,6 +219,7 @@
 
 @media (max-width: 719px) {
   .main { padding: 30px 14px 72px; }
+  .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 24px; }
   .hero { grid-template-columns: 1fr; gap: 18px; padding-top: 8px; }
   .heroArt { grid-row: 1; width: min(78vw, 300px); justify-self: center; }
   .hero h1 { font-size: 36px; }

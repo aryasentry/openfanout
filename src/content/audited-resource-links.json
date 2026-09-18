@@ -1,0 +1,1032 @@
+[
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Jupyter",
+    "url": "https://jupyter.org/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Kaggle notebooks",
+    "url": "https://www.kaggle.com/code"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Lightning AI",
+    "url": "https://lightning.ai/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Cursor",
+    "url": "https://cursor.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "TensorFlow",
+    "url": "https://tensorflow.org/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "JAX documentation",
+    "url": "https://jax.readthedocs.io/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Transformers",
+    "url": "https://huggingface.co/transformers"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "tinygrad",
+    "url": "https://tinygrad.org/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "scikit-learn",
+    "url": "https://scikit-learn.org/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Hugging Face",
+    "url": "https://huggingface.co/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Replicate",
+    "url": "https://replicate.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Together AI",
+    "url": "https://together.ai/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Modal",
+    "url": "https://modal.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Lambda GPU cloud",
+    "url": "https://lambdalabs.com/service/gpu-cloud"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Netron",
+    "url": "https://netron.app/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Streamlit",
+    "url": "https://streamlit.io/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Gradio",
+    "url": "https://gradio.app/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Papers with Code",
+    "url": "https://paperswithcode.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Semantic Scholar",
+    "url": "https://www.semanticscholar.org/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Connected Papers",
+    "url": "https://www.connectedpapers.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Google Dataset Search",
+    "url": "https://datasetsearch.research.google.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "vLLM",
+    "url": "https://vllm.ai/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Ollama",
+    "url": "https://ollama.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "LM Studio",
+    "url": "https://lmstudio.ai/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Crawl4AI",
+    "url": "https://github.com/unclecode/crawl4ai"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Aider",
+    "url": "https://github.com/Aider-AI/aider"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "exo",
+    "url": "https://github.com/exo-explore/exo"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "LitePParse",
+    "url": "https://github.com/run-llama/litepparse"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "AIChat",
+    "url": "https://github.com/sigoden/aichat"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Gemini CLI",
+    "url": "https://github.com/google-gemini/gemini-cli"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Quick arXiv",
+    "url": "https://quickarxiv.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Papiers",
+    "url": "https://papiers.ai/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Helicone LLM cost calculator",
+    "url": "https://www.helicone.ai/llm-cost"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "OVADB",
+    "url": "https://ovadb.vercel.app/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Vectara hallucination leaderboard",
+    "url": "https://github.com/vectara/hallucination-leaderboard"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Chroma",
+    "url": "https://github.com/chroma-core/chroma"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Goose",
+    "url": "https://github.com/block/goose"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "LLM Visualization",
+    "url": "https://bbycroft.net/llm"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Transformer Explainer",
+    "url": "https://poloclub.github.io/transformer-explainer/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Modal GPU glossary",
+    "url": "https://modal.com/gpu-glossary"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "MatVis",
+    "url": "https://shad.io/MatVis/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "MiniTorch",
+    "url": "https://minitorch.github.io/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "ConvNetJS",
+    "url": "https://cs.stanford.edu/people/karpathy/convnetjs/index.html"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "paper2code",
+    "url": "https://github.com/PrathamLearnsToCode/paper2code"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "ML Digest cloud",
+    "url": "https://ml-digest.ftl.cc/cloud/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "DrivenData",
+    "url": "https://drivendata.org/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Zindi",
+    "url": "https://zindi.africa/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "AIcrowd",
+    "url": "https://aicrowd.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Deep Learning Drizzle",
+    "url": "https://deep-learning-drizzle.github.io/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Machine Learning with PyTorch and Scikit-Learn",
+    "url": "https://github.com/rasbt/machine-learning-book"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "fast.ai course",
+    "url": "https://course.fast.ai/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Hugging Face Learn",
+    "url": "https://huggingface.co/learn"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Full Stack Deep Learning",
+    "url": "https://fullstackdeeplearning.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Made With ML",
+    "url": "https://madewithml.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "CNN Explainer",
+    "url": "https://poloclub.github.io/cnn-explainer/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "GAN Lab",
+    "url": "https://poloclub.github.io/ganlab/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Distill",
+    "url": "https://distill.pub/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Seeing Theory",
+    "url": "https://seeing-theory.brown.edu/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "3Blue1Brown",
+    "url": "https://www.3blue1brown.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "TensorTonic",
+    "url": "https://www.tensortonic.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "ML Knowledge Graph",
+    "url": "https://the-palindrome.github.io/ml-knowledge-graph/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Neural network visualization",
+    "url": "https://nn-vis.noelith.dev/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Google AI Edge Gallery",
+    "url": "https://github.com/google-ai-edge/gallery"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Stanford CS231n",
+    "url": "https://cs231n.stanford.edu/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Stanford CS224n",
+    "url": "https://web.stanford.edu/class/cs224n/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "MIT Introduction to Deep Learning",
+    "url": "https://introtodeeplearning.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "NYU Deep Learning 2021",
+    "url": "https://atcold.github.io/NYU-DLSP21/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Deep learning video playlist",
+    "url": "https://www.youtube.com/playlist?list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Lightning Deep Learning Fundamentals",
+    "url": "https://lightning.ai/pages/courses/deep-learning-fundamentals/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "PyTorch in one hour",
+    "url": "https://sebastianraschka.com/teaching/pytorch-1h"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "GPU performance engineering resources",
+    "url": "https://github.com/wafer-ai/gpu-perf-engineering-resources"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "nanochat",
+    "url": "https://github.com/karpathy/nanochat"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "autoresearch",
+    "url": "https://github.com/karpathy/autoresearch"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Everything Claude Code",
+    "url": "https://github.com/affaan-m/everything-claude-code"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Puffer",
+    "url": "https://puffer.ai/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Deep-ML",
+    "url": "https://www.deep-ml.com/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Hugging Face Deep RL Course",
+    "url": "https://huggingface.co/learn/deep-rl-course/unit0/introduction"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Papers in 100 Lines of Code",
+    "url": "https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Smol Course",
+    "url": "https://github.com/huggingface/smol-course"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "UCI Machine Learning Repository",
+    "url": "https://archive.ics.uci.edu/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Image kernels",
+    "url": "https://setosa.io/ev/image-kernels/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Learn PyTorch",
+    "url": "https://www.learnpytorch.io/"
+  },
+  {
+    "page": "/ai/tools",
+    "pageTitle": "AI tools",
+    "title": "Llama medical-dialogue fine-tuning",
+    "url": "https://github.com/PrathamLearnsToCode/Llama-3.1_QLoRA_medical_dialogue_summary_finetuning-WandB"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "OpenAI",
+    "url": "https://openai.com/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Anthropic",
+    "url": "https://anthropic.com/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Google DeepMind",
+    "url": "https://deepmind.google/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Meta AI",
+    "url": "https://ai.meta.com/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "xAI",
+    "url": "https://x.ai/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Mistral AI",
+    "url": "https://mistral.ai/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Cohere",
+    "url": "https://cohere.com/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "AI21",
+    "url": "https://ai21.com/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Stability AI",
+    "url": "https://stability.ai/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Aleph Alpha",
+    "url": "https://aleph-alpha.com/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Safe Superintelligence",
+    "url": "https://ssi.inc/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Google Research",
+    "url": "https://research.google/",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Apple Machine Learning Research",
+    "url": "https://machinelearning.apple.com/",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "NVIDIA Research",
+    "url": "https://www.nvidia.com/en-us/research/",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Amazon Science",
+    "url": "https://www.amazon.science/",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "IBM Research",
+    "url": "https://research.ibm.com/",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Samsung AI Research",
+    "url": "https://research.samsung.com/artificial-intelligence",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Intel Research",
+    "url": "https://www.intel.com/content/www/us/en/research/overview.html",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "DeepSeek",
+    "url": "https://deepseek.com/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Qwen",
+    "url": "https://qwenlm.github.io/",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Baidu AI",
+    "url": "https://ai.baidu.com/",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Tencent AI",
+    "url": "https://ai.tencent.com/",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "ByteDance",
+    "url": "https://www.bytedance.com/",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Zhipu AI",
+    "url": "https://zhipuai.cn/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "01.AI",
+    "url": "https://01.ai/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Moonshot AI",
+    "url": "https://moonshot.cn/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "SenseTime",
+    "url": "https://www.sensetime.com/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Beijing Academy of Artificial Intelligence",
+    "url": "https://www.baai.ac.cn/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Sarvam AI",
+    "url": "https://sarvam.ai/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Krutrim",
+    "url": "https://olakrutrim.com/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "IIT Bombay",
+    "url": "https://www.iitb.ac.in/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "NAVER",
+    "url": "https://www.navercorp.com/",
+    "section": "Big Tech",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Kakao Brain",
+    "url": "https://www.kakaobrain.com/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Preferred Networks",
+    "url": "https://www.preferred.jp/en/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "RIKEN AIP",
+    "url": "https://aip.riken.jp/",
+    "section": "Government",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Inria",
+    "url": "https://www.inria.fr/",
+    "section": "Government",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Max Planck Society",
+    "url": "https://www.mpg.de/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "ELLIS",
+    "url": "https://ellis.eu/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Kyutai",
+    "url": "https://kyutai.org/",
+    "section": "Frontier Labs",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Hugging Face",
+    "url": "https://huggingface.co/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Together AI",
+    "url": "https://together.ai/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Perplexity",
+    "url": "https://perplexity.ai/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Runway",
+    "url": "https://runwayml.com/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Adept",
+    "url": "https://adept.ai/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Character.AI",
+    "url": "https://character.ai/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Inflection AI",
+    "url": "https://inflection.ai/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Lightning AI",
+    "url": "https://lightning.ai/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Weights & Biases",
+    "url": "https://wandb.ai/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Replicate",
+    "url": "https://replicate.com/",
+    "section": "Startups",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Stanford HAI",
+    "url": "https://hai.stanford.edu/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "MIT CSAIL",
+    "url": "https://www.csail.mit.edu/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Berkeley AI Research",
+    "url": "https://bair.berkeley.edu/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "CMU Machine Learning",
+    "url": "https://www.ml.cmu.edu/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Mila",
+    "url": "https://mila.quebec/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Vector Institute",
+    "url": "https://vectorinstitute.ai/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Allen Institute for AI",
+    "url": "https://allenai.org/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "EleutherAI",
+    "url": "https://eleuther.ai/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "LAION",
+    "url": "https://laion.ai/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "Tsinghua Knowledge Engineering Group",
+    "url": "https://keg.cs.tsinghua.edu.cn/",
+    "section": "Academic",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "DARPA",
+    "url": "https://www.darpa.mil/",
+    "section": "Government",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/community",
+    "pageTitle": "AI community",
+    "title": "UK AI Security Institute",
+    "url": "https://www.aisi.gov.uk/",
+    "section": "Government",
+    "categoryObservedAt": "2026-09-18"
+  },
+  {
+    "page": "/ai/gpu",
+    "pageTitle": "GPU programming",
+    "title": "CUDA C Programming Guide (PDF)",
+    "url": "https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf"
+  },
+  {
+    "page": "/ai/gpu",
+    "pageTitle": "GPU programming",
+    "title": "GPU programming video",
+    "url": "https://www.youtube.com/watch?v=SqQUQHdYWyc"
+  },
+  {
+    "page": "/ai/gpu",
+    "pageTitle": "GPU programming",
+    "title": "OpenCL guide",
+    "url": "https://leonardoaraujosantos.gitbook.io/opencl"
+  },
+  {
+    "page": "/ai/jobs",
+    "pageTitle": "AI jobs",
+    "title": "Adzuna",
+    "url": "https://adzuna.com/"
+  },
+  {
+    "page": "/ai/jobs",
+    "pageTitle": "AI jobs",
+    "title": "Remotive",
+    "url": "https://remotive.com/"
+  },
+  {
+    "page": "/ai/deep-learning",
+    "pageTitle": "Deep learning",
+    "title": "Deep learning video",
+    "url": "https://www.youtube.com/watch?v=bMXqnLiVgLk"
+  }
+]

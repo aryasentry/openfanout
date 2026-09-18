@@ -3,21 +3,31 @@
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Check, Circle, Sigma } from 'lucide-react';
 import { useEffect } from 'react';
-import { mathModules, type MathLessonRecord } from '../../content/math-lessons';
+import { mathLessonBySlug, mathModules, type MathLessonRecord } from '../../content/math-lessons';
+import { fullMathTopicBySlug, fullMathTopics } from '../../content/local-course-topics';
+import type { LessonRecord } from '../../content/schema';
 import { useProgress } from '../../lib/progress/useProgress';
 import styles from '../lesson/LessonReader.module.css';
+import { MathObservedMedia } from './MathObservedMedia';
 
 interface MathLessonReaderProps {
   lesson: MathLessonRecord;
-  neighbors: { previous: MathLessonRecord | null; next: MathLessonRecord | null };
+  neighbors: { previous: Pick<LessonRecord, 'title' | 'route'> | null; next: Pick<LessonRecord, 'title' | 'route'> | null };
 }
 
 export function MathLessonReader({ lesson, neighbors }: MathLessonReaderProps) {
   const { progress, updateProgress } = useProgress();
   const completed = progress.completedLessonIds.includes(lesson.id);
+  const currentTopic = fullMathTopicBySlug.get(lesson.slug);
   const currentModule = mathModules.find((candidate) => candidate.id === lesson.moduleId);
-  const moduleCompleted = currentModule?.lessons.filter((candidate) => progress.completedLessonIds.includes(candidate.id)).length ?? 0;
-  const moduleTotal = currentModule?.lessons.length ?? 0;
+  const moduleTopics = currentTopic
+    ? fullMathTopics.filter((topic) => topic.moduleId === currentTopic.moduleId)
+    : [];
+  const moduleCompleted = moduleTopics.filter((topic) => {
+    const topicLesson = mathLessonBySlug.get(topic.slug);
+    return topicLesson ? progress.completedLessonIds.includes(topicLesson.id) : false;
+  }).length;
+  const moduleTotal = moduleTopics.length;
   const modulePercent = moduleTotal ? Math.round((moduleCompleted / moduleTotal) * 100) : 0;
 
   useEffect(() => {
@@ -88,6 +98,8 @@ export function MathLessonReader({ lesson, neighbors }: MathLessonReaderProps) {
             </div>
           </section>
 
+          <MathObservedMedia sourceUrl={lesson.sourceUrl} />
+
           <nav className={styles.lessonNavigation} aria-label="Lesson navigation">
             {neighbors.previous ? (
               <Link href={neighbors.previous.route} aria-label={`Previous: ${neighbors.previous.title}`}>
@@ -109,7 +121,7 @@ export function MathLessonReader({ lesson, neighbors }: MathLessonReaderProps) {
           <p>{currentModule?.description}</p>
           <div className={styles.progressLabel}><span>{moduleCompleted} of {moduleTotal}</span><span>{modulePercent}%</span></div>
           <span className={styles.progressTrack}><span style={{ width: `${modulePercent}%` }} /></span>
-          <Link className={styles.overviewLink} href={`/ml-math/overview#${lesson.moduleId}`}>
+          <Link className={styles.overviewLink} href={`/ml-math/overview#${currentTopic?.moduleId ?? lesson.moduleId}`}>
             Course overview <ArrowRight size={14} aria-hidden="true" />
           </Link>
         </aside>

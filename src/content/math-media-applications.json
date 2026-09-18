@@ -1,0 +1,152 @@
+{
+  "capturedAt": "2026-09-06",
+  "observations": [
+    {
+      "moduleId": "linear-algebra-in-models",
+      "moduleTitle": "Linear Algebra in Models",
+      "lessonTitle": "Least Squares with Collinearity",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/applications-least-squares-with-collinearity-t-1lu3fv2",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=osh80YCg_GM"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-16-projection-matrices-and-least-squares/",
+        "https://ee263.stanford.edu/lectures/ls.pdf",
+        "https://heath.cs.illinois.edu/scicomp/notes/cs450_chapt03.pdf"
+      ]
+    },
+    {
+      "moduleId": "linear-algebra-in-models",
+      "moduleTitle": "Linear Algebra in Models",
+      "lessonTitle": "Linear Regression With Matrices",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/applications-linear-regression-with-matrices-t-1vdwtlk",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=7ArmBVF2dCs"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://online.stat.psu.edu/stat501/Lesson05",
+        "https://online.stat.psu.edu/stat501/Lesson09",
+        "https://mmids-textbook.github.io/chap02_ls/05_regression/roch-mmids-ls-regression.html"
+      ]
+    },
+    {
+      "moduleId": "linear-algebra-in-models",
+      "moduleTitle": "Linear Algebra in Models",
+      "lessonTitle": "Polynomial Regression in Matrix Form",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/applications-polynomial-regression-in-matrix-form-t-05j2eh4",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=7ArmBVF2dCs"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://online.stat.psu.edu/stat501/Lesson05",
+        "https://online.stat.psu.edu/stat501/Lesson09",
+        "https://mmids-textbook.github.io/chap02_ls/05_regression/roch-mmids-ls-regression.html"
+      ]
+    },
+    {
+      "moduleId": "linear-algebra-in-models",
+      "moduleTitle": "Linear Algebra in Models",
+      "lessonTitle": "Multiple Regression in Matrix Form",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/applications-multiple-regression-in-matrix-form-t-1w6zhlx",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=7ArmBVF2dCs"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://online.stat.psu.edu/stat501/Lesson05",
+        "https://online.stat.psu.edu/stat501/Lesson09",
+        "https://mmids-textbook.github.io/chap02_ls/05_regression/roch-mmids-ls-regression.html"
+      ]
+    },
+    {
+      "moduleId": "linear-algebra-in-models",
+      "moduleTitle": "Linear Algebra in Models",
+      "lessonTitle": "Introduction to Principal Component Analysis",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/applications-introduction-to-principal-component-analysis-t-1h3q66k",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=FgakZw6K1QQ"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://cs229.stanford.edu/notes2021fall/lecture14-pca.pdf",
+        "https://web.stanford.edu/class/cs168/l/l8.pdf",
+        "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html"
+      ]
+    },
+    {
+      "moduleId": "linear-algebra-in-models",
+      "moduleTitle": "Linear Algebra in Models",
+      "lessonTitle": "Computing Principal Directions",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/applications-computing-principal-directions-t-0gphx1n",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=FgakZw6K1QQ"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://cs229.stanford.edu/notes2021fall/lecture14-pca.pdf",
+        "https://web.stanford.edu/class/cs168/l/l8.pdf",
+        "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html"
+      ]
+    },
+    {
+      "moduleId": "linear-algebra-in-models",
+      "moduleTitle": "Linear Algebra in Models",
+      "lessonTitle": "How PCA Connects to SVD",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/applications-how-pca-connects-to-svd-t-1hcpchm",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=FgakZw6K1QQ"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://cs229.stanford.edu/notes2021fall/lecture14-pca.pdf",
+        "https://web.stanford.edu/class/cs168/l/l8.pdf",
+        "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html"
+      ]
+    }
+  ]
+}

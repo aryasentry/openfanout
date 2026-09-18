@@ -20,7 +20,7 @@ export function CourseSourceIndex({ courseId }: { courseId?: string }) {
         <summary><span className={styles.number}>{String(index + 1).padStart(2, '0')}</span><strong>{module.title}</strong><span className={styles.count}>{module.topics.length} topics</span></summary>
         <ol>{module.topics.map((topic, i) => {
           const local = localTopicBySource.get(topic.url);
-          return <li key={`${topic.url}-${i}`}><span>{topic.title}</span><div>{local ? <>{!local.available ? <small>Content pending</small> : null}<Link href={local.route}>Open lesson</Link></> : <a href={topic.url} target="_blank" rel="noopener noreferrer">Fanout ↗</a>}</div></li>;
+          return <li key={`${topic.url}-${i}`}><span>{topic.title}</span><div>{local ? <><small>{local.videoAvailable ? local.notesAvailable ? 'Video · Notes' : 'Video · Notes pending' : local.notesAvailable ? 'Notes' : 'Content pending'}</small><Link href={local.route}>Open lesson</Link></> : <a href={topic.url} target="_blank" rel="noopener noreferrer">Fanout ↗</a>}</div></li>;
         })}</ol>
       </details>)}
       {'systems' in course && course.systems ? <details className={styles.module}><summary><strong>System builds and case studies</strong><span className={styles.count}>{course.systems.length} entries</span></summary><ol>{course.systems.map(topic => <li key={topic.url}><span>{topic.title}</span><a href={topic.url} target="_blank" rel="noopener noreferrer">Fanout ↗</a></li>)}</ol></details> : null}

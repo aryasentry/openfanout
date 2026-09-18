@@ -1,4 +1,5 @@
 import snapshot from './external-resources.json';
+import auditedLinks from './audited-resource-links.json';
 import type { CatalogRecord } from './schema';
 
 export interface ExternalResourceRecord extends CatalogRecord {
@@ -31,7 +32,21 @@ interface ExternalResourceSnapshot {
 const publicSnapshot = snapshot as unknown as ExternalResourceSnapshot;
 const sourcePages = new Map(publicSnapshot.pages.map((page) => [page.route, page]));
 
-export const externalResources = publicSnapshot.records;
+// Destinations observed in the September 7 browser audit. Labels below are
+// concise directory labels, not copied source descriptions or fresh link checks.
+const auditedResources: ExternalResourceRecord[] = auditedLinks.map((link) => {
+  const slug = `audit-${link.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`;
+  return {
+    id: `resource-${link.page.split('/').at(-1)}-${slug}`,
+    slug, title: link.title, kind: 'resource', workspace: 'ai',
+    section: link.section ?? 'Additional resources', route: `${link.page}#${slug}` as `/${string}`,
+    sourceUrl: link.url, externalUrl: link.url, sourcePage: link.page,
+    pageTitle: link.pageTitle, provenanceCheckedAt: '2026-09-07',
+    tags: [link.pageTitle],
+  };
+});
+
+export const externalResources = [...publicSnapshot.records, ...auditedResources];
 
 export const supplementalMathResources: ExternalResourceRecord[] = [
   {

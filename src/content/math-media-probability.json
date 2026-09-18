@@ -1,0 +1,349 @@
+{
+  "observations": [
+    {
+      "moduleId": "probability-and-random-variables",
+      "moduleTitle": "Reasoning Under Uncertainty",
+      "lessonTitle": "Bayes' Theorem",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-bayes-theorem-t-0oro9z1",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=TluTv5V0RmE"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-2-conditioning-and-bayes-rule/",
+        "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class03-prep.pdf"
+      ]
+    },
+    {
+      "moduleId": "probability-and-random-variables",
+      "moduleTitle": "Reasoning Under Uncertainty",
+      "lessonTitle": "Bayesian Updating across Several Cases",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-bayesian-updating-across-several-cases-t-0tqr0tb",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=TluTv5V0RmE"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-2-conditioning-and-bayes-rule/",
+        "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class03-prep.pdf"
+      ]
+    },
+    {
+      "moduleId": "probability-and-random-variables",
+      "moduleTitle": "Reasoning Under Uncertainty",
+      "lessonTitle": "Densities for Continuous Random Variables",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-densities-for-continuous-random-variables-t-1av9lgs",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=mHfn_7ym6to"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-ii/lecture-8/",
+        "https://openstax.org/books/introductory-statistics-2e/pages/5-1-continuous-probability-functions"
+      ]
+    },
+    {
+      "moduleId": "probability-and-random-variables",
+      "moduleTitle": "Reasoning Under Uncertainty",
+      "lessonTitle": "Probability from Continuous Densities",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-probability-from-continuous-densities-t-0yumlhf",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=mHfn_7ym6to"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-ii/lecture-8/",
+        "https://openstax.org/books/introductory-statistics-2e/pages/5-1-continuous-probability-functions"
+      ]
+    },
+    {
+      "moduleId": "probability-and-random-variables",
+      "moduleTitle": "Reasoning Under Uncertainty",
+      "lessonTitle": "Continuous Variables on Infinite Domains",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-continuous-variables-on-infinite-domains-t-17bmk1j",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=mHfn_7ym6to"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-ii/lecture-8/",
+        "https://openstax.org/books/introductory-statistics-2e/pages/5-1-continuous-probability-functions"
+      ]
+    },
+    {
+      "moduleId": "probability-and-random-variables",
+      "moduleTitle": "Reasoning Under Uncertainty",
+      "lessonTitle": "CDFs for Continuous Random Variables",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-cdfs-for-continuous-random-variables-t-08o2ypl",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=mHfn_7ym6to"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-ii/lecture-8/",
+        "https://openstax.org/books/introductory-statistics-2e/pages/5-1-continuous-probability-functions"
+      ]
+    },
+    {
+      "moduleId": "probability-and-random-variables",
+      "moduleTitle": "Reasoning Under Uncertainty",
+      "lessonTitle": "Simulating Random Observations",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-simulating-random-observations-t-0zcbmbe",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=mHfn_7ym6to"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-ii/lecture-8/",
+        "https://openstax.org/books/introductory-statistics-2e/pages/5-1-continuous-probability-functions"
+      ]
+    },
+    {
+      "moduleId": "probability-and-random-variables",
+      "moduleTitle": "Reasoning Under Uncertainty",
+      "lessonTitle": "One-to-One Transforms of Discrete Variables",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-one-to-one-transforms-of-discrete-variables-t-192ah89",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=VBasf8IiCh4"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class05-prep-d.pdf",
+        "https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/03%3A_Distributions/3.07%3A_Transformations_of_Random_Variables"
+      ]
+    },
+    {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Many-to-One Transforms of Discrete Variables","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-many-to-one-transforms-of-discrete-variables-t-020v3n7","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=VBasf8IiCh4"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class05-prep-d.pdf","https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/03%3A_Distributions/3.07%3A_Transformations_of_Random_Variables"]},
+    {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Transforming Distributions with the CDF","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-transforming-distributions-with-the-cdf-t-0bj3kkw","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=VBasf8IiCh4"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class05-prep-d.pdf","https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/03%3A_Distributions/3.07%3A_Transformations_of_Random_Variables"]},
+    {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Change of Variables for Continuous Distributions","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-change-of-variables-for-continuous-distributions-t-1rw67wo","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=VBasf8IiCh4"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class05-prep-d.pdf","https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/03%3A_Distributions/3.07%3A_Transformations_of_Random_Variables"]},
+    {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"CDF Methods for Many-to-One Transforms","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-cdf-methods-for-many-to-one-transforms-t-1ko0j9h","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=VBasf8IiCh4"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class05-prep-d.pdf","https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematical_Statistics_and_Stochastic_Processes_(Siegrist)/03%3A_Distributions/3.07%3A_Transformations_of_Random_Variables"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Means of Discrete Random Variables","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-means-of-discrete-random-variables-t-0l74tlf","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=LX2q356N2rU"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-6/","https://online.stat.psu.edu/stat414/Lesson08"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Linearity of Expectation for Discrete Variables","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-linearity-of-expectation-for-discrete-variables-t-1azjjkb","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=LX2q356N2rU"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-6/","https://online.stat.psu.edu/stat414/Lesson08"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Discrete Moments","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-discrete-moments-t-0kqiba9","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=LX2q356N2rU"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-6/","https://online.stat.psu.edu/stat414/Lesson08"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Variance for Discrete Random Variables","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-variance-for-discrete-random-variables-t-01cap7q","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=LX2q356N2rU"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-6/","https://online.stat.psu.edu/stat414/Lesson08"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Variance Rules for Discrete Variables","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-variance-rules-for-discrete-variables-t-0sf93oz","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=LX2q356N2rU"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-6/","https://online.stat.psu.edu/stat414/Lesson08"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Means of Continuous Random Variables","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-means-of-continuous-random-variables-t-1gts1fw","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=LX2q356N2rU"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-6/","https://online.stat.psu.edu/stat414/Lesson08"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Continuous Moments","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-continuous-moments-t-0vryyjp","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=LX2q356N2rU"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-6/","https://online.stat.psu.edu/stat414/Lesson08"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Variance for Continuous Random Variables","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-variance-for-continuous-random-variables-t-1t8cwg2","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=LX2q356N2rU"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-6/","https://online.stat.psu.edu/stat414/Lesson08"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Expectations of Transformed Variables","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-expectations-of-transformed-variables-t-19hblq0","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=LX2q356N2rU"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-6/","https://online.stat.psu.edu/stat414/Lesson08"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Total Expectation for Discrete Variables","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-total-expectation-for-discrete-variables-t-0vngori","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=LX2q356N2rU"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-6/","https://online.stat.psu.edu/stat414/Lesson08"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"The Bernoulli Distribution","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-the-bernoulli-distribution-t-1cr4s5w","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=k2BB0p8byGA"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://online.stat.psu.edu/stat414/Lesson10","https://online.stat.psu.edu/stat414/Lesson12"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Using Binomial Models","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-using-binomial-models-t-0k75pv7","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=k2BB0p8byGA"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://online.stat.psu.edu/stat414/Lesson10","https://online.stat.psu.edu/stat414/Lesson12"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Binomial Cumulative Probabilities","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-binomial-cumulative-probabilities-t-1gq6mgh","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=k2BB0p8byGA"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://online.stat.psu.edu/stat414/Lesson10","https://online.stat.psu.edu/stat414/Lesson12"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Center and Spread of the Binomial Distribution","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-center-and-spread-of-the-binomial-distribution-t-1azgcqs","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=k2BB0p8byGA"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://online.stat.psu.edu/stat414/Lesson10","https://online.stat.psu.edu/stat414/Lesson12"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"The Discrete Uniform Distribution","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-the-discrete-uniform-distribution-t-0n3xao8","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=k2BB0p8byGA"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://online.stat.psu.edu/stat414/Lesson10","https://online.stat.psu.edu/stat414/Lesson12"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Using Discrete Uniform Models","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-using-discrete-uniform-models-t-1cab1rt","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=k2BB0p8byGA"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://online.stat.psu.edu/stat414/Lesson10","https://online.stat.psu.edu/stat414/Lesson12"]}
+    , {"moduleId":"probability-and-random-variables","moduleTitle":"Reasoning Under Uncertainty","lessonTitle":"Center and Spread of the Discrete Uniform Distribution","sourceUrl":"https://fanout.sh/ml-math/lessons/probability-center-and-spread-of-the-discrete-uniform-distribution-t-1wmysvm","accountPlan":"All courses","hydrationStatus":"complete","videoUi":"present","videoUrls":["https://www.youtube.com/watch?v=k2BB0p8byGA"],"quizUi":"present","quizHeading":"Interactive checks","notesUi":"present","notesHeading":"Essential notes","resourceUrls":["https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/","https://online.stat.psu.edu/stat414/Lesson10","https://online.stat.psu.edu/stat414/Lesson12"]}
+  ,
+  {
+    "moduleId": "probability-and-random-variables",
+    "moduleTitle": "Reasoning Under Uncertainty",
+    "lessonTitle": "The Poisson Distribution",
+    "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-the-poisson-distribution-t-1nqrazs",
+    "accountPlan": "All courses",
+    "hydrationStatus": "complete",
+    "videoUi": "present",
+    "videoUrls": ["https://www.youtube.com/watch?v=k2BB0p8byGA"],
+    "quizUi": "present",
+    "quizHeading": "Interactive checks",
+    "notesUi": "present",
+    "notesHeading": "Essential notes",
+    "resourceUrls": [
+      "https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/",
+      "https://online.stat.psu.edu/stat414/Lesson10",
+      "https://online.stat.psu.edu/stat414/Lesson12"
+    ]
+  },
+  {
+    "moduleId": "probability-and-random-variables",
+    "moduleTitle": "Reasoning Under Uncertainty",
+    "lessonTitle": "Using Poisson Models",
+    "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-using-poisson-models-t-1mirhw0",
+    "accountPlan": "All courses",
+    "hydrationStatus": "complete",
+    "videoUi": "present",
+    "videoUrls": ["https://www.youtube.com/watch?v=k2BB0p8byGA"],
+    "quizUi": "present",
+    "quizHeading": "Interactive checks",
+    "notesUi": "present",
+    "notesHeading": "Essential notes",
+    "resourceUrls": [
+      "https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/",
+      "https://online.stat.psu.edu/stat414/Lesson10",
+      "https://online.stat.psu.edu/stat414/Lesson12"
+    ]
+  },
+  {
+    "moduleId": "probability-and-random-variables",
+    "moduleTitle": "Reasoning Under Uncertainty",
+    "lessonTitle": "Poisson Cumulative Probabilities",
+    "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-poisson-cumulative-probabilities-t-03ugqrn",
+    "accountPlan": "All courses",
+    "hydrationStatus": "complete",
+    "videoUi": "present",
+    "videoUrls": ["https://www.youtube.com/watch?v=k2BB0p8byGA"],
+    "quizUi": "present",
+    "quizHeading": "Interactive checks",
+    "notesUi": "present",
+    "notesHeading": "Essential notes",
+    "resourceUrls": [
+      "https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-i/lecture-5/",
+      "https://online.stat.psu.edu/stat414/Lesson10",
+      "https://online.stat.psu.edu/stat414/Lesson12"
+    ]
+  },
+  {
+    "moduleId": "probability-and-random-variables",
+    "moduleTitle": "Reasoning Under Uncertainty",
+    "lessonTitle": "The Continuous Uniform Distribution",
+    "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-the-continuous-uniform-distribution-t-1at36tt",
+    "accountPlan": "All courses",
+    "hydrationStatus": "complete",
+    "videoUi": "present",
+    "videoUrls": ["https://www.youtube.com/watch?v=MF-XSJOsGqw"],
+    "quizUi": "present",
+    "quizHeading": "Interactive checks",
+    "notesUi": "present",
+    "notesHeading": "Essential notes",
+    "resourceUrls": [
+      "https://online.stat.psu.edu/stat414/Lesson14",
+      "https://online.stat.psu.edu/stat414/Lesson15",
+      "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm"
+    ]
+  },
+  {
+    "moduleId": "probability-and-random-variables",
+    "moduleTitle": "Reasoning Under Uncertainty",
+    "lessonTitle": "Center and Spread of the Continuous Uniform Distribution",
+    "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-center-and-spread-of-the-continuous-uniform-distribution-t-0fnfoy4",
+    "accountPlan": "All courses",
+    "hydrationStatus": "complete",
+    "videoUi": "present",
+    "videoUrls": ["https://www.youtube.com/watch?v=MF-XSJOsGqw"],
+    "quizUi": "present",
+    "quizHeading": "Interactive checks",
+    "notesUi": "present",
+    "notesHeading": "Essential notes",
+    "resourceUrls": [
+      "https://online.stat.psu.edu/stat414/Lesson14",
+      "https://online.stat.psu.edu/stat414/Lesson15",
+      "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm"
+    ]
+  },
+  {
+    "moduleId": "probability-and-random-variables",
+    "moduleTitle": "Reasoning Under Uncertainty",
+    "lessonTitle": "Using Continuous Uniform Models",
+    "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-using-continuous-uniform-models-t-00obgib",
+    "accountPlan": "All courses",
+    "hydrationStatus": "complete",
+    "videoUi": "present",
+    "videoUrls": ["https://www.youtube.com/watch?v=MF-XSJOsGqw"],
+    "quizUi": "present",
+    "quizHeading": "Interactive checks",
+    "notesUi": "present",
+    "notesHeading": "Essential notes",
+    "resourceUrls": [
+      "https://online.stat.psu.edu/stat414/Lesson14",
+      "https://online.stat.psu.edu/stat414/Lesson15",
+      "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm"
+    ]
+  },
+  {
+    "moduleId": "probability-and-random-variables",
+    "moduleTitle": "Reasoning Under Uncertainty",
+    "lessonTitle": "The Gamma Function",
+    "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-the-gamma-function-t-03otkln",
+    "accountPlan": "All courses",
+    "hydrationStatus": "complete",
+    "videoUi": "present",
+    "videoUrls": ["https://www.youtube.com/watch?v=MF-XSJOsGqw"],
+    "quizUi": "present",
+    "quizHeading": "Interactive checks",
+    "notesUi": "present",
+    "notesHeading": "Essential notes",
+    "resourceUrls": [
+      "https://online.stat.psu.edu/stat414/Lesson14",
+      "https://online.stat.psu.edu/stat414/Lesson15",
+      "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm"
+    ]
+  },
+  {
+    "moduleId": "probability-and-random-variables",
+    "moduleTitle": "Reasoning Under Uncertainty",
+    "lessonTitle": "The Chi-Square Distribution",
+    "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-the-chi-square-distribution-t-1k0zwh9",
+    "accountPlan": "All courses",
+    "hydrationStatus": "complete",
+    "videoUi": "present",
+    "videoUrls": ["https://www.youtube.com/watch?v=MF-XSJOsGqw"],
+    "quizUi": "present",
+    "quizHeading": "Interactive checks",
+    "notesUi": "present",
+    "notesHeading": "Essential notes",
+    "resourceUrls": [
+      "https://online.stat.psu.edu/stat414/Lesson14",
+      "https://online.stat.psu.edu/stat414/Lesson15",
+      "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm"
+    ]
+  },
+  {
+    "moduleId": "probability-and-random-variables",
+    "moduleTitle": "Reasoning Under Uncertainty",
+    "lessonTitle": "The Student's T-Distribution",
+    "sourceUrl": "https://fanout.sh/ml-math/lessons/probability-the-student-s-t-distribution-t-1f0372i",
+    "accountPlan": "All courses",
+    "hydrationStatus": "complete",
+    "videoUi": "present",
+    "videoUrls": ["https://www.youtube.com/watch?v=MF-XSJOsGqw"],
+    "quizUi": "present",
+    "quizHeading": "Interactive checks",
+    "notesUi": "present",
+    "notesHeading": "Essential notes",
+    "resourceUrls": [
+      "https://online.stat.psu.edu/stat414/Lesson14",
+      "https://online.stat.psu.edu/stat414/Lesson15",
+      "https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm"
+    ]
+  }
+  ]
+}

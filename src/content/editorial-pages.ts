@@ -3,6 +3,7 @@ export interface EditorialItem {
   title: string;
   description: string;
   checkpoint: string;
+  resource?: { title: string; url: string; observedAt: string };
 }
 
 export interface EditorialPageRecord {
@@ -51,7 +52,7 @@ export const editorialPages: EditorialPageRecord[] = [
     description: 'Understand what CPUs, GPUs, memory systems, and interconnects contribute to model training and inference.',
     items: [
       { symbol: 'GPU', title: 'GPU vs CPU for ML', description: 'GPUs trade sophisticated control flow for many parallel arithmetic lanes and high memory bandwidth.', checkpoint: 'Classify the workload as compute-, memory-, or launch-bound.' },
-      { symbol: 'HBM', title: 'Memory hierarchy', description: 'Registers, shared memory, caches, HBM, and host memory differ sharply in capacity, bandwidth, and latency.', checkpoint: 'Estimate bytes moved per useful operation.' },
+      { symbol: 'HBM', title: 'Memory hierarchy', description: 'Registers, shared memory, caches, HBM, and host memory differ sharply in capacity, bandwidth, and latency.', checkpoint: 'Estimate bytes moved per useful operation.', resource: { title: 'llmfit', url: 'https://github.com/AlexsJones/llmfit', observedAt: '2026-09-07' } },
       { symbol: 'NV', title: 'Interconnects', description: 'PCIe, NVLink, and network fabrics determine when parallel devices can cooperate efficiently.', checkpoint: 'Compare communication time with compute time.' },
       { symbol: 'TOPS', title: 'Precision and throughput', description: 'FP32, BF16, FP8, and integer formats change capacity and kernel throughput but impose accuracy constraints.', checkpoint: 'Measure end-to-end quality, not format size alone.' },
     ],

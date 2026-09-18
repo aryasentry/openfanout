@@ -781,9 +781,12 @@ Planned curriculum; simulation bench being assembled
 
 ## Remaining content work
 
-- [ ] 24 AI MLOps topics still need supplied lesson content.
-- [ ] 267 additional math topic records have source links but no local lesson body.
-- [ ] System Design lesson bodies and videos have not been imported.
+- [x] All 24 previously missing MLOps primary YouTube links attached; AI now has 107 primary video embeds.
+- [ ] 24 AI MLOps topics still need supplied written notes.
+- [ ] 267 additional math topics have local routes but no local lesson body.
+- [ ] System Design lesson bodies and videos have not been imported (excluded from current scope).
 - [ ] Upcoming tracks are roadmaps, not released local courses.
+
+See CONTENT-STATUS.md for current per-topic local availability. Absence locally does not prove a source video or quiz exists.
 
 A signed-in System Design Pro lesson opened normally during inspection. That confirms access to the sampled lesson, not access or playback for every topic. No access controls were bypassed.

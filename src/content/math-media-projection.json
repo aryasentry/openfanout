@@ -1,0 +1,340 @@
+{
+  "observations": [
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "The Norm of a Vector in N-Dimensional Euclidean Space",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-the-norm-of-a-vector-in-n-dimensional-euclidean-space-t-16d37vw",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=LyGKycYT2v0"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dot-product.html",
+        "https://linear.axler.net/LADR4e.pdf",
+        "https://mml-book.github.io/book/mml-book.pdf"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Euclidean, Manhattan, and Minkowski Distance",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-euclidean-manhattan-and-minkowski-distance-t-1to8r46",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=LyGKycYT2v0"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dot-product.html",
+        "https://linear.axler.net/LADR4e.pdf",
+        "https://mml-book.github.io/book/mml-book.pdf"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Abstract Vector Spaces: Motivation",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-abstract-vector-spaces-motivation-t-09x397m",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=LyGKycYT2v0"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dot-product.html",
+        "https://linear.axler.net/LADR4e.pdf",
+        "https://mml-book.github.io/book/mml-book.pdf"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Abstract Vector Spaces: Axioms",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-abstract-vector-spaces-axioms-t-1bvw9p5",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=LyGKycYT2v0"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dot-product.html",
+        "https://linear.axler.net/LADR4e.pdf",
+        "https://mml-book.github.io/book/mml-book.pdf"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Inner Product Spaces",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-inner-product-spaces-t-0vgpfl1",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=LyGKycYT2v0"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dot-product.html",
+        "https://linear.axler.net/LADR4e.pdf",
+        "https://mml-book.github.io/book/mml-book.pdf"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Orthogonal Vectors in Euclidean Spaces",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-orthogonal-vectors-in-euclidean-spaces-t-1aemuf6",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=0MtwqhIwdrI"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/orthogonal-complements.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-14-orthogonal-vectors-and-subspaces/",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/lecture-17-orthogonal-matrices-and-gram-schmidt/"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Angles from the Cauchy-Schwarz Inequality",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-angles-from-the-cauchy-schwarz-inequality-t-11tq9l1",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=0MtwqhIwdrI"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/orthogonal-complements.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-14-orthogonal-vectors-and-subspaces/",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/lecture-17-orthogonal-matrices-and-gram-schmidt/"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Orthogonal Complements",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-orthogonal-complements-t-1h0qrii",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=0MtwqhIwdrI"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/orthogonal-complements.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-14-orthogonal-vectors-and-subspaces/",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/lecture-17-orthogonal-matrices-and-gram-schmidt/"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Orthogonal Sets",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-orthogonal-sets-t-0z22lrm",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=0MtwqhIwdrI"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/orthogonal-complements.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-14-orthogonal-vectors-and-subspaces/",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/lecture-17-orthogonal-matrices-and-gram-schmidt/"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Orthogonal Matrices",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-orthogonal-matrices-t-0t5vmqz",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=0MtwqhIwdrI"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/orthogonal-complements.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-14-orthogonal-vectors-and-subspaces/",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/lecture-17-orthogonal-matrices-and-gram-schmidt/"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Distance-Preserving Linear Maps",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-distance-preserving-linear-maps-t-1bnius0",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=0MtwqhIwdrI"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/orthogonal-complements.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-14-orthogonal-vectors-and-subspaces/",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/lecture-17-orthogonal-matrices-and-gram-schmidt/"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Projection onto One-Dimensional Subspaces",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-projection-onto-one-dimensional-subspaces-t-0creq3i",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5B8XluiqdHM"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/projections.html",
+        "https://textbooks.math.gatech.edu/ila/orthogonal-sets.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-15-projections-onto-subspaces/"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Coordinates in Orthogonal and Orthonormal Bases",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-coordinates-in-orthogonal-and-orthonormal-bases-t-0hclu6y",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5B8XluiqdHM"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/projections.html",
+        "https://textbooks.math.gatech.edu/ila/orthogonal-sets.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-15-projections-onto-subspaces/"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Projection onto Subspaces with Orthogonal Bases",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-projection-onto-subspaces-with-orthogonal-bases-t-1du6kt9",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5B8XluiqdHM"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/projections.html",
+        "https://textbooks.math.gatech.edu/ila/orthogonal-sets.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-15-projections-onto-subspaces/"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Projection onto Subspaces with Arbitrary Bases",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-projection-onto-subspaces-with-arbitrary-bases-t-04c9x0n",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5B8XluiqdHM"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/projections.html",
+        "https://textbooks.math.gatech.edu/ila/orthogonal-sets.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-15-projections-onto-subspaces/"
+      ]
+    },
+    {
+      "moduleId": "orthogonality-and-projections",
+      "moduleTitle": "Orthogonality and Projections",
+      "lessonTitle": "Applications of Projection with Arbitrary Bases",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/projection-applications-of-projection-with-arbitrary-bases-t-1rb57tg",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5B8XluiqdHM"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/projections.html",
+        "https://textbooks.math.gatech.edu/ila/orthogonal-sets.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-15-projections-onto-subspaces/"
+      ]
+    }
+  ]
+}

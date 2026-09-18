@@ -52,13 +52,14 @@ describe('AI curriculum registry', () => {
 
   it('keeps the 16 mapped public YouTube lessons and adds the supplied Pro videos', () => {
     expect(publicAiYoutubeIds).toEqual(expectedYoutubeIds);
-    expect(aiLessons.filter((lesson) => lesson.youtubeEmbedUrl)).toHaveLength(83);
+    expect(aiLessons.filter((lesson) => lesson.youtubeEmbedUrl)).toHaveLength(107);
     expect(aiLessons.filter((lesson) => lesson.publicContent)).toHaveLength(16);
     expect(aiLessons.filter((lesson) => !lesson.publicContent)).toHaveLength(92);
     expect(aiLessons.every((lesson) => !('youtubeSearchUrl' in lesson))).toBe(true);
     expect(aiLessons.filter((lesson) => lesson.publicContent).every((lesson) => lesson.summary && lesson.notes.length > 0)).toBe(true);
     expect(aiLessons.filter((lesson) => 'contentOrigin' in lesson && lesson.contentOrigin === 'user-provided')).toHaveLength(68);
-    expect(aiLessons.filter((lesson) => 'contentOrigin' in lesson && lesson.contentOrigin === 'fanout-overview')).toHaveLength(24);
+    expect(aiLessons.filter((lesson) => lesson.contentOrigin === 'fanout-video')).toHaveLength(24);
+    expect(aiLessons.filter((lesson) => lesson.contentOrigin === 'fanout-overview')).toHaveLength(0);
   });
 
   it('stores exact public lesson content and no generated content for unsupplied Pro topics', () => {
@@ -73,7 +74,7 @@ describe('AI curriculum registry', () => {
     const locked = aiLessonBySlug.get('mlops-introduction-to-mlops');
     expect(locked?.summary).toBeUndefined();
     expect(locked?.notes).toEqual([]);
-    expect(locked?.youtubeEmbedUrl).toBeUndefined();
+    expect(locked?.youtubeEmbedUrl).toBe('https://www.youtube-nocookie.com/embed/s0uaFZSzwfI');
     expect(locked?.sourceUrl).toBe('https://fanout.sh/ai/overview#mlops-intro-to-mlops');
   });
 
@@ -92,7 +93,7 @@ describe('AI curriculum registry', () => {
 
     const unsupplied = aiLessonBySlug.get('mlops-introduction-to-mlops');
     expect(unsupplied?.notes).toEqual([]);
-    expect(unsupplied?.youtubeEmbedUrl).toBeUndefined();
+    expect(unsupplied?.youtubeEmbedUrl).toBe('https://www.youtube-nocookie.com/embed/s0uaFZSzwfI');
   });
 
   it('derives previous and next lessons across module boundaries', () => {

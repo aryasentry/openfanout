@@ -85,7 +85,7 @@ export function LessonReader({ lesson, neighbors }: LessonReaderProps) {
                 />
               </div>
               <div className={styles.mediaFooter}>
-                <span>{lesson.contentOrigin === 'fanout-public' ? 'Public video' : 'Provided video'}</span>
+                <span>{lesson.contentOrigin === 'user-provided' ? 'Provided video' : 'Lesson video'}</span>
                 <a
                   href={youtubeWatchUrl(lesson.youtubeEmbedUrl)}
                   target="_blank"
@@ -114,6 +114,23 @@ export function LessonReader({ lesson, neighbors }: LessonReaderProps) {
             </section>
           )}
 
+          {lesson.recommendedVideos?.length ? <section className={`${styles.panel} ${styles.notes}`} aria-label="Recommended videos">
+            <div className={styles.note}><h2>Also recommended</h2>
+              {lesson.recommendedVideos.map((video, index) => <details key={video.youtubeId}>
+                <summary>Recommended video {index + 1}</summary>
+                <div className={styles.videoFrame}><iframe
+                  src={`https://www.youtube-nocookie.com/embed/${video.youtubeId}`}
+                  title={`Recommended video ${index + 1}: ${displayTitle}`}
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                /></div>
+                <p><a href={video.watchUrl} target="_blank" rel="noopener noreferrer">Recommended video {index + 1} · YouTube</a></p>
+              </details>)}
+            </div>
+          </section> : null}
+          {lesson.youtubeEmbedUrl && !lesson.notes.length ? <section className={`${styles.panel} ${styles.notes}`} aria-label="Notes pending"><div className={styles.note}><h2>Notes pending</h2><p>The lesson video is available. Written notes have not been added to openFanout yet.</p></div></section> : null}
           {lesson.notes.length ? <article className={`${styles.panel} ${styles.notes}`} aria-label="Working notes">
             {lesson.notes.map((note, index) => (
               <section className={styles.note} key={`${index}-${note.body}`}>

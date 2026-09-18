@@ -1,0 +1,37 @@
+import { expect, test } from '@playwright/test';
+
+test('roadmap links modules and lessons, preserves selected tracks, and fits mobile', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', error => errors.push(error.message));
+  page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
+  await page.goto('/roadmap?track=ml');
+  await expect(page).toHaveTitle(/Learning roadmaps/);
+  await expect(page.getByRole('tab', { name: 'In-depth ML' })).toHaveAttribute('aria-selected', 'true');
+  await expect(page.getByText('59 topics · 12 modules')).toBeVisible();
+  await page.getByRole('tab', { name: 'AI Research' }).click();
+  await expect(page.getByText('108 lessons · 12 modules')).toBeVisible();
+  await page.getByRole('navigation', { name: 'AI Research module map' }).getByRole('link').first().click();
+  const firstModule = page.locator('main details').first();
+  await expect(firstModule).toHaveAttribute('open', '');
+  await expect(firstModule.getByRole('link').first()).toBeVisible();
+  await firstModule.getByRole('link').first().click();
+  await expect(page).toHaveURL(/\/ai\/lessons\//);
+  await page.goto('/ai/roadmap');
+  await expect(page.getByRole('heading', { name: 'Learning roadmaps' })).toBeVisible();
+  await page.getByRole('tab', { name: 'System Design' }).click();
+  await expect(page.getByText('200 lessons · 3 modules')).toBeVisible();
+  await page.reload();
+  await expect(page.getByRole('tab', { name: 'System Design' })).toHaveAttribute('aria-selected', 'true');
+  await page.getByRole('tab', { name: 'In-depth ML' }).click();
+  await page.goBack();
+  await expect(page.getByRole('tab', { name: 'System Design' })).toHaveAttribute('aria-selected', 'true');
+  await page.getByRole('tab', { name: 'System Design' }).press('Home');
+  await expect(page.getByRole('tab', { name: 'AI Research' })).toBeFocused();
+  await page.screenshot({ path: '/tmp/openfanout-roadmap-desktop.png', animations: 'disabled' });
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.getByRole('tab', { name: 'In-depth ML' }).click();
+  await expect(page.getByText('59 topics · 12 modules')).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.screenshot({ path: '/tmp/openfanout-roadmap-mobile.png', animations: 'disabled' });
+  expect(errors).toEqual([]);
+});

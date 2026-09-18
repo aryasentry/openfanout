@@ -1,6 +1,7 @@
 import type { CurriculumModule, LessonRecord } from './schema';
 import { publicAiLessonSnapshots } from './ai-public-lessons';
 import providedProLessonSnapshots from './ai-pro-lessons.json' with { type: 'json' };
+import { observedAiMedia } from './ai-observed-media';
 
 interface LessonSeed {
   title: string;
@@ -22,7 +23,7 @@ export interface AiLessonRecord extends LessonRecord {
   lessonNumber: number;
   symbol: string;
   publicContent: boolean;
-  contentOrigin: 'fanout-public' | 'user-provided' | 'fanout-overview';
+  contentOrigin: 'fanout-public' | 'user-provided' | 'fanout-overview' | 'fanout-video';
   sourceHeading?: string;
 }
 
@@ -391,6 +392,7 @@ const sourceTopicAnchorIds = [
 const providedProLessonByAnchorId = new Map(
   providedProLessonSnapshots.map((snapshot) => [snapshot.topicAnchorId, snapshot]),
 );
+const observedMediaByAnchorId = new Map(observedAiMedia.map(record => [record.topicAnchorId, record]));
 
 let globalLessonOrder = 0;
 
@@ -404,6 +406,7 @@ export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
       : undefined;
     const sourceTopicAnchorId = sourceTopicAnchorIds[globalLessonOrder - 1];
     const providedSnapshot = publicSnapshot ? undefined : providedProLessonByAnchorId.get(sourceTopicAnchorId);
+    const observedMedia = observedMediaByAnchorId.get(sourceTopicAnchorId);
     const sourcePath = publicSnapshot?.sourcePath ?? `/ai/overview#${sourceTopicAnchorId}`;
     return {
       id: `ai-${slug}`,
@@ -414,7 +417,7 @@ export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
       section: module.id,
       route: `/ai/lessons/${slug}`,
       sourceUrl: `https://fanout.sh${sourcePath}`,
-      provenanceCheckedAt: '2026-08-24',
+      provenanceCheckedAt: observedMedia?.checkedAt ?? '2026-08-24',
       summary: publicSnapshot?.summary,
       tags: [module.shortTitle, seed.title],
       moduleId: module.id,
@@ -423,13 +426,14 @@ export const aiModules: AiCurriculumModule[] = moduleSeeds.map((module) => {
       order: globalLessonOrder,
       symbol: lessonSymbols[module.id]?.[lessonIndex] ?? String(lessonIndex + 1),
       publicContent: Boolean(publicSnapshot),
-      contentOrigin: publicSnapshot ? 'fanout-public' : providedSnapshot ? 'user-provided' : 'fanout-overview',
+      contentOrigin: publicSnapshot ? 'fanout-public' : providedSnapshot ? 'user-provided' : observedMedia ? 'fanout-video' : 'fanout-overview',
       sourceHeading: publicSnapshot?.heading,
       youtubeEmbedUrl: publicSnapshot
         ? `https://www.youtube-nocookie.com/embed/${publicSnapshot.youtubeId}`
         : providedSnapshot?.youtubeId
           ? `https://www.youtube-nocookie.com/embed/${providedSnapshot.youtubeId}`
-          : undefined,
+          : observedMedia ? `https://www.youtube-nocookie.com/embed/${observedMedia.youtubeId}` : undefined,
+      recommendedVideos: observedMedia?.recommendedVideos,
       notes: (publicSnapshot?.notes ?? providedSnapshot?.notes ?? []).map((body) => ({ body })),
     };
   });

@@ -1,0 +1,88 @@
+{
+  "observations": [
+    {
+      "moduleId": "eigenstructure-and-diagonalization",
+      "moduleTitle": "Spectral Thinking and Diagonalization",
+      "lessonTitle": "Characteristic Equations for Matrices",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spectral-characteristic-equations-for-matrices-t-0cn657o",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=PFDu9oVAE-g"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/eigenvectors.html",
+        "https://textbooks.math.gatech.edu/ila/characteristic-polynomial.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-21-eigenvalues-and-eigenvectors/"
+      ]
+    },
+    {
+      "moduleId": "eigenstructure-and-diagonalization",
+      "moduleTitle": "Spectral Thinking and Diagonalization",
+      "lessonTitle": "Computing Eigenvalues for 2x2 Matrices",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spectral-computing-eigenvalues-for-2x2-matrices-t-0e7yqlz",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=PFDu9oVAE-g"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/eigenvectors.html",
+        "https://textbooks.math.gatech.edu/ila/characteristic-polynomial.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-21-eigenvalues-and-eigenvectors/"
+      ]
+    },
+    {
+      "moduleId": "eigenstructure-and-diagonalization",
+      "moduleTitle": "Spectral Thinking and Diagonalization",
+      "lessonTitle": "Computing Eigenvectors for 2x2 Matrices",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spectral-computing-eigenvectors-for-2x2-matrices-t-0ij6xys",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=PFDu9oVAE-g"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/eigenvectors.html",
+        "https://textbooks.math.gatech.edu/ila/characteristic-polynomial.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-21-eigenvalues-and-eigenvectors/"
+      ]
+    },
+    {
+      "moduleId": "eigenstructure-and-diagonalization",
+      "moduleTitle": "Spectral Thinking and Diagonalization",
+      "lessonTitle": "Eigenvectors for 3x3 Matrices with Distinct Eigenvalues",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spectral-eigenvectors-for-3x3-matrices-with-distinct-eigenvalues-t-0f5e5hf",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=PFDu9oVAE-g"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/eigenvectors.html",
+        "https://textbooks.math.gatech.edu/ila/characteristic-polynomial.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-21-eigenvalues-and-eigenvectors/"
+      ]
+    }
+  ]
+}

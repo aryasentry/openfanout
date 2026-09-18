@@ -1,0 +1,327 @@
+{
+  "observations": [
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "The \"And\" and \"Or\" Connectives",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-the-and-and-or-connectives-t-0asncw0",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=7mulE-zramc"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers",
+        "https://openstax.org/books/contemporary-mathematics/pages/2-3-constructing-truth-tables",
+        "https://cseweb.ucsd.edu/~gill/BWLectSite/Resources/C1U2Lo.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "The \"Not\" Connective",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-the-not-connective-t-1f5oxmb",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=7mulE-zramc"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers",
+        "https://openstax.org/books/contemporary-mathematics/pages/2-3-constructing-truth-tables",
+        "https://cseweb.ucsd.edu/~gill/BWLectSite/Resources/C1U2Lo.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "Truth Tables",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-truth-tables-t-0wtmcjb",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=7mulE-zramc"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers",
+        "https://openstax.org/books/contemporary-mathematics/pages/2-3-constructing-truth-tables",
+        "https://cseweb.ucsd.edu/~gill/BWLectSite/Resources/C1U2Lo.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "Logical Equivalence",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-logical-equivalence-t-184hd56",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=7mulE-zramc"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers",
+        "https://openstax.org/books/contemporary-mathematics/pages/2-3-constructing-truth-tables",
+        "https://cseweb.ucsd.edu/~gill/BWLectSite/Resources/C1U2Lo.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "Logical Associative and Commutative Laws",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-logical-associative-and-commutative-laws-t-0wmxku3",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=7mulE-zramc"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers",
+        "https://openstax.org/books/contemporary-mathematics/pages/2-3-constructing-truth-tables",
+        "https://cseweb.ucsd.edu/~gill/BWLectSite/Resources/C1U2Lo.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "The Distributive Laws",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-the-distributive-laws-t-136eha8",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=7mulE-zramc"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers",
+        "https://openstax.org/books/contemporary-mathematics/pages/2-3-constructing-truth-tables",
+        "https://cseweb.ucsd.edu/~gill/BWLectSite/Resources/C1U2Lo.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "The Absorption Laws",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-the-absorption-laws-t-0nlg6ww",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=7mulE-zramc"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers",
+        "https://openstax.org/books/contemporary-mathematics/pages/2-3-constructing-truth-tables",
+        "https://cseweb.ucsd.edu/~gill/BWLectSite/Resources/C1U2Lo.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "De Morgan's Laws for Logic",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-de-morgan-s-laws-for-logic-t-16g9699",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=7mulE-zramc"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-1-statements-and-quantifiers",
+        "https://openstax.org/books/contemporary-mathematics/pages/2-3-constructing-truth-tables",
+        "https://cseweb.ucsd.edu/~gill/BWLectSite/Resources/C1U2Lo.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "Conditional Statements",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-conditional-statements-t-0l27qya",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=F3544ZyO-eU"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-4-truth-tables-for-the-conditional-and-biconditional",
+        "https://www.cs.toronto.edu/~david/course-notes/csc165.pdf",
+        "https://pages.cs.wisc.edu/~cs240-1/readings/02_Propositions_Predicates.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "Logical Equivalence with Conditional Statements",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-logical-equivalence-with-conditional-statements-t-0277hq5",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=F3544ZyO-eU"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-4-truth-tables-for-the-conditional-and-biconditional",
+        "https://www.cs.toronto.edu/~david/course-notes/csc165.pdf",
+        "https://pages.cs.wisc.edu/~cs240-1/readings/02_Propositions_Predicates.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "Biconditional Statements",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-biconditional-statements-t-1o0nrk5",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=F3544ZyO-eU"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-4-truth-tables-for-the-conditional-and-biconditional",
+        "https://www.cs.toronto.edu/~david/course-notes/csc165.pdf",
+        "https://pages.cs.wisc.edu/~cs240-1/readings/02_Propositions_Predicates.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "Truth Sets of Predicates",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-truth-sets-of-predicates-t-0xviok0",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=F3544ZyO-eU"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-4-truth-tables-for-the-conditional-and-biconditional",
+        "https://www.cs.toronto.edu/~david/course-notes/csc165.pdf",
+        "https://pages.cs.wisc.edu/~cs240-1/readings/02_Propositions_Predicates.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "The \"And\" and \"Or\" Connectives With Predicates",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-the-and-and-or-connectives-with-predicates-t-0q0yc3g",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=F3544ZyO-eU"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-4-truth-tables-for-the-conditional-and-biconditional",
+        "https://www.cs.toronto.edu/~david/course-notes/csc165.pdf",
+        "https://pages.cs.wisc.edu/~cs240-1/readings/02_Propositions_Predicates.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "The \"Not\" Connective With Predicates",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-the-not-connective-with-predicates-t-1lvrhey",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=F3544ZyO-eU"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-4-truth-tables-for-the-conditional-and-biconditional",
+        "https://www.cs.toronto.edu/~david/course-notes/csc165.pdf",
+        "https://pages.cs.wisc.edu/~cs240-1/readings/02_Propositions_Predicates.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "De Morgan's Laws for Predicates",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-de-morgan-s-laws-for-predicates-t-1qs0eus",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=F3544ZyO-eU"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-4-truth-tables-for-the-conditional-and-biconditional",
+        "https://www.cs.toronto.edu/~david/course-notes/csc165.pdf",
+        "https://pages.cs.wisc.edu/~cs240-1/readings/02_Propositions_Predicates.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "Conditional Statements With Predicates",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-conditional-statements-with-predicates-t-0gfsdc7",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=F3544ZyO-eU"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/2-4-truth-tables-for-the-conditional-and-biconditional",
+        "https://www.cs.toronto.edu/~david/course-notes/csc165.pdf",
+        "https://pages.cs.wisc.edu/~cs240-1/readings/02_Propositions_Predicates.pdf"
+      ]
+    },
+    {
+      "moduleId": "logic-and-boolean-reasoning",
+      "moduleTitle": "Logic for Precise Reasoning",
+      "lessonTitle": "Boolean Functions",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/logic-boolean-functions-t-1ozow7e",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": ["https://www.youtube.com/watch?v=INEtYZqtjTo"],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://introcs.cs.princeton.edu/java/71boolean/",
+        "https://cseweb.ucsd.edu/~gill/BWLectSite/Resources/C1U1BF.pdf",
+        "https://notes.cs61c.org/content/sds-combinational-logic/boolean-algebra/"
+      ]
+    }
+  ]
+}

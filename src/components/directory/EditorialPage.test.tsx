@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
-import { editorialPages } from '../../content/editorial-pages';
+import { editorialPages, editorialPageByRoute } from '../../content/editorial-pages';
 import { EditorialPage } from './EditorialPage';
 import { GlossaryPage } from './GlossaryPage';
 
@@ -24,4 +24,10 @@ describe('original editorial pages', () => {
     expect(screen.getByRole('heading', { name: 'Ablation Study' })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: 'Tool Use / Function Calling' })).toBeInTheDocument();
   });
+});
+
+it('offers the audited hardware tool without removing the hardware guide', () => {
+  render(<EditorialPage page={editorialPageByRoute.get('/ai/hardware')!} />);
+  expect(screen.getByRole('heading', { name: 'GPU vs CPU for ML' })).toBeVisible();
+  expect(screen.getByRole('link', { name: 'llmfit' })).toHaveAttribute('href', 'https://github.com/AlexsJones/llmfit');
 });

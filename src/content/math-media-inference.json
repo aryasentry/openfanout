@@ -1,0 +1,424 @@
+{
+  "observations": [
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Sampling Distributions",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-sampling-distributions-t-1ge6uep",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=m2gRXPmtU0Q"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/15-075j-statistical-thinking-and-data-analysis-fall-2011/9b2bc0992dc98056a903c1c9d5797d73_MIT15_075JF11_chpt05.pdf",
+        "https://online.stat.psu.edu/stat506/Lesson01",
+        "https://online.stat.psu.edu/stat505/Lesson05"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Sampling Variability of the Mean",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-sampling-variability-of-the-mean-t-1cxh508",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=m2gRXPmtU0Q"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/15-075j-statistical-thinking-and-data-analysis-fall-2011/9b2bc0992dc98056a903c1c9d5797d73_MIT15_075JF11_chpt05.pdf",
+        "https://online.stat.psu.edu/stat506/Lesson01",
+        "https://online.stat.psu.edu/stat505/Lesson05"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "The Sample Variance",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-the-sample-variance-t-0pbublk",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=m2gRXPmtU0Q"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/15-075j-statistical-thinking-and-data-analysis-fall-2011/9b2bc0992dc98056a903c1c9d5797d73_MIT15_075JF11_chpt05.pdf",
+        "https://online.stat.psu.edu/stat506/Lesson01",
+        "https://online.stat.psu.edu/stat505/Lesson05"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Sample Means from Normal Populations",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-sample-means-from-normal-populations-t-11pzamg",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=m2gRXPmtU0Q"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/15-075j-statistical-thinking-and-data-analysis-fall-2011/9b2bc0992dc98056a903c1c9d5797d73_MIT15_075JF11_chpt05.pdf",
+        "https://online.stat.psu.edu/stat506/Lesson01",
+        "https://online.stat.psu.edu/stat505/Lesson05"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "The Central Limit Theorem",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-the-central-limit-theorem-t-1v9qwya",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=m2gRXPmtU0Q"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/15-075j-statistical-thinking-and-data-analysis-fall-2011/9b2bc0992dc98056a903c1c9d5797d73_MIT15_075JF11_chpt05.pdf",
+        "https://online.stat.psu.edu/stat506/Lesson01",
+        "https://online.stat.psu.edu/stat505/Lesson05"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Sample Proportions from Finite Populations",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-sample-proportions-from-finite-populations-t-0uu25fg",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=m2gRXPmtU0Q"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/15-075j-statistical-thinking-and-data-analysis-fall-2011/9b2bc0992dc98056a903c1c9d5797d73_MIT15_075JF11_chpt05.pdf",
+        "https://online.stat.psu.edu/stat506/Lesson01",
+        "https://online.stat.psu.edu/stat505/Lesson05"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Estimating Population Proportions",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-estimating-population-proportions-t-0lg480g",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=m2gRXPmtU0Q"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/15-075j-statistical-thinking-and-data-analysis-fall-2011/9b2bc0992dc98056a903c1c9d5797d73_MIT15_075JF11_chpt05.pdf",
+        "https://online.stat.psu.edu/stat506/Lesson01",
+        "https://online.stat.psu.edu/stat505/Lesson05"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "The Sample Covariance Matrix",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-the-sample-covariance-matrix-t-18h1o2p",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=m2gRXPmtU0Q"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/15-075j-statistical-thinking-and-data-analysis-fall-2011/9b2bc0992dc98056a903c1c9d5797d73_MIT15_075JF11_chpt05.pdf",
+        "https://online.stat.psu.edu/stat506/Lesson01",
+        "https://online.stat.psu.edu/stat505/Lesson05"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Product Notation",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-product-notation-t-00dbxem",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=7xJJU5HDCVE"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-655-mathematical-statistics-spring-2016/pages/lecture-notes/",
+        "https://online.stat.psu.edu/stat415/lesson/1/1.2",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3652.htm"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Differentiation through Logarithms",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-differentiation-through-logarithms-t-1sba1k0",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=7xJJU5HDCVE"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-655-mathematical-statistics-spring-2016/pages/lecture-notes/",
+        "https://online.stat.psu.edu/stat415/lesson/1/1.2",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3652.htm"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Likelihoods for Discrete Models",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-likelihoods-for-discrete-models-t-1eaphaw",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=7xJJU5HDCVE"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-655-mathematical-statistics-spring-2016/pages/lecture-notes/",
+        "https://online.stat.psu.edu/stat415/lesson/1/1.2",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3652.htm"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Log-Likelihoods for Discrete Models",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-log-likelihoods-for-discrete-models-t-04f7eym",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=7xJJU5HDCVE"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-655-mathematical-statistics-spring-2016/pages/lecture-notes/",
+        "https://online.stat.psu.edu/stat415/lesson/1/1.2",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3652.htm"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Likelihoods for Continuous Models",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-likelihoods-for-continuous-models-t-0e2tqi2",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=7xJJU5HDCVE"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-655-mathematical-statistics-spring-2016/pages/lecture-notes/",
+        "https://online.stat.psu.edu/stat415/lesson/1/1.2",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3652.htm"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Log-Likelihoods for Continuous Models",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-log-likelihoods-for-continuous-models-t-136a5fo",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=7xJJU5HDCVE"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-655-mathematical-statistics-spring-2016/pages/lecture-notes/",
+        "https://online.stat.psu.edu/stat415/lesson/1/1.2",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3652.htm"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Fitting Parameters by Maximum Likelihood",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-fitting-parameters-by-maximum-likelihood-t-1pux3al",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=7xJJU5HDCVE"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-655-mathematical-statistics-spring-2016/pages/lecture-notes/",
+        "https://online.stat.psu.edu/stat415/lesson/1/1.2",
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3652.htm"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Confidence Intervals for a Mean with Known Variance",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-confidence-intervals-for-a-mean-with-known-variance-t-1o6pbn9",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=rUxP7TM8-wo"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://online.stat.psu.edu/stat415/lesson/2",
+        "https://online.stat.psu.edu/stat415/lesson/3",
+        "https://online.stat.psu.edu/stat501/Lesson02"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Confidence Intervals for a Mean with Unknown Variance",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-confidence-intervals-for-a-mean-with-unknown-variance-t-05xu6vd",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=rUxP7TM8-wo"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://online.stat.psu.edu/stat415/lesson/2",
+        "https://online.stat.psu.edu/stat415/lesson/3",
+        "https://online.stat.psu.edu/stat501/Lesson02"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Confidence Intervals for a Population Proportion",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-confidence-intervals-for-a-population-proportion-t-10fqxgy",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=rUxP7TM8-wo"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://online.stat.psu.edu/stat415/lesson/2",
+        "https://online.stat.psu.edu/stat415/lesson/3",
+        "https://online.stat.psu.edu/stat501/Lesson02"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Confidence Intervals for Two Means with Unequal Variances",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-confidence-intervals-for-two-means-with-unequal-variances-t-10zxa22",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=rUxP7TM8-wo"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://online.stat.psu.edu/stat415/lesson/2",
+        "https://online.stat.psu.edu/stat415/lesson/3",
+        "https://online.stat.psu.edu/stat501/Lesson02"
+      ]
+    },
+    {
+      "moduleId": "estimation-likelihood-and-intervals",
+      "moduleTitle": "Statistical Estimation from Samples",
+      "lessonTitle": "Confidence Intervals for Regression Slopes",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/inference-confidence-intervals-for-regression-slopes-t-0p3r33r",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=rUxP7TM8-wo"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://online.stat.psu.edu/stat415/lesson/2",
+        "https://online.stat.psu.edu/stat415/lesson/3",
+        "https://online.stat.psu.edu/stat501/Lesson02"
+      ]
+    }
+  ]
+}

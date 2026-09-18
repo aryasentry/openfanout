@@ -1,10 +1,13 @@
 import type { CatalogRecord } from './schema';
 import { aiLessons } from './ai-lessons';
 import { mathLessons } from './math-lessons';
+import { fullMathTopics } from './local-course-topics';
+import courseSourceIndex from './course-source-index.json';
 import { dailyPapers } from './daily-papers';
 import { allExternalResources } from './external-resources';
 import { labs } from './labs';
 import { aiNavigation, mathNavigation } from './navigation';
+import glossary from './glossary-terms.json';
 
 const summaries: Record<string, { summary: string; tags?: string[] }> = {
   '/ai/overview': { summary: 'A guided path through the complete AI curriculum.', tags: ['curriculum', 'lessons'] },
@@ -61,12 +64,37 @@ export const labsCatalogPage: CatalogRecord = {
   summary: 'Fifteen local technical simulators with editable inputs and deterministic outputs.', tags: ['interactive', 'simulators'],
 };
 
+const mathRecordsByRoute = new Map(mathLessons.map(lesson => [lesson.route, lesson]));
+
+// Navigation and search cover the same topics, even when written notes are pending.
+const mathSearchRecords: CatalogRecord[] = fullMathTopics.map(topic =>
+  mathRecordsByRoute.get(topic.route as `/${string}`) ?? {
+    id: `math-topic-${topic.slug}`,
+    slug: topic.slug,
+    title: topic.title,
+    kind: 'lesson',
+    workspace: 'ml-math',
+    section: topic.moduleId,
+    route: topic.route as `/${string}`,
+    sourceUrl: topic.sourceUrl,
+    provenanceCheckedAt: courseSourceIndex.capturedAt,
+    summary: `${topic.moduleTitle}. ${topic.videoAvailable ? 'Video available. Written notes pending.' : 'Lesson content pending.'}`,
+    tags: ['mathematics', topic.moduleTitle, ...(topic.videoAvailable ? ['video'] : [])],
+  },
+);
+
 export const catalog: CatalogRecord[] = [
   ...pageCatalog,
   dailyArchiveCatalog,
   labsCatalogPage,
   ...aiLessons,
-  ...mathLessons,
+  ...mathSearchRecords,
+  ...glossary.terms.map((term): CatalogRecord => ({
+    id: term.id, slug: term.id, title: term.term, kind: 'glossary', workspace: 'ai',
+    section: term.category, route: `/ai/glossary#${term.id}`,
+    sourceUrl: 'https://fanout.sh/ai/glossary', provenanceCheckedAt: glossary.checkedAt,
+    summary: term.definition, tags: ['glossary', term.category],
+  })),
   ...allExternalResources,
   ...dailyPapers,
   ...labs,

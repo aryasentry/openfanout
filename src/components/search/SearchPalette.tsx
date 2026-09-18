@@ -5,6 +5,7 @@ import { ArrowUpRight, BookOpen, Search } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { CatalogRecord } from '../../content/schema';
 import { searchCatalog } from '../../lib/search/searchCatalog';
+import { revealSearchAnchor } from '../../lib/search/anchorNavigation';
 import styles from './SearchPalette.module.css';
 
 interface SearchPaletteProps {
@@ -51,7 +52,10 @@ export function SearchPalette({ open, records, onClose }: SearchPaletteProps) {
           <ul className={styles.results}>
             {results.map((record) => (
               <li key={record.id}>
-                <Link className={styles.resultLink} href={record.route} onClick={onClose}>
+                <Link className={styles.resultLink} href={record.route} onClick={(event) => {
+                  if (event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) revealSearchAnchor(record.route);
+                  onClose();
+                }}>
                   <span className={styles.resultIcon}><BookOpen size={17} aria-hidden="true" /></span>
                   <span className={styles.resultCopy}>
                     <strong>{record.title}</strong>

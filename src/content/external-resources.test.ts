@@ -1,12 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import { directoryPages, externalResources } from './external-resources';
+import snapshot from './external-resources.json';
 
 describe('public external resource registry', () => {
   it('contains every current source placement, including intentional repeated destinations', () => {
-    expect(externalResources).toHaveLength(430);
-    expect(new Set(externalResources.map((record) => record.externalUrl)).size).toBe(423);
-    expect(new Set(externalResources.map((record) => new URL(record.externalUrl).href)).size).toBe(421);
-    expect(new Set(externalResources.map((record) => record.id)).size).toBe(430);
+    expect(externalResources).toEqual(expect.arrayContaining(snapshot.records));
+    expect(externalResources).toHaveLength(581);
+    expect(new Set(externalResources.map((record) => record.id)).size).toBe(externalResources.length);
+    expect(new Set(externalResources.map((record) => record.route)).size).toBe(externalResources.length);
     expect(externalResources.every((record) => record.route.startsWith('/'))).toBe(true);
     expect(externalResources.every((record) => /^https?:\/\//.test(record.externalUrl))).toBe(true);
     expect(externalResources.filter((record) => record.externalUrl === 'https://www.deeplearningbook.org/')).toHaveLength(2);
@@ -15,8 +16,9 @@ describe('public external resource registry', () => {
 
   it('preserves source-page grouping and complete source descriptions', () => {
     expect(directoryPages.get('/ai/resources')?.records).toHaveLength(40);
-    expect(directoryPages.get('/ai/community')?.records).toHaveLength(82);
-    expect(directoryPages.get('/ai/gpu')?.records).toHaveLength(12);
+    expect(directoryPages.get('/ai/community')?.records).toHaveLength(144);
+    expect(directoryPages.get('/ai/gpu')?.records).toHaveLength(15);
+    expect(directoryPages.get('/ai/tools')?.records).toHaveLength(93);
     expect(directoryPages.get('/companies')?.records).toHaveLength(24);
     expect(externalResources.filter((record) => record.summary?.trim()).length).toBe(190);
     expect(externalResources.some((record) => record.summary?.includes('reference filed under'))).toBe(false);

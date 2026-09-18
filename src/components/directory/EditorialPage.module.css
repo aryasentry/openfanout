@@ -13,9 +13,16 @@
 .glossarySearch { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; min-height: 44px; margin-bottom: 14px; border: 1px solid var(--border); border-radius: 7px; background: var(--surface); padding: 0 13px; color: var(--muted); font-size: 10px; box-shadow: var(--shadow-sm); }
 .glossarySearch input { border: 0; outline: 0; background: transparent; color: var(--text); font-size: 12px; }
 .glossaryGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; }
-.glossaryGrid article { border: 1px solid var(--border); border-radius: 7px; background: var(--surface); padding: 15px; box-shadow: var(--shadow-sm); }
+.glossaryGrid article { scroll-margin-top: calc(var(--topbar-height) + 16px); border: 1px solid var(--border); border-radius: 7px; background: var(--surface); padding: 15px; box-shadow: var(--shadow-sm); }
 .glossaryGrid article > span { color: var(--accent); font: 650 8px/1 var(--font-display); letter-spacing: .08em; text-transform: uppercase; }
 .glossaryGrid h2 { margin: 8px 0 0; font: 610 12px/1.35 var(--font-display); }
 .glossaryGrid p { margin: 7px 0 0; color: var(--muted); font-size: 10px; line-height: 1.55; }
+.glossaryFilters { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+.glossaryFilters button, .glossaryEmpty button { border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); padding: 8px 10px; font-size: 11px; cursor: pointer; }
+.glossaryFilters button[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.glossaryFilters button:focus-visible, .glossaryEmpty button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.glossaryCount { color: var(--muted); font-size: 11px; }
+.glossaryEmpty { padding: 24px 0; }
+.glossaryGrid a { display: inline-block; margin-top: 10px; color: var(--accent); font-size: 11px; }
 @media (max-width: 800px) { .glossaryGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 719px) { .main { padding: 34px 14px 72px; } .itemGrid, .glossaryGrid { grid-template-columns: 1fr; } .item { grid-template-columns: 48px minmax(0, 1fr); } .symbol { width: 44px; height: 44px; } }

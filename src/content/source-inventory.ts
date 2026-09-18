@@ -20,7 +20,7 @@ export const coverageRequirements: Record<CoveragePartition, number> = {
   pages: 33,
   externalResources: 456,
   aiLessons: 108,
-  aiYoutubeLessons: 83,
+  aiYoutubeLessons: 107,
   mathLessons: 34,
   labs: 15,
   dailyIssues: 30,

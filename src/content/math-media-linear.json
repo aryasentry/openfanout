@@ -1,0 +1,697 @@
+{
+  "observations": [
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Lines in Parametric Form",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-lines-in-parametric-form-t-16wzajh",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Brmq13Waa_Y"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/pages/1.-vectors-and-matrices/part-c-parametric-equations-for-curves/session-16-intersection-of-a-line-and-a-plane/",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/resources/distance-of-a-point-to-a-plane/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Lines in Cartesian Form",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-lines-in-cartesian-form-t-0mj4idv",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Brmq13Waa_Y"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/pages/1.-vectors-and-matrices/part-c-parametric-equations-for-curves/session-16-intersection-of-a-line-and-a-plane/",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/resources/distance-of-a-point-to-a-plane/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Planes in Vector Form",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-planes-in-vector-form-t-178l891",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Brmq13Waa_Y"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/pages/1.-vectors-and-matrices/part-c-parametric-equations-for-curves/session-16-intersection-of-a-line-and-a-plane/",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/resources/distance-of-a-point-to-a-plane/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Planes in Cartesian Form",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-planes-in-cartesian-form-t-0r3dazr",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Brmq13Waa_Y"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/pages/1.-vectors-and-matrices/part-c-parametric-equations-for-curves/session-16-intersection-of-a-line-and-a-plane/",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/resources/distance-of-a-point-to-a-plane/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Planes in Parametric Form",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-planes-in-parametric-form-t-06i0gpn",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Brmq13Waa_Y"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/pages/1.-vectors-and-matrices/part-c-parametric-equations-for-curves/session-16-intersection-of-a-line-and-a-plane/",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/resources/distance-of-a-point-to-a-plane/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Where Two Planes Meet",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-where-two-planes-meet-t-0vd64qb",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Brmq13Waa_Y"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/pages/1.-vectors-and-matrices/part-c-parametric-equations-for-curves/session-16-intersection-of-a-line-and-a-plane/",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/resources/distance-of-a-point-to-a-plane/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Point-to-Plane Distance",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-point-to-plane-distance-t-024y3kp",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Brmq13Waa_Y"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/pages/1.-vectors-and-matrices/part-c-parametric-equations-for-curves/session-16-intersection-of-a-line-and-a-plane/",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/resources/distance-of-a-point-to-a-plane/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Where a Line Meets a Plane",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-where-a-line-meets-a-plane-t-19eh4wn",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Brmq13Waa_Y"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/pages/1.-vectors-and-matrices/part-c-parametric-equations-for-curves/session-16-intersection-of-a-line-and-a-plane/",
+        "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/resources/distance-of-a-point-to-a-plane/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Systems of Equations as Augmented Matrices",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-systems-of-equations-as-augmented-matrices-t-0n67kci",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Row Echelon Form",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-row-echelon-form-t-0usgpu2",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Solving Systems of Equations Using Back Substitution",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-solving-systems-of-equations-using-back-substitution-t-1ccuxjn",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Elementary Row Operations",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-elementary-row-operations-t-0r7v2we",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Creating Zeros by Elimination",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-creating-zeros-by-elimination-t-0938jp2",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Row Reduction for 2x2 Systems",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-row-reduction-for-2x2-systems-t-1tn7451",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Row Reduction for Singular 2x2 Systems",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-row-reduction-for-singular-2x2-systems-t-1cfvyuw",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Row Reduction for 3x3 Systems",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-row-reduction-for-3x3-systems-t-1rhydr3",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Identifying the Pivot Columns of a Matrix",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-identifying-the-pivot-columns-of-a-matrix-t-0bfgp8i",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Row Reduction for Singular 3x3 Systems",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-row-reduction-for-singular-3x3-systems-t-1r2bem6",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Reduced Row Echelon Form",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-reduced-row-echelon-form-t-0efhaml",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Row Reduction for General Linear Systems",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-row-reduction-for-general-linear-systems-t-0levpdp",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=2tlwSqblrvU"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/row-reduction.html",
+        "https://ocw.mit.edu/courses/18-700-linear-algebra-fall-2013/b144082f6883d02faeec26d7f708c63e_MIT18_700F13_gauss.pdf",
+        "https://fncbook.github.io/v1.0/linsys/pivoting.html"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "The Determinant of an NxN Matrix",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-the-determinant-of-an-nxn-matrix-t-16xpudy",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Ip3X9LOh2dk"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html",
+        "https://textbooks.math.gatech.edu/ila/determinants-cofactors.html",
+        "https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/resources/determinants/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Finding Determinants Using Laplace Expansions",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-finding-determinants-using-laplace-expansions-t-0gngzbc",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Ip3X9LOh2dk"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html",
+        "https://textbooks.math.gatech.edu/ila/determinants-cofactors.html",
+        "https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/resources/determinants/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Basic Properties of Determinants",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-basic-properties-of-determinants-t-14kh7g5",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Ip3X9LOh2dk"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html",
+        "https://textbooks.math.gatech.edu/ila/determinants-cofactors.html",
+        "https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/resources/determinants/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Further Properties of Determinants",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-further-properties-of-determinants-t-1jrl1zu",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Ip3X9LOh2dk"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html",
+        "https://textbooks.math.gatech.edu/ila/determinants-cofactors.html",
+        "https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/resources/determinants/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Row and Column Operations on Determinants",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-row-and-column-operations-on-determinants-t-0jh9k7h",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Ip3X9LOh2dk"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html",
+        "https://textbooks.math.gatech.edu/ila/determinants-cofactors.html",
+        "https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/resources/determinants/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Detecting Singular Matrices",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-detecting-singular-matrices-t-11cgt7x",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=Ip3X9LOh2dk"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html",
+        "https://textbooks.math.gatech.edu/ila/determinants-cofactors.html",
+        "https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/resources/determinants/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Inverting 2x2 Matrices by Row Operations",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-inverting-2x2-matrices-by-row-operations-t-0dprn5g",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=uQhTuRlWMxw"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/matrix-inverses.html",
+        "https://textbooks.math.gatech.edu/ila/invertible-matrix-thm.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-3-multiplication-and-inverse-matrices/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Inverting 3x3 Matrices by Row Operations",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-inverting-3x3-matrices-by-row-operations-t-1u9savj",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=uQhTuRlWMxw"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/matrix-inverses.html",
+        "https://textbooks.math.gatech.edu/ila/invertible-matrix-thm.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-3-multiplication-and-inverse-matrices/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Matrices With Easy-to-Find Inverses",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-matrices-with-easy-to-find-inverses-t-05fx6cm",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=uQhTuRlWMxw"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/matrix-inverses.html",
+        "https://textbooks.math.gatech.edu/ila/invertible-matrix-thm.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-3-multiplication-and-inverse-matrices/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Invertibility through 2x2 Linear Systems",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-invertibility-through-2x2-linear-systems-t-17zgza0",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=uQhTuRlWMxw"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/matrix-inverses.html",
+        "https://textbooks.math.gatech.edu/ila/invertible-matrix-thm.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-3-multiplication-and-inverse-matrices/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Triangular Matrices",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-triangular-matrices-t-0k1slz0",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=uQhTuRlWMxw"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/matrix-inverses.html",
+        "https://textbooks.math.gatech.edu/ila/invertible-matrix-thm.html",
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-3-multiplication-and-inverse-matrices/"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "Affine Transformations",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-affine-transformations-t-1y69mx9",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=E3Phj6J287o"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://math.libretexts.org/Bookshelves/Geometry/Euclidean_Plane_and_its_Relatives_(Petrunin)/14%3A_Affine_Geometry/14.01%3A_Affine_transformations",
+        "https://www.cfm.brown.edu/people/dobrush/cs52/Mathematica/Part1/affine.html",
+        "https://cmp.felk.cvut.cz/~pajdla/gvg/GVG-2016-Lecture.pdf"
+      ]
+    },
+    {
+      "moduleId": "vectors-matrices-and-solvers",
+      "moduleTitle": "Linear Systems and Geometric Maps",
+      "lessonTitle": "The Image of an Affine Transformation",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/linear-systems-the-image-of-an-affine-transformation-t-0gq5n1d",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=E3Phj6J287o"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://math.libretexts.org/Bookshelves/Geometry/Euclidean_Plane_and_its_Relatives_(Petrunin)/14%3A_Affine_Geometry/14.01%3A_Affine_transformations",
+        "https://www.cfm.brown.edu/people/dobrush/cs52/Mathematica/Part1/affine.html",
+        "https://cmp.felk.cvut.cz/~pajdla/gvg/GVG-2016-Lecture.pdf"
+      ]
+    }
+  ]
+}

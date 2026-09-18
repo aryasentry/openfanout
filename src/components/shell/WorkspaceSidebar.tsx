@@ -31,7 +31,7 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 import { aiModules } from '../../content/ai-lessons';
-import { mathModules } from '../../content/math-lessons';
+import { mathTopicNavigationModules } from '../../content/math-topic-navigation';
 import type { NavigationGroup } from '../../content/schema';
 import styles from './AppShell.module.css';
 
@@ -72,7 +72,7 @@ interface WorkspaceSidebarProps {
 }
 
 export function WorkspaceSidebar({ groups, activePath, open, onClose }: WorkspaceSidebarProps) {
-  const curriculumModules = activePath.startsWith('/daily') || activePath.startsWith('/labs') || activePath.startsWith('/courses') || activePath.startsWith('/system/') ? [] : activePath.startsWith('/ml-math/') ? mathModules : aiModules;
+  const curriculumModules = activePath.startsWith('/daily') || activePath.startsWith('/labs') || activePath.startsWith('/courses') || activePath.startsWith('/system/') ? [] : activePath.startsWith('/ml-math/') ? mathTopicNavigationModules : aiModules;
   return (
     <>
       <button
@@ -135,6 +135,15 @@ export function WorkspaceSidebar({ groups, activePath, open, onClose }: Workspac
                     <ul className={styles.lessonNavList}>
                       {module.lessons.map((lesson) => {
                         const selected = lesson.route === activePath;
+                        const navigationStatus = 'status' in lesson ? lesson.status : null;
+                        const notesPending = navigationStatus !== null && navigationStatus !== 'notes';
+                        const statusLabel = navigationStatus
+                          ? navigationStatus === 'video-notes-pending'
+                            ? ' · Video available · Notes pending'
+                            : navigationStatus === 'content-pending'
+                              ? ' · Content pending'
+                              : ''
+                          : '';
                         return (
                           <li key={lesson.id}>
                             <Link
@@ -145,7 +154,10 @@ export function WorkspaceSidebar({ groups, activePath, open, onClose }: Workspac
                               onClick={onClose}
                             >
                               <span className={styles.sidebarTopicSymbol}>{lesson.symbol}</span>
-                              <span>{lesson.title}</span>
+                              <span>
+                                {lesson.title}
+                                {notesPending ? <small data-testid={navigationStatus === 'video-notes-pending' ? 'sidebar-video-notes-pending' : 'sidebar-content-pending'}>{statusLabel}</small> : null}
+                              </span>
                             </Link>
                           </li>
                         );

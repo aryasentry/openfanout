@@ -3,12 +3,29 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, CheckCircle2, ChevronRight, Circle } from 'lucide-react';
-import { mathLessonBySlug, mathLessons, mathModules } from '../../content/math-lessons';
+import { mathLessonBySlug, mathLessons } from '../../content/math-lessons';
+import {
+  mathContentPendingTopicCount,
+  mathNotesAvailableTopicCount,
+  mathVideoAvailableTopicCount,
+  mathVideoNotesPendingTopicCount,
+  mathTopicCount,
+  mathTopicNavigationModules,
+} from '../../content/math-topic-navigation';
 import { useProgress } from '../../lib/progress/useProgress';
 import styles from './MathOverview.module.css';
 
-function countLabel(count: number) {
-  return `${count} open ${count === 1 ? 'lesson' : 'lessons'}`;
+function moduleCountLabel(module: typeof mathTopicNavigationModules[number]) {
+  const notesCount = module.lessons.filter((lesson) => lesson.notesAvailable).length;
+  const videoOnlyCount = module.lessons.filter((lesson) => lesson.status === 'video-notes-pending').length;
+  const missingCount = module.lessons.filter((lesson) => lesson.status === 'content-pending').length;
+  return `${notesCount} notes · ${videoOnlyCount} video-only · ${missingCount} missing`;
+}
+
+function lessonStatusLabel(status: 'notes' | 'video-notes-pending' | 'content-pending') {
+  if (status === 'notes') return 'Notes available';
+  if (status === 'video-notes-pending') return 'Video available · Notes pending';
+  return 'Content pending';
 }
 
 export function MathOverview() {
@@ -37,8 +54,10 @@ export function MathOverview() {
             <Link className={styles.secondaryAction} href="/ml-math/resources">Math resources</Link>
           </div>
           <dl className={styles.stats} aria-label="Course statistics">
-            <div><strong>12</strong><span>Main topics</span></div>
-            <div><strong>34</strong><span>Open lessons</span></div>
+            <div><strong>12</strong><span>Modules</span></div>
+            <div><strong>{mathTopicCount}</strong><span>Captured topics</span></div>
+            <div><strong>{mathNotesAvailableTopicCount}</strong><span>Notes available</span></div>
+            <div><strong>{mathVideoAvailableTopicCount}</strong><span>Videos available</span></div>
           </dl>
         </div>
         <Image
@@ -57,10 +76,11 @@ export function MathOverview() {
             <p className={styles.eyebrow}>Course map</p>
             <h2 id="course-map-title">Main topics</h2>
           </div>
-          <p>Browse all twelve topics and open any of the 34 public lessons.</p>
+          <p>Browse all {mathTopicCount} captured topics. {mathNotesAvailableTopicCount} have local notes, {mathVideoAvailableTopicCount} have videos, and every remaining topic is labeled by what is still pending.</p>
         </header>
         <div className={styles.moduleGrid}>
-          {mathModules.map((module) => (
+          {mathTopicNavigationModules.map((module) => {
+            return (
             <Link
               className={styles.moduleLink}
               href={`#${module.id}`}
@@ -70,18 +90,22 @@ export function MathOverview() {
               <span className={styles.moduleNumber}>{String(module.index).padStart(2, '0')}</span>
               <span className={styles.moduleCopy}>
                 <strong>{module.title}</strong>
-                <small>{module.lessons.length ? countLabel(module.lessons.length) : 'Open topic note'}</small>
+                <small>{moduleCountLabel(module)}</small>
               </span>
               <ChevronRight size={15} aria-hidden="true" />
             </Link>
-          ))}
+            );
+          })}
         </div>
       </section>
 
-      <div className={styles.curriculumDivider}><span>Open curriculum · 34 complete lessons</span></div>
+      <div className={styles.curriculumDivider}>
+        <span>{mathTopicCount} captured topics · {mathNotesAvailableTopicCount} notes available · {mathVideoAvailableTopicCount} videos · {mathVideoNotesPendingTopicCount} notes pending · {mathContentPendingTopicCount} fully missing</span>
+      </div>
 
-      {mathModules.map((module) => {
-        const completedCount = module.lessons.filter((lesson) => completedIds.has(lesson.id)).length;
+      {mathTopicNavigationModules.map((module) => {
+        const availableLessons = module.lessons.filter((lesson) => lesson.notesAvailable);
+        const completedCount = availableLessons.filter((lesson) => completedIds.has(lesson.id)).length;
         return (
           <section
             className={styles.moduleSection}
@@ -97,52 +121,42 @@ export function MathOverview() {
                 <p>{module.description}</p>
               </div>
               <span className={styles.moduleMeta}>
-                {module.groups.length ? `${module.groups.length} ${module.groups.length === 1 ? 'group' : 'groups'} · ` : ''}
-                {module.lessons.length ? `${completedCount}/${module.lessons.length} done` : 'Open note'}
+                {completedCount}/{availableLessons.length} done · {module.lessons.length - availableLessons.length} pending
               </span>
             </header>
 
-            {module.openNote ? (
-              <div className={styles.openNote}>
-                <span>{module.openNoteSymbol}</span>
-                <div><strong>Topic orientation</strong><p>{module.openNote}</p></div>
-              </div>
-            ) : null}
-
-            {module.groups.map((group) => (
-              <section className={styles.group} key={group.id} aria-labelledby={`${group.id}-title`}>
-                <header className={styles.groupHeader}>
-                  <span>{String(group.index).padStart(2, '0')}</span>
-                  <h3 id={`${group.id}-title`}>{group.title}</h3>
-                  <small>{group.lessons.length} {group.lessons.length === 1 ? 'lesson' : 'lessons'}</small>
-                </header>
-                <div>
-                  {group.lessons.map((lesson, lessonIndex) => {
-                    const completed = completedIds.has(lesson.id);
-                    return (
-                      <Link
-                        className={styles.lessonRow}
-                        href={lesson.route}
-                        key={lesson.id}
-                        data-testid="math-lesson-link"
-                      >
-                        <span className={styles.topicSymbol}>{lesson.symbol}</span>
-                        <span className={styles.lessonIndex}>{String(lessonIndex + 1).padStart(2, '0')}</span>
-                        <span className={styles.lessonCopy}>
-                          <strong>{lesson.title}</strong>
-                          <small>{lesson.equation}</small>
-                        </span>
-                        <span className={styles.lessonStatus}>
-                          {completed ? <CheckCircle2 size={13} aria-hidden="true" /> : <Circle size={13} aria-hidden="true" />}
-                          {completed ? 'Done' : 'Open'}
-                        </span>
-                        <ChevronRight size={15} aria-hidden="true" />
-                      </Link>
-                    );
-                  })}
-                </div>
-              </section>
-            ))}
+            <div>
+              {module.lessons.map((lesson) => {
+                const completed = lesson.notesAvailable && completedIds.has(lesson.id);
+                const statusLabel = lessonStatusLabel(lesson.status);
+                return (
+                  <Link
+                    className={`${styles.lessonRow} ${lesson.notesAvailable ? '' : styles.lessonRowPending}`}
+                    href={lesson.route}
+                    key={lesson.id}
+                    data-testid={lesson.notesAvailable ? 'math-lesson-link' : 'math-pending-link'}
+                  >
+                    <span className={styles.topicSymbol}>{lesson.symbol}</span>
+                    <span className={styles.lessonIndex}>{String(lesson.topicNumber).padStart(2, '0')}</span>
+                    <span className={styles.lessonCopy}>
+                      <strong>{lesson.title}</strong>
+                      <small>{lesson.notesAvailable ? lesson.equation : statusLabel}</small>
+                    </span>
+                    {lesson.notesAvailable ? (
+                      <span className={styles.lessonStatus}>
+                        {completed ? <CheckCircle2 size={13} aria-hidden="true" /> : <Circle size={13} aria-hidden="true" />}
+                        {completed ? 'Done' : 'Open'}
+                      </span>
+                    ) : (
+                      <span className={`${styles.lessonStatus} ${styles.lessonStatusPending} ${lesson.videoAvailable ? styles.lessonStatusVideo : ''}`} data-testid={lesson.videoAvailable ? 'math-video-notes-pending' : 'math-content-pending'}>
+                        {statusLabel}
+                      </span>
+                    )}
+                    <ChevronRight size={15} aria-hidden="true" />
+                  </Link>
+                );
+              })}
+            </div>
           </section>
         );
       })}

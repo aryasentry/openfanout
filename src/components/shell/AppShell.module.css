@@ -76,6 +76,39 @@
   padding: 0 12px;
 }
 
+.workspaceControl {
+  position: relative;
+}
+
+.workspaceMenu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  display: grid;
+  min-width: 176px;
+  gap: 2px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--surface);
+  padding: 5px;
+  box-shadow: var(--shadow-sm);
+}
+
+.workspaceMenuItem {
+  border-radius: 5px;
+  color: var(--text);
+  padding: 9px 10px;
+  text-decoration: none;
+  font: 500 12px/1.25 var(--font-ui);
+}
+
+.workspaceMenuItem:hover,
+.workspaceMenuItem:focus-visible {
+  outline: none;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
 .breadcrumbDivider {
   margin: 0 14px;
   color: #b3b8c0;

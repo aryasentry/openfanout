@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { MathLessonReader } from '@/components/math/MathLessonReader';
+import { MathObservedMedia } from '@/components/math/MathObservedMedia';
 import { AppShell } from '@/components/shell/AppShell';
-import { getMathLessonNeighbors, mathLessonBySlug } from '@/content/math-lessons';
+import { mathLessonBySlug } from '@/content/math-lessons';
 import { mathNavigation } from '@/content/navigation';
 import { fullMathTopics, fullMathTopicBySlug } from '@/content/local-course-topics';
 import Link from 'next/link';
@@ -25,19 +26,30 @@ export default async function MathLessonPage({ params }: { params: Promise<{ slu
   const lesson = mathLessonBySlug.get(slug);
   const topic = fullMathTopicBySlug.get(slug);
   if (!topic) notFound();
+  const topicIndex = fullMathTopics.findIndex(entry => entry.slug === slug);
+  const neighbors = {
+    previous: fullMathTopics[topicIndex - 1] ?? null,
+    next: fullMathTopics[topicIndex + 1] ?? null,
+  };
   if (!lesson) {
-    const index = fullMathTopics.findIndex(entry => entry.slug === slug);
-    const previous = fullMathTopics[index - 1];
-    const next = fullMathTopics[index + 1];
+    const hasVideo = topic.videoAvailable;
     return <AppShell workspace="ML Math" title={topic.title} navigation={mathNavigation} activePath={topic.route}>
       <main id="main-content" className={styles.main}>
         <p className={styles.eyebrow}>{topic.moduleTitle}</p>
         <h1>{topic.title}</h1>
-        <section aria-label="Lesson content pending"><h2>Lesson content pending</h2><p className={styles.intro}>This topic is part of openFanout. Its notes and video have not been added yet.</p></section>
+        <section aria-label={hasVideo ? 'Written notes pending' : 'Lesson content pending'}>
+          <h2>{hasVideo ? 'Written notes pending' : 'Lesson content pending'}</h2>
+          <p className={styles.intro}>
+            {hasVideo
+              ? 'A source video is available for this topic, but written notes have not been added to openFanout yet.'
+              : 'Written notes and a source video have not been added to openFanout yet.'}
+          </p>
+        </section>
+        <MathObservedMedia sourceUrl={topic.sourceUrl} />
         <nav className={styles.tabs} aria-label="Lesson navigation">
-          {previous ? <Link href={previous.route}>Previous: {previous.title}</Link> : null}
+          {neighbors.previous ? <Link href={neighbors.previous.route}>Previous: {neighbors.previous.title}</Link> : null}
           <Link href="/courses#ml-math">All mathematics topics</Link>
-          {next ? <Link href={next.route}>Next: {next.title}</Link> : null}
+          {neighbors.next ? <Link href={neighbors.next.route}>Next: {neighbors.next.title}</Link> : null}
         </nav>
       </main>
     </AppShell>;
@@ -45,7 +57,7 @@ export default async function MathLessonPage({ params }: { params: Promise<{ slu
 
   return (
     <AppShell workspace="ML Math" title={lesson.title} navigation={mathNavigation} activePath={lesson.route}>
-      <MathLessonReader lesson={lesson} neighbors={getMathLessonNeighbors(slug)} />
+      <MathLessonReader lesson={lesson} neighbors={neighbors} />
     </AppShell>
   );
 }

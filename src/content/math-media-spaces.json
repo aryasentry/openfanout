@@ -1,0 +1,403 @@
+{
+  "observations": [
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Linear Combinations in Higher Dimensions",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-linear-combinations-in-higher-dimensions-t-12yfjpj",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=k7RM-ot2NWY"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/vectors.html",
+        "https://textbooks.math.gatech.edu/ila/spans.html",
+        "https://textbooks.math.gatech.edu/ila/linear-independence.html"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Spans in Higher Dimensions",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-spans-in-higher-dimensions-t-1efpsds",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=k7RM-ot2NWY"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/vectors.html",
+        "https://textbooks.math.gatech.edu/ila/spans.html",
+        "https://textbooks.math.gatech.edu/ila/linear-independence.html"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Linear Dependence and Independence",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-linear-dependence-and-independence-t-0caozq9",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=k7RM-ot2NWY"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/vectors.html",
+        "https://textbooks.math.gatech.edu/ila/spans.html",
+        "https://textbooks.math.gatech.edu/ila/linear-independence.html"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "The Hadamard Product",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-the-hadamard-product-t-197w7du",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=k7RM-ot2NWY"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/vectors.html",
+        "https://textbooks.math.gatech.edu/ila/spans.html",
+        "https://textbooks.math.gatech.edu/ila/linear-independence.html"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Subspaces of N-Dimensional Space",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-subspaces-of-n-dimensional-space-t-1cyg3m0",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=uQhTuRlWMxw"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/subspaces.html",
+        "https://textbooks.math.gatech.edu/ila/solution-sets.html",
+        "https://textbooks.math.gatech.edu/ila/matrix-equations.html"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "A Geometric View of Subspaces",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-a-geometric-view-of-subspaces-t-1tjaujs",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=uQhTuRlWMxw"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/subspaces.html",
+        "https://textbooks.math.gatech.edu/ila/solution-sets.html",
+        "https://textbooks.math.gatech.edu/ila/matrix-equations.html"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "The Column Space of a Matrix",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-the-column-space-of-a-matrix-t-019853m",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=uQhTuRlWMxw"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/subspaces.html",
+        "https://textbooks.math.gatech.edu/ila/solution-sets.html",
+        "https://textbooks.math.gatech.edu/ila/matrix-equations.html"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "The Null Space of a Matrix",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-the-null-space-of-a-matrix-t-1u72heu",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=uQhTuRlWMxw"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/subspaces.html",
+        "https://textbooks.math.gatech.edu/ila/solution-sets.html",
+        "https://textbooks.math.gatech.edu/ila/matrix-equations.html"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Constructing a Basis for a Span",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-constructing-a-basis-for-a-span-t-01cjr37",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=P2LTAUO1TdA"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dimension.html",
+        "https://textbooks.math.gatech.edu/ila/bases-as-coord-systems.html",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/problem-solving-change-of-basis/"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Constructing a Column-Space Basis",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-constructing-a-column-space-basis-t-1vt0jfh",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=P2LTAUO1TdA"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dimension.html",
+        "https://textbooks.math.gatech.edu/ila/bases-as-coord-systems.html",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/problem-solving-change-of-basis/"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Constructing a Null-Space Basis",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-constructing-a-null-space-basis-t-1k8hsnt",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=P2LTAUO1TdA"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dimension.html",
+        "https://textbooks.math.gatech.edu/ila/bases-as-coord-systems.html",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/problem-solving-change-of-basis/"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Coordinates Relative to a Basis",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-coordinates-relative-to-a-basis-t-012djp6",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=P2LTAUO1TdA"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dimension.html",
+        "https://textbooks.math.gatech.edu/ila/bases-as-coord-systems.html",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/problem-solving-change-of-basis/"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Representing Vectors in New Bases",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-representing-vectors-in-new-bases-t-0aqq7as",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=P2LTAUO1TdA"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dimension.html",
+        "https://textbooks.math.gatech.edu/ila/bases-as-coord-systems.html",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/problem-solving-change-of-basis/"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Change-of-Coordinates Matrices",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-change-of-coordinates-matrices-t-01rmmob",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=P2LTAUO1TdA"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dimension.html",
+        "https://textbooks.math.gatech.edu/ila/bases-as-coord-systems.html",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/problem-solving-change-of-basis/"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Converting Between Bases",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-converting-between-bases-t-1kbjxu0",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=P2LTAUO1TdA"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/dimension.html",
+        "https://textbooks.math.gatech.edu/ila/bases-as-coord-systems.html",
+        "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/problem-solving-change-of-basis/"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Dimensions of Spans",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-dimensions-of-spans-t-0pb6diw",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=vpl8EZwrqPk"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/rank-thm.html",
+        "https://textbooks.math.gatech.edu/ila/invertible-matrix-thm.html",
+        "https://textbooks.math.gatech.edu/ila/dimension.html"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "The Rank of a Matrix",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-the-rank-of-a-matrix-t-1qyl1xm",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=vpl8EZwrqPk"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/rank-thm.html",
+        "https://textbooks.math.gatech.edu/ila/invertible-matrix-thm.html",
+        "https://textbooks.math.gatech.edu/ila/dimension.html"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Null-Space Dimension",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-null-space-dimension-t-1gcij4m",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=vpl8EZwrqPk"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/rank-thm.html",
+        "https://textbooks.math.gatech.edu/ila/invertible-matrix-thm.html",
+        "https://textbooks.math.gatech.edu/ila/dimension.html"
+      ]
+    },
+    {
+      "moduleId": "vector-spaces-and-rank",
+      "moduleTitle": "Vector Spaces, Bases, and Rank",
+      "lessonTitle": "Invertibility through Rank and Nullity",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/spaces-invertibility-through-rank-and-nullity-t-14wsc21",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=vpl8EZwrqPk"
+      ],
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "resourceUrls": [
+        "https://textbooks.math.gatech.edu/ila/rank-thm.html",
+        "https://textbooks.math.gatech.edu/ila/invertible-matrix-thm.html",
+        "https://textbooks.math.gatech.edu/ila/dimension.html"
+      ]
+    }
+  ]
+}

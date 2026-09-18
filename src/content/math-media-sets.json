@@ -1,0 +1,487 @@
+{
+  "observations": [
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Equivalent Sets",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-equivalent-sets-t-1r7vp9a",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5ZhNmKb-dqk"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+        "https://discrete.openmathbooks.org/dmoi4/sec_structures-sets.html",
+        "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_(Doerr_and_Levasseur)/01%3A_Set_Theory/1.01%3A_Set_Notation_and_Relations"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Building Sets by Listing Members",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-building-sets-by-listing-members-t-0z1zgrp",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5ZhNmKb-dqk"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+        "https://discrete.openmathbooks.org/dmoi4/sec_structures-sets.html",
+        "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_(Doerr_and_Levasseur)/01%3A_Set_Theory/1.01%3A_Set_Notation_and_Relations"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Building Sets with Membership Conditions",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-building-sets-with-membership-conditions-t-1o2m92b",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5ZhNmKb-dqk"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+        "https://discrete.openmathbooks.org/dmoi4/sec_structures-sets.html",
+        "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_(Doerr_and_Levasseur)/01%3A_Set_Theory/1.01%3A_Set_Notation_and_Relations"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Set-Builder Notation",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-set-builder-notation-t-1h3pbb0",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5ZhNmKb-dqk"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+        "https://discrete.openmathbooks.org/dmoi4/sec_structures-sets.html",
+        "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_(Doerr_and_Levasseur)/01%3A_Set_Theory/1.01%3A_Set_Notation_and_Relations"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Planar Regions in Set-Builder Form",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-planar-regions-in-set-builder-form-t-020hek0",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5ZhNmKb-dqk"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+        "https://discrete.openmathbooks.org/dmoi4/sec_structures-sets.html",
+        "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_(Doerr_and_Levasseur)/01%3A_Set_Theory/1.01%3A_Set_Notation_and_Relations"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Indicator Functions",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-indicator-functions-t-19sbp2q",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5ZhNmKb-dqk"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+        "https://discrete.openmathbooks.org/dmoi4/sec_structures-sets.html",
+        "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_(Doerr_and_Levasseur)/01%3A_Set_Theory/1.01%3A_Set_Notation_and_Relations"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Indicator Functions for Predicates",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-indicator-functions-for-predicates-t-1289tky",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=5ZhNmKb-dqk"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://openstax.org/books/contemporary-mathematics/pages/1-1-basic-set-concepts",
+        "https://discrete.openmathbooks.org/dmoi4/sec_structures-sets.html",
+        "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_(Doerr_and_Levasseur)/01%3A_Set_Theory/1.01%3A_Set_Notation_and_Relations"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Relative Complements",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-relative-complements-t-0x92bp9",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=xZELQc11ACY"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://gvsuoer.github.io/sundstrom-textbook/S_setoperations.html",
+        "https://gvsuoer.github.io/sundstrom-textbook/S_cartesian.html",
+        "https://math.libretexts.org/Courses/SUNY_Schenectady_County_Community_College/Discrete_Structures/05%3A_Set_Theory/5.05%3A_Indexed_Families_of_Sets"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Set Complements",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-set-complements-t-0jodzbl",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=xZELQc11ACY"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://gvsuoer.github.io/sundstrom-textbook/S_setoperations.html",
+        "https://gvsuoer.github.io/sundstrom-textbook/S_cartesian.html",
+        "https://math.libretexts.org/Courses/SUNY_Schenectady_County_Community_College/Discrete_Structures/05%3A_Set_Theory/5.05%3A_Indexed_Families_of_Sets"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "The Cartesian Product",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-the-cartesian-product-t-0pult90",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=xZELQc11ACY"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://gvsuoer.github.io/sundstrom-textbook/S_setoperations.html",
+        "https://gvsuoer.github.io/sundstrom-textbook/S_cartesian.html",
+        "https://math.libretexts.org/Courses/SUNY_Schenectady_County_Community_College/Discrete_Structures/05%3A_Set_Theory/5.05%3A_Indexed_Families_of_Sets"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Cartesian Products as Regions",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-cartesian-products-as-regions-t-09634sc",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=xZELQc11ACY"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://gvsuoer.github.io/sundstrom-textbook/S_setoperations.html",
+        "https://gvsuoer.github.io/sundstrom-textbook/S_cartesian.html",
+        "https://math.libretexts.org/Courses/SUNY_Schenectady_County_Community_College/Discrete_Structures/05%3A_Set_Theory/5.05%3A_Indexed_Families_of_Sets"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Indexed Sets",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-indexed-sets-t-1hxs6m1",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=xZELQc11ACY"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://gvsuoer.github.io/sundstrom-textbook/S_setoperations.html",
+        "https://gvsuoer.github.io/sundstrom-textbook/S_cartesian.html",
+        "https://math.libretexts.org/Courses/SUNY_Schenectady_County_Community_College/Discrete_Structures/05%3A_Set_Theory/5.05%3A_Indexed_Families_of_Sets"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Sets and Functions",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-sets-and-functions-t-11e0ily",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=xZELQc11ACY"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://gvsuoer.github.io/sundstrom-textbook/S_setoperations.html",
+        "https://gvsuoer.github.io/sundstrom-textbook/S_cartesian.html",
+        "https://math.libretexts.org/Courses/SUNY_Schenectady_County_Community_College/Discrete_Structures/05%3A_Set_Theory/5.05%3A_Indexed_Families_of_Sets"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Subsets",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-subsets-t-1x7h4w8",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=jhAI_irtA3M"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf",
+        "https://math.libretexts.org/Bookshelves/Analysis/Introduction_to_Mathematical_Analysis_I_(Lafferriere_Lafferriere_and_Nguyen)/02%3A_Sequences/2.06%3A_Open_Sets_Closed_Sets_Compact_Sets_and_Limit_Points",
+        "https://sites.math.northwestern.edu/~scanez/courses/320/notes/supinf.pdf"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Cardinality of Finite Sets",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-cardinality-of-finite-sets-t-1rw6ddi",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=jhAI_irtA3M"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf",
+        "https://math.libretexts.org/Bookshelves/Analysis/Introduction_to_Mathematical_Analysis_I_(Lafferriere_Lafferriere_and_Nguyen)/02%3A_Sequences/2.06%3A_Open_Sets_Closed_Sets_Compact_Sets_and_Limit_Points",
+        "https://sites.math.northwestern.edu/~scanez/courses/320/notes/supinf.pdf"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Infinite Sets",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-infinite-sets-t-030dv8f",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=jhAI_irtA3M"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf",
+        "https://math.libretexts.org/Bookshelves/Analysis/Introduction_to_Mathematical_Analysis_I_(Lafferriere_Lafferriere_and_Nguyen)/02%3A_Sequences/2.06%3A_Open_Sets_Closed_Sets_Compact_Sets_and_Limit_Points",
+        "https://sites.math.northwestern.edu/~scanez/courses/320/notes/supinf.pdf"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Interior and Boundary Points",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-interior-and-boundary-points-t-1qzjuqn",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=jhAI_irtA3M"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf",
+        "https://math.libretexts.org/Bookshelves/Analysis/Introduction_to_Mathematical_Analysis_I_(Lafferriere_Lafferriere_and_Nguyen)/02%3A_Sequences/2.06%3A_Open_Sets_Closed_Sets_Compact_Sets_and_Limit_Points",
+        "https://sites.math.northwestern.edu/~scanez/courses/320/notes/supinf.pdf"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Interiors and Boundaries of Sets",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-interiors-and-boundaries-of-sets-t-050wtd3",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=jhAI_irtA3M"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf",
+        "https://math.libretexts.org/Bookshelves/Analysis/Introduction_to_Mathematical_Analysis_I_(Lafferriere_Lafferriere_and_Nguyen)/02%3A_Sequences/2.06%3A_Open_Sets_Closed_Sets_Compact_Sets_and_Limit_Points",
+        "https://sites.math.northwestern.edu/~scanez/courses/320/notes/supinf.pdf"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Open and Closed Sets",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-open-and-closed-sets-t-09o0p11",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=jhAI_irtA3M"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf",
+        "https://math.libretexts.org/Bookshelves/Analysis/Introduction_to_Mathematical_Analysis_I_(Lafferriere_Lafferriere_and_Nguyen)/02%3A_Sequences/2.06%3A_Open_Sets_Closed_Sets_Compact_Sets_and_Limit_Points",
+        "https://sites.math.northwestern.edu/~scanez/courses/320/notes/supinf.pdf"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Disjoint Sets",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-disjoint-sets-t-0okx483",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=jhAI_irtA3M"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf",
+        "https://math.libretexts.org/Bookshelves/Analysis/Introduction_to_Mathematical_Analysis_I_(Lafferriere_Lafferriere_and_Nguyen)/02%3A_Sequences/2.06%3A_Open_Sets_Closed_Sets_Compact_Sets_and_Limit_Points",
+        "https://sites.math.northwestern.edu/~scanez/courses/320/notes/supinf.pdf"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Maximum and Minimum Elements",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-maximum-and-minimum-elements-t-10xuc46",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=jhAI_irtA3M"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf",
+        "https://math.libretexts.org/Bookshelves/Analysis/Introduction_to_Mathematical_Analysis_I_(Lafferriere_Lafferriere_and_Nguyen)/02%3A_Sequences/2.06%3A_Open_Sets_Closed_Sets_Compact_Sets_and_Limit_Points",
+        "https://sites.math.northwestern.edu/~scanez/courses/320/notes/supinf.pdf"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Supremum and Infimum",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-supremum-and-infimum-t-07348eh",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=jhAI_irtA3M"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf",
+        "https://math.libretexts.org/Bookshelves/Analysis/Introduction_to_Mathematical_Analysis_I_(Lafferriere_Lafferriere_and_Nguyen)/02%3A_Sequences/2.06%3A_Open_Sets_Closed_Sets_Compact_Sets_and_Limit_Points",
+        "https://sites.math.northwestern.edu/~scanez/courses/320/notes/supinf.pdf"
+      ]
+    },
+    {
+      "moduleId": "set-language-for-models",
+      "moduleTitle": "Set Language for Machine Learning",
+      "lessonTitle": "Argmax and Argmin Notation",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/sets-argmax-and-argmin-notation-t-08l0bn3",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=jhAI_irtA3M"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf",
+        "https://math.libretexts.org/Bookshelves/Analysis/Introduction_to_Mathematical_Analysis_I_(Lafferriere_Lafferriere_and_Nguyen)/02%3A_Sequences/2.06%3A_Open_Sets_Closed_Sets_Compact_Sets_and_Limit_Points",
+        "https://sites.math.northwestern.edu/~scanez/courses/320/notes/supinf.pdf"
+      ]
+    }
+  ]
+}

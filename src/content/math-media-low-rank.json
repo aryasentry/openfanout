@@ -1,0 +1,215 @@
+{
+  "capturedAt": "2026-09-06",
+  "observations": [
+    {
+      "moduleId": "svd-quadratic-forms-and-compression",
+      "moduleTitle": "Low-Rank Structure and Quadratic Geometry",
+      "lessonTitle": "Computing Matrix Singular Values",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/low-rank-computing-matrix-singular-values-t-0c9xyle",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=rYz83XPxiZo"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/resources/lecture-6-singular-value-decomposition-svd/",
+        "https://courses.grainger.illinois.edu/cs357/sp2021/notes/ref-16-svd.html",
+        "https://mmids-textbook.github.io/chap04_svd/00_intro/roch-mmids-svd-intro.html"
+      ]
+    },
+    {
+      "moduleId": "svd-quadratic-forms-and-compression",
+      "moduleTitle": "Low-Rank Structure and Quadratic Geometry",
+      "lessonTitle": "SVD for 2x2 Matrices",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/low-rank-svd-for-2x2-matrices-t-1gmgxu9",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=rYz83XPxiZo"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/resources/lecture-6-singular-value-decomposition-svd/",
+        "https://courses.grainger.illinois.edu/cs357/sp2021/notes/ref-16-svd.html",
+        "https://mmids-textbook.github.io/chap04_svd/00_intro/roch-mmids-svd-intro.html"
+      ]
+    },
+    {
+      "moduleId": "svd-quadratic-forms-and-compression",
+      "moduleTitle": "Low-Rank Structure and Quadratic Geometry",
+      "lessonTitle": "SVD with Zero or Repeated Eigenvalues",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/low-rank-svd-with-zero-or-repeated-eigenvalues-t-167c5gm",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=rYz83XPxiZo"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/resources/lecture-6-singular-value-decomposition-svd/",
+        "https://courses.grainger.illinois.edu/cs357/sp2021/notes/ref-16-svd.html",
+        "https://mmids-textbook.github.io/chap04_svd/00_intro/roch-mmids-svd-intro.html"
+      ]
+    },
+    {
+      "moduleId": "svd-quadratic-forms-and-compression",
+      "moduleTitle": "Low-Rank Structure and Quadratic Geometry",
+      "lessonTitle": "SVD for Larger Matrices",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/low-rank-svd-for-larger-matrices-t-0mggf8a",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=rYz83XPxiZo"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/resources/lecture-6-singular-value-decomposition-svd/",
+        "https://courses.grainger.illinois.edu/cs357/sp2021/notes/ref-16-svd.html",
+        "https://mmids-textbook.github.io/chap04_svd/00_intro/roch-mmids-svd-intro.html"
+      ]
+    },
+    {
+      "moduleId": "svd-quadratic-forms-and-compression",
+      "moduleTitle": "Low-Rank Structure and Quadratic Geometry",
+      "lessonTitle": "Pseudoinverses through SVD",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/low-rank-pseudoinverses-through-svd-t-1041slj",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=rYz83XPxiZo"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/resources/lecture-6-singular-value-decomposition-svd/",
+        "https://courses.grainger.illinois.edu/cs357/sp2021/notes/ref-16-svd.html",
+        "https://mmids-textbook.github.io/chap04_svd/00_intro/roch-mmids-svd-intro.html"
+      ]
+    },
+    {
+      "moduleId": "svd-quadratic-forms-and-compression",
+      "moduleTitle": "Low-Rank Structure and Quadratic Geometry",
+      "lessonTitle": "Bilinear Forms",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/low-rank-bilinear-forms-t-05fq19b",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=vF7eyJ2g3kU"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-27-positive-definite-matrices-and-minima/",
+        "https://dummit.cos.northeastern.edu/teaching_sp23_4571/linalgthy_5_bilinear_and_quadratic_forms_v2.50.pdf",
+        "https://ocw.mit.edu/courses/18-409-topics-in-theoretical-computer-science-an-algorithmists-toolkit-fall-2009/535add3f6457cc13e51d9774f16bf48f_MIT18_409F09_scribe3.pdf"
+      ]
+    },
+    {
+      "moduleId": "svd-quadratic-forms-and-compression",
+      "moduleTitle": "Low-Rank Structure and Quadratic Geometry",
+      "lessonTitle": "Quadratic Forms",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/low-rank-quadratic-forms-t-0ufam1m",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=vF7eyJ2g3kU"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-27-positive-definite-matrices-and-minima/",
+        "https://dummit.cos.northeastern.edu/teaching_sp23_4571/linalgthy_5_bilinear_and_quadratic_forms_v2.50.pdf",
+        "https://ocw.mit.edu/courses/18-409-topics-in-theoretical-computer-science-an-algorithmists-toolkit-fall-2009/535add3f6457cc13e51d9774f16bf48f_MIT18_409F09_scribe3.pdf"
+      ]
+    },
+    {
+      "moduleId": "svd-quadratic-forms-and-compression",
+      "moduleTitle": "Low-Rank Structure and Quadratic Geometry",
+      "lessonTitle": "Change of Variables in Quadratic Forms",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/low-rank-change-of-variables-in-quadratic-forms-t-1vydurc",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=vF7eyJ2g3kU"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-27-positive-definite-matrices-and-minima/",
+        "https://dummit.cos.northeastern.edu/teaching_sp23_4571/linalgthy_5_bilinear_and_quadratic_forms_v2.50.pdf",
+        "https://ocw.mit.edu/courses/18-409-topics-in-theoretical-computer-science-an-algorithmists-toolkit-fall-2009/535add3f6457cc13e51d9774f16bf48f_MIT18_409F09_scribe3.pdf"
+      ]
+    },
+    {
+      "moduleId": "svd-quadratic-forms-and-compression",
+      "moduleTitle": "Low-Rank Structure and Quadratic Geometry",
+      "lessonTitle": "Definiteness and the Sign of Curvature",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/low-rank-definiteness-and-the-sign-of-curvature-t-1g8dxhc",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=vF7eyJ2g3kU"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-27-positive-definite-matrices-and-minima/",
+        "https://dummit.cos.northeastern.edu/teaching_sp23_4571/linalgthy_5_bilinear_and_quadratic_forms_v2.50.pdf",
+        "https://ocw.mit.edu/courses/18-409-topics-in-theoretical-computer-science-an-algorithmists-toolkit-fall-2009/535add3f6457cc13e51d9774f16bf48f_MIT18_409F09_scribe3.pdf"
+      ]
+    },
+    {
+      "moduleId": "svd-quadratic-forms-and-compression",
+      "moduleTitle": "Low-Rank Structure and Quadratic Geometry",
+      "lessonTitle": "Constrained Optimization of Quadratic Forms",
+      "sourceUrl": "https://fanout.sh/ml-math/lessons/low-rank-constrained-optimization-of-quadratic-forms-t-0kmv2eu",
+      "accountPlan": "All courses",
+      "hydrationStatus": "complete",
+      "videoUi": "present",
+      "videoUrls": [
+        "https://www.youtube.com/watch?v=vF7eyJ2g3kU"
+      ],
+      "quizUi": "present",
+      "quizHeading": "Interactive checks",
+      "notesUi": "present",
+      "notesHeading": "Essential notes",
+      "resourceUrls": [
+        "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-27-positive-definite-matrices-and-minima/",
+        "https://dummit.cos.northeastern.edu/teaching_sp23_4571/linalgthy_5_bilinear_and_quadratic_forms_v2.50.pdf",
+        "https://ocw.mit.edu/courses/18-409-topics-in-theoretical-computer-science-an-algorithmists-toolkit-fall-2009/535add3f6457cc13e51d9774f16bf48f_MIT18_409F09_scribe3.pdf"
+      ]
+    }
+  ]
+}

@@ -84,12 +84,12 @@ describe('LessonReader', () => {
     );
   });
 
-  it('shows only the Pro status when no content was supplied', () => {
+  it('embeds the observed MLOps video and recommended link without inventing notes', () => {
     renderLesson('mlops-introduction-to-mlops');
 
-    expect(screen.getByRole('heading', { name: 'Pro topic' })).toBeInTheDocument();
-    expect(screen.getByText('Fanout does not expose a public lesson page, video, or notes for this topic.')).toBeInTheDocument();
-    expect(screen.queryByRole('link', { name: /YouTube/i })).not.toBeInTheDocument();
+    expect(screen.getByTitle('Video: Introduction to MLOps')).toHaveAttribute('src', 'https://www.youtube-nocookie.com/embed/s0uaFZSzwfI');
+    expect(screen.getByRole('heading', { name: 'Notes pending' })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Recommended video 1 · YouTube' })).toHaveAttribute('href', 'https://www.youtube.com/watch?v=biqYkVf-a7Y');
     expect(screen.queryByRole('heading', { name: 'Concept map' })).not.toBeInTheDocument();
   });
 });

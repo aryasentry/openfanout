@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { DirectoryPage } from '@/components/directory/DirectoryPage';
 import { EditorialPage } from '@/components/directory/EditorialPage';
 import { GlossaryPage } from '@/components/directory/GlossaryPage';
+import { RoadmapPage } from '@/components/roadmap/RoadmapPage';
 import { AppShell } from '@/components/shell/AppShell';
 import { directoryPages } from '@/content/external-resources';
 import { editorialPageByRoute } from '@/content/editorial-pages';
@@ -33,7 +34,7 @@ export default async function AiWorkspacePage({ params }: { params: Promise<{ sl
 
   return (
     <AppShell workspace="AI" title={title} navigation={aiNavigation} activePath={route}>
-      {slug === 'glossary' ? <GlossaryPage /> : directory ? <DirectoryPage page={directory} /> : editorial ? <EditorialPage page={editorial} /> : null}
+      {slug === 'roadmap' ? <RoadmapPage /> : slug === 'glossary' ? <GlossaryPage /> : directory ? <DirectoryPage page={directory} /> : editorial ? <EditorialPage page={editorial} /> : null}
     </AppShell>
   );
 }

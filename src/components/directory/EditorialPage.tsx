@@ -9,7 +9,9 @@ export function EditorialPage({ page }: { page: EditorialPageRecord }) {
         {page.items.map((item, index) => (
           <article className={styles.item} key={item.title}>
             <span className={styles.symbol}>{item.symbol}</span>
-            <div><small>{String(index + 1).padStart(2, '0')}</small><h2>{item.title}</h2><p>{item.description}</p><strong>Checkpoint</strong><p>{item.checkpoint}</p></div>
+            <div><small>{String(index + 1).padStart(2, '0')}</small><h2>{item.title}</h2><p>{item.description}</p><strong>Checkpoint</strong><p>{item.checkpoint}</p>
+              {item.resource && <p><a href={item.resource.url} target="_blank" rel="noreferrer">{item.resource.title}</a></p>}
+            </div>
           </article>
         ))}
       </div>

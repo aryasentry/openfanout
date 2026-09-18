@@ -13,7 +13,7 @@ import {
 
 describe('composed source inventory', () => {
   it('maps every AI and mathematics lesson plus all observed workspace pages', () => {
-    expect(sourceInventory).toHaveLength(653);
+    expect(sourceInventory).toHaveLength(804);
     const inventoryIds = new Set(sourceInventory.map((record) => record.localId));
     expect(aiLessons.every((lesson) => inventoryIds.has(lesson.id))).toBe(true);
     expect(mathLessons.every((lesson) => inventoryIds.has(lesson.id))).toBe(true);
@@ -24,7 +24,7 @@ describe('composed source inventory', () => {
 
   it('closes AI lesson partitions while leaving later slices explicit', () => {
     expect(coverageRequirements.aiLessons).toBe(108);
-    expect(coverageRequirements.aiYoutubeLessons).toBe(83);
+    expect(coverageRequirements.aiYoutubeLessons).toBe(107);
     expect(deferredCoveragePartitions).not.toContain('aiLessons');
     expect(deferredCoveragePartitions).not.toContain('aiYoutubeLessons');
     expect(coverageRequirements.pages).toBe(33);
