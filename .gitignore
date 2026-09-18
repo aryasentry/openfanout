@@ -1,6 +1,9 @@
 .worktrees/
 node_modules/
 .next/
+.next-sites/
+out/
+.sites-runtime/
 coverage/
 playwright-report/
 test-results/

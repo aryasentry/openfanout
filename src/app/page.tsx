@@ -1,5 +1,1 @@
-import { redirect } from 'next/navigation';
-
-export default function HomePage() {
-  redirect('/ai/overview');
-}
+export { default } from './ai/overview/page';
